@@ -1,18 +1,17 @@
 import React from 'react'
-import Form from '../components/Form'
+import FormContact from '../components/FormContact'
+import Con1 from '../components/Contact1'
 import { Container } from '@mui/material'
 import '../App.css'
 function ContactUsPage() {
   return (
-    <div>
-<div>
-<Container maxWidth="lg" className='heightofallcontainer'>
-        Contact Page Section One
-</Container>
-</div>
 
-              <Form />
-    </div>
+<>
+      <Con1/>
+      <FormContact/>
+
+              
+              </>
   )
 }
 
