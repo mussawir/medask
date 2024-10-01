@@ -1,0 +1,174 @@
+/* @font-face {
+  font-family: 'BrushScript';
+  src: url('./fonts/BrushScript/BRUSHSCI_4.ttf') format('truetype'),
+       url('./fonts/BrushScript/BrushScriptStd.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PlayfairDisplay';
+  src: url('./fonts/PlayfairDisplay/PlayfairDisplay-Black.ttf') format('truetype'),
+  url('../src/fonts/PlayfairDisplay/PlayfairDisplay-BlackItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@media (min-width: 1600px) {
+  /* body {
+      max-width: 1600px;
+      margin: 0 auto; /* Centers the content */
+  /* } */ 
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1600px;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+}
+
+
+.App {
+  text-align: center;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Makes sure the footer stays at the bottom */
+}
+
+.App-content {
+  flex: 1; /* Ensures the content area grows to fill the space between the navbar and footer */
+  padding: 20px; /* You can adjust this padding */
+}
+
+footer {
+  margin-top: auto; /* Pushes the footer to the bottom of the page */
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 50px;
+  align-self: flex-start;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+nav {
+display: flex;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 0px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+.Bgofallwebvector{
+  background-image: url("../src/images/secondSecbgHome.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1189.625px;
+  margin-top: -10%;
+}
+@media screen and (max-width: 1208px) {
+  .Bgofallwebvector {
+    background-image: url("../src/images/secondSecbgHome.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 180vh;
+    margin-top: -10%;
+}
+  
+}
+@media screen and (max-width: 808px) {
+  .Bgofallwebvector {
+    background-image: url("../src/images/secondSecbgHome.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 170vh;
+    margin-top: -10%;
+}
+}
+@media screen and (min-width: 1600px) {
+  .Bgofallwebvector {
+    background-image: url('../src/images/secondSecbgHome1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1189.625px;
+    margin-top: -10%;
+}
+}
+.heightofallcontainer{
+  height: 1189.625px;
+}

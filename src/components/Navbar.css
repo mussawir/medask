@@ -1,0 +1,1393 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@media (min-width: 1600px) {
+    body {
+        max-width: 1600px;
+        margin: 0 auto; /* Centers the content */
+    }
+}
+
+.navbar-container {
+    background-image: url('../images/Group25.png');
+    background-size: cover;
+    color: black;
+    position: relative;
+    background-position: center;
+    min-height: 1089.625px;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    /* Stack nav sections vertically */
+    align-items: center;
+    /* Center content horizontally */
+}
+
+.medask-headline1 {
+    color: #000;
+    font-family: "Playfair Display";
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.medask-headline {
+    color: #000;
+    font-family: "Playfair Display";
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 30px
+
+}
+
+.content-below {
+    padding: 20px;
+    text-align: left;
+    margin-left: 160px;
+}
+
+.navbar-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    /* Remove padding */
+    margin-bottom: 0;
+    /* Ensure no margin */
+}
+
+
+.logo-top {
+    margin-bottom: 10px;
+    margin-left: 20px;
+    width: 52.806px;
+    height: 180px;
+    flex-shrink: 0;
+    fill: #FFF;
+}
+
+.logo-img {
+    width: 165.449px;
+    height: 160.449px;
+    flex-shrink: 0;
+    display: block;
+    padding: 8px;
+    background: white;
+    border-radius: 10px;
+    margin-left: 160px;
+}
+
+.doctornursespecialequipment{
+    width: 100%;
+}
+
+.top-info {
+    position: absolute;
+    /* Or fixed */
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    padding: 5px;
+    align-items: center;
+}
+
+.nav-linkssecond {
+    display: flex;
+    justify-content: center;
+    /* Center align main nav */
+    padding: 0;
+    /* Remove padding */
+    gap: 27px;
+    margin: 0;
+    /* Remove margin */
+    align-items: center;
+    list-style: none;
+    /* Remove bullet points */
+}
+
+.nav-links {
+    display: flex;
+    /* Main nav links in a row */
+    justify-content: center;
+    /* Center align main nav */
+    padding: 0;
+    /* Remove padding */
+    margin: 0;
+    /* Remove margin */
+    align-items: center;
+    margin-top: 0px;
+    list-style: none;
+    /* Remove bullet points */
+    font-size: 16px;
+}
+
+.nav-link {
+    margin: 0 15px;
+    /* Space between nav links */
+    text-decoration: none;
+    /* Remove underline */
+    font-family: 'Poppins', sans-serif;
+    color: #828282;
+    /* Inherit color for the text */
+    font-weight: 600;
+    font-size: 16px;
+
+}
+
+.nav-link-top {
+    color: #170C40;
+    text-decoration: none;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.nav-link-top1{
+    color: #170C40;
+    text-decoration: none;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-right: 14px;
+}
+
+.nav-link.active {
+    font-weight: bold;
+    /* Style for active link */
+    font-family: 'Poppins', sans-serif;
+    color: #29166F;
+
+}
+.nav-link {
+    position: relative; /* Position relative to allow absolute positioning for the image */
+}
+
+.nav-link.active::after {
+    content: ""; /* Creates an empty element */
+    display: block; /* Makes it a block element */
+    width: 100%; /* Full width of the link */
+    height: 10px; /* Adjust the height to your liking */
+    /* background-image: url('../imagesbottomvechr.png');  */
+    background-size: cover; /* Cover the entire area */
+    position: absolute; /* Positioning */
+    bottom: -5px; /* Position below the link */
+    left: 0; /* Align to the left */
+    z-index: -1; /* Place it behind the text */
+}
+
+.partner-link {
+    border: 2px solid #828282;
+    /* Border color */
+    border-radius: 14px;
+    /* Border radius */
+    padding: 10px 22px;
+    /* Padding */
+    text-decoration: none;
+    /* Remove underline */
+    font-family: poppins;
+    color: #29166F;
+    /* Text color */
+    position: relative;
+    /* Required for positioning the arrow */
+    display: inline-block;
+    /* Ensure proper width */
+    transition: background-color 0.3s, color 0.3s;
+    /* For hover effect */
+    font-weight: bold;
+    font-size: 13.94px;
+    border-radius: 20px;
+
+}
+
+.partner-link::after {
+    content: "";
+    /* Empty content */
+    border-top: 2px solid #ffffff;
+    /* Arrow line */
+    border-right: 2px solid #ffffff;
+    /* Arrow line */
+    width: 10px;
+    /* Width of the arrow */
+    height: 10px;
+    /* Height of the arrow */
+    transform: rotate(45deg);
+    /* Rotate to make it an arrow */
+    position: absolute;
+    /* Positioning the arrow */
+    right: -8px;
+    /* Position the arrow to the right */
+    top: 52%;
+    /* Center vertically */
+    transform: translateY(-50%) rotate(45deg);
+    /* Adjust to center */
+    background-color: #29166F;
+    border-radius: 50px;
+    /* This rounds the corners */
+    border: 3px solid #29166F;
+    transition: transform 0.3s;
+    /* For hover effect */
+}
+
+.partner-link:hover::after {
+    transform: translateY(-50%) translateX(3px) rotate(45deg);
+    /* Move arrow slightly on hover */
+}
+
+.available-info {
+    width: 578px;
+    height: 51px;
+    flex-shrink: 0;
+    background-color: #29166F;
+    color: white;
+    padding: 12px 127px;
+    border-radius: 20px 0px 0px 20px;
+    display: inline-block;
+    border-left: 4px solid rgb(16, 219, 16);
+    margin-top: -5px;
+    margin-right: -5px;
+    font-size: 14px;
+}
+
+#available-info {
+    color: white;
+    font-weight: bold;
+}
+
+/* For the entire sidebar container */
+.scroll-container {
+    position: absolute;
+    top: 500px;
+    left: 0;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 60px;
+}
+.scroll-container2 {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 60px;
+}
+/* Individual social media icons */
+.social-icon {
+    margin: 10px 0;
+    display: block;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #29166F;
+    padding: 15px;
+
+}
+
+.fb-icon {
+    background: #00AA14;
+    color: white;
+    border-radius: 26px;
+    padding: 15px;
+}
+
+/* Line between social icons and scroll down */
+.divider {
+    height: 100px;
+    width: 1px;
+    background-color: #a98fc5;
+    margin: 10px 0;
+}
+
+/* Scroll down text and arrow */
+.scroll-down-text {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-size: 14px;
+    color: #a98fc5;
+    margin: 10px 0;
+}
+
+.scroll-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.scroll-button i {
+    font-size: 20px;
+    color: #a98fc5;
+    /* Customize arrow color */
+}
+
+.icon-background {
+    display: inline-flex;
+    /* Allows proper alignment */
+    align-items: center;
+    /* Centers the icon vertically */
+    background: linear-gradient(90deg, #00A539, #29166F);
+    /* Gradient background */
+    color: white;
+    /* Change icon color to white for better contrast */
+    border-radius: 30px;
+    /* Rounded corners */
+    padding: 8px;
+    /* Padding around the icon */
+    margin-right: 5px;
+    /* Space between icon and text */
+}
+
+
+.text-content {
+  display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    margin-top: 300px;   /* Remove top margin */
+    margin-left: 150px;
+    width: 520px;
+}
+
+.welcome-headline {
+    color: #28156D;
+    font-family: "Brush Script MT";
+    font-size: 55px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+
+
+}
+
+.welcome-para1 {
+    font-family: 'poppins';
+    font-size: 18px;
+    margin-top: 5%;
+    width: 100%;
+
+}
+
+.welcome-para {
+    font-family: 'poppins';
+    font-size: 18px;
+    width: 100%;
+}
+
+.read-moreBtn {
+    color: #00A539;
+    font-family: Satoshi;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 8%;
+    gap: 20px;
+}
+
+.menu-icon {
+    display: none;
+}
+
+.hr-line {
+    width: 26%;
+    margin-bottom: 2%;
+    ;
+}
+
+.greenhr {
+    width: 16%;
+    margin-top: -13px;
+    height: 2px;
+}
+
+.herocontent {
+    display: flex;
+    position: absolute;
+    top: 0%;
+}
+
+.outlinenone {
+    color: #170C40;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+@media screen and (min-width: 1560px) {
+    .nav-linkssecond {
+        display: flex;
+        /* Show the regular navigation menu */
+        gap: 20px;
+
+    }
+}
+@media screen and (max-width: 1500px) {
+    .nav-linkssecond {
+        display: flex;
+        /* Show the regular navigation menu */
+        gap: 16px;
+
+    }
+}
+@media screen and (max-width: 1400px) {
+    .nav-linkssecond {
+        display: flex;
+        /* Show the regular navigation menu */
+        gap: 14px;
+
+    }
+}
+/* For screens exactly 1300px wide */
+@media (min-width: 1300px) and (max-width: 1300px) {
+    .menu-icon {
+        display: none;
+        /* Hide the Drawer menu icon */
+    }
+
+    .nav-linkssecond {
+        display: flex;
+        /* Show the regular navigation menu */
+        gap: 20px;
+
+    }
+
+    .top-info {
+        display: flex;
+        /* Align top info horizontally */
+        align-items: center;
+        margin: 10px;
+        /* Adjust based on your design */
+    }
+
+    .nav-link-top {
+        margin-right: 20px;
+        /* Adjust spacing as needed */
+    }
+
+    .icon-background {
+        margin-right: 5px;
+        /* Space between icon and text */
+    }
+}
+
+/* For screens smaller than 1300px */
+@media (max-width: 1300px) {
+    .menu-icon {
+        display: block;
+        /* Show the Drawer menu icon */
+    }
+
+    .nav-linkssecond {
+        display: none;
+        /* Hide the regular navigation menu */
+    }
+
+    .top-info {
+        display: block;
+        /* Change to block if desired */
+        align-items: center;
+        /* Adjust based on your design */
+    }
+
+    .nav-link-top {
+        margin-right: 20px;
+        /* Adjust spacing as needed */
+    }
+
+    .icon-background {
+        margin-right: 5px;
+        /* Space between icon and text */
+    }
+}
+
+/* Laptops/Desktops (1025px to 1440px) */
+@media (min-width: 1025px) and (max-width: 1240px) {
+
+    .navbar-container {
+        background-image: url('../images/Group25.png');
+        background-size: cover;
+        color: black;
+        position: relative;
+        background-position: center;
+        min-height: 126vh;
+        background-repeat: no-repeat;
+    
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        /* Stack nav sections vertically */
+        align-items: center;
+        /* Center content horizontally */
+    }
+
+    .medask-headline1 {
+        color: #000;
+        font-family: "Playfair Display";
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .medask-headline {
+        color: #000;
+        font-family: "Playfair Display";
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .content-below {
+        padding: 20px;
+        text-align: left;
+        margin: 0 110px;
+    }
+
+    .navbar-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 0;
+        /* Remove padding */
+        margin-bottom: 0;
+        /* Ensure no margin */
+    }
+
+
+    .logo-top {
+        margin-bottom: 10px;
+        margin-left: 20px;
+        width: 42.806px;
+        height: 160px;
+        flex-shrink: 0;
+        fill: #FFF;
+    }
+
+    .logo-img {
+        width: 145.449px;
+        height: 130.449px;
+        flex-shrink: 0;
+        display: block;
+        padding: 8px;
+        background: white;
+        border-radius: 10px;
+        margin-left: 40px;
+    }
+
+    .top-info {
+        position: absolute;
+        /* Or fixed */
+        top: 0;
+        right: 0;
+        display: flex;
+        justify-content: flex-end;
+        gap: 5px;
+        padding: 5px;
+    }
+
+    .nav-linkssecond {
+        display: flex;
+        /* Main nav links in a row */
+        justify-content: center;
+        /* Center align main nav */
+        padding: 0;
+        /* Remove padding */
+        margin: 0;
+        /* Remove margin */
+        align-items: center;
+        list-style: none;
+        /* Remove bullet points */
+    }
+
+    .nav-links {
+        display: flex;
+        /* Main nav links in a row */
+        justify-content: center;
+        /* Center align main nav */
+        padding: 0;
+        /* Remove padding */
+        margin: 0;
+        /* Remove margin */
+        align-items: center;
+        margin-top: 0px;
+        list-style: none;
+        /* Remove bullet points */
+        font-size: 14px;
+    }
+
+    .nav-link {
+        margin: 0 15px;
+        /* Space between nav links */
+        text-decoration: none;
+        /* Remove underline */
+        font-family: 'Poppins', sans-serif;
+        color: #828282;
+        /* Inherit color for the text */
+        font-weight: 600;
+        font-size: 14px;
+
+    }
+
+    .nav-link-top {
+        color: #170C40;
+
+        font-family: Poppins;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .nav-link.active {
+        font-weight: bold;
+        /* Style for active link */
+        font-family: 'Poppins', sans-serif;
+        color: #29166F;
+
+    }
+
+    .partner-link {
+        border: 2px solid #828282;
+        /* Border color */
+        border-radius: 14px;
+        /* Border radius */
+        padding: 10px 22px;
+        /* Padding */
+        text-decoration: none;
+        /* Remove underline */
+        font-family: poppins;
+        color: #29166F;
+        /* Text color */
+        position: relative;
+        /* Required for positioning the arrow */
+        display: inline-block;
+        /* Ensure proper width */
+        transition: background-color 0.3s, color 0.3s;
+        /* For hover effect */
+        font-weight: bold;
+        font-size: 13.94px;
+        border-radius: 20px;
+
+    }
+
+    .partner-link::after {
+        content: "";
+        /* Empty content */
+        border-top: 2px solid #ffffff;
+        /* Arrow line */
+        border-right: 2px solid #ffffff;
+        /* Arrow line */
+        width: 10px;
+        /* Width of the arrow */
+        height: 10px;
+        /* Height of the arrow */
+        transform: rotate(45deg);
+        /* Rotate to make it an arrow */
+        position: absolute;
+        /* Positioning the arrow */
+        right: -8px;
+        /* Position the arrow to the right */
+        top: 52%;
+        /* Center vertically */
+        transform: translateY(-50%) rotate(45deg);
+        /* Adjust to center */
+        background-color: #29166F;
+        border-radius: 50px;
+        /* This rounds the corners */
+        border: 3px solid #29166F;
+        transition: transform 0.3s;
+        /* For hover effect */
+    }
+
+    .partner-link:hover::after {
+        transform: translateY(-50%) translateX(3px) rotate(45deg);
+        /* Move arrow slightly on hover */
+    }
+
+    .available-info {
+        width: 378px;
+        height: 41px;
+        flex-shrink: 0;
+        background-color: #29166F;
+        color: white;
+        padding: 12px 107px;
+        border-radius: 20px 0px 0px 20px;
+        display: inline-block;
+        border-left: 4px solid rgb(16, 219, 16);
+        margin-top: -5px;
+        margin-right: -5px;
+        font-size: 14px;
+    }
+
+    #available-info {
+        color: white;
+        font-weight: 400;
+        font-size: 8px;
+        width: 378px;
+    }
+
+    /* For the entire sidebar container */
+    .scroll-container {
+
+        position: absolute;
+        top: 30%;
+        left: 0;
+        transform: translateY(-50%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 40px;
+    }
+
+    /* Individual social media icons */
+    .social-icon {
+        margin: 10px 0;
+        display: block;
+        width: 15px;
+        height: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #29166F;
+        padding: 15px;
+
+    }
+
+    .fb-icon {
+        background: #00AA14;
+        color: white;
+        border-radius: 26px;
+        padding: 10px;
+    }
+
+    /* Line between social icons and scroll down */
+    .divider {
+        height: 80px;
+        width: 1px;
+        background-color: #a98fc5;
+        margin: 10px 0;
+    }
+
+    /* Scroll down text and arrow */
+    .scroll-down-text {
+        writing-mode: vertical-rl;
+        transform: rotate(180deg);
+        font-size: 14px;
+        color: #a98fc5;
+        margin: 10px 0;
+    }
+
+    .scroll-button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .scroll-button i {
+        font-size: 16px;
+        color: #a98fc5;
+        /* Customize arrow color */
+    }
+
+    .icon-background {
+        display: inline-flex;
+        /* Allows proper alignment */
+        align-items: center;
+        /* Centers the icon vertically */
+        background: linear-gradient(90deg, #00A539, #29166F);
+        /* Gradient background */
+        color: white;
+        /* Change icon color to white for better contrast */
+        border-radius: 30px;
+        /* Rounded corners */
+        padding: 8px;
+        /* Padding around the icon */
+        margin-right: 5px;
+        /* Space between icon and text */
+    }
+
+
+    .text-content {
+        height: 500px;
+        /* justify-content: flex-start; */
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 60px;
+    }
+
+    .welcome-headline {
+        color: #28156D;
+        font-family: "Brush Script MT";
+        font-size: 45px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: normal;
+
+    }
+
+    .welcome-para1 {
+        font-family: 'poppins';
+        font-size: 15px;
+        margin-top: 5%;
+    }
+
+    .welcome-para {
+        font-family: 'poppins';
+        font-size: 15px;
+    }
+
+    .read-moreBtn {
+        color: #00A539;
+        font-family: Satoshi;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        text-decoration: none;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        margin-top: 4%;
+        gap: 20px;
+    }
+
+    .menu-icon {
+        display: none;
+    }
+
+    .hr-line {
+        width: 26%;
+        margin-bottom: 2%;
+        ;
+    }
+
+    .greenhr {
+        width: 10%;
+        margin-top: -13px;
+    }
+
+    .herocontent {
+        display: flex;
+    }
+    .doctornursespecialequipment{
+        width: 100%;
+        display: block;
+        width: 100%;
+        margin-left: 0%
+    }
+    
+    .outlinenone {
+        color: #170C40;
+        font-family: Poppins;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .menu-icon {
+        display: block;
+        /* Show the Drawer menu icon */
+    }
+
+    .nav-linkssecond {
+        display: none;
+        /* Hide the regular navigation menu */
+    }
+
+    .top-info {
+        display: block;
+        /* Change to block if desired */
+        align-items: center;
+        /* Adjust based on your design */
+    }
+
+    .nav-link-top {
+        margin-right: 20px;
+        /* Adjust spacing as needed */
+    }
+
+    .icon-background {
+        margin-right: 5px;
+        /* Space between icon and text */
+    }
+}
+
+/* Tablets (481px to 768px) */
+@media (min-width: 301px) and (max-width: 1050px) {
+
+    .navbar-container {
+        background-image: url('../images/about1bg.png');
+        background-size: cover;
+        color: black;
+        position: relative;
+        background-position: left;
+        min-height: 106vh;
+        background-repeat: no-repeat;
+    
+    }
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    /* Stack nav sections vertically */
+    align-items: center;
+    /* Center content horizontally */
+}
+
+.medask-headline1 {
+    color: #000;
+    font-family: "Playfair Display";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.medask-headline {
+    color: #000;
+    font-family: "Playfair Display";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.doctornursespecialequipment{
+    width: 100%;
+    display: none;
+    width: 100%;
+}
+
+
+.content-below {
+    padding: 10px;
+    text-align: left;
+    margin: 0 90px;
+}
+
+.navbar-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    /* Remove padding */
+    margin-bottom: 0;
+    /* Ensure no margin */
+}
+
+
+.logo-top {
+    margin-bottom: 10px;
+    margin-left: 20px;
+    width: 32.806px;
+    height: 100px;
+    flex-shrink: 0;
+    fill: #FFF;
+}
+
+.logo-img {
+    width: 65px;
+    height: 60px;
+    flex-shrink: 0;
+    display: block;
+    padding: 8px;
+    background: white;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.top-info {
+    position: absolute;
+    /* Or fixed */
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+    padding: 5px;
+}
+
+.nav-linkssecond {
+    display: flex;
+    /* Main nav links in a row */
+    justify-content: center;
+    /* Center align main nav */
+    padding: 0;
+    /* Remove padding */
+    margin: 0;
+    /* Remove margin */
+    align-items: center;
+    list-style: none;
+    /* Remove bullet points */
+}
+
+.nav-links {
+    display: flex;
+    /* Main nav links in a row */
+    justify-content: center;
+    /* Center align main nav */
+    padding: 0;
+    /* Remove padding */
+    margin: 0;
+    /* Remove margin */
+    align-items: center;
+    margin-top: 0px;
+    list-style: none;
+    /* Remove bullet points */
+    font-size: 12px;
+}
+
+.nav-link {
+    margin: 0 15px;
+    /* Space between nav links */
+    text-decoration: none;
+    /* Remove underline */
+    font-family: 'Poppins', sans-serif;
+    color: #828282;
+    /* Inherit color for the text */
+    font-weight: 400;
+    font-size: 14px;
+
+}
+
+.nav-link-top {
+    color: #170C40;
+    text-decoration: none;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.nav-link.active {
+    font-weight: bold;
+    /* Style for active link */
+    font-family: 'Poppins', sans-serif;
+    color: #29166F;
+
+}
+
+.partner-link {
+    border: 2px solid #828282;
+    /* Border color */
+    border-radius: 14px;
+    /* Border radius */
+    padding: 10px 22px;
+    /* Padding */
+    text-decoration: none;
+    /* Remove underline */
+    font-family: poppins;
+    color: #29166F;
+    /* Text color */
+    position: relative;
+    /* Required for positioning the arrow */
+    display: inline-block;
+    /* Ensure proper width */
+    transition: background-color 0.3s, color 0.3s;
+    /* For hover effect */
+    font-weight: bold;
+    font-size: 13.94px;
+    border-radius: 20px;
+
+}
+
+.partner-link::after {
+    content: "";
+    /* Empty content */
+    border-top: 2px solid #ffffff;
+    /* Arrow line */
+    border-right: 2px solid #ffffff;
+    /* Arrow line */
+    width: 10px;
+    /* Width of the arrow */
+    height: 10px;
+    /* Height of the arrow */
+    transform: rotate(45deg);
+    /* Rotate to make it an arrow */
+    position: absolute;
+    /* Positioning the arrow */
+    right: -8px;
+    /* Position the arrow to the right */
+    top: 52%;
+    /* Center vertically */
+    transform: translateY(-50%) rotate(45deg);
+    /* Adjust to center */
+    background-color: #29166F;
+    border-radius: 50px;
+    /* This rounds the corners */
+    border: 3px solid #29166F;
+    transition: transform 0.3s;
+    /* For hover effect */
+}
+
+.partner-link:hover::after {
+    transform: translateY(-50%) translateX(3px) rotate(45deg);
+    /* Move arrow slightly on hover */
+}
+
+.available-info {
+    /* width: 278px; */
+    height: 41px;
+    flex-shrink: 0;
+    background-color: #29166F;
+    color: white;
+    padding: 12px 107px;
+    border-radius: 20px 0px 0px 20px;
+    display: inline-block;
+    border-left: 4px solid rgb(16, 219, 16);
+    /* margin-top: -5px; */
+    font-size: 14px;
+}
+
+#available-info {
+    color: white;
+    font-weight: 400;
+    font-size: 8px;
+    /* width: 178px; */
+}
+
+/* For the entire sidebar container */
+.scroll-container {
+
+    position: absolute;
+    top: 30%;
+    left: 0;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 40px;
+}
+
+/* Individual social media icons */
+.social-icon {
+    margin: 10px 0;
+    display: block;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #29166F;
+    padding: 15px;
+
+}
+
+.fb-icon {
+    background: #00AA14;
+    color: white;
+    border-radius: 26px;
+    padding: 10px;
+}
+
+/* Line between social icons and scroll down */
+.divider {
+    height: 80px;
+    width: 1px;
+    background-color: #a98fc5;
+    margin: 10px 0;
+}
+
+/* Scroll down text and arrow */
+.scroll-down-text {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-size: 14px;
+    color: #a98fc5;
+    margin: 10px 0;
+}
+
+.scroll-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.scroll-button i {
+    font-size: 12px;
+    color: #a98fc5;
+    /* Customize arrow color */
+}
+
+.icon-background {
+    display: inline-flex;
+    /* Allows proper alignment */
+    align-items: center;
+    /* Centers the icon vertically */
+    background: linear-gradient(90deg, #00A539, #29166F);
+    /* Gradient background */
+    color: white;
+    /* Change icon color to white for better contrast */
+    border-radius: 30px;
+    /* Rounded corners */
+    padding: 8px;
+    /* Padding around the icon */
+    margin-right: 5px;
+    /* Space between icon and text */
+}
+
+
+.text-content {
+    height: 400px;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 60px;
+}
+
+.welcome-headline {
+    color: #28156D;
+    font-family: "Brush Script MT";
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.welcome-para1 {
+    font-family: 'poppins';
+    font-size: 12px;
+}
+
+.welcome-para {
+    font-family: 'poppins';
+    font-size: 12px;
+}
+
+.read-moreBtn {
+    color: #00A539;
+    font-family: Satoshi;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 4%;
+    gap: 20px;
+}
+
+.menu-icon {
+    display: none;
+}
+
+.hr-line {
+    width: 26%;
+    margin-bottom: 2%;
+    ;
+}
+
+.greenhr {
+    width: 10%;
+    margin-top: -13px;
+}
+
+.herocontent {
+    display: flex;
+}
+
+.outlinenone {
+    color: #170C40;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.menu-icon {
+    display: block;
+    /* Show the Drawer menu icon */
+}
+
+.nav-linkssecond {
+    display: none;
+    /* Hide the regular navigation menu */
+}
+
+.top-info {
+    display: block;
+    /* Change to block if desired */
+    align-items: center;
+    /* Adjust based on your design */
+}
+
+.nav-link-top {
+    margin-right: 20px;
+    /* Adjust spacing as needed */
+}
+
+.icon-background {
+    margin-right: 5px;
+    /* Space between icon and text */
+}
+.top-info{
+    display: none;
+}
+.css-20bmp1-MuiSvgIcon-root{
+    position: absolute;
+    margin-right: 20px;
+    margin-bottom: 60px;
+}
+
+}
+@media screen and (min-width: 1600px){
+    .navbar-container {
+        background-image: url('../images/Group25.png');
+        background-size: cover;
+        color: black;
+        position: relative;
+        background-position: right;
+        height: 1089.625px;
+        background-repeat: no-repeat;
+        position: relative;
+    
+    }
+    .herocontent {
+        display: flex;
+        position: absolute;
+        top: 0%;
+    }
+}

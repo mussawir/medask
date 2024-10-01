@@ -1,0 +1,55 @@
+
+*{
+    box-sizing: border-box;
+}
+.left{
+    display: inline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.btnofselectofsec2 {
+    width: 430.776px;
+    height: 75.24px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    border-left: 0px;
+    border-radius: 5px 0px 0px 5px;
+    background-color: #fff;
+    cursor: pointer;
+}
+.btn-simple{
+    width: 430.776px;
+    height: 75.24px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    border-left: 0px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.btn-icon{
+    margin-right: -10px;
+}
+.btn-textofdiv1file{
+    color: #000;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-right: 130px;
+}
+.btn-arrow{
+    margin-right: 40px;
+}
+.btn:hover {
+    background-color: #f0f0f0;
+}

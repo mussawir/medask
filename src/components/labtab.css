@@ -1,0 +1,821 @@
+.div1ofdiv2 {
+    width: 1080.949px;
+    height: 87.711px;
+    flex-shrink: 0;
+    background-color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.radiodiv2 {
+    width: 244.551px;
+    height: 63.573px;
+    flex-shrink: 0;
+    background-color: #ffffff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-right: 50px;
+    /* box-shadow: -1px 0px 1px rgba(0, 0, 0, 0.3); */
+    margin-right: 10px;
+
+}
+
+.radiodiv2-active {
+    width: 244.551px;
+    height: 63.573px;
+    flex-shrink: 0;
+    background-color: #00AA14;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    padding-right: 50px;
+    margin-right: 10px;
+}
+
+.labelofdiv2 {
+    color: #000000;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.labelofdiv2-active {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.divcenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.radioofdiv2[type=radio] {
+    background-color: #00AA14;
+    cursor: default;
+    box-sizing: border-box;
+    margin: 3px 3px 0px 5px;
+    padding: initial;
+    border: 1px solid #00AA14;
+    width: 23.859px;
+    height: 23.859px;
+    border-width: 0px;
+
+}
+
+.radioofdiv2[type=radio]:checked {
+    accent-color: #00AA14;
+    border-color: #00AA14;
+    cursor: default;
+    box-sizing: border-box;
+    margin: 3px 3px 0px 5px;
+    padding: initial;
+    border: 1px solid #00AA14;
+    width: 23.859px;
+    height: 23.859px;
+
+}
+
+.divright {
+    width: 630.677px;
+    height: 421.282px;
+    border-radius: 25px;
+    background: lightgray 50% / cover no-repeat;
+}
+
+.divimg {
+    width: 630.677px;
+    height: 421.282px;
+    border-radius: 25px;
+    background: url('../images/image.png') lightgray 50% / cover no-repeat;
+}
+
+.div2h1 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    text-align: start;
+    line-height: normal;
+}
+
+.divp {
+    width: 552.885px;
+    height: 200px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: start;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+}
+
+.divofdiv3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.backgrounddiv2 {
+    width: 100%;
+    height: 1089.625px;
+    flex-shrink: 0;
+    background-image: url('../images/sec3bg.png');
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+
+}
+
+.divlogos {
+    width: 552.492px;
+    height: 270.477px;
+    flex-shrink: 0;
+    background-color: transparent;
+    opacity: 0.3;
+    margin-left: -100px;
+    background: url('../images/b45c0c75cf4d09fe47cceb0393f6bca2.png') rgba(211, 211, 211, 0) 0px 0px / 100% 163.413% no-repeat;
+}
+
+.svgdiv2 {
+    width: 12.702px;
+    height: 55.281px;
+    flex-shrink: 0;
+}
+
+/* Laptops/Desktops (1025px to 1440px) */
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .div1ofdiv2 {
+        width: 864.759px;
+        height: 70.169px;
+        flex-shrink: 0;
+        background-color: #FFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+        margin-top: 16px;
+    }
+    
+    .radiodiv2 {
+        width: 195.641px;
+        height: 50.858px;
+        flex-shrink: 0;
+        background-color: #ffffff;
+        border-radius: 4px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-right: 40px;
+        margin-right: 8px;
+    }
+    
+    .radiodiv2-active {
+        width: 195.641px;
+        height: 50.858px;
+        flex-shrink: 0;
+        background-color: #00AA14;
+        border-radius: 4px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 8px;
+        padding-right: 40px;
+        margin-right: 8px;
+    }
+    
+    .labelofdiv2 {
+        color: #000000;
+        font-family: Poppins;
+        font-size: 14.4px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    
+    .labelofdiv2-active {
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 14.4px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    
+    .divcenter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+    
+    .radioofdiv2[type=radio] {
+        background-color: #00AA14;
+        cursor: default;
+        box-sizing: border-box;
+        margin: 2.4px 2.4px 0px 4px;
+        padding: initial;
+        border: 0.8px solid #00AA14;
+        width: 19.087px;
+        height: 19.087px;
+        border-width: 0px;
+    }
+    
+    .radioofdiv2[type=radio]:checked {
+        accent-color: #00AA14;
+        border-color: #00AA14;
+        cursor: default;
+        box-sizing: border-box;
+        margin: 2.4px 2.4px 0px 4px;
+        padding: initial;
+        border: 0.8px solid #00AA14;
+        width: 19.087px;
+        height: 19.087px;
+    }
+    
+    .divright {
+        width: 504.541px;
+        height: 337.026px;
+        border-radius: 20px;
+        background: lightgray 50% / cover no-repeat;
+    }
+    
+    .divimg {
+        width: 504.541px;
+        height: 337.026px;
+        border-radius: 20px;
+        background: url('../images/image.png') lightgray 50% / cover no-repeat;
+    }
+    
+    .div2h1 {
+        color: #000;
+        font-family: Poppins;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 600;
+        text-align: start;
+        line-height: normal;
+    }
+    
+    .divp {
+        width: 442.308px;
+        height: 160px;
+        flex-shrink: 0;
+        color: #000;
+        text-align: start;
+        font-family: Poppins;
+        font-size: 14.4px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 27.2px;
+    }
+    
+    .divofdiv3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+    }
+    
+    .backgrounddiv2 {
+        width: 100%;
+        height: 871.7px;
+        flex-shrink: 0;
+        background-image: url('../images/sec3bg.png');
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background-repeat: no-repeat;
+        background-size: cover;    }
+    
+    .divlogos {
+        width: 441.994px;
+        height: 216.382px;
+        flex-shrink: 0;
+        background-color: transparent;
+        opacity: 0.3;
+        margin-left: -80px;
+        background: url('../images/b45c0c75cf4d09fe47cceb0393f6bca2.png') rgba(211, 211, 211, 0) 0px 0px / 100% 163.413% no-repeat;
+    }
+    
+    .svgdiv2 {
+        width: 10.162px;
+        height: 44.225px;
+        flex-shrink: 0;
+    }
+    
+}
+
+/* Small Laptops (769px to 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .div1ofdiv2 {
+        width: 691.807px;
+        height: 56.135px;
+        flex-shrink: 0;
+        background-color: #FFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 6.4px;
+        margin-top: 12.8px;
+    }
+    
+    .radiodiv2 {
+        width: 156.513px;
+        height: 40.686px;
+        flex-shrink: 0;
+        background-color: #ffffff;
+        border-radius: 3.2px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-right: 32px;
+        margin-right: 6.4px;
+    }
+    
+    .radiodiv2-active {
+        width: 156.513px;
+        height: 40.686px;
+        flex-shrink: 0;
+        background-color: #00AA14;
+        border-radius: 3.2px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 6.4px;
+        padding-right: 32px;
+        margin-right: 6.4px;
+    }
+    
+    .labelofdiv2 {
+        color: #000000;
+        font-family: Poppins;
+        font-size: 11.52px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    
+    .labelofdiv2-active {
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 11.52px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    
+    .divcenter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 32px;
+    }
+    
+    .radioofdiv2[type=radio] {
+        background-color: #00AA14;
+        cursor: default;
+        box-sizing: border-box;
+        margin: 1.92px 1.92px 0px 3.2px;
+        padding: initial;
+        border: 0.64px solid #00AA14;
+        width: 15.27px;
+        height: 15.27px;
+        border-width: 0px;
+    }
+    
+    .radioofdiv2[type=radio]:checked {
+        accent-color: #00AA14;
+        border-color: #00AA14;
+        cursor: default;
+        box-sizing: border-box;
+        margin: 1.92px 1.92px 0px 3.2px;
+        padding: initial;
+        border: 0.64px solid #00AA14;
+        width: 15.27px;
+        height: 15.27px;
+    }
+    
+    .divright {
+        width: 403.633px;
+        height: 269.621px;
+        border-radius: 16px;
+        background: lightgray 50% / cover no-repeat;
+    }
+    
+    .divimg {
+        width: 403.633px;
+        height: 269.621px;
+        border-radius: 16px;
+        background: url('../images/image.png') lightgray 50% / cover no-repeat;
+    }
+    
+    .div2h1 {
+        color: #000;
+        font-family: Poppins;
+        font-size: 22.4px;
+        font-style: normal;
+        font-weight: 600;
+        text-align: start;
+        line-height: normal;
+    }
+    
+    .divp {
+        width: 353.846px;
+        height: 128px;
+        flex-shrink: 0;
+        color: #000;
+        text-align: start;
+        font-family: Poppins;
+        font-size: 11.52px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21.76px;
+    }
+    
+    .divofdiv3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 12.8px;
+    }
+    
+    .backgrounddiv2 {
+        width: 100%;
+        height: 697.36px;
+        flex-shrink: 0;
+        background-image: url('../images/sec3bg.png');
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background-repeat: no-repeat;
+        background-size: cover;    }
+    
+    .divlogos {
+        width: 353.595px;
+        height: 173.106px;
+        flex-shrink: 0;
+        background-color: transparent;
+        opacity: 0.3;
+        margin-left: -64px;
+        background: url('../images/b45c0c75cf4d09fe47cceb0393f6bca2.png') rgba(211, 211, 211, 0) 0px 0px / 100% 163.413% no-repeat;
+    }
+    
+    .svgdiv2 {
+        width: 8.13px;
+        height: 35.38px;
+        flex-shrink: 0;
+    }
+    
+}
+
+
+@media (min-width: 650px) and (max-width: 768px) {
+    .div1ofdiv2 {
+        width: 553.446px;
+        height: 44.908px;
+        flex-shrink: 0;
+        background-color: #FFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5.12px;
+        margin-top: 10.24px;
+    }
+    
+    .radiodiv2 {
+        width: 125.210px;
+        height: 32.548px;
+        flex-shrink: 0;
+        background-color: #ffffff;
+        border-radius: 2.56px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-right: 25.6px;
+        margin-right: 5.12px;
+    }
+    
+    .radiodiv2-active {
+        width: 125.210px;
+        height: 32.548px;
+        flex-shrink: 0;
+        background-color: #00AA14;
+        border-radius: 2.56px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 5.12px;
+        padding-right: 25.6px;
+        margin-right: 5.12px;
+    }
+    
+    .labelofdiv2 {
+        color: #000000;
+        font-family: Poppins;
+        font-size: 9.216px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    
+    .labelofdiv2-active {
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 9.216px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    
+    .divcenter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 25.6px;
+    }
+    
+    .radioofdiv2[type=radio] {
+        background-color: #00AA14;
+        cursor: default;
+        box-sizing: border-box;
+        margin: 1.536px 1.536px 0px 2.56px;
+        padding: initial;
+        border: 0.512px solid #00AA14;
+        width: 12.216px;
+        height: 12.216px;
+        border-width: 0px;
+    }
+    
+    .radioofdiv2[type=radio]:checked {
+        accent-color: #00AA14;
+        border-color: #00AA14;
+        cursor: default;
+        box-sizing: border-box;
+        margin: 1.536px 1.536px 0px 2.56px;
+        padding: initial;
+        border: 0.512px solid #00AA14;
+        width: 12.216px;
+        height: 12.216px;
+    }
+    
+    .divright {
+        width: 322.906px;
+        height: 215.697px;
+        border-radius: 12.8px;
+        background: lightgray 50% / cover no-repeat;
+    }
+    
+    .divimg {
+        width: 322.906px;
+        height: 215.697px;
+        border-radius: 12.8px;
+        background: url('../images/image.png') lightgray 50% / cover no-repeat;
+    }
+    
+    .div2h1 {
+        color: #000;
+        font-family: Poppins;
+        font-size: 17.92px;
+        font-style: normal;
+        font-weight: 600;
+        text-align: start;
+        line-height: normal;
+    }
+    
+    .divp {
+        width: 283.077px;
+        height: 102.4px;
+        flex-shrink: 0;
+        color: #000;
+        text-align: start;
+        font-family: Poppins;
+        font-size: 9.216px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 17.408px;
+    }
+    
+    .divofdiv3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10.24px;
+    }
+    
+    .backgrounddiv2 {
+        width: 100%;
+        height: 557.888px;
+        flex-shrink: 0;
+        background-image: url('../images/sec3bg.png');
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background-repeat: no-repeat;
+        background-size: cover;    }
+    
+    .divlogos {
+        width: 282.396px;
+        height: 141.285px;
+        flex-shrink: 0;
+        background-color: transparent;
+        opacity: 0.3;
+        margin-left: -51.2px;
+        background: url('../images/b45c0c75cf4d09fe47cceb0393f6bca2.png') rgba(211, 211, 211, 0) 0px 0px / 100% 163.413% no-repeat;
+    }
+    
+    .svgdiv2 {
+        width: 6.504px;
+        height: 28.304px;
+        flex-shrink: 0;
+    }
+    
+    
+}
+@media (max-width: 650px) {
+    .div1ofdiv2 {
+        width: 320.412px;
+        height: 31.435px;
+        flex-shrink: 0;
+        background-color: #FFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3.584px;
+        margin-top: 7.168px;
+    }
+    
+    .radiodiv2 {
+        width: 65.647px;
+        height: 22.784px;
+        flex-shrink: 0;
+        background-color: #ffffff;
+        border-radius: 1.792px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-right: 17.92px;
+        margin-right: 3.584px;
+    }
+    
+    .radiodiv2-active {
+        width: 87.647px;
+        height: 22.784px;
+        flex-shrink: 0;
+        background-color: #00AA14;
+        border-radius: 1.792px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 3.584px;
+        padding-right: 17.92px;
+        margin-right: 3.584px;
+    }
+    
+    .labelofdiv2 {
+        color: #000000;
+        font-family: Poppins;
+        font-size: 6.451px;
+        font-style: normal;
+        width: 80px;
+        height: auto;
+        font-weight: 300;
+        line-height: normal;
+        text-align: center;
+    }
+    
+    .labelofdiv2-active {
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 6.451px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+    
+    .divcenter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 17.92px;
+    }
+    
+    .radioofdiv2[type=radio] {
+        background-color: #00AA14;
+        cursor: default;
+        box-sizing: border-box;
+        margin: 1.075px 1.075px 0px 1.792px;
+        padding: initial;
+        border: 0.358px solid #00AA14;
+        width: 8.551px;
+        height: 8.551px;
+        border-width: 0px;
+    }
+    
+    .radioofdiv2[type=radio]:checked {
+        accent-color: #00AA14;
+        border-color: #00AA14;
+        cursor: default;
+        box-sizing: border-box;
+        margin: 1.075px 1.075px 0px 1.792px;
+        padding: initial;
+        border: 0.358px solid #00AA14;
+        width: 8.551px;
+        height: 8.551px;
+    }
+    
+    .divright {
+        width: 85%;
+        height: 151.988px;
+        border-radius: 8.96px;
+        background: lightgray 50% / cover no-repeat;
+    }
+    
+    .divimg {
+        width: 100%;
+        height: 151.988px;
+        border-radius: 8.96px;
+        background: url('../images/image.png') lightgray 50% / cover no-repeat;
+    }
+    
+    .div2h1 {
+        color: #000;
+        font-family: Poppins;
+        font-size: 12.544px;
+        font-style: normal;
+        font-weight: 600;
+        text-align: start;
+        line-height: normal;
+    }
+    
+    .divp {
+        width: 300.154px;
+        height: 71.68px;
+        flex-shrink: 0;
+        color: #000;
+        text-align: start;
+        font-family: Poppins;
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 12.186px;
+    }
+    
+    .divofdiv3 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+        gap: 12px;
+    }
+    
+    .backgrounddiv2 {
+        width: 100%;
+        height: 900px;
+        flex-shrink: 0;
+        background-image: url('../images/sec3bg.png');
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background-repeat: no-repeat;
+        background-size: cover;    }
+    
+    .divlogos {
+        width: 197.677px;
+        height: 98.899px;
+        flex-shrink: 0;
+        background-color: transparent;
+        opacity: 0.3;
+        margin-left: -35.84px;
+        background: url('../images/b45c0c75cf4d09fe47cceb0393f6bca2.png') rgba(211, 211, 211, 0) 0px 0px / 100% 163.413% no-repeat;
+    }
+    
+    .svgdiv2 {
+        width: 4.553px;
+        height: 19.813px;
+        flex-shrink: 0;
+    }
+    
+}

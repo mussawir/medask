@@ -1,0 +1,100 @@
+.right {
+    width: 772.888px;
+    height: 479.03px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    fill: #FFF;
+    stroke: #D4D1CD;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+.dd{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+}
+.logo {
+    margin-bottom: 10px;
+    margin-left: 20px;
+    width: 62.806px;
+    height: 62.806px;
+    flex-shrink: 0;
+    fill: #FFF;
+
+}.h3ofdiv {
+    color: #000;
+    font-family: "Playfair Display";
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}.p3 {
+    width: 335.377px;
+    height: 130px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 34px;
+    margin-left: 20px;
+}
+
+.btn3 {
+    color: #00A539;
+    font-family: Satoshi;
+    font-size: 14.984px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 2.997px;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-left: 20px;
+    display: flex;
+    margin-bottom: 30px;
+}
+.doc {
+    width: 310.326px;
+    height: 428.87px;
+    border: none;
+    border-radius: 10px;
+    background: url('../images/doctor.png') lightgray 40% / cover no-repeat;
+}
+.MuiBox-root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.css-1qm1lh{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.css-19kzrtu {
+    padding: 0px;
+}
+.MuiBox-root.css-19kzrtu{
+    padding: 0%;
+}
+#tab-0.btn{
+    padding: 0%;
+}
+#tab-1.btn{
+    padding: 0%;
+}
+#tab-2.btn{
+    padding: 0%;
+}
+#tab-3.btn{
+    padding: 0%;
+}

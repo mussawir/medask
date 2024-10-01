@@ -1,0 +1,126 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.about4bg {
+    width: 100%;
+    height: 1100px;
+    background: #FFF;
+}
+
+.about4h1 {
+    color: #28156D;
+    font-family: "Brush Script MT";
+    font-size: 55px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.about4h2 {
+    color: #000;
+    font-family: "Playfair Display";
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.about4body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about4main {
+    width: 665.065px;
+    height: 342.018px;
+    display: block;
+    background-color: #FFF;
+    border: 1px solid rgb(110, 110, 110);
+    border-radius: 20px;
+}
+
+.about4mr {
+    width: 40%;
+    height: 342.018px;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.829);
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.about4mr::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images//review1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    background-color: black;
+    opacity: 0.4;
+    /* Apply opacity only to the background */
+    border-radius: 20px;
+    z-index: 1;
+    /* Ensure it's behind the content */
+}
+
+.about4mr>* {
+    position: relative;
+    z-index: 2;
+    /* Content stays on top of the background */
+}
+
+.about4h3 {
+    color: #FFF;
+    font-family: "Plus Jakarta Sans";
+    font-size: 21.316px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 85.262px;
+    /* 400% */
+    text-align: start;
+}
+
+.about4h4 {
+    color: #FFF;
+    font-family: "Plus Jakarta Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    text-align: start;
+    /* 250% */
+}
+
+.about4p1 {
+    color: #FFF;
+    font-family: "Plus Jakarta Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 31.973px;
+    text-align: start;
+    letter-spacing: 1px;
+    /* 375% */
+}
+.about4ml{
+
+}
+.quotation{
+    width: 70px;
+    fill: greenyellow;
+    display: block;
+    font-size: 74px;
+    font-style: italic;
+}

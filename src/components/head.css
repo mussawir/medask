@@ -1,0 +1,150 @@
+.h1ofhead1 {
+    color: #28156D;
+    text-align: center;
+    font-family: "Nanum Brush Script";
+    font-size: 55px;
+    margin-top: 10px;
+    margin-bottom: 150px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.h2ofhead1 {
+    color: #000;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}
+@media (min-width: 1441px) {
+    .h1ofhead1 {
+        color: #28156D;
+        text-align: center;
+        font-family: "Nanum Brush Script";
+        font-size: 49.5px; /* Reduced by 10% */
+        font-style: italic;
+        margin-top: 150px;
+        margin-bottom: 10px;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .h2ofhead1 {
+        color: #000;
+        text-align: center;
+        font-family: "Playfair Display", serif;
+        font-size: 49.5px; /* Reduced by 10% */
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+}
+
+/* Laptops/Desktops (1025px to 1440px) */
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .h1ofhead1 {
+        color: #28156D;
+        text-align: center;
+        font-family: "Nanum Brush Script";
+        font-size: 39.6px; /* Reduced by 20% */
+        font-style: italic;
+        font-weight: 400;
+        margin-top: 10%;
+        margin-bottom: 10px;
+        line-height: normal;
+    }
+    
+    .h2ofhead1 {
+        color: #000;
+        text-align: center;
+        font-family: "Playfair Display", serif;
+        font-size: 39.6px; /* Reduced by 20% */
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+}
+/* Small Laptops (769px to 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .h1ofhead1 {
+        color: #28156D;
+        text-align: center;
+        font-family: "Nanum Brush Script";
+        font-size: 31.68px; /* Reduced by 20% */
+        font-style: italic;
+        font-weight: 400;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        line-height: normal;
+    }
+    
+    .h2ofhead1 {
+        color: #000;
+        text-align: center;
+        font-family: "Playfair Display", serif;
+        font-size: 31.68px; /* Reduced by 20% */
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+}
+/* Tablets (481px to 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+    .h1ofhead1 {
+        color: #28156D;
+        text-align: center;
+        font-family: "Nanum Brush Script";
+        font-size: 25.344px; /* Reduced by 20% */
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .h2ofhead1 {
+        color: #000;
+        text-align: center;
+        font-family: "Playfair Display", serif;
+        font-size: 25.344px; /* Reduced by 20% */
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+}
+/* Mobile Devices (up to 480px) */
+@media (max-width: 480px) {
+    .h1ofhead1 {
+        color: #28156D;
+        text-align: center;
+        font-family: "Nanum Brush Script";
+        font-size: 20.2752px; /* Reduced by 20% */
+        font-style: italic;
+        font-weight: 400;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        line-height: normal;
+    }
+    
+    .h2ofhead1 {
+        color: #000;
+        text-align: center;
+        font-family: "Playfair Display", serif;
+        font-size: 20.2752px; /* Reduced by 20% */
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+}

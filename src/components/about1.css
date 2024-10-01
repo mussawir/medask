@@ -1,0 +1,766 @@
+* {
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.about1bg {
+    width: 100%;
+    min-height: 1171px;
+    flex-shrink: 0;
+    background-image: url('../images//about1bg.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.h1about1 {
+    color: #28156D;
+    font-family: "Brush Script MT";
+    font-size: 55px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    text-align: start;
+    margin-top: 50px;
+}
+
+.h2about1 {
+    color: #000;
+    font-family: "Playfair Display";
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: start;
+    margin-top: 50px;
+
+}
+
+.pabout1 {
+    width: 569px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: start;
+    margin-top: 30px;
+    position: relative;
+
+}
+.p2about1{
+    height: 407px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: start;
+    padding-top: 30px;
+    position: relative;
+}
+.about1right {
+    width: 600px;
+    height: 600px;
+}
+
+.parent {
+    width: 600px;
+    height: 600px;
+    position: relative;
+}
+
+
+.gird1 {
+    width: 517.872px;
+    height: 441.37px;
+    background-image: url('../images//gird1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position: absolute;
+    border-radius: 20px;
+    z-index: 1;
+
+}
+
+.gird2 {
+    width: 276.588px;
+    height: 259.34px;
+    background-image: url('../images//gird2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    border-radius: 20px;
+    border-right: 10px solid #F4F3F8;
+    border-top: 10px solid #F4F3F8;
+    top: 290px;
+    left: -60px;
+    z-index: 2;
+}
+
+.gird3 {
+    width: 220.877px;
+    height: 229.4px;
+    background-image: url('../images//gird3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    position: absolute;
+    z-index: 3;
+    border-radius: 20px;
+    left: 220px;
+    top: 460px;
+}
+
+.div4 {
+    width: 121.044px;
+    height: 103.48px;
+    flex-shrink: 0;
+    background-color: #00AA14;
+    border-radius: 20px;
+    margin-top: 457px;
+    position: absolute;
+    z-index: 1;
+    left: -70px;
+}
+
+.formbglogo {
+    width: 613.92px;
+    height: 300.549px;
+    background-image: url('../images//formlogo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+    opacity: 0.05;
+    top: 70%;
+    left: 73%;
+}
+
+/* Large Screens (1441px and up) */
+@media (min-width: 1100px) and (max-width: 1440px) {
+    * {
+        padding: 0;
+        margin: 0%;
+        box-sizing: border-box;
+    }
+
+    .about1bg {
+        width: 100%;
+        min-height: 1171px;
+        flex-shrink: 0;
+        background-image: url('../images//about1bg.png');
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .h1about1 {
+        color: #28156D;
+        font-family: "Brush Script MT";
+        font-size: 45px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: normal;
+        text-align: start;
+        margin-top: 30px;
+    }
+
+    .h2about1 {
+        color: #000;
+        font-family: "Playfair Display";
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: start;
+        margin-top: 30px;
+
+    }
+
+    .pabout1 {
+        width: 569px;
+        flex-shrink: 0;
+        color: #000;
+        font-family: Poppins;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        text-align: start;
+        margin-top: 30px;
+        position: relative;
+    
+    }
+    .p2about1{
+        height: 407px;
+        flex-shrink: 0;
+        color: #000;
+        font-family: Poppins;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        text-align: start;
+        padding-top: 30px;
+        position: relative;
+    }
+    .about1right {
+        width: 469px;
+        height: 469px;
+
+
+    }
+
+    .parent {
+        width: 469px;
+        position: relative;
+    }
+
+
+    .gird1 {
+        width: 417.872px;
+        height: 341.37px;
+        background-image: url('../images//gird1.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        border-radius: 20px;
+        z-index: 1;
+
+    }
+
+    .gird2 {
+        width: 200px;
+        height: 182px;
+        background-image: url('../images//gird2.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        border-radius: 20px;
+        border-right: 10px solid #F4F3F8;
+        border-top: 10px solid #F4F3F8;
+        top: 290px;
+        left: -60px;
+        z-index: 2;
+    }
+
+    .gird3 {
+        width: 170px;
+        height: 180px;
+        background-image: url('../images//gird3.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50%;
+        position: absolute;
+        z-index: 3;
+        border-radius: 20px;
+        left: 150px;
+        top: 350px;
+    }
+
+    .div4 {
+        width: 121.044px;
+        height: 103.48px;
+        flex-shrink: 0;
+        background-color: #00AA14;
+        border-radius: 20px;
+        margin-top: 380px;
+        position: absolute;
+        z-index: 1;
+        left: -70px;
+    }
+
+    .formbglogo {
+        width: 613.92px;
+        height: 300.549px;
+        background-image: url('../images//formlogo.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        z-index: 1;
+        opacity: 0.05;
+        top: 70%;
+        left: 73%;
+    }
+
+}
+/* Small Laptops (769px to 1024px) */
+@media (min-width: 860px) and (max-width: 1100px) {
+    * {
+        padding: 0;
+        margin: 0%;
+        box-sizing: border-box;
+    }
+
+    .about1bg {
+        width: 100%;
+        min-height: 1171px;
+        flex-shrink: 0;
+        background-image: url('../images//about1bg.png');
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .h1about1 {
+        color: #28156D;
+        font-family: "Playfair Display";
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        text-align: start;
+        margin-top: 10px;
+
+    }
+
+    .h2about1 {
+        color: #000;
+        font-family: "Playfair Display";
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        text-align: start;
+        margin-top: 10px;
+
+    }
+
+ 
+    .pabout1 {
+        width: 369px;
+        flex-shrink: 0;
+        color: #000;
+        font-family: Poppins;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 15px;
+        text-align: start;
+        margin-top: 30px;
+        position: relative;
+    
+    }
+    .p2about1{
+        width: 369px;
+        flex-shrink: 0;
+        color: #000;
+        font-family: Poppins;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 15px;
+        text-align: start;
+        padding-top: 30px;
+        position: relative;
+    }
+
+    .about1right {
+        width: 350px;
+
+
+    }
+
+    .parent {
+        width: 350px;
+        position: relative;
+    }
+
+
+    .gird1 {
+        width: 300.872px;
+        height: 241.37px;
+        background-image: url('../images//gird1.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        border-radius: 20px;
+        z-index: 1;
+
+    }
+
+    .gird2 {
+        width: 180px;
+        height: 150px;
+        background-image: url('../images//gird2.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        border-radius: 20px;
+        border-right: 10px solid #F4F3F8;
+        border-top: 10px solid #F4F3F8;
+        top: 200px;
+        left: -60px;
+        z-index: 2;
+    }
+
+    .gird3 {
+        width: 170px;
+        height: 180px;
+        background-image: url('../images//gird3.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50%;
+        position: absolute;
+        z-index: 3;
+        border-radius: 20px;
+        left: 130px;
+        top: 250px;
+    }
+
+    .div4 {
+        width: 81.044px;
+        height: 83.48px;
+        flex-shrink: 0;
+        background-color: #00AA14;
+        border-radius: 20px;
+        margin-top: 275px;
+        position: absolute;
+        z-index: 1;
+        left: -70px;
+    }
+
+    .formbglogo {
+        width: 300.92px;
+        height: 150.549px;
+        background-image: url('../images//formlogo.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        z-index: 1;
+        opacity: 0.05;
+        top: 70%;
+        left: 73%;
+    }
+}
+
+/* Tablets (481px to 768px) */
+@media (min-width: 600px) and (max-width: 859px) {
+    * {
+        padding: 0;
+        margin: 0%;
+        box-sizing: border-box;
+    }
+
+    .about1bg {
+        width: 100%;
+        min-height: 1171px;
+        flex-shrink: 0;
+        background-image: url('../images//about1bg.png');
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        gap: 20px;
+        position: relative;
+    }
+
+    .h1about1 {
+        color: #28156D;
+        font-family: "Playfair Display";
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        text-align: start;
+        margin-top: 10px;
+
+    }
+
+    .h2about1 {
+        color: #28156D;
+        font-family: "Playfair Display";
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        text-align: start;
+        margin-top: 10px;
+
+    }
+
+    .pabout1 {
+        width: 280px;
+        flex-shrink: 0;
+        color: #000;
+        font-family: Poppins;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 15px;
+        text-align: start;
+        margin-top: 30px;
+        position: relative;
+    
+    }
+    .p2about1{
+        width: 280px;
+        flex-shrink: 0;
+        color: #000;
+        font-family: Poppins;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 15px;
+        text-align: start;
+        padding-top: 30px;
+        position: relative;
+    }
+    .about1right {
+        height: 350px;
+        width: 300px;
+
+    }
+    .about1cen{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .parent {
+        height: 350px;
+        width: 300px;
+        position: relative;
+       
+    }
+
+
+    .gird1 {
+        width: 200.872px;
+        height: 141.37px;
+        background-image: url('../images//gird1.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        border-radius: 10px;
+        z-index: 1;
+        left: 50px;
+
+    }
+
+    .gird2 {
+        width: 150px;
+        height: 120px;
+        background-image: url('../images//gird2.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        border-radius: 10px;
+        border-right: 4px solid #F4F3F8;
+        border-top: 4px solid #F4F3F8;
+        top: 100px;
+        left: 10px;
+        z-index: 2;
+    }
+
+    .gird3 {
+        width: 170px;
+        height: 180px;
+        background-image: url('../images//gird3.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50%;
+        position: absolute;
+        z-index: 1;
+        border-radius: 10px;
+        left: 130px;
+        top: 150px;
+    }
+
+    .div4 {
+        width: 70.044px;
+        height: 53.48px;
+        flex-shrink: 0;
+        background-color: #00AA14;
+        border-radius: 10px;
+        margin-top: 170px;
+        position: absolute;
+        z-index: 1;
+        left: 7px;
+    }
+
+    .formbglogo {
+        width: 300.92px;
+        height: 150.549px;
+        background-image: url('../images//formlogo.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        z-index: 1;
+        opacity: 0.05;
+        top: 70%;
+        left: 73%;
+    }
+}
+/* Tablets (481px to 768px) */
+@media (max-width: 600px) {
+    * {
+        padding: 0;
+        margin: 0%;
+        box-sizing: border-box;
+    }
+
+    .about1bg {
+        width: 100%;
+        min-height: 1171px;
+        flex-shrink: 0;
+        background-image: url('../images//about1bg.png');
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .h1about1 {
+        color: #28156D;
+        font-family: "Playfair Display";
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        text-align: center;
+        margin-top: 10px;
+
+    }
+
+    .h2about1 {
+        color: #000;
+        font-family: "Playfair Display";
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        text-align: center;
+        margin-top: 10px;
+
+    }
+
+    .pabout1 {
+        width: 300px;
+        flex-shrink: 0;
+        color: #000;
+        font-family: Poppins;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 15px;
+        text-align: center;
+        margin-top: 30px;
+        position: relative;
+    
+    }
+    .p2about1{
+        width: 300px;
+        flex-shrink: 0;
+        color: #000;
+        font-family: Poppins;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 15px;
+        text-align: center;
+        padding-top: 30px;
+        position: relative;
+    }
+    .about1right {
+        width: 300px;
+        
+
+
+    }
+    .about1cen{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .parent {
+        height: 350px;
+        width: 300px;
+        position: relative;
+       
+    }
+
+
+    .gird1 {
+        width: 200.872px;
+        height: 141.37px;
+        background-image: url('../images//gird1.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        border-radius: 10px;
+        z-index: 1;
+        left: 50px;
+
+    }
+
+    .gird2 {
+        width: 150px;
+        height: 120px;
+        background-image: url('../images//gird2.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        border-radius: 10px;
+        border-right: 4px solid #F4F3F8;
+        border-top: 4px solid #F4F3F8;
+        top: 100px;
+        left: 10px;
+        z-index: 2;
+    }
+
+    .gird3 {
+        width: 170px;
+        height: 180px;
+        background-image: url('../images//gird3.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50%;
+        position: absolute;
+        z-index: 1;
+        border-radius: 10px;
+        left: 130px;
+        top: 150px;
+    }
+
+    .div4 {
+        width: 70.044px;
+        height: 53.48px;
+        flex-shrink: 0;
+        background-color: #00AA14;
+        border-radius: 10px;
+        margin-top: 170px;
+        position: absolute;
+        z-index: 1;
+        left: 7px;
+    }
+
+    .formbglogo {
+        width: 200.92px;
+        height: 100.549px;
+        background-image: url('../images//formlogo.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        z-index: 1;
+        opacity: 0.05;
+        top: 70%;
+        left: 73%;
+    }
+}

@@ -1,0 +1,590 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.about2bg {
+    width: 100%;
+    height: 980px;
+    background: #FFF;
+}
+
+.about2h1 {
+    color: #28156D;
+    text-align: center;
+    font-family: "Brush Script MT";
+    font-size: 55px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.about2h2 {
+    color: #000;
+    text-align: center;
+    font-family: "Playfair Display";
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.aboutdiv1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 20px; /* Space between the grid items */
+}
+.aboutdiv2 {
+    width: 502px;
+    height: 282px;
+    border: 1px solid rgb(166, 164, 164);
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+
+}
+
+.aboutdiv2:hover {
+    width: 502px;
+    height: 282px;
+    flex-shrink: 0;
+    background-color: #28156D;
+    stroke-width: 1px;
+    stroke: rgba(0, 0, 0, 0.13);
+    color: white;
+    border: none;
+}
+
+.about2h3 {
+    width: 364px;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: start;
+}
+
+.aboutp1 {
+    width: 364px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 35px;
+    text-align: start;
+    margin-top: 20px;
+}
+
+.aboutdiv2:hover .arrw{
+    position: absolute;
+    z-index: 99;
+    width: 19px;
+    height: 19px;
+    background-image: url('../images/arrow1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    bottom: 10px;
+    right: 10px;
+}
+.arrw {
+    position: absolute;
+    z-index: 99;
+    width: 19px;
+    height: 19px;
+    background-image: url('../images/arrow2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    bottom: 10px;
+    right: 10px;
+}
+.aboutdiv2:hover .icon1{
+    fill: #ffffff;
+    width: 100px;
+    height: 80px;
+    margin-right: 90%;
+}
+.aboutdiv2:hover .about2h3 {
+    width: 364px;
+    color: white;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: start;
+}
+
+.icon1 {
+  fill: #00AA14;
+    width: 100px;
+    height: 80px;
+    margin-right: 90%;
+}
+
+
+.about2cen{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Laptops/Desktops (1025px to 1440px) */
+@media (min-width: 1025px) and (max-width: 1440px) {
+    * {
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+    }
+    
+    .about2bg {
+        width: 100%;
+        height: 980px;
+        background: #FFF;
+    }
+    
+    .about2h1 {
+        color: #28156D;
+        text-align: center;
+        font-family: "Brush Script MT";
+        font-size: 35px;
+        font-style: italic;
+        font-weight: 300;
+        line-height: normal;
+    }
+    
+    .about2h2 {
+        color: #000;
+        text-align: center;
+        font-family: "Playfair Display";
+        font-size: 35px;
+        font-style: normal;
+        font-weight:300;
+        line-height: normal;
+    }
+    
+    .aboutdiv1{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Two columns */
+        gap: 20px; /* Space between the grid items */
+    }
+    .aboutdiv2 {
+        width: 402px;
+        height: 182px;
+        border: 1px solid rgb(166, 164, 164);
+        border-radius: 10px;
+        padding: 20px;
+        position: relative;
+    
+    }
+    
+    .aboutdiv2:hover {
+        width: 402px;
+        height: 182px;
+        flex-shrink: 0;
+        background-color: #28156D;
+        stroke-width: 1px;
+        stroke: rgba(0, 0, 0, 0.13);
+        color: white;
+        border: none;
+    }
+    
+    .about2h3 {
+        width: 364px;
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-align: start;
+    }
+    
+    .aboutp1 {
+        width: 364px;
+        font-family: Poppins;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 15px;
+        text-align: start;
+        margin-top: 20px;
+    }
+    
+    
+    .arrw {
+        position: absolute;
+        z-index: 99;
+        width: 19px;
+        height: 19px;
+        background-image: url('../images/arrow1.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        bottom: 10px;
+        right: 10px;
+    }
+    .aboutdiv2:hover .icon1{
+        fill: #ffffff;
+        width: 80px;
+        height: 60px;
+        margin-right: 90%;
+    }
+    .icon1 {
+      fill: #00AA14;
+        width: 80px;
+        height: 60px;
+        margin-right: 90%;
+    }
+    
+    .about2cen{
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+/* Small Laptops (769px to 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    * {
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+    }
+    
+    .about2bg {
+        width: 100%;
+        height: 980px;
+        background: #FFF;
+    }
+    
+    .about2h1 {
+        color: #28156D;
+        text-align: center;
+        font-family: "Brush Script MT";
+        font-size: 25px;
+        font-style: italic;
+        font-weight: 300;
+        line-height: normal;
+    }
+    
+    .about2h2 {
+        color: #000;
+        text-align: center;
+        font-family: "Playfair Display";
+        font-size: 25px;
+        font-style: normal;
+        font-weight:300;
+        line-height: normal;
+    }
+    
+    .aboutdiv1{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Two columns */
+        gap: 20px; /* Space between the grid items */
+    }
+    .aboutdiv2 {
+        width: 302px;
+        height: 152px;
+        border: 1px solid rgb(166, 164, 164);
+        border-radius: 10px;
+        padding: 20px;
+        position: relative;
+    
+    }
+    
+    .aboutdiv2:hover {
+        width: 302px;
+        height: 152px;
+        flex-shrink: 0;
+        background-color: #28156D;
+        stroke-width: 1px;
+        stroke: rgba(0, 0, 0, 0.13);
+        color: white;
+        border: none;
+    }
+    
+    .about2h3 {
+        width: 264px;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-align: start;
+    }
+    
+    .aboutp1 {
+        width: 264px;
+        font-family: Poppins;
+        font-size: 8px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 10px;
+        text-align: start;
+        margin-top: 10px;
+    }
+    
+    
+    .arrw {
+        position: absolute;
+        z-index: 99;
+        width: 15px;
+        height: 15px;
+        background-image: url('../images/arrow1.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        bottom: 10px;
+        right: 10px;
+    }
+    .aboutdiv2:hover .icon1{
+        fill: #ffffff;
+        width: 60px;
+        height: 40px;
+        margin-right: 90%;
+    }
+    .icon1 {
+      fill: #00AA14;
+      width: 60px;
+      height: 40px;
+        margin-right: 90%;
+    }
+    
+    .about2cen{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* Tablets (481px to 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+    * {
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+    }
+    
+    .about2bg {
+        width: 100%;
+        height: 980px;
+        background: #FFF;
+    }
+    
+    .about2h1 {
+        color: #28156D;
+        text-align: center;
+        font-family: "Brush Script MT";
+        font-size: 25px;
+        font-style: italic;
+        font-weight: 300;
+        line-height: normal;
+    }
+    
+    .about2h2 {
+        color: #000;
+        text-align: center;
+        font-family: "Playfair Display";
+        font-size: 25px;
+        font-style: normal;
+        font-weight:300;
+        line-height: normal;
+    }
+    
+    .aboutdiv1{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); /* Two columns */
+        gap: 20px; /* Space between the grid items */
+    }
+    .aboutdiv2 {
+        width: 302px;
+        height: 152px;
+        border: 1px solid rgb(166, 164, 164);
+        border-radius: 10px;
+        padding: 20px;
+        position: relative;
+    
+    }
+    
+    .aboutdiv2:hover {
+        width: 302px;
+        height: 152px;
+        flex-shrink: 0;
+        background-color: #28156D;
+        stroke-width: 1px;
+        stroke: rgba(0, 0, 0, 0.13);
+        color: white;
+        border: none;
+    }
+    
+    .about2h3 {
+        width: 264px;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-align: start;
+    }
+    
+    .aboutp1 {
+        width: 264px;
+        font-family: Poppins;
+        font-size: 8px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 10px;
+        text-align: start;
+        margin-top: 10px;
+    }
+    
+    
+    .arrw {
+        position: absolute;
+        z-index: 99;
+        width: 15px;
+        height: 15px;
+        background-image: url('../images/arrow1.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        bottom: 10px;
+        right: 10px;
+    }
+    .aboutdiv2:hover .icon1{
+        fill: #ffffff;
+        width: 60px;
+        height: 40px;
+        margin-right: 90%;
+    }
+    .icon1 {
+      fill: #00AA14;
+      width: 60px;
+      height: 40px;
+        margin-right: 90%;
+    }
+    
+    .about2cen{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* Mobile Devices (up to 480px) */
+@media (max-width: 480px) {
+    * {
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+    }
+    
+    .about2bg {
+        width: 100%;
+        height: 980px;
+        background: #FFF;
+    }
+    
+    .about2h1 {
+        color: #28156D;
+        text-align: center;
+        font-family: "Brush Script MT";
+        font-size: 25px;
+        font-style: italic;
+        font-weight: 300;
+        line-height: normal;
+    }
+    
+    .about2h2 {
+        color: #000;
+        text-align: center;
+        font-family: "Playfair Display";
+        font-size: 25px;
+        font-style: normal;
+        font-weight:300;
+        line-height: normal;
+    }
+    
+    .aboutdiv1{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); /* Two columns */
+        gap: 20px; /* Space between the grid items */
+    }
+    .aboutdiv2 {
+        width: 302px;
+        height: 152px;
+        border: 1px solid rgb(166, 164, 164);
+        border-radius: 10px;
+        padding: 20px;
+        position: relative;
+    
+    }
+    
+    .aboutdiv2:hover {
+        width: 302px;
+        height: 152px;
+        flex-shrink: 0;
+        background-color: #28156D;
+        stroke-width: 1px;
+        stroke: rgba(0, 0, 0, 0.13);
+        color: white;
+        border: none;
+    }
+    
+    .about2h3 {
+        width: 264px;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-align: start;
+    }
+    
+    .aboutp1 {
+        width: 264px;
+        font-family: Poppins;
+        font-size: 8px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 10px;
+        text-align: start;
+        margin-top: 10px;
+    }
+    
+    
+    .arrw {
+        position: absolute;
+        z-index: 99;
+        width: 15px;
+        height: 15px;
+        background-image: url('../images/arrow1.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        bottom: 10px;
+        right: 10px;
+    }
+    .aboutdiv2:hover .icon1{
+        fill: #ffffff;
+        width: 60px;
+        height: 40px;
+        margin-right: 90%;
+    }
+    .icon1 {
+      fill: #00AA14;
+      width: 60px;
+      height: 40px;
+        margin-right: 90%;
+    }
+    
+    .about2cen{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

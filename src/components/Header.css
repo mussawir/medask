@@ -1,0 +1,31 @@
+.navbar-container {
+    background-image: url('../images/firstSecTopBg.jpg');
+    background-size: cover;
+    color: black;
+    position: relative;
+    background-size: center;
+    min-height: 1089.625px;
+    background-repeat: no-repeat;
+
+}
+.navbar{
+    background-size: cover;
+    position: relative;
+}
+.icon2{
+    position: absolute; 
+right: 0%;
+top: 19%;
+}
+
+@media screen and (max-width: 1208px) {
+    .icon2{
+        position: absolute; 
+    right: 0%;
+    display: none;
+    top: 19%;
+    }
+}
+@media screen and (max-width: 768px) {
+    
+}
