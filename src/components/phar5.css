@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.phar5bg{
+    width: 1606.003px;
+    height: 1269.625px;
+    display: block;
+    background-image: url('../images/phar5.png');
+    object-fit: cover;
+    background-repeat: no-repeat;
+
+}

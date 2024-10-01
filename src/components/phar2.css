@@ -1,0 +1,103 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.phar2body {
+    width: 1600px;
+    height: 1200px;
+    background: #FFF;
+    position: relative;
+    margin-top: 100px;
+}
+
+.Phar2div1 {
+    width: 538.901px;
+    height: 598.901px;
+    background-image: url('../images/phar1.jfif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    border-radius: 20px;
+    position: absolute;
+    left: 150px;
+    z-index: 1;
+}
+
+.Phar2div2 {
+    width: 876.003px;
+    height: 318.901px;
+    background-position-x: 50%;
+    background-position-y: 80%;
+    background-image: url('../images/phar2.jfif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    border-radius: 20px;
+    position: absolute;
+    top: 450px;
+    left: 350px;
+    z-index: 2;
+}
+
+.Phar2div3 {
+    width: 268.42px;
+    height: 252.711px;
+    flex-shrink: 0;
+    background-position-x: 50%;
+    background-position-y: 80%;
+    background-image: url('../images/phar3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    top: 420px;
+    left: 1100px;
+    z-index: 3;
+        border: 10px solid #fff;
+    border-radius: 20px;
+}
+.phar2h1{
+    color: #28156D;
+font-family: "Brush Script MT";
+font-size: 55px;
+text-align: start;
+font-style: italic;
+font-weight: 400;
+line-height: normal;
+}
+
+.Phar2div4 {
+    width: 380px;
+    display: block;
+    text-align: start;
+    border-radius: 20px;
+    position: absolute;
+    top: 50px;
+    left: 750px;
+    z-index: 4;
+}
+
+.phar2h2{
+    color: #000;
+    font-family: "Playfair Display";
+    font-size: 55px;
+    font-style: normal;
+    text-align: start;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.phar2p1{
+    width: 597.699px;
+height: 210px;
+flex-shrink: 0;
+color: #000;
+text-align: start;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}

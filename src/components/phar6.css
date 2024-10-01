@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.phar6bg{
+    width: 1606.003px;
+height: 600.625px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.phar6cont{
+    width: 1284px;
+    height: 592.064px;
+    display: block;
+    background-image: url('../images/phar6.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
