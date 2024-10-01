@@ -9,7 +9,7 @@ const Phsection4: React.FC = () => {
     return (
         <div className='pharmaciessecondsec4'>
             <Container className="distribution-section">
-                <div className="center">
+                <div className="PHcenter">
                 <div className="text-contentph">
                     <h2 className="brand-name-small">Medask</h2>
                     <h2 className="section-title">LP Pharmacies</h2>
