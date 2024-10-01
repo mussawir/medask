@@ -1,4 +1,4 @@
-import '../components/about2.css';
+import '../components/about2.css'
 function Icon() {
     return (
         <div>

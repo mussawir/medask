@@ -1,9 +1,9 @@
 import './about3.css'
-import about3img1 from '../images//about3img1.png'
-import about3img2 from '../images//about3img2.png'
-import about3img3 from '../images//about3img3.png'
-import About3icon1 from '../images//stethoscope'
-import About3icon2 from '../images//healtcare'
+import about3img1 from '../images/about3img1.png'
+import about3img2 from '../images/about3img2.png'
+import about3img3 from '../images/about3img3.png'
+import About3icon1 from '../images/stethoscope'
+import About3icon2 from '../images/healtcare'
 function About3() {
     return (
         <>

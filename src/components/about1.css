@@ -8,7 +8,8 @@
     width: 100%;
     min-height: 1171px;
     flex-shrink: 0;
-    background-image: url('../images//about1bg.png');
+    background-image: url('../images/about1bg.png');
+    max-width: 1600px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,7 +82,7 @@
 .gird1 {
     width: 517.872px;
     height: 441.37px;
-    background-image: url('../images//gird1.png');
+    background-image: url('../images/gird1.png');
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -94,7 +95,7 @@
 .gird2 {
     width: 276.588px;
     height: 259.34px;
-    background-image: url('../images//gird2.png');
+    background-image: url('../images/gird2.png');
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
@@ -109,7 +110,7 @@
 .gird3 {
     width: 220.877px;
     height: 229.4px;
-    background-image: url('../images//gird3.png');
+    background-image: url('../images/gird3.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
@@ -135,7 +136,7 @@
 .formbglogo {
     width: 613.92px;
     height: 300.549px;
-    background-image: url('../images//formlogo.png');
+    background-image: url('../images/formlogo.png');
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
@@ -157,7 +158,7 @@
         width: 100%;
         min-height: 1171px;
         flex-shrink: 0;
-        background-image: url('../images//about1bg.png');
+        background-image: url('../images/about1bg.png');
         display: flex;
         justify-content: center;
         align-items: center;
@@ -231,7 +232,7 @@
     .gird1 {
         width: 417.872px;
         height: 341.37px;
-        background-image: url('../images//gird1.png');
+        background-image: url('../images/gird1.png');
         background-repeat: no-repeat;
         background-size: cover;
         position: absolute;
@@ -243,7 +244,7 @@
     .gird2 {
         width: 200px;
         height: 182px;
-        background-image: url('../images//gird2.png');
+        background-image: url('../images/gird2.png');
         background-repeat: no-repeat;
         background-size: cover;
         position: absolute;
@@ -258,7 +259,7 @@
     .gird3 {
         width: 170px;
         height: 180px;
-        background-image: url('../images//gird3.png');
+        background-image: url('../images/gird3.png');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 50%;
@@ -284,7 +285,7 @@
     .formbglogo {
         width: 613.92px;
         height: 300.549px;
-        background-image: url('../images//formlogo.png');
+        background-image: url('../images/formlogo.png');
         background-repeat: no-repeat;
         background-size: cover;
         position: absolute;
@@ -307,7 +308,7 @@
         width: 100%;
         min-height: 1171px;
         flex-shrink: 0;
-        background-image: url('../images//about1bg.png');
+        background-image: url('../images/about1bg.png');
         display: flex;
         justify-content: center;
         align-items: center;
@@ -383,7 +384,7 @@
     .gird1 {
         width: 300.872px;
         height: 241.37px;
-        background-image: url('../images//gird1.png');
+        background-image: url('../images/gird1.png');
         background-repeat: no-repeat;
         background-size: cover;
         position: absolute;
@@ -395,7 +396,7 @@
     .gird2 {
         width: 180px;
         height: 150px;
-        background-image: url('../images//gird2.png');
+        background-image: url('../images/gird2.png');
         background-repeat: no-repeat;
         background-size: cover;
         position: absolute;
@@ -410,7 +411,7 @@
     .gird3 {
         width: 170px;
         height: 180px;
-        background-image: url('../images//gird3.png');
+        background-image: url('../images/gird3.png');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 50%;
@@ -436,7 +437,7 @@
     .formbglogo {
         width: 300.92px;
         height: 150.549px;
-        background-image: url('../images//formlogo.png');
+        background-image: url('../images/formlogo.png');
         background-repeat: no-repeat;
         background-size: cover;
         position: absolute;
@@ -459,7 +460,7 @@
         width: 100%;
         min-height: 1171px;
         flex-shrink: 0;
-        background-image: url('../images//about1bg.png');
+        background-image: url('../images/about1bg.png');
         display: flex;
         justify-content: center;
         align-items: center;
@@ -541,7 +542,7 @@
     .gird1 {
         width: 200.872px;
         height: 141.37px;
-        background-image: url('../images//gird1.png');
+        background-image: url('../images/gird1.png');
         background-repeat: no-repeat;
         background-size: cover;
         position: absolute;
@@ -554,7 +555,7 @@
     .gird2 {
         width: 150px;
         height: 120px;
-        background-image: url('../images//gird2.png');
+        background-image: url('../images/gird2.png');
         background-repeat: no-repeat;
         background-size: cover;
         position: absolute;
@@ -569,7 +570,7 @@
     .gird3 {
         width: 170px;
         height: 180px;
-        background-image: url('../images//gird3.png');
+        background-image: url('../images/gird3.png');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 50%;
@@ -595,7 +596,7 @@
     .formbglogo {
         width: 300.92px;
         height: 150.549px;
-        background-image: url('../images//formlogo.png');
+        background-image: url('../images/formlogo.png');
         background-repeat: no-repeat;
         background-size: cover;
         position: absolute;
@@ -617,7 +618,7 @@
         width: 100%;
         min-height: 1171px;
         flex-shrink: 0;
-        background-image: url('../images//about1bg.png');
+        background-image: url('../images/about1bg.png');
         display: flex;
         justify-content: center;
         align-items: center;
@@ -700,7 +701,7 @@
     .gird1 {
         width: 200.872px;
         height: 141.37px;
-        background-image: url('../images//gird1.png');
+        background-image: url('../images/gird1.png');
         background-repeat: no-repeat;
         background-size: cover;
         position: absolute;
@@ -713,7 +714,7 @@
     .gird2 {
         width: 150px;
         height: 120px;
-        background-image: url('../images//gird2.png');
+        background-image: url('../images/gird2.png');
         background-repeat: no-repeat;
         background-size: cover;
         position: absolute;
@@ -728,7 +729,7 @@
     .gird3 {
         width: 170px;
         height: 180px;
-        background-image: url('../images//gird3.png');
+        background-image: url('../images/gird3.png');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 50%;
@@ -754,7 +755,7 @@
     .formbglogo {
         width: 200.92px;
         height: 100.549px;
-        background-image: url('../images//formlogo.png');
+        background-image: url('../images/formlogo.png');
         background-repeat: no-repeat;
         background-size: cover;
         position: absolute;
