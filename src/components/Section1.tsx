@@ -8,6 +8,7 @@ import { faPhone, faEnvelope, faArrowDown, faHome, faBusinessTime } from '@forta
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import doctornursespecialequipment from '../images/doctornursespecialequipment.png';
 import '../components/Section1.css';
+import icon2 from '../images/TwCbOK.png'
 
 
 function Section1() { 
@@ -57,6 +58,7 @@ function Section1() {
                         <p className="welcome-para">be distracted by the readable content of a page.</p>
                         <a href="#" className='read-moreBtn'>Read More <img src={Iconreadmore} alt="read more" /></a>
                     </div>
+                    {/* <img className="icon2" src={icon2} alt="doctornurse"  /> */}
                     {/* <div>
                    
                         <img src={doctornursespecialequipment} alt="doctor" className="doctornursespecialequipment" />

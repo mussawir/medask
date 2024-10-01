@@ -23,7 +23,7 @@ export default function LabTabs() {
     return (
         <Box>
             <Box sx={{ mb: 2 }}>
-                {['Item One', 'Item Two', 'Item Three', 'Item Four'].map((item, index) => (
+            {['Pharmacy Distribution', 'Retail Pharmacies', 'LP Pharmacies', 'Commercial - Flagship Pharmacies'].map((item, index) => (
                     <button
                         key={index}
                         className={value === index.toString() ? 'btnofselectofsec2' : 'btn-simple'}
@@ -51,7 +51,7 @@ export default function LabTabs() {
             </Box>
 
             {/* Render Tab Panels */}
-            {['item 1', 'item 2', 'item 3', 'item 4'].map((content, idx) => (
+            {['Pharmacy Distribution', 'Retail Pharmacies', 'LP Pharmacies', 'Commercial - Flagship Pharmacies'].map((content, idx) => (
                 <TabPanel value={value} index={idx.toString()} key={idx} >
                         <div className="div1bgcolor">
                     <div className="right">

@@ -38,6 +38,8 @@ const Header: React.FC = () => {
                     <div className="logo-top">
                         <img src={logo} alt="Logo" className="logo-img" />
                     </div>
+
+
                     <div className="menu-icon">
                         <Drawer />
                     </div>

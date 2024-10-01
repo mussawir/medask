@@ -34,6 +34,14 @@
     background-color: #fff;
     cursor: pointer;
 }
+.btn-simple span{
+    color: #000;
+    font-family: "Playfair Display";
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 
 .btn-icon{
     margin-right: -10px;

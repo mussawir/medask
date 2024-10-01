@@ -1,5 +1,6 @@
 import React from 'react'
 import './head2.css'
+import './Videohead.css'
 function Videohead(){
 
 return (
@@ -9,4 +10,4 @@ return (
     </div>
 );
 }
-export default Videohead
+export default Videohead;
