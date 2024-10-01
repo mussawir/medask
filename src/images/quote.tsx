@@ -1,4 +1,4 @@
-import './quote.css';
+import '../components/about2.css';
 
 function Icon2() {
 	return (
