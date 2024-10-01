@@ -14,6 +14,7 @@ import Videohead from '../components/Videohead';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 import Section1 from '../components/Section1';
+import '../App.css';
 
 const HomePage = () => {
   return (
@@ -27,8 +28,10 @@ const HomePage = () => {
       </div>
       <Section3 />
       <Section4 />
+      <div className='section5bgimg'>
       <Videohead />
       <VideoCarousel />
+      </div>
       <Labtab />
       <NewsSection />
       <Form />

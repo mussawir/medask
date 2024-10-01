@@ -1,6 +1,6 @@
 .png-logoseacc {
     width: 10.4px;
-    height: 60.8px;
+    height: 75.24px;
     border-radius: '4px 0px 0px 4px';
     display: 'flex';
     align-self: 'start';
@@ -17,9 +17,8 @@
     background-color: #fff;
 }
 .right {
-    width: 618.3104px;
-    /* 772.888px - 20% */
-    height: 383.224px;
+    width: 772.888px;
+    height: 479.03px;
     /* 479.03px - 20% */
     flex-shrink: 0;
     display: flex;
@@ -161,14 +160,15 @@
     display: inline;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
+
 }
 
 .btnofselectofsec2 {
-    width: 344.6208px;
-    /* 430.776px - 20% */
-    height: 60.192px;
+    width: 430.776px;
+    height: 75.24px;
+    flex-shrink: 0;
     /* 75.24px - 20% */
     flex-shrink: 0;
     display: flex;
@@ -182,9 +182,9 @@
 }
 
 .btn-simple {
-    width: 344.6208px;
-    /* 430.776px - 20% */
-    height: 60.192px;
+    width: 430.776px;
+    height: 75.24px;
+    flex-shrink: 0;
     /* 75.24px - 20% */
     flex-shrink: 0;
     display: flex;
@@ -213,23 +213,24 @@
 }
 .btn-text-active{
     color: #000;
-    font-family: Poppins;
-    font-size: 18px;
+    font-family: "Playfair Display";
+    font-size: 34px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     position: absolute;
-    margin-left: 10px;
+    margin-left: 15px;
 
 }
 .btn-text-inactive{
     color: #000;
-font-family: Poppins;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-margin-left: 10px;
+    font-family: "Playfair Display";
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+margin-left: 15px;
 }
 
 .btn-arrow {
@@ -248,13 +249,13 @@ margin-left: 10px;
 
 
 /* Laptops/Desktops (1025px to 1440px) */
-@media (min-width: 1025px) and (max-width: 2400px) {
+@media (min-width: 1025px) and (max-width: 5500px) {
     .ic{
         width: 25px;
     }
     .png-logoseacc {
-        width: 10.4px;
-        height: 60.8px;
+        width: 15.4px;
+        height: 75.24px;
         border-radius: '4px 0px 0px 4px';
         display: 'flex';
         align-self: 'start';
@@ -262,9 +263,9 @@ margin-left: 10px;
     }
 
     .right {
-        width: 618.3104px;
+        width: 772.89px;
         /* 772.888px - 20% */
-        height: 383.224px;
+        height: 479.03px;
         /* 479.03px - 20% */
         flex-shrink: 0;
         display: flex;
@@ -363,8 +364,9 @@ margin-left: 10px;
     .MuiBox-root {
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
         flex-direction: row;
+        top: 20px;
     }
 
     .css-1qm1lh {
@@ -383,6 +385,7 @@ margin-left: 10px;
     }
 
     #tab-0 {
+        margin-top: 10px;
         padding: 0%;
     }
 
@@ -411,9 +414,9 @@ margin-left: 10px;
     }
 
     .btnofselectofsec2 {
-        width: 344.6208px;
+        width: 430.78px;
         /* 430.776px - 20% */
-        height: 60.192px;
+        height: 75.24px;
         /* 75.24px - 20% */
         flex-shrink: 0;
         display: flex;
@@ -424,12 +427,13 @@ margin-left: 10px;
         border-radius: 5px 0px 0px 5px;
         background-color: #fff;
         cursor: pointer;
+
     }
 
     .btn-simple {
-        width: 344.6208px;
+        width: 430.78px;
         /* 430.776px - 20% */
-        height: 60.192px;
+        height: 75.24px;
         /* 75.24px - 20% */
         flex-shrink: 0;
         display: flex;
@@ -439,6 +443,7 @@ margin-left: 10px;
         border-left: 0px;
         background-color: transparent;
         cursor: pointer;
+
     }
 
     .btn-icon {
@@ -474,22 +479,26 @@ margin-left: 10px;
 
     .btn-text-active{
         color: #000;
-        font-family: Poppins;
-        font-size: 13px;
+        font-family: "Playfair Display";
+        font-size: 18px;
         font-style: normal;
-        font-weight: 400;
+        font-weight: 600;
         line-height: normal;
+        margin-left: 15px;
+        text-align: start;
         position: absolute;
-        margin-left: 10px;
+        margin-left: 20px;
     
     }
     .btn-text-inactive{
         color: #000;
-    font-family: Poppins;
-    font-size: 13px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+        font-family: "Playfair Display";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-align: start;
+        margin-left: 20px;
     }
 
 }
