@@ -7,7 +7,7 @@
 }
 
 /* Large Screens (1441px and up) */
-@media (min-width: 1441px) {
+
  
 .about4bg {
     margin-top: 50px;
@@ -255,7 +255,7 @@
     flex-direction: column;
     height: 300px;
 }
-}
+
 
 /* Laptops/Desktops (1025px to 1440px) */
 @media (min-width: 1025px) and (max-width: 1440px) {
@@ -276,8 +276,13 @@
         justify-content: space-between;
         align-self: flex-start;
         align-items: center;
+        display: flex;
+        justify-content: space-between;
+        align-self: center;
+        align-items: center;
         height: 200.018px;
         width: 450px;
+        height: 300px;
     
     }
     
@@ -624,4 +629,9 @@
         width: 225px; /* Reduced width */
     }
     
+}
+
+/* Mobile Devices (up to 480px) */
+@media (max-width: 480px) {
+    /* Styles for mobile devices */
 }

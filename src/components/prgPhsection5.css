@@ -5,8 +5,11 @@
     align-items: center;
     padding: 40px;
     margin: 0 auto;
-    background-image: url('../images/section5bg.png');
+    /* background-image: url('../images/formbg.png'); */
+    background-size: cover;
     height: 937px;
+    
+    z-index: 99;
     background-repeat: no-repeat;
 }
 

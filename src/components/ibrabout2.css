@@ -534,6 +534,15 @@
         color: white;
         border: none;
     }
+    .aboutdiv2:hover  .about2h3 {
+        width: 264px;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-align: start;
+    }
     
     .about2h3 {
         width: 264px;
@@ -560,8 +569,8 @@
     .arrw {
         position: absolute;
         z-index: 99;
-        width: 15px;
-        height: 15px;
+        width: 10px;
+        height: 10px;
         background-image: url('../images/arrow1.png');
         background-repeat: no-repeat;
         background-position: center;
@@ -570,14 +579,14 @@
     }
     .aboutdiv2:hover .icon1{
         fill: #ffffff;
-        width: 60px;
-        height: 40px;
+        width: 40px;
+        height: 30px;
         margin-right: 90%;
     }
     .icon1 {
       fill: #00AA14;
-      width: 60px;
-      height: 40px;
+      width: 40px;
+      height: 30px;
         margin-right: 90%;
     }
     
