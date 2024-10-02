@@ -64,6 +64,26 @@ function Section4() {
     </button>
    </div>
 
+   <div className='Section4BottomBtnsSmallscreen'>
+    <div style={{display: 'flex'}}>
+   <button className='firstbtnofbottomSec4'>
+      <span className='btn-textofsec4bottom'>
+        <img src={tickrounded} alt="tickrounded" />
+        Compassion</span>
+    </button>
+    <button className='SecondbtnofbottomSec4'>
+      <span className='btn-textofsec4bottom'><img src={tickrounded} alt="tickrounded" />Hardwork</span>
+    </button>
+    </div>
+    <div style={{display: 'flex'}}>
+    <button className='firstbtnofbottomSec4'>
+      <span className='btn-textofsec4bottom'><img src={tickrounded} alt="tickrounded" />Integrity</span>
+    </button>
+    <button className='SecondbtnofbottomSec4'>
+      <span className='btn-textofsec4bottom'><img src={tickrounded} alt="tickrounded" />Care & Trust</span>
+    </button>
+    </div>
+   </div>
     
     </Container>
  </div>

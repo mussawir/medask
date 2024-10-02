@@ -18,7 +18,7 @@ const BrandSlider: React.FC<BrandSliderProps> = ({ brands }) => {
         dots: true,
         infinite: true,
         speed: 500,
-        slidesToShow: 5,
+        slidesToShow: 5, // Default for larger screens
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 2000,
@@ -27,9 +27,22 @@ const BrandSlider: React.FC<BrandSliderProps> = ({ brands }) => {
         pauseOnHover: false,
         swipe: false,
         centerMode: true,
-        centerPadding: '20px'
+        centerPadding: '20px',
+        responsive: [
+            {
+                breakpoint: 1050, // Medium screens and below
+                settings: {
+                    slidesToShow: 3, // Show 3 slides on medium screens
+                },
+            },
+            {
+                breakpoint: 600, // Small screens (including XS)
+                settings: {
+                    slidesToShow: 1.5, // Show 1 slide on small screens
+                },
+            },
+        ],
     };
-    
 
     return (
         <div className="brand-slider-container">

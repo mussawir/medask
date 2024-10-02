@@ -521,8 +521,8 @@
 
 /* Styles for the heading "Area Of Brands" */
 .main-heading {
-    font-size: 40.54px; /* 80% of 9.43px */
-    font-weight: 500;
+    font-size: 34px; /* 80% of 9.43px */
+    font-weight: 400;
     margin-bottom: 1px;
     color: #28156D;
     font-family: "Brush Script MT", cursive;
@@ -530,19 +530,23 @@
 
 /* Styles for the heading "Trusted By Industry Leaders" */
 .secondary-heading {
-    font-size: 40.41px; /* 80% of 11.76px */
-    font-weight: bold;
+    font-size: 35px; /* 80% of 11.76px */
+    font-weight: 400;
     margin-bottom: 20px;
+    
     font-family: "Playfair Display", serif;
 }
 
 /* Paragraph styling */
 .paragraph-text {
-    font-size: 4.70px; /* 80% of 5.88px */
-    color: #666;
-    max-width: 181.88px; /* 80% of 227.36px */
-    margin: 0 auto;
+    font-size: 16px; /* 80% of 5.88px */
+    color: #000000;
+    /* max-width: 181.88px; 80% of 227.36px */
+    margin: 0 ;
+    font-weight: 400;
     font-family: "Poppins", sans-serif;
+    line-height: 33px;
+    align-items: Center;
 }
 
 /* Slider container */
@@ -560,12 +564,13 @@
     justify-content: center;
     align-items: center;
     height: 52px; /* Already reduced */
+    /* width: 223.1px; */
 }
 
 /* Styling for each brand box */
 .brand-box {
-    width: 52.77px; /* 80% of 65.96px */
-    height: 32.27px; /* 80% of 40.33px */
+    width: 223.1px; /* 80% of 65.96px */
+    height: 132.1px; /* 80% of 40.33px */
     border: 1px solid #ddd;
     display: flex;
     justify-content: center;
@@ -589,8 +594,8 @@
 
 /* Brand logo image */
 .brand-logo {
-    width: 32.93px; /* 80% of 41.16px */
-    height: 21.95px; /* 80% of 27.44px */
+    width: 223.1px; /* 80% of 41.16px */
+    height: 132.1px; /* 80% of 27.44px */
     object-fit: contain;
     margin: 0 auto;
     display: block;
@@ -602,8 +607,8 @@
 }
 
 .slick-slide img {
-    max-width: 100%;
-    max-height: 100%;
+     width: 223.1px;
+    max-height: 132.1px;
 }
 
 /* Disable transitions when interacting to prevent unwanted movement */
