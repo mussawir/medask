@@ -765,3 +765,170 @@
         left: 73%;
     }
 }
+
+/* Mobile Devices (up to 480px) */
+@media (max-width: 480px) {
+    * {
+        padding: 0;
+        margin: 0%;
+        box-sizing: border-box;
+    }
+
+    .about1bg {
+        width: 100%;
+        height: 1404.442px;
+        flex-shrink: 0;
+        background-image: url('../images/about1mblbg.png');
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .h1about1 {
+        color: #28156D;
+        font-family: "Playfair Display";
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        text-align: center;
+        position: absolute;
+        z-index: 2;
+        top: 1px;
+
+    }
+
+    .h2about1 {
+        color: #000;
+        font-family: "Playfair Display";
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        text-align: center;
+        margin-top: 10px;
+        position: absolute;
+        z-index: 2;
+        top: 50px;
+
+    }
+
+    .pabout1 {
+        width: 300px;
+        color: #000;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+        text-align: start;
+        margin-top: 139px;
+        position: relative;
+    
+    }
+    .p2about1{
+        color: #000;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: start;
+        padding-top: 30px;
+        position: relative;
+ 
+    }
+    .about1right {
+        width: 300px;
+        
+
+
+    }
+    .about1cen{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .parent {
+        height: 350px;
+        width: 300px;
+        position: relative;
+        margin-top: 50px;
+       
+    }
+
+
+    .gird1 {
+        width: 354.072px;
+height: 301.767px;
+        background-image: url('../images/gird1.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        border-radius: 10px;
+        z-index: 1;
+        left: -20px;
+
+    }
+
+    .gird2 {
+        width: 189.105px;
+        height: 177.312px;
+        flex-shrink: 0;
+        background-image: url('../images/gird2.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        border-radius: 10px;
+        border-right: 4px solid #F4F3F8;
+        border-top: 4px solid #F4F3F8;
+        top: 207px;
+        left: -30px;
+        z-index: 2;
+    }
+
+    .gird3 {
+        width: 151.015px;
+        height: 156.842px;
+        background-image: url('../images/gird3.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50%;
+        position: absolute;
+        z-index: 1;
+        border-radius: 10px;
+        left: 170px;
+        top: 320px;
+    }
+
+    .div4 {
+        width: 82.759px;
+        height: 70.75px;
+        flex-shrink: 0;
+        background-color: #00AA14;
+        border-radius: 10px;
+        margin-top: 170px;
+        position: absolute;
+        z-index: 1;
+        left: -40px;
+        top: 155px;
+    }
+
+    .formbglogo {
+        display: none;
+        width: 200.92px;
+        height: 100.549px;
+        background-image: url('../images/formlogo.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        z-index: 1;
+        opacity: 0.05;
+        top: 70%;
+        left: 73%;
+    }
+}
