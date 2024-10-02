@@ -15,54 +15,61 @@
 }
 
 /* Image Section */
-.image-section {
+.image-section3 {
     display: flex;
     flex-direction: column;
 }
 
-.image-item1 {
-    width: 400px;
-    height: 300px;
+.image-item13 {
+    width: 491.16px;
+    height: 356.15px;
     object-fit: cover;
     border-radius: 8px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     position: relative;
     left: 40%;
 }
-.image-item2 {
-    width: 400px;
-    height: 200px;
+.image-item23 {
+    width: 491.16px;
+    height: 315.4px;
     object-fit: cover;
     border-radius: 8px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     position: absolute;
-    left: 150px;
-    bottom: 20%;
+    left: 160px;
+    bottom: 108.1px;
 }
 
 /* Text Section */
-.text-section {
-    max-width: 860px;
-    height: 400;
-    padding-left: 0px;
+.text-section3 {
+    width: 597.7px;
+    height: 299.53;
+    margin-top: 200px;
 }
 
-.brand-name {
-    font-family: 'Cursive', sans-serif;
-    font-size: 2rem;
+.brand-name3 {
+    font-family: "Brush Script MT";
+    font-size: 55px;
     color: #3a0070;
-    margin-bottom: 10px;
+    width: 145px;
+    position: absolute;
+    left: 900px;
+    top: 300px;
 }
 
-.section-title {
-    font-family: 'Serif', sans-serif;
+.section-title3 {
+    font-family: "Playfair Display";
     font-size: 2rem;
     color: #333;
     margin-bottom: 20px;
+    margin-left: -450px;
 }
 
-.section-description {
+.section-description3 {
+    font-family: "Poppins";
+    text-align: start;
     font-size: 1rem;
     color: #666;
     line-height: 1.6;
+    margin-left: -60px;
 }

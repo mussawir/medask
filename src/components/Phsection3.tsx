@@ -7,16 +7,16 @@ const Phsection3: React.FC = () => {
   return (
     <div className="Phsection3">
       {/* Image Section */}
-      <div className="image-section">
-      <img src={phsec3mainImage} alt="Healthcare professionals" className="image-item1" />
-      <img src={phsection3Image2} alt="Discussion in healthcare" className="image-item2" />
+      <div className="image-section3">
+      <img src={phsec3mainImage} alt="Healthcare professionals" className="image-item13" />
+      <img src={phsection3Image2} alt="Discussion in healthcare" className="image-item23" />
       </div>
 
       {/* Text Section */}
-      <div className="text-section">
-        <h1 className="brand-name">Medask</h1>
-        <h2 className="section-title">Retail Pharmacies</h2>
-        <p className="section-description">
+      <div className="text-section3">
+        <h1 className="brand-name3">Medask</h1>
+        <h2 className="section-title3">Retail Pharmacies</h2>
+        <p className="section-description3">
           There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
           in some form, by injected humour, or randomised words which don't look even slightly believable.
           If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden

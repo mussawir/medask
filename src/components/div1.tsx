@@ -1,6 +1,6 @@
 import Box from '@mui/material/Box';
 import React, { useState } from 'react';
-import Group20 from '../images//Group20'; // Custom SVG component
+import Group20 from '../images/Group20'; // Custom SVG component
 import svg from '../images/drugstore 2.svg'; // Your SVG source
 import Icon from '../images/iconarrowdiv1.svg';
 import Svg2 from '../images/secondgroup.png';

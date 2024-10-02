@@ -6,6 +6,29 @@
         margin: 0 auto; /* Centers the content */
     }
 }
+.png-logoseacc2 {
+    display: none;
+    width: 10.4px;
+    height: 75.24px;
+    border-radius: 4px 0px 0px 4px; /* Corrected border-radius syntax */
+    position: absolute;
+    left: 29px;
+    top: 1px;
+    transform: rotate(90deg); /* Rotation is correct */
+}
+
+.png-logoseacc2-active {
+    display: block;
+    width: 10.4px;
+    height: 75.24px;
+    border-radius: 4px 0px 0px 4px;
+    position: absolute;
+    z-index: 99;
+    left: 35%; /* Move to the center */
+    top: 1px; /* Adjust as needed */
+    transform: rotate(30deg);
+    z-index: 10; /* Ensure it's on top */
+}
 
 .navbar-container {
     background-image: url('../images/Group25.png');
@@ -67,7 +90,7 @@
 
 .logo-top {
     margin-bottom: 10px;
-    margin-left: 20px;
+    margin-left: 0px;
     width: 52.806px;
     height: 180px;
     flex-shrink: 0;
@@ -75,14 +98,14 @@
 }
 
 .logo-img {
-    width: 165.449px;
-    height: 160.449px;
-    flex-shrink: 0;
+    width: 170.449px;
+height: 170.449px;
+flex-shrink: 0;
     display: block;
     padding: 8px;
     background: white;
     border-radius: 10px;
-    margin-left: 160px;
+    margin-left: 130px;
 }
 
 .doctornursespecialequipment{
@@ -108,7 +131,7 @@
     padding: 0;
     /* Remove padding */
     gap: 27px;
-    margin: 0;
+    margin-right: 120px;
     /* Remove margin */
     align-items: center;
     list-style: none;
@@ -413,13 +436,13 @@
 }
 
 .hr-line {
-    width: 26%;
+    width: 56%;
     margin-bottom: 2%;
     ;
 }
 
 .greenhr {
-    width: 16%;
+    width: 26%;
     margin-top: -13px;
     height: 2px;
 }
@@ -586,7 +609,7 @@
 
     .logo-top {
         margin-bottom: 10px;
-        margin-left: 20px;
+        margin-left: 0px;
         width: 42.806px;
         height: 160px;
         flex-shrink: 0;

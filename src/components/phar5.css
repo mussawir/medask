@@ -1,14 +1,266 @@
-*{
+* {
     padding: 0;
     margin: 0%;
     box-sizing: border-box;
 }
-.phar5bg{
+
+.phar5bg {
     width: 1606.003px;
     height: 1269.625px;
     display: block;
-    background-image: url('../images/phar5.png');
+    background-image: url('../images/phar5bg.png');
     object-fit: cover;
     background-repeat: no-repeat;
+    position: relative;
 
+}
+
+.phar5cen {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    gap: 30px;
+    height: 450px;
+    align-items: center;
+    overflow: hidden;
+}
+
+.phar5h1 {
+    margin-top: 50px;
+    color: #28156D;
+    text-align: center;
+    font-family: "Brush Script MT";
+    font-size: 55px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.phar5h2 {
+    margin-top: 10px;
+    color: #000;
+    text-align: center;
+    font-family: "Playfair Display";
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.phar5div1 {
+    width: 298px;
+    height: 412px;
+    flex-shrink: 0;
+    background-color: #FFF;
+    stroke-width: 2px;
+    stroke: #5D61DF;
+    filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.05));
+    border-radius: 15px;
+}
+
+.phar5div2 {
+    width: 298px;
+    height: 412px;
+    flex-shrink: 0;
+    background-color: #FFF;
+    stroke-width: 2px;
+    stroke: #5D61DF;
+    filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.05));
+    border-radius: 15px;
+}
+
+.phar5div3 {
+    width: 298px;
+    height: 412px;
+    flex-shrink: 0;
+    background-color: #FFF;
+    stroke-width: 2px;
+    stroke: #5D61DF;
+    filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.05));
+    border-radius: 15px;
+}
+
+
+.phar5h3 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 20px;
+    text-align: start;
+}
+
+
+.phar5card3 {
+    width: 261px;
+    height: 199px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.phar3p1 {
+    color: #000;
+    font-family: "Helvetica Now Display";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+    /* 200% */
+    text-align: start;
+    margin-left: 20px;
+    width: 233px;
+    height: 44px;
+}
+
+.p1stroke11 {
+    color: #000;
+    font-family: "Helvetica Now Display";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+}
+.phar1btn{
+    position: absolute;
+    left: 20px;
+    z-index: 6;
+    bottom: 59%;
+
+
+}
+.phar2btn{
+    position: absolute;
+    right:20px;
+    z-index: 6;
+    bottom: 59%;
+
+
+}
+.phar5div1,
+.phar5div2,
+.phar5div3 {
+    width: 298px;
+    height: 412px;
+    flex-shrink: 0;
+    background-color: #FFF;
+    stroke-width: 2px;
+    stroke: #5D61DF;
+    filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.05));
+    border-radius: 15px;
+    transition: background-color 0.3s ease, filter 0.3s ease;
+    /* Add transition */
+}
+
+.phar5div1:hover {
+    background-image: url('../images/phar5card1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(93, 97, 223, 0.1);
+    /* Semi-transparent color */
+}
+
+.phar5div2:hover {
+    background-image: url('../images/phar5card1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(93, 97, 223, 0.1);
+    /* Semi-transparent color */
+}
+
+.phar5div3:hover {
+    background-image: url('../images/phar3cardimg2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(93, 97, 223, 0.1);
+    /* Semi-transparent color */
+}
+
+.phar5div1:hover .phar5card1,
+.phar5div2:hover .phar5card2,
+.phar5div3:hover .phar5card3 {
+    display: none;
+    /* Hide image on hover */
+}
+
+.phar5div3:hover .phar5h3 {
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 20px;
+    text-align: start;
+    margin-top: 80%;
+}
+
+.phar5div3:hover .phar3p1 {
+    color: #ffffff;
+    font-family: "Helvetica Now Display";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: start;
+    margin-left: 20px;
+    width: 233px;
+    height: 44px;
+}
+
+.phar5div3:hover .p1stroke11 {
+    color: #ffffff;
+    font-family: "Helvetica Now Display";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.phar5h3 {
+    color: #000;
+    /* Default text color */
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 20px;
+    text-align: start;
+    transition: color 0.3s ease;
+    /* Transition for text color */
+}
+
+.phar3p1 {
+    color: #000;
+    /* Default text color */
+    font-family: "Helvetica Now Display";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: start;
+    margin-left: 20px;
+    width: 233px;
+    height: 44px;
+    transition: color 0.3s ease;
+    /* Transition for text color */
+}
+
+.p1stroke11 {
+    color: #000;
+    /* Default text color */
+    font-family: "Helvetica Now Display";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    transition: color 0.3s ease;
+    /* Transition for text color */
 }

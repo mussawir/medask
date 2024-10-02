@@ -1,9 +1,9 @@
 .pharmaciessecondsec4 {
-    background-image: url('../images/phsectwo.jpg');
+    background-image: url('../images/phsection4.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%; /* Changed to make it responsive */
-    height: 904.55px;
+    width: 1606px; /* Changed to make it responsive */
+    height: 937.62px;
     position: relative;
 }
 
@@ -66,7 +66,7 @@
     transform: translate(-50%, -50%); /* Center the small image over the main image */
     z-index: 1; /* Ensure it appears above the main image */
 }
-.PHcenter{
+.center{
     display: flex;
     justify-content: space-between;
     align-items: center;
