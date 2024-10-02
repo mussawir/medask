@@ -1,22 +1,104 @@
-*{
+* {
     padding: 0;
     margin: 0%;
     box-sizing: border-box;
 }
-.phar6bg{
-    width: 1606.003px;
-height: 600.625px;
-display: flex;
-justify-content: center;
-align-items: center;
 
+.phar6bg {
+    width: 1606.003px;
+    height: 600.625px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.phar6cen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
 }
 
-.phar6cont{
-    width: 1284px;
-    height: 592.064px;
-    display: block;
-    background-image: url('../images/phar6.png');
-    background-size: cover;
-    background-repeat: no-repeat;
+.phar6h1 {
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.phar6h2 {
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.phar6div2 {
+    width: 278px;
+    height: 354px;
+    flex-shrink: 0;
+    background-color: #00AA14;
+    border-radius: 20px;
+    position: relative;
+}
+
+.phar5img2 {
+    position: absolute;
+    top: -35px;
+    left: 35%;
+}
+
+.phar6h3 {
+    margin-top: 70px;
+    color: #FDFEFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.phar6h4 {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.phar6p1 {
+    margin-top: 30px;
+    height: 100px;
+    color: #FDFEFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+.phar6p2{
+    color: #FDFEFF;
+text-align: center;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.4px;
+text-transform: uppercase;
+}
+.prago{
+    width: 159px;
+height: 159px;
+flex-shrink: 0;
 }

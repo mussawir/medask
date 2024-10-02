@@ -14,6 +14,7 @@ import EmailTopImg from '../images/EmailTopImg.png';
 import greyverticalHrNav from '../images/greyverticalHrNav.png';
 import doctornursespecialequipment from '../images/doctornursespecialequipment.png';
 import './Header.css';
+import Group1 from '../images/Gruop21'; // Custom SVG component
 import './aboutusSec1.css'
 import icon2 from '../images/TwCbOK.png'
 import AboutUsPage from '../Pages/AboutUsPage';
@@ -68,31 +69,47 @@ const Header: React.FC = () => {
             <li>
                 <Link to="/" className={`nav-link ${activePath === '/' ? 'active' : ''}`}>
                     <FontAwesomeIcon icon={faHome} /> {/* Home Icon */}
+                    
                     Home
+                    <span className={`png-logoseacc2 ${activePath === '/' ? 'png-logoseacc2-active' : ''}`}>
+                                <Group1 />
+                            </span>
                 </Link>
             </li>
             <img src={greyverticalHrNav} alt="greyverticalHrNav" />
             <li>
                 <Link to="/pharmacies" className={`nav-link ${activePath === '/pharmacies' ? 'active' : ''}`}>
                     Pharmacies
+                    <span className={`png-logoseacc2 ${activePath === '/pharmacies' ? 'png-logoseacc2-active' : ''}`} >
+                                <Group1 />
+                            </span>
                 </Link>
             </li>
             <img src={greyverticalHrNav} alt="greyverticalHrNav" />
             <li>
                 <Link to="/medical-tourism" className={`nav-link ${activePath === '/medical-tourism' ? 'active' : ''}`}>
                     Medical Tourism
+                    <span className={`png-logoseacc2 ${activePath === '/medical-tourism' ? 'png-logoseacc2-active' : ''}`} >
+                                <Group1 />
+                            </span>
                 </Link>
             </li>
             <img src={greyverticalHrNav} alt="greyverticalHrNav" />
             <li>
-                <Link to="/aboutus"  className={`nav-link ${activePath === '/about-us' ? 'active' : ''}`}>
+                <Link to="/aboutus"  className={`nav-link ${activePath === '/aboutus' ? 'active' : ''}`}>
                     About Us
+                    <span className={`png-logoseacc2 ${activePath === '/aboutus' ? 'png-logoseacc2-active' : ''}`} >
+                                <Group1 />
+                            </span>
                 </Link>
             </li>
             <img src={greyverticalHrNav} alt="greyverticalHrNav" />
             <li>
                 <Link to="/contact" className={`nav-link ${activePath === '/contact' ? 'active' : ''}`}>
                     Contact
+                    <span className={`png-logoseacc2 ${activePath === '/contact' ? 'png-logoseacc2-active' : ''}`}>
+                                <Group1 />
+                            </span>
                 </Link>
             </li>
             <li>

@@ -1,13 +1,69 @@
-*{
+* {
     padding: 0;
     margin: 0%;
     box-sizing: border-box;
 }
-.phar3bg{
+
+.phar3bg {
     width: 1606.003px;
-height: 1269.625px;
-display: block;
-background-image: url('../images/imageicons..jpg');
-background-size: cover;
-background-repeat: no-repeat;
+    height: 1269.625px;
+    display: block;
+    background-image: url('../images/Phar3bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.phar3h1 {
+    color: #28156D;
+    text-align: center;
+    font-family: "Brush Script MT";
+    font-size: 55px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 50px;
+}
+
+.phar3h2 {
+    color: #000;
+    text-align: center;
+    font-family: "Playfair Display";
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 20px;
+}
+
+.phar3cen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.phar3gird {
+    display: grid;
+  grid-template-columns: repeat(6, 1fr); /* 6 equal columns */
+  row-gap: 20px;
+  column-gap: 10px;
+  justify-content: center;
+  margin-top: 50px;
+    -ms-grid-column-align: center;
+    -ms-grid-row-align: center;
+    /* Adjust the gap between items */
+}
+.gird-div{
+    width: 203.847px;
+    height: 130.943px;
+    flex-shrink: 0;
+    display: block;
+}
+.gird-item {
+    width: 203.847px;
+    height: 130.943px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    display: block;
 }

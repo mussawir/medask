@@ -9,8 +9,8 @@ function AboutUsSec1() {
                     <h1 className="aboutussec1h1">Medask</h1>
                     <h1 className="aboutussec1h2">About Us</h1>
                     <div className='hr-parent'>
-                        <hr className="hr-line" />
-                        <img src={greenhr} className="greenhr" />
+                        <hr className="hr-line1" />
+                        <img src={greenhr} className="greenhr1" />
                     </div>
                     <p className='aboutussec1p1'>It is a long established fact that a reader will distracted by the readable content of a page.</p>
                 </div>

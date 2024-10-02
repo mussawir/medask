@@ -14,6 +14,7 @@ import EmailTopImg from '../images/EmailTopImg.png';
 import greyverticalHrNav from '../images/greyverticalHrNav.png';
 import doctornursespecialequipment from '../images/doctornursespecialequipment.png';
 import icon2 from '../images/TwCbOK.png'
+import Group1 from '../images/Gruop21'; // Custom SVG component
 
 const Navbar: React.FC = () => {
     // Function to scroll to the bottom of the page
@@ -63,9 +64,13 @@ const Navbar: React.FC = () => {
 
                     <ul className="nav-linkssecond">
             <li>
-                <Link to="/" className={`nav-link ${activePath === '/' ? 'active' : ''}`}>
+            <Link to="/" className={`nav-link ${activePath === '/' ? 'active' : ''}`}>
                     <FontAwesomeIcon icon={faHome} /> {/* Home Icon */}
+                    
                     Home
+                    <span className={`png-logoseacc2 ${activePath === '/' ? 'png-logoseacc2-active' : ''}`}>
+                                <Group1 />
+                            </span>
                 </Link>
             </li>
             <img src={greyverticalHrNav} alt="greyverticalHrNav" />
