@@ -1,4 +1,4 @@
-import './about1.css'
+import './ibrabout1.css'
 // import gird1 from '../images//gird1.png'
 import gird2 from '../images/gird2.png'
 import gird3 from '../images/gird3.png'

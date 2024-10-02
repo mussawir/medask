@@ -1,4 +1,4 @@
-import '../components/div1.css'
+import '../components/ibrdiv1.css'
 function Gruop(){
 
 

@@ -1,6 +1,6 @@
 import React from 'react'
-import './head2.css'
-import './Videohead.css'
+import './ibrhead2.css'
+import './kmlVideohead.css'
 function Videohead(){
 
 return (

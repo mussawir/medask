@@ -1,5 +1,5 @@
 import React from 'react';
-import './Pharmacies.css';
+import './prgPharmacies.css';
 import { Container } from '@mui/material';
 import '../App.css'
 

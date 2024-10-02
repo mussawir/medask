@@ -4,7 +4,7 @@ import Group20 from '../images/Group20'; // Custom SVG component
 import svg from '../images/drugstore 2.svg'; // Your SVG source
 import Icon from '../images/iconarrowdiv1.svg';
 import Svg2 from '../images/secondgroup.png';
-import './div1.css';
+import './ibrdiv1.css';
 
 function a11yProps(index: number) {
     return {

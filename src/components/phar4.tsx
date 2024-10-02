@@ -1,4 +1,4 @@
-import './phar4.css'
+import './ibrphar4.css'
 
 import phar4div1 from '../images/phar4div1.png'
 import phar4div2 from '../images/phar4div2.png'

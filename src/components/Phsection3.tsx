@@ -1,5 +1,5 @@
 import React from 'react';
-import './Phsection3.css'; // Add your styles here
+import './prgPhsection3.css'; // Add your styles here
 import phsec3mainImage from '../images/phsec3mainImage.png';
 import phsection3Image2 from '../images/phsection3Image2.png';
 

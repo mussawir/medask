@@ -1,4 +1,4 @@
-import './phar5.css'
+import './ibrphar5.css'
 import phar5card1 from '../images/phar5card1.png'
 import phar5card2 from '../images/phar5card2.png'
 import phar5card3 from '../images/phar3cardimg2.png'

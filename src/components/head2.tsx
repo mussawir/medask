@@ -1,5 +1,5 @@
 import React from 'react'
-import './head2.css'
+import './ibrhead2.css'
 function Head2(){
 
 return (

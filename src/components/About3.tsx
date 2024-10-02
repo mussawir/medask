@@ -1,4 +1,4 @@
-import './about3.css'
+import './ibrabout3.css'
 import about3img1 from '../images/about3img1.png'
 import about3img2 from '../images/about3img2.png'
 import about3img3 from '../images/about3img3.png'

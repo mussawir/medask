@@ -1,4 +1,4 @@
-import './FormContact.css'
+import './asfFormContact.css'
 import arrow11 from '../images/Arrow 11.svg'
 import mapsvgin from '../images/mapsvgin.svg'
 import imgcontact1 from '../images/conntect 1.png'

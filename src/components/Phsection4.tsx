@@ -1,5 +1,5 @@
 import React from 'react';
-import './Phsection4.css';
+import './prgPhsection4.css';
 import phsection4 from '../images/phsection4.png';
 import phsection41 from '../images/phsection41.png';
 import { Container } from '@mui/material';

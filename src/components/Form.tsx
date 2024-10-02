@@ -1,4 +1,4 @@
-import './Form.css'
+import './ibrForm.css'
 import arrow11 from '../images/Arrow 11.svg'
 import mapsvgin from '../images/mapsvgin.svg'
 import Head3  from './Head3';
