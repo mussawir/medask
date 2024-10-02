@@ -21,6 +21,7 @@ const HomePage = () => {
     <div className="HomePage">
       {/* <Header /> */}
       <Section1 />
+      
       <div className='Bgofallwebvector'>
         <Bnews />
         <Head />

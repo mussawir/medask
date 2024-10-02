@@ -954,7 +954,7 @@ margin-left: 15px;
 /* Mobile Devices (up to 480px) */
 @media (max-width: 600px) {
     .ic{
-        width: 15px;
+        width: 22px;
     }
     .png-logoseacc {
         width: 4.16px;
@@ -965,6 +965,7 @@ margin-left: 15px;
         display: flex;
         align-self: start;
         justify-content: start;
+        display: none;
     }
 
     .right {
@@ -983,7 +984,9 @@ margin-left: 15px;
         border: 0.4px solid #ccc;
         /* Reduced border */
     }
-
+    .MuiBox-root.css-0 {
+        margin-top: 30px;
+    }
     .dd {
         display: flex;
         justify-content: space-between;
@@ -1092,9 +1095,8 @@ margin-left: 15px;
     }
 
     .btnofselectofsec2 {
-        width: 230px;
-        /* 172.3104px - 20% */
-        height: 24.0768px;
+        width: 398.78px;
+        height: 75px;
         /* 30.096px - 20% */
         flex-shrink: 0;
         display: flex;
@@ -1103,10 +1105,11 @@ margin-left: 15px;
         border: 0.4px solid #ccc;
         /* No change */
         border-left: 0px;
-        border-radius: 2px 0px 0px 2px;
+        border-radius: 6px;
         /* 2.5px - 20% */
         background-color: #fff;
         cursor: pointer;
+        padding: 8px;
     }
 
     .btn-simple {
@@ -1147,7 +1150,7 @@ margin-left: 15px;
     .btn-text-active{
         color: #000;
         font-family: Poppins;
-        font-size: 8px;
+        font-size: 16px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;

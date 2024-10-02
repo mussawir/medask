@@ -2,6 +2,9 @@ import React, { useState, useEffect } from 'react';
 import './bnews.css';
 import play1 from '../images/play1.svg'; // Left button
 import play2 from '../images/play2.svg'; // Right button
+import tickrounded from '../images/tickrounded.png';
+import arrowleft from '../images/arrowleft.png';
+import arrowright from '../images/arrowright.png';
 
 const Bnews: React.FC = () => {
     // Define the texts for the buttons
@@ -50,13 +53,33 @@ const Bnews: React.FC = () => {
     }, [slide]);
 
     return (
+            <>
+        <div className='bottomSec4smallscreen'>
+                <div className='text-boxsmallscreendiv'>
+                <button className='firstbtnofbottomSec4smallscreen'>
+            <span className='btn-textofsec4bottomsmallscreen'>
+            Breaking News:</span>
+                </button>
+                <div className={`text-boxsmallscreen ${slide ? 'slide-left' : ''}`}>
+                    <p style={{width: '335.38px'}}>{texts[currentIndex]}</p> {/* Display the current text */}
+                    <div className='btn-g'>
+                    <div className='btn-box-1' onClick={handleLeftClick}>
+                        <img className='imgnonoesmallscreen' src={arrowleft} alt="Previous" />
+                    </div>
+                    <div className='btn-box-2' onClick={handleRightClick}>
+                        <img className='imgnonoesmallscreen' src={arrowright} alt="Next" />
+                    </div>
+                </div>
+                </div>
+                </div>
+        </div>
         <div className='center'>
             <div className='box12'>
                 <div className='box13'>
-                    <h1 className='h12'>Breaking News:</h1>
+                  <h1 className='h12'>Breaking News:</h1>
                 </div>
-                <div className={`text-box ${slide ? 'slide-left' : ''}`}>
-                    <p>{texts[currentIndex]}</p> {/* Display the current text */}
+                <div className={`text-box  ${slide ? 'slide-left' : ''}`}>
+                    <p >{texts[currentIndex]}</p> {/* Display the current text */}
                 </div>
                 <div className='btn-g'>
                     <div className='btn-box-1' onClick={handleLeftClick}>
@@ -68,6 +91,7 @@ const Bnews: React.FC = () => {
                 </div>
             </div>
         </div>
+        </>
     );
 };
 
