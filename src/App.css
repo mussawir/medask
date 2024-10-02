@@ -180,7 +180,7 @@ nav ul li a:hover {
   height: 1189.625px;
 }
 .section5bgimg{
-  background-image: url('../src/images/section5bg.png');
+  /* background-image: url('../src/images/section5bg.png'); */
   background-repeat: no-repeat;
   background-size: cover;
   height: 900px;

@@ -20,26 +20,32 @@
 }
 
 .brand-name-small {
-    font-family: 'Cursive', sans-serif;
-    font-size: 2.5rem;
+    font-family: "Brush Script MT";
+    font-size: 55px;
     color: #3a0070;
     margin-bottom: 10px;
+    font-weight: 400;
     text-align: start;
 }
 
 .section-title {
-    font-size: 2.3rem;
+    font-size: 55px;
     color: #333;
     margin-bottom: 20px;
     text-align: start;
+    font-weight: 500;
+    font-family: 'Playfair Display';
 }
 
 .section-description {
-    font-size: 1.2rem;
-    color: #666;
+    font-size: 18px;
+    color: #000000;
     line-height: 1.7;
     margin-bottom: 20px;
     text-align: start;
+    font-family: 'Poppins';
+    font-weight: 400;
+
 }
 .image-content{
     height: 600px;

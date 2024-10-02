@@ -43,7 +43,7 @@
 /* Text Section */
 .text-section3 {
     width: 597.7px;
-    height: 299.53;
+    height: 299.53px;
     margin-top: 200px;
 }
 
@@ -53,23 +53,25 @@
     color: #3a0070;
     width: 145px;
     position: absolute;
+    font-weight: 400;
     left: 900px;
-    top: 300px;
+    top: 340px;
 }
 
 .section-title3 {
     font-family: "Playfair Display";
-    font-size: 2rem;
+    font-size: 55px;
     color: #333;
     margin-bottom: 20px;
-    margin-left: -450px;
+    font-weight: 400;
+    margin-left:  -300px;
 }
 
 .section-description3 {
     font-family: "Poppins";
     text-align: start;
-    font-size: 1rem;
-    color: #666;
-    line-height: 1.6;
+    font-size: 18px;
+    color: #000000;
+    line-height: 1.7;
     margin-left: -60px;
 }

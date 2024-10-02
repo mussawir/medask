@@ -57,21 +57,24 @@
 }
 
 .brand-name5 {
-    font-family: 'Cursive', sans-serif;
-    font-size: 2rem;
+    font-family: 'Brush Script MT';
+    font-size: 55px;
+    font-weight: 400;
     color: #3a0070;
     margin-bottom: 10px;
 }
 
 .section-title5 {
-    font-family: 'Serif', sans-serif;
-    font-size: 2.5rem;
-    color: #333;
+    font-family: 'Playfair Display';
+    font-size: 55px;
+    font-weight: 500;
+    color: #000000;
     margin-bottom: 20px;
 }
 
 .section-description5 {
-    font-size: 1rem;
-    color: #666;
-    line-height: 1.6;
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+    line-height: 1.7;
 }
