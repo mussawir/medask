@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './labtab.css';
+import './ibrlabtab.css';
 import Svgradio from '../images/iconmask.svg'
 import Head2 from './head2';
  // Define the type for the keys in radioContent

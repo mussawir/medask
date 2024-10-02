@@ -5,7 +5,7 @@ import video3 from '../images/video3.mp4';
 import thumbnail1 from '../images/rigthvid.png'; // Add your thumbnail images
 import thumbnail2 from '../images/biv.png';
 import thumbnail3 from '../images/leftimg.png';
-import './videocarousel.css';
+import './kmlvideocarousel.css';
 import pngleft from '../images/vidleft.png';
 import pngrig from '../images/vidrigth.png';
 import VideoText from './VideoText'; // Import the VideoText component

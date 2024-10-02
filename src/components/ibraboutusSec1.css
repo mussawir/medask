@@ -71,16 +71,16 @@ margin-bottom: 10px;
 .hr-parent {
     margin-bottom: 10px;
     margin-top: 10px;
-    width: 56%;
+    width: 20%;
 }
 
 .hr-line1 {
-    width: 19%;
+    width: 92.5%;
     margin-bottom: -17px;
 }
 
 .greenhr1 {
-    width: 62.5%;
+    width: 45.5%;
     margin-top: -12px;
 }
 .aboutussec1p1{
@@ -180,7 +180,7 @@ line-height: normal;
     }
     
     .greenhr1 {
-        width: 62.5%;
+        width: 34.5%;
         margin-top: -12px;
     }
     .aboutussec1p1{

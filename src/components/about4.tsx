@@ -1,4 +1,4 @@
-import './about4.css'
+import './ibrabout4.css'
 import Icon2 from '../images/quote'
 import Icon3 from '../images/leftbtn.png'
 import Icon4 from '../images/review2.png'

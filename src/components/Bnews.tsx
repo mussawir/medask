@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './bnews.css';
+import './ibrbnews.css';
 import play1 from '../images/play1.svg'; // Left button
 import play2 from '../images/play2.svg'; // Right button
 import tickrounded from '../images/tickrounded.png';

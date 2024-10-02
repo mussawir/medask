@@ -15,7 +15,7 @@ import greyverticalHrNav from '../images/greyverticalHrNav.png';
 import doctornursespecialequipment from '../images/doctornursespecialequipment.png';
 import './Header.css';
 import Group1 from '../images/Gruop21'; // Custom SVG component
-import './aboutusSec1.css'
+import './ibraboutusSec1.css'
 import icon2 from '../images/TwCbOK.png'
 import AboutUsPage from '../Pages/AboutUsPage';
 const Header: React.FC = () => {
