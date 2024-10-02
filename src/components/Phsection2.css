@@ -70,7 +70,7 @@
     position: absolute;
     transform: translate(-200%, 155%); /* Center the small image over the main image */
 }
-.center{
+.phcenter{
     display: flex;
     justify-content: space-between;
     align-items: center;
