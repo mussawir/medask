@@ -194,6 +194,15 @@ nav ul li a:hover {
     display: flow-root;
     margin-top: -10%;
   }
+  .subtitle {
+    color: #000;
+    text-align: center;
+    font-family: "Playfair Display"!important;
+    font-size: 25px !important;
+    font-style: normal;
+    font-weight: 400 !important;
+    line-height: normal;
+  }
 }
 
 @media screen and (max-width: 808px) {

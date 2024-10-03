@@ -1079,6 +1079,12 @@ flex-shrink: 0;
     font-weight: 300;
     line-height: normal;
 }
+.Ali-subtitile {
+    color: #000000;
+    font-family: "Playfair Display";
+    font-size: 45px;
+    font-weight: 400;
+}
 
 .medask-headline {
     color: #000;
