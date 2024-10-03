@@ -163,6 +163,7 @@ flex-shrink: 0;
 
 }
 
+
 .nav-link-top {
     color: #170C40;
     text-decoration: none;
@@ -264,7 +265,20 @@ flex-shrink: 0;
     transform: translateY(-50%) translateX(3px) rotate(45deg);
     /* Move arrow slightly on hover */
 }
-
+@media screen and (min-width: 1600px) {
+    .nav-link {
+        margin: 0 0px;
+        /* Space between nav links */
+        text-decoration: none;
+        /* Remove underline */
+        font-family: 'Poppins', sans-serif;
+        color: #828282;
+        /* Inherit color for the text */
+        font-weight: 600;
+        font-size: 16px;
+    
+    } 
+}
 .available-info {
     width: 578px;
     height: 51px;
