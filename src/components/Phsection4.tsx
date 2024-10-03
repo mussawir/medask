@@ -8,7 +8,7 @@ import '../App.css';
 const Phsection4: React.FC = () => {
     return (
         <div className='pharmaciessecondsec4'>
-            <Container className="distribution-section" maxWidth="lg">
+            <Container className="distribution-sectionchng" maxWidth="xl">
                 <div className="phcenter">
                 <div className="text-contentph">
                     <h2 className="brand-name-small">Medask</h2>

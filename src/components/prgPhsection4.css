@@ -13,6 +13,10 @@
     align-items: center; /* Center items vertically */
     justify-content: space-between; /* Space between text and images */
 }
+.distribution-sectionchng {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center;
+}
 
 .text-contenph {
     max-width: 600px; /* Set max width for text content */
@@ -22,7 +26,7 @@
 .brand-name-small {
     font-family: "Brush Script MT";
     font-size: 55px;
-    color: #3a0070;
+    color: #28156D;
     font-weight: 400;
     text-align: start;
 }
@@ -34,14 +38,14 @@
     font-size: 55px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: 73.32px;
     text-align: start;
+    margin-bottom: 60px;
 }
 
 .section-description {
     width: 597.699px;
-height: 299.529px;
-    margin-left: 5px;
+    height: 299.529px;
     font-size: 18px;
     color: #000000;
     line-height: 1.7;

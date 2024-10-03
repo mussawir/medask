@@ -5,13 +5,13 @@
     background-size: cover;
     width: 100%; /* Changed to make it responsive */
     height: 904.55px;
+    max-width: 1600px;
     position: relative;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    gap: 258px;
     padding: 40px;
     background-color: #fff;
-    margin: 0 auto;
+    margin-top: 40px;
 }
 
 /* Image Section */
@@ -36,8 +36,8 @@
     border-radius: 8px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     position: absolute;
-    left: 160px;
-    bottom: 108.1px;
+    left: 185px;
+    bottom: 248.1px;
 }
 
 /* Text Section */
@@ -50,9 +50,10 @@
 .prag-brand-name3 {
     font-family: "Brush Script MT";
     font-size: 55px;
-    color: #3a0070;
+    color: #28156D;
     width: 145px;
-    position: absolute;
+    justify-content: start;
+    text-align: right;
     font-weight: 400;
     left: 960px;
     top: 340px;
@@ -61,7 +62,7 @@
 .prag-section-title3 {
     font-family: "Playfair Display";
     font-size: 55px;
-    color: #333;
+    color: #000000;
     margin-bottom: 20px;
     font-weight: 400;
     text-align: start;
@@ -73,4 +74,33 @@
     font-size: 18px;
     color: #000000;
     line-height: 1.7;
+}
+
+@media screen and (max-width: 1308px) {
+        .prag-Phsection3 {
+            background-image: url('../images/phsection3.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%; /* Changed to make it responsive */
+            height: 1404.55px;
+            flex-direction: column;
+            max-width: 1600px;
+            position: relative;
+            display: flex;
+            gap: 258px;
+            padding: 0px;
+            background-color: #fff;
+            margin-top: 40px;
+        }
+        .prag-image-item23 {
+            width: 491.16px;
+            height: 315.4px;
+            object-fit: cover;
+            border-radius: 8px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            position: absolute;
+            left: 185px;
+            bottom: 800px;
+        }
+    
 }
