@@ -71,6 +71,8 @@ export default function LabTabs() {
                         </div>
                     </div>
                     </div>
+
+                   
                 </TabPanel>
             ))}
         </Box>
