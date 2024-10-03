@@ -43,7 +43,7 @@ const Drawer: React.FC = () => {
                     <ListItem component={Link} to="/medical-tourism" onClick={toggleDrawer(false)}>
                         <ListItemText className="nav-link" primary="Medical Tourism" />
                     </ListItem>
-                    <ListItem component={Link} to="/about-us" onClick={toggleDrawer(false)}>
+                    <ListItem component={Link} to="/aboutus" onClick={toggleDrawer(false)}>
                         <ListItemText className="nav-link" primary="About Us" />
                     </ListItem>
                     <ListItem component={Link} to="/contact" onClick={toggleDrawer(false)}>

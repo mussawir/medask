@@ -65,7 +65,7 @@ function Section4() {
    </div>
 
    <div className='Section4BottomBtnsSmallscreen'>
-    <div style={{display: 'flex'}}>
+    <div style={{display: 'flex', justifyContent: 'center'}}>
    <button className='firstbtnofbottomSec4'>
       <span className='btn-textofsec4bottom'>
         <img src={tickrounded} alt="tickrounded" />
@@ -75,7 +75,7 @@ function Section4() {
       <span className='btn-textofsec4bottom'><img src={tickrounded} alt="tickrounded" />Hardwork</span>
     </button>
     </div>
-    <div style={{display: 'flex'}}>
+    <div style={{display: 'flex', justifyContent: 'center'}}>
     <button className='firstbtnofbottomSec4'>
       <span className='btn-textofsec4bottom'><img src={tickrounded} alt="tickrounded" />Integrity</span>
     </button>
