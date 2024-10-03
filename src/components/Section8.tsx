@@ -10,8 +10,8 @@ function Section8() {
     <div className='section8bg'>
       <Container maxWidth="lg">
         <div className='divh1ofsection8'>
-            <h1 className='h1ofsection8medask'>Medask</h1>
-            <h1>Our Head Office</h1>
+            <h1 className='h1ofsection8medask ibrtitle1'>Medask</h1>
+            <h1 className='subtitle'>Our Head Office</h1>
         </div>
         <div className='firstdivofSection8'>
           <div className='firstSubdivofSection8'>

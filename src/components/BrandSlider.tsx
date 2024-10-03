@@ -47,8 +47,8 @@ const BrandSlider: React.FC<BrandSliderProps> = ({ brands }) => {
     return (
         <div className="brand-slider-container">
             <div className="text-container">
-                <h2 className="main-heading">Area Of Brands</h2>
-                <h2 className="secondary-heading">Trusted By Industry Leaders</h2>
+                <h2 className="main-heading ibrtitle1">Area Of Brands</h2>
+                <h2 className="secondary-heading subtitle">Trusted By Industry Leaders</h2>
                 <p className="paragraph-text">
                     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
                     Excepteur sint occaecat cupidatat non.

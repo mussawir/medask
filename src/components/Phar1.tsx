@@ -6,8 +6,8 @@ function Phar1() {
         <>
         <div className="head">
             <div className="head1bg1">
-                <h1 className="aboutussec1h1">Medask</h1>
-                <h1 className="aboutussec1h2">Medical Tourism</h1>
+                <h1 className="aboutussec1h1 ibrtitle1">Medask</h1>
+                <h1 className="aboutussec1h2 subtitle">Medical Tourism</h1>
                 <div className='hr-parent'>
                     <hr className="hr-line1" />
                     <img src={greenhr} className="greenhr1" />

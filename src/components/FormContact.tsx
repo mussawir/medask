@@ -8,8 +8,8 @@ function FormContact() {
     return (
         <div className="formbgofcontct">
 
-                <h1 className='conth3'>Medask</h1>
-                <h1 className='conth4'>Contact Details</h1>
+                <h1 className='conth3 ibrtitle1'>Medask</h1>
+                <h1 className='conth4 subtitle'>Contact Details</h1>
 
             <div className="Contactcenter">
                 <div className="Contdiv1">

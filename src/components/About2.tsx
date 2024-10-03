@@ -5,8 +5,8 @@ function About2() {
     return (
         <div className="about2bg">
             <div className="about2cen2">
-                <h1 className='about2h1'>What We Do</h1>
-                <h1 className='about2h2'>Our Services</h1>
+                <h1 className='about2h1 ibrtitle1'>What We Do</h1>
+                <h1 className='about2h2 subtitle'>Our Services</h1>
             </div>
             <div className="about2cen">
             <div className="aboutdiv1">

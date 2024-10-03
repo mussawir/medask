@@ -65,6 +65,7 @@
 .brand-name5 {
     font-family: 'Brush Script MT';
     font-size: 55px;
+    text-align: start;
     font-weight: 400;
     color: #3a0070;
     margin-bottom: 10px;

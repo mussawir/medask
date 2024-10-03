@@ -747,7 +747,7 @@ flex-shrink: 0;
     .formbg {
         background-image: url('../images/formbg.png');
         width: 100%; /* Reduced to 80% */
-        height: 100%; /* Reduced to 80% of 1149.625px */
+        height: 1100px;
         background-repeat: no-repeat;
         background-size: cover;
         display: flex;
@@ -759,7 +759,7 @@ flex-shrink: 0;
     
     .formdiv {
         width: 100%; /* Reduced to 80% of 1083.061px */
-        height: 100%; /* Reduced to 80% of 604.742px */
+        height: 100%;
         flex-shrink: 0;
         background-color: #FFF;
         filter: drop-shadow(0px 3.19px 15.952px rgba(0, 0, 0, 0.10));

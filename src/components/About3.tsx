@@ -11,8 +11,8 @@ function About3() {
         <>
             <div className="about3bg">
                 <div className="about3head">
-                    <h1 className="about3h1">Medask Role</h1>
-                    <h1 className="about3h2">MedAsk's Role</h1>
+                    <h1 className="about3h1 ibrtitle1">Medask Role</h1>
+                    <h1 className="about3h2 subtitle">MedAsk's Role</h1>
 
                     <p className="about3p1">
                         Healthcare market in Pakistan provides an opportunity for MedAsk as a potential competitive player in medical tourism industry. MedAsk has access to the state-of-the-art medical facilities through established relationships with hospitals and healthcare professionals including a network of skilled doctors and specialists capable of delivering high-quality medical services to foreigners and overseas patients
@@ -57,7 +57,7 @@ function About3() {
 
                 </div>
                 
-                <div className="about3btn">
+                    <div className="about3btn">
                         <img src={about3btn1} alt="" />
                         <img src={about3btn2} alt="" />
                     </div>

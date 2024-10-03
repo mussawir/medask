@@ -10,8 +10,8 @@ const Pharmacies: React.FC = () => {
 
             {/* Top section */}
             <section className="header-section">
-                <h1 className="brand-name">Medask</h1>
-                <h2 className="page-title">Pharmacies</h2>
+                <h1 className="brand-name ibrtitle1">Medask</h1>
+                <h2 className="page-title subtitle">Pharmacies</h2>
                 <p className="description">
                     It is a long established fact that a reader will be distracted by the readable content of a page.
                 </p>

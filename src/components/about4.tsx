@@ -11,8 +11,8 @@ function About4() {
         <>
             <div className="about4bg">
                 <div className="about4head">
-                    <h1 className="about4h1">Testimonial</h1>
-                    <h1 className="about4h10">Client’s Testimonial</h1>
+                    <h1 className="about4h1 ibrtitle1">Testimonial</h1>
+                    <h1 className="about4h10 subtitle">Client’s Testimonial</h1>
                 </div>
                 <div className="about4body">
                     <div className="about4left">
