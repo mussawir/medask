@@ -6,9 +6,10 @@
     box-sizing: border-box;
 }
 
-/* .formbg {
+.formbgofcontct {
     background-image: url('../images/Formcontactbg.png');
     width: 100%;
+    max-width: 1600px;
     height: 1684.238px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -16,8 +17,10 @@
     overflow: hidden;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     padding: 100px;
-} */
+    margin-bottom: -90px;
+}
 
 .formdiv {
     width: 1083.061px;

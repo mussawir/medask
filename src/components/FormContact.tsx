@@ -6,7 +6,7 @@ import imgcontact2 from '../images/conntect 2.png'
 import imgcontact3 from '../images/conntect 3.png'
 function FormContact() {
     return (
-        <div className="formbg">
+        <div className="formbgofcontct">
 
                 <h1 className='conth3'>Medask</h1>
                 <h1 className='conth4'>Contact Details</h1>
