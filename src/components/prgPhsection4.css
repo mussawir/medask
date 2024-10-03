@@ -88,3 +88,110 @@
     gap: 60px;
     height: 600px;
 }
+
+
+/* Mobile Devices (up to 480px) */
+@media (max-width: 480px) {
+    .pharmaciessecondsec4 {
+        background-image: url('../images/phar4mbl.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%; /* Changed to make it responsive */
+        max-width: 1600px;
+        height: 1437.62px;
+        position: relative;
+    }
+    
+    .distribution-section {
+        display: flex; /* Use flexbox for layout */
+        align-items: center; /* Center items vertically */
+        justify-content: center;
+    }
+    .distribution-sectionchng {
+        display: flex; /* Use flexbox for layout */
+        justify-content: center;
+    }
+    
+    .text-contenph {
+        max-width: 600px; /* Set max width for text content */
+        height: 600px;
+    }
+    
+    .brand-name-small {
+        width: 90% !important;
+        margin-top: 10%;
+        color: #28156D;
+        font-family: "Brush Script MT";
+        font-size: 34px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: normal;
+        text-align: start;
+    }
+    
+    .section-title {
+        width: 90% !important;
+        color: #000;
+        font-family: "Playfair Display";
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .section-description {
+        width: 400px;
+        height: 415px;
+        color: #000;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px; /* 214.286% */
+        position: absolute;
+            left: 20px;
+        top: 650px;
+        text-align: center;
+    
+    }
+    .image-content{
+        height: 600px;
+    }
+    
+    .main-image {
+        width: 349.585px;
+        height: 369.046px;
+        flex-shrink: 0;
+        object-fit: cover;
+        border-radius: 20px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        right: 20px; /* Space between text and image */
+        top: 220px;
+        position: absolute;
+    }
+    
+    .small-image {
+        width: 168.912px;
+height: 155.938px;
+flex-shrink: 0;
+        object-fit: cover;
+        border-radius: 20px; 
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        position: absolute; 
+        top: 520px;
+        left: 25%; /* Adjust to position it in front of the main image */
+        transform: translate(-50%, -50%); /* Center the small image over the main image */
+        z-index: 1; /* Ensure it appears above the main image */
+        position: absolute;
+    }
+    .phcenter{
+        margin-top: 10%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        gap: 60px;
+        height: 600px;
+    }
+    
+}
