@@ -135,16 +135,17 @@ nav ul li a:hover {
 }
 
 .Bgofallwebvector{
-  background-image: url("../src/images/secondSecbgHome.jpg");
+  background-image: url("../src/images/secondSecbgHome1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 1300px;
+  display: flow-root;
   margin-top: -10%;
 }
 
 @media screen and (max-width: 1560px) {
   .Bgofallwebvector {
-    background-image: url("../src/images/secondSecbgHome.jpg");
+    background-image: url("../src/images/secondSecbgHome1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 1300px;
@@ -154,10 +155,11 @@ nav ul li a:hover {
 
 @media screen and (max-width: 1208px) {
   .Bgofallwebvector {
-    background-image: url("../src/images/secondSecbgHome.jpg");
+    background-image: url("../src/images/secondSecbgHome1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 1200px;
+    display: flow-root;
     margin-top: -10%;
 }}
 
@@ -167,6 +169,7 @@ nav ul li a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     height: 1280px;
+    display: flow-root;
     margin-top: -10%;
 }
 .section5bgimg{
@@ -183,6 +186,7 @@ nav ul li a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     height: 1381px;
+    display: flow-root;
     margin-top: -10%;
 }}
 
