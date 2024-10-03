@@ -223,7 +223,14 @@ nav ul li a:hover {
     /* margin-top: 820px; */
   }
 }
-
+@media screen and (max-width: 600px) {
+  .section5bgimg {
+    /* background-image: url('../src/images/section5bg.png'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+  }
+}
 @media screen and (min-width: 1600px) {
   .Bgofallwebvector {
     background-image: url('../src/images/secondSecbgHome1.jpg');

@@ -40,8 +40,31 @@ const Header: React.FC = () => {
                         <img src={logo} alt="Logo" className="logo-img" />
                     </div>
 
+                    <div className='headerofsmallscreennavlinks'>
+                    <Link to="/" className="nav-link-topsmallscreen">
+                            <span className="icon-backgroundsmallscreen">
+                                <img src={phonetopImg} alt="phonetopImg" className='phonetopImgsmallscreen' />
+                            </span>
+                            Call Us: <b>1300 950073</b>
+                        </Link>
+                        <Link to="/" className="nav-link-topsmallscreen2">
+                            <span className="icon-backgroundsmallscreen">
+                            <img src={EmailTopImg} alt="EmailTopImg" className='phonetopImgsmallscreen' />
+                            </span>
+                            <a className='emailnavsmallscreen' href="mailto:info@medask.com.pk" style={{ color: '170C40', textDecoration: 'none' }}>info@medask.com.pk</a>
+                        </Link>
+                    </div>
+                    
+                    <div className='headerofsmallscreennavlinks'>
+                    <Link to="/contact" className="nav-link partnerlinksmallscreen">
+                    <span className="icon-backgroundsmallscreen">
+                        <FontAwesomeIcon icon={faBusinessTime} />
+                    </span>
+                  <p className="partnerlinktextsmallscreen">  Become our business partner</p>
+                </Link>
+                    </div>
 
-                    <div className="menu-icon">
+                    <div className="menu-iconsmallscreen">
                         <Drawer />
                     </div>
 

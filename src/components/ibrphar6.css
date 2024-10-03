@@ -116,9 +116,10 @@ flex-shrink: 0;
     
     .phar6bg {
        width: 100%;
-        height: 400.625px;
+        height: 500.625px;
         display: flex;
         justify-content: center;
+        flex-direction: column;
         align-items: center;
     }
     .phar6cen{

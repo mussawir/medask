@@ -6,10 +6,15 @@ import phar6img3 from '../images/phar6img4.png'
 import links from '../images/links.png'
 import about3btn1 from '../images/about3btn1.png'
 import about3btn2 from '../images/about3btn2.png'
+import DocHead from './DocHead';
+
 function Phar6(){
     return(
         <>
-        <div className="phar6bg">
+        <DocHead/>
+
+        <div className="phar6bg" style={{marginTop:'100px'}}>
+          
                 <div className="phar6cen">
                     <div className="phar6div1">
                         <img className='prago' src={phar6img} alt="" />

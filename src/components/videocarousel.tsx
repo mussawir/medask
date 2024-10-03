@@ -83,6 +83,7 @@ const VideoCarousel = () => {
                
             </div>
             {mainVideoIndex === 0 && <VideoText />}
+
         </>
     );
 };
