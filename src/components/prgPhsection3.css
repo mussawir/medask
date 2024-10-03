@@ -1,5 +1,5 @@
 /* Container styling */
-.Phsection3 {
+.prag-Phsection3 {
     background-image: url('../images/phsection3.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -15,12 +15,12 @@
 }
 
 /* Image Section */
-.image-section3 {
+.prag-image-section3 {
     display: flex;
     flex-direction: column;
 }
 
-.image-item13 {
+.prag-image-item13 {
     width: 491.16px;
     height: 356.15px;
     object-fit: cover;
@@ -29,7 +29,7 @@
     position: relative;
     left: 40%;
 }
-.image-item23 {
+.prag-image-item23 {
     width: 491.16px;
     height: 315.4px;
     object-fit: cover;
@@ -41,37 +41,36 @@
 }
 
 /* Text Section */
-.text-section3 {
+.prag-text-section3 {
     width: 597.7px;
     height: 299.53px;
     margin-top: 200px;
 }
 
-.brand-name3 {
+.prag-brand-name3 {
     font-family: "Brush Script MT";
     font-size: 55px;
     color: #3a0070;
     width: 145px;
     position: absolute;
     font-weight: 400;
-    left: 900px;
+    left: 960px;
     top: 340px;
 }
 
-.section-title3 {
+.prag-section-title3 {
     font-family: "Playfair Display";
     font-size: 55px;
     color: #333;
     margin-bottom: 20px;
     font-weight: 400;
-    margin-left:  -300px;
+    text-align: start;
 }
 
-.section-description3 {
+.prag-section-description3 {
     font-family: "Poppins";
     text-align: start;
     font-size: 18px;
     color: #000000;
     line-height: 1.7;
-    margin-left: -60px;
 }
