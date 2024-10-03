@@ -6,7 +6,7 @@
     height: 1099px;
 }
 
-.distribution-section {
+.prg-distribution-section {
     display: flex; /* Use flexbox for layout */
     align-items: center; /* Center items vertically */
     justify-content: space-between; /* Space between text and images */

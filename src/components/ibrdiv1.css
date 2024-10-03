@@ -249,7 +249,7 @@ margin-left: 15px;
 
 
 /* Laptops/Desktops (1025px to 1440px) */
-@media (min-width: 1025px) and (max-width: 5500px) {
+@media (min-width: 1209px) and (max-width: 5500px) {
     .ic{
         width: 25px;
     }
@@ -502,6 +502,259 @@ margin-left: 15px;
     }
 
 }
+@media screen and (max-width: 1208px) {
+    .MuiBox-root {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        top: 20px;
+    }
+    .ic{
+        width: 25px;
+    }
+    .png-logoseacc {
+        width: 15.4px;
+        height: 75.24px;
+        border-radius: '4px 0px 0px 4px';
+        display: 'flex';
+        align-self: 'start';
+        justify-content: 'start';
+    }
+
+    .right {
+        width: 772.89px;
+        /* 772.888px - 20% */
+        height: 479.03px;
+        /* 479.03px - 20% */
+        flex-shrink: 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        fill: #FFF;
+        stroke: #D4D1CD;
+        border-radius: 10px;
+        border: 1px solid #ccc;
+    }
+
+    .dd {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 160px;
+        /* 200px - 20% */
+    }
+
+    .logo-icon-1 {
+        margin-bottom: 10px;
+        width: 50.2448px;
+        /* 62.806px - 20% */
+        height: 50.2448px;
+        /* 62.806px - 20% */
+        align-self: flex-start;
+        display: flex;
+        fill: #FFF;
+        margin-left: 20px;
+    }
+
+    .h3ofdiv {
+        color: #000;
+        font-family: "Playfair Display";
+        font-size: 27.2px;
+        /* 34px - 20% */
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-left: 20px;
+        text-align: start;
+        margin-bottom: 40px;
+        /* 50px - 20% */
+    }
+
+    .p3 {
+        width: 268.3016px;
+        /* 335.377px - 20% */
+        height: 104px;
+        /* 130px - 20% */
+        flex-shrink: 0;
+        color: #000;
+        text-align: start;
+        font-family: Poppins;
+        font-size: 12.8px;
+        /* 16px - 20% */
+        font-style: normal;
+        font-weight: 300;
+        line-height: 27.2px;
+        /* 34px - 20% */
+        margin-left: 20px;
+    }
+
+    .btn3 {
+        width: auto;
+        color: #00A539;
+        font-family: Satoshi;
+        font-size: 11.9872px;
+        /* 14.984px - 20% */
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        letter-spacing: 2.3976px;
+        /* 2.997px - 20% */
+        text-transform: uppercase;
+        margin-top: 32px;
+        /* 40px - 20% */
+        margin-left: 20px;
+        display: flex;
+        margin-bottom: 24px;
+        /* 30px - 20% */
+        align-self: flex-start;
+        cursor: pointer;
+    }
+
+    .doc {
+        width: 248.2608px;
+        /* 310.326px - 20% */
+        height: 343.096px;
+        /* 428.87px - 20% */
+        border: none;
+        border-radius: 10px;
+        background: url('../images/doctor.png') lightgray 40% / cover no-repeat;
+    }
+
+    .css-1qm1lh {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .css-19kzrtu {
+        padding: 0px;
+    }
+
+    .MuiBox-root.css-19kzrtu {
+        padding: 0%;
+    }
+
+    #tab-0 {
+        margin-top: 10px;
+        padding: 0%;
+    }
+
+    #tab-1 {
+        padding: 0%;
+    }
+
+    #tab-2 {
+        padding: 0%;
+    }
+
+    #tab-3 {
+        padding: 0%;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    .left {
+        display: inline;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .btnofselectofsec2 {
+        width: 430.78px;
+        /* 430.776px - 20% */
+        height: 75.24px;
+        /* 75.24px - 20% */
+        flex-shrink: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border: 1px solid #ccc;
+        border-left: 0px;
+        border-radius: 5px 0px 0px 5px;
+        background-color: #fff;
+        cursor: pointer;
+
+    }
+
+    .btn-simple {
+        width: 430.78px;
+        /* 430.776px - 20% */
+        height: 75.24px;
+        /* 75.24px - 20% */
+        flex-shrink: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border: none;
+        border-left: 0px;
+        background-color: transparent;
+        cursor: pointer;
+
+    }
+
+    .btn-icon {
+        margin-right: -8px;
+        /* -10px - 20% */
+    }
+
+    .btn-textofdiv1file {
+        color: #000;
+        font-family: Poppins;
+        font-size: 14.4px;
+        /* 18px - 20% */
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        right: 100%;
+        /* 130px - 20% */
+    }
+
+    .btn-arrow {
+        margin-right: 32px;
+        /* 40px - 20% */
+    }
+
+    .btn:hover {
+        background-color: #f0f0f0;
+    }
+
+    .png-logoseacc {
+        width: 8.32px;
+        height: 48.64px;
+    }
+
+    .btn-text-active{
+        color: #000;
+        font-family: "Playfair Display";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin-left: 15px;
+        text-align: start;
+        position: absolute;
+        margin-left: 20px;
+    
+    }
+    .btn-text-inactive{
+        color: #000;
+        font-family: "Playfair Display";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-align: start;
+        margin-left: 20px;
+    }
+
+}
+
 
 /* Small Laptops (769px to 1024px) */
 @media (min-width: 769px) and (max-width: 1024px) {

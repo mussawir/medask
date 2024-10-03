@@ -25,7 +25,7 @@ function Section1() {
   return (
     <div className='herocontent BGofFirstSection'>
     
-         <div className="scroll-container">
+         <div className="scroll-container" >
         
                     <a href="https://www.facebook.com" className="social-icon fb-icon">
                         <FontAwesomeIcon icon={faFacebookF} />

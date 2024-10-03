@@ -30,14 +30,13 @@
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: white;
-  }
-  
-}
+  }}
 
 
 .App {
   text-align: center;
 }
+
 .App {
   display: flex;
   flex-direction: column;
@@ -52,6 +51,7 @@
 footer {
   margin-top: auto; /* Pushes the footer to the bottom of the page */
 }
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -60,8 +60,7 @@ footer {
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
-  }
-}
+  }}
 
 .App-header {
   background-color: #282c34;
@@ -84,8 +83,8 @@ footer {
   }
   to {
     transform: rotate(360deg);
-  }
-}
+  }}
+
 .App {
   text-align: center;
 }
@@ -134,29 +133,40 @@ nav ul li a {
 nav ul li a:hover {
   text-decoration: underline;
 }
+
 .Bgofallwebvector{
   background-image: url("../src/images/secondSecbgHome.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100%;
+  height: 1300px;
   margin-top: -10%;
 }
+
+@media screen and (max-width: 1560px) {
+  .Bgofallwebvector {
+    background-image: url("../src/images/secondSecbgHome.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1300px;
+    display: flow-root;
+    margin-top: -10%;
+}}
+
 @media screen and (max-width: 1208px) {
   .Bgofallwebvector {
     background-image: url("../src/images/secondSecbgHome.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 180vh;
+    height: 1200px;
     margin-top: -10%;
-}
-  
-}
+}}
+
 @media screen and (max-width: 808px) {
   .Bgofallwebvector {
     background-image: url("../src/images/Section2bgMob.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 80vh;
+    height: 1280px;
     margin-top: -10%;
 }
 .section5bgimg{
@@ -165,8 +175,8 @@ nav ul li a:hover {
   background-size: cover;
   height: 400px;
   /* margin-top: 820px; */
-}
-}
+}}
+
 @media screen and (min-width: 1600px) {
   .Bgofallwebvector {
     background-image: url('../src/images/secondSecbgHome1.jpg');
@@ -174,11 +184,12 @@ nav ul li a:hover {
     background-size: cover;
     height: 1381px;
     margin-top: -10%;
-}
-}
+}}
+
 .heightofallcontainer{
   height: 1189.625px;
 }
+
 .section5bgimg{
   /* background-image: url('../src/images/section5bg.png'); */
   background-repeat: no-repeat;

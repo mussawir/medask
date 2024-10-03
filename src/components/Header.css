@@ -45,6 +45,30 @@ top: 19%;
     display: none;
 }
 
+@media screen and (max-width: 1508px) {
+    .icon2{
+        position: absolute; 
+    right: 0%;
+    top: 12%;
+    width: 100px;
+    }
+}
+@media screen and (max-width: 1599px) {
+    .icon2{
+        position: absolute; 
+    right: 0%;
+    top: 12%;
+    width: 120px;
+    }
+}
+@media screen and (max-width: 1339px) {
+    .icon2{
+        position: absolute; 
+    right: 0%;
+    top: 12%;
+    width: 100px;
+    }
+}
 @media screen and (max-width: 1208px) {
     .icon2{
         position: absolute; 
