@@ -54,6 +54,7 @@
 .prg-main-image2 {
     width: 517.9px; /* Adjusted width */
     height: 568.9px;
+    object-fit: contain;
     position: relative;
     overflow: hidden;
 }
