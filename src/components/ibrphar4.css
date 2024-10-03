@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 .phar4bg{
-    width: 1606.003px;
+    width: 100%;
+    max-width: 1600px;
 height: 600.625px;
 display: flex;
 justify-content: center;

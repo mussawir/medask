@@ -3,6 +3,8 @@ import Icon2 from '../images/quote'
 import Icon3 from '../images/leftbtn.png'
 import Icon4 from '../images/review2.png'
 import Icon5 from '../images/rightbtn.png'
+import about3btn1 from '../images/about3btn1.png'
+import about3btn2 from '../images/about3btn2.png'
 function About4() {
 
     return (
@@ -60,6 +62,10 @@ function About4() {
 
                     </div>
                 </div>
+                <div className="about3btn">
+                        <img src={about3btn1} alt="" />
+                        <img src={about3btn2} alt="" />
+                    </div>
             </div>
 
         </>

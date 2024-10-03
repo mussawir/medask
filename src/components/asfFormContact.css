@@ -30,10 +30,12 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
+
     padding: 10px;
 }
 
 .formleft {
+    position: relative;
     width: 613.92px;
     display: flex;
     justify-content: center;
@@ -50,8 +52,8 @@
     position: absolute;
     z-index: -1;
     opacity: 0.05;
-    margin-right: -70px;
-    margin-bottom: 45px;
+    left: 1%;
+    top: 20%;
 }
 
 .formright {
@@ -551,7 +553,14 @@ left: 41%;
         width: 34.545px;
     flex-shrink: 0;
     }
-    
+    .Contactcenter{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+        margin-bottom: 55px;
+    }
 }
 
 /* Tablets (481px to 768px) */
@@ -800,6 +809,14 @@ left: 41%;
         width: 34.545px;
     flex-shrink: 0;
     }
+    .Contactcenter{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+        margin-bottom: 55px;
+    }
 }
 /* Mobile Devices (up to 480px) */
 @media (max-width: 520px) {
@@ -810,9 +827,10 @@ left: 41%;
     }
     
     .formbg {
-        background-image: url('../images/formbg.png');
+        background-image: url('../images/contactmblbg.png');
         width: 100%; /* Reduced to 80% */
-        height: 100%; /* Reduced to 80% of 1149.625px */
+        height: 1900px;
+        flex-shrink: 0;
         background-repeat: no-repeat;
         background-size: cover;
         display: flex;
@@ -823,8 +841,9 @@ left: 41%;
     }
     
     .formdiv {
-        width: 100%; /* Reduced to 80% of 1083.061px */
-        height: 100%; /* Reduced to 80% of 604.742px */
+        width: 400.35px;
+        height: 792.058px;
+        flex-shrink: 0;
         flex-shrink: 0;
         background-color: #FFF;
         filter: drop-shadow(0px 3.19px 15.952px rgba(0, 0, 0, 0.10));
@@ -832,7 +851,7 @@ left: 41%;
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: column-reverse;
+        flex-direction: column;
         gap: 16px; /* Reduced by 20% */
         padding: 8px; /* Reduced by 20% */
     }
@@ -858,20 +877,19 @@ left: 41%;
     }
     
     .formright {
-        width: 100%; /* Reduced to 80% of 441.229px */
-        height: 370.42px; /* Reduced to 80% of 559.278px */
+        width: 360.976px;
+        height: 243.87px;
+        flex-shrink: 0;
+        border-radius: 20px;
         background-image: url('../images/formrightlogo.png');
         background-repeat: no-repeat;
         background-size: cover;
     }
     
     .inplabel {
-        width: auto;
-        height: auto;
-        flex-shrink: 0;
         color: #121935;
         font-family: Poppins;
-        font-size: 8px;
+        font-size: 16px;
         font-style: normal;
         font-weight: 600;
         line-height: normal;
@@ -882,8 +900,9 @@ left: 41%;
     }
     
     .inpform {
-        width: 250.42px; /* Reduced to 80% of 446.771px */
-        height: 23.52px; /* Reduced to 80% of 54.396px */
+        width: 336.771px;
+        height: 54.396px;
+        flex-shrink: 0;
         flex-shrink: 0;
         fill: rgba(255, 255, 255, 0.80);
         stroke-width: 1px;
@@ -892,12 +911,19 @@ left: 41%;
         border: 1px solid gainsboro;
         border-radius: 24px; /* Reduced by 20% */
         color: #202020;
-        font-size: 11.2px; /* Reduced by 20% */
+        color: #202020;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.7px;
     }
     
     .inpform:focus {
-        width: 250.42px; /* Reduced to 80% of 446.771px */
-        height: 23.52px; 
+        width: 336.771px;
+        height: 54.396px;
+        flex-shrink: 0;
         flex-shrink: 0;
         fill: rgba(255, 255, 255, 0.80);
         stroke-width: 1px;
@@ -906,8 +932,12 @@ left: 41%;
         border: 1px solid gainsboro;
         border-radius: 24px;
         color: #202020;
-        font-size: 12.8px; /* Reduced by 20% */
-        outline: none;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.7px;
     }
     
     .formlab {
@@ -918,8 +948,9 @@ left: 41%;
     }
     
     .formbtn {
-        width: 250.42px; /* Reduced to 80% of 446.771px */
-        height: 23.52px; ; /* Reduced to 80% of 54.396px */
+        width: 336.771px;
+        height: 54.396px;
+        flex-shrink: 0;
         flex-shrink: 0;
         background-color: #29166F;
         margin-top: 8px; /* Reduced by 20% */
@@ -951,8 +982,9 @@ left: 41%;
     }
     
     .imageopop {
-        width: 168.8px; /* Reduced to 80% of 336px */
-        height: 118.4px; /* Reduced to 80% of 148px */
+        width: 241.221px;
+        height: 106.252px;
+        flex-shrink: 0;
         flex-shrink: 0;
         background-color: #FFF;
         filter: drop-shadow(0px 3px 5.292px rgba(0, 0, 0, 0.35));
@@ -967,11 +999,11 @@ left: 41%;
     .imgmaph1 {
         color: #29166F;
         font-family: Poppins;
-        font-size: 12px; /* Reduced by 20% */
+        font-size: 10.769px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
-        width: 108.8px; /* Reduced by 20% */
+        width: 174px; /* Reduced by 20% */
         height: 18.4px; /* Reduced by 20% */
         white-space: nowrap;
         overflow: hidden;
@@ -985,7 +1017,7 @@ left: 41%;
         font-style: normal;
         font-weight: 500;
         line-height: normal;
-        width: 108.8px; /* Reduced by 20% */
+        width: 174.8px; /* Reduced by 20% */
     }
     
     .mapsvg {
@@ -993,8 +1025,8 @@ left: 41%;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        width: 44.62px; /* Reduced by 20% */
-        height: 44.62px; /* Reduced by 20% */
+        width: 40.045px;
+        height: 40.045px;
         stroke-width: 7px;
         stroke: #FFF;
         position: absolute;
@@ -1002,7 +1034,7 @@ left: 41%;
         display: flex;
         justify-content: center;
         align-items: center;
-        right: 140px; /* Reduced by 20% */
+        right: 215px; /* Reduced by 20% */
         top: 25%;
     }
     
@@ -1044,5 +1076,40 @@ left: 41%;
     .arrow11{
         width: 14.545px;
     flex-shrink: 0;
+    }
+    .contimg{
+        width: 55.26px;
+    height: 55.26px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    position: absolute;
+    top: -20px;
+    left: 41%;
+    }
+    .Contactcenter{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+        margin-bottom: 55px;
+    }
+    .conth3{
+        color: #28156D;
+text-align: center;
+font-family: "Brush Script MT";
+font-size: 34px;
+font-style: italic;
+font-weight: 400;
+line-height: normal;
+    }
+    .conth4{
+        color: #000;
+text-align: center;
+font-family: "Playfair Display";
+font-size: 35px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
     }
 }

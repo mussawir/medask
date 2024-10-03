@@ -4,6 +4,8 @@ import about3img2 from '../images/about3img2.png'
 import about3img3 from '../images/about3img3.png'
 import About3icon1 from '../images/stethoscope'
 import About3icon2 from '../images/healtcare'
+import about3btn1 from '../images/about3btn1.png'
+import about3btn2 from '../images/about3btn2.png'
 function About3() {
     return (
         <>
@@ -52,7 +54,13 @@ function About3() {
                             Excellence, Compassion, Integrity, Collaboration, Innovation, Safety, Respect.                            </p>
                         </div>
                     </div>
+
                 </div>
+                
+                <div className="about3btn">
+                        <img src={about3btn1} alt="" />
+                        <img src={about3btn2} alt="" />
+                    </div>
                 </div>
             </div>
         </>

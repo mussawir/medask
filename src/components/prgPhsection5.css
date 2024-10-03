@@ -8,6 +8,8 @@
     /* background-image: url('../images/formbg.png'); */
     background-size: cover;
     height: 937px;
+    max-width: 1600px;
+    width: 100%;
     
     z-index: 99;
     background-repeat: no-repeat;
@@ -26,27 +28,31 @@
 }
 
 .image-item-main {
-    width: 528.01px;
-    height: 566.15;
+    width: 528.005px;
+    height: 566.154px;
+    flex-shrink: 0;
     border-radius: 12px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     position: relative;
     left: 229.69px;
+    z-index: 99;
 }
 
 .image-item-sub1 {
-    width: 260.39;
-    height: 240.39;
+    width: 260.385px;
+    height: 240.385px;
     position: absolute;
     top: 130px;
     left: -280px;
+    z-index: 100;
 }
 
 .image-item-sub2 {
     width: 260.39;
     height: 240.39;
-    margin-left: -810px;
-    z-index: -3;
+    position: absolute;
+    right: 250px;
+    bottom: -100px;
 }
 
 /* Text Section */

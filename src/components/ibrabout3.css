@@ -5,6 +5,9 @@
     margin: 0%;
     box-sizing: border-box;
 }
+.about3btn{
+    display: none;
+}
 .about3bg {
     width: 100%;
     height: 1273.625px;
@@ -21,7 +24,7 @@
     font-style: italic;
     font-weight: 400;
     line-height: normal;
-    margin-top: 30px;
+    margin-top: 5%;
 }
 
 .about3h2 {
@@ -310,7 +313,7 @@
         color: #28156D;
         text-align: center;
         font-family: "Brush Script MT";
-        font-size: 45px;
+        font-size: 34px;
         font-style: italic;
         font-weight: 400;
         line-height: normal;
@@ -321,23 +324,23 @@
         margin-top: 30px;
         color: #000;
         text-align: center;
-        font-family: "Playfair Display , arial , sans-serif";
-        font-size: 45px;
+        font-family: Mont;
+        font-size: 14px;
         font-style: normal;
-        font-weight: 400;
-        line-height: normal;
+        font-weight: 600;
+        line-height: 30px; /* 214.286% */
     }
     
     .about3p1 {
         margin-top: 30px;
-        width: 700px;
-        height: 100px;
         color: #000;
-        font-family: Mont , arial , sans-serif;
+        text-align: center;
+        font-family: Mont;
         font-size: 14px;
         font-style: normal;
-        font-weight: 200;
-        line-height: 30px;
+
+        font-weight: 600;
+        line-height: 30px; /* 214.286% */
     }
     
     .about3p2 {
@@ -347,6 +350,7 @@
         color: #000;
         font-family: "Mont" , arial , sans-serif;
         font-size: 14px;
+        text-align: center;
         font-style: normal;
         font-weight: 200;
         line-height: 30px;
@@ -451,11 +455,13 @@
     }
 }
 /* Tablets (481px to 768px) */
-@media (min-width: 201px) and (max-width: 850px) {
+/* Mobile Devices (up to 480px) */
+@media (max-width: 480px) {
     .about3bg {
         width: 100%;
-        height: 100%;
-        background-image: url('../images//about3bg.png');
+        height: 1472.159px;
+
+        background-image: url('../images/about1mblbg.png');
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -468,7 +474,7 @@
         font-style: italic;
         font-weight: 400;
         line-height: normal;
-        margin-top: 30px;
+        margin-top: 20%;
     }
     
     .about3h2 {
@@ -478,34 +484,30 @@
         font-family: "Playfair Display , arial , sans-serif";
         font-size: 35px;
         font-style: normal;
-        font-weight: 400;
+        font-weight: 300;
         line-height: normal;
     }
     
     .about3p1 {
-        margin-top: 30px;
         width: 80%;
-        height: 100px;
+        margin-top: 30px;
         color: #000;
-        font-family: Mont , arial , sans-serif;
-        font-size: 9px;
+        font-family: Mont;
+        font-size: 14px;
         font-style: normal;
-        text-align: start;
         font-weight: 200;
-        line-height: 20px;
+        line-height: normal; /* 214.286% */
     }
     
     .about3p2 {
-        margin-top: 30px;
         width: 80%;
-        height: 100px;
+        margin-top: 30px;
         color: #000;
-        font-family: "Mont" , arial , sans-serif;
-        font-size: 9px;
+        font-family: Mont;
+        font-size: 14px;
         font-style: normal;
-        text-align: start;
         font-weight: 200;
-        line-height: 20px;
+        line-height: normal; /* 214.286% */
     }
     
     .about3head {
@@ -520,8 +522,9 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: column;
         margin-top: 50px;
+        gap: 60px;
+        overflow: hidden;
         width: 100%; /* The grid takes the full width of its container */
     }
     
@@ -594,6 +597,13 @@
         font-style: normal;
         font-weight: 300;
         line-height: 28px;
+    }
+    .about3btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        margin-top: 20px;
     }
     .about1icon1{
         fill: white;

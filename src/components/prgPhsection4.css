@@ -2,7 +2,8 @@
     background-image: url('../images/phsection4.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    width: 1606px; /* Changed to make it responsive */
+    width: 100%; /* Changed to make it responsive */
+    max-width: 1600px;
     height: 937.62px;
     position: relative;
 }
@@ -16,28 +17,31 @@
 .text-contenph {
     max-width: 600px; /* Set max width for text content */
     height: 600px;
-    text-align: start;
 }
 
 .brand-name-small {
     font-family: "Brush Script MT";
     font-size: 55px;
     color: #3a0070;
-    margin-bottom: 10px;
     font-weight: 400;
     text-align: start;
 }
 
 .section-title {
+    width: 597.699px;
+    color: #000;
+    font-family: "Playfair Display";
     font-size: 55px;
-    color: #333;
-    margin-bottom: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
     text-align: start;
-    font-weight: 500;
-    font-family: 'Playfair Display';
 }
 
 .section-description {
+    width: 597.699px;
+height: 299.529px;
+    margin-left: 5px;
     font-size: 18px;
     color: #000000;
     line-height: 1.7;
@@ -61,21 +65,22 @@
 }
 
 .small-image {
-    width: 260.39px;
-    height: 240.39px;
+    width: 260.385px;
+    height: 240.385px;
     object-fit: cover;
     border-radius: 20px; 
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     position: absolute; 
-    bottom: 3.8%; /* Adjust to align with the center of the main image */
-    left: 63%; /* Adjust to position it in front of the main image */
+    bottom: 20%; /* Adjust to align with the center of the main image */
+    left: 61%; /* Adjust to position it in front of the main image */
     transform: translate(-50%, -50%); /* Center the small image over the main image */
     z-index: 1; /* Ensure it appears above the main image */
 }
 .phcenter{
+    margin-top: 10%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 40px;
+    gap: 60px;
     height: 600px;
 }
