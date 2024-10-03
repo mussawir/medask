@@ -7,9 +7,9 @@
 }
 
 .formbg {
-    width: 100%;                   /* Full width */
-    height: auto;                   /* Let height adjust based on content */
-    min-height: 500px;              /* Set a minimum height */
+    width: 100%;
+    max-width: 1606.003px;
+    height: 1149.625px;                /* Let height adjust based on content */           /* Set a minimum height */
     background-image: url('../images/formbg.png');
     background-size: cover;       /* Keeps the image's aspect ratio */
     background-position: center top;/* Aligns the image properly */
@@ -18,7 +18,8 @@
     justify-content: center;        /* Horizontally center content */
     align-items: center;            /* Vertically center content */
     padding: 50px;                  /* Adjust padding */
-    flex-direction: column;  
+    flex-direction: column; 
+    margin-bottom: -90px; 
 }
 
 .formdiv {
