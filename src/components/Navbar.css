@@ -51,21 +51,21 @@
 }
 
 .medask-headline1 {
-    color: #000;
+    /* color: #000;
     font-family: "Playfair Display";
     font-size: 45px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: normal; */
 }
 
 .medask-headline {
-    color: #000;
+    /* color: #000;
     font-family: "Playfair Display";
     font-size: 45px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: normal; */
     margin-bottom: 30px
 
 }
@@ -399,17 +399,34 @@ flex-shrink: 0;
 }
 
 .welcome-headline {
-    color: #28156D;
+    /* color: #28156D;
     font-family: "Brush Script MT";
     font-size: 55px;
     font-style: italic;
     font-weight: 400;
-    line-height: normal;
+    line-height: normal; */
     text-align: left;
 
 
 }
-
+.Ali-medaskHeading{
+    color: #28156D;
+    font-family: "Brush Script MT";
+    font-size: 55px;
+    font-weight: 400;
+  }
+.Ali-subtitile{
+    color: #000000;
+    font-family: "Playfair Display";
+    font-size: 45px;
+    font-weight: 400;
+  }
+.Ali-para{
+    font-family: 'poppins';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 45px;
+}
 .welcome-para1 {
     font-family: 'poppins';
     font-size: 18px;

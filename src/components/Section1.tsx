@@ -49,9 +49,9 @@ function Section1() {
                 </div>
                <div className="text-content">
                 
-                        <h1 className="welcome-headline">Welcome to Medask</h1>
-                        <h1 className="medask-headline1">Medicine & Care,</h1>
-                        <h1 className="medask-headline">Ask Anytime.</h1>
+                        <h1 className="welcome-headline Ali-medaskHeading">Welcome to Medask</h1>
+                        <h1 className="medask-headline1 Ali-subtitile">Best Equipment with</h1>
+                        <h1 className="medask-headline Ali-subtitile">Better Services</h1>
                         <hr className="hr-line" />
                         <img src={greenhr} className="greenhr" />
                         <p className="welcome-para1">It is a long established fact that a reader will</p>
