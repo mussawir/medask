@@ -4,6 +4,8 @@ import phar6img1 from '../images/phar6img2.png'
 import phar6img2 from '../images/phar6img3.png'
 import phar6img3 from '../images/phar6img4.png'
 import links from '../images/links.png'
+import about3btn1 from '../images/about3btn1.png'
+import about3btn2 from '../images/about3btn2.png'
 function Phar6(){
     return(
         <>
@@ -33,6 +35,10 @@ function Phar6(){
                         <h1 className="phar6h2">Lorem Ipsum</h1>
                     </div>
                 </div>
+                <div className="about3btn">
+                        <img src={about3btn1} alt="" />
+                        <img src={about3btn2} alt="" />
+                    </div>
         </div>
         </>
     );
