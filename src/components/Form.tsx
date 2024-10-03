@@ -7,6 +7,7 @@ function Form() {
         <div className="formbg">
             <Head3 />
             <div className="formdiv">
+
                 <form action="">
                     <div className="formleft">
 

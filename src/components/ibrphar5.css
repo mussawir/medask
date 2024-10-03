@@ -5,11 +5,13 @@
 }
 
 .phar5bg {
-    width: 1606.003px;
+    width: 100%;
+    max-width: 1600px;
     height: 1269.625px;
     display: block;
     background-image: url('../images/phar5bg.png');
     object-fit: cover;
+    overflow: hidden;
     background-repeat: no-repeat;
     position: relative;
 

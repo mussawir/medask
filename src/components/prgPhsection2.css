@@ -1,84 +1,66 @@
-.pharmaciessecondsec {
+.prg-pharmaciessecondsec {
     background-image: url('../images/phsectwo.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    width: 1606px; /* Changed to make it responsive */
+    max-width: 1600px; /* Changed to make it responsive */
+    min-width: 100%;
     height: 1099px;
+    display: flex;
 }
 
 .prg-distribution-section {
-    display: flex; /* Use flexbox for layout */
-    align-items: center; /* Center items vertically */
-    justify-content: space-between; /* Space between text and images */
-    width: 597.7;
-    height: 299.53;
-}
-
-.text-contenph2 {
-    max-width: 600px; /* Set max width for text content */
-    height: 600px;
-    text-align: start;
-}
-
-.brand-name-small2 {
-    /* font-family: 'Cursive', sans-serif; */
-    font-family: "Brush Script MT";
-    font-size: 55px;
-    color: #28156D;
-    margin-bottom: 10px;
-    text-align: start;
-    margin-left: -60px;
-    font-weight: 400;
-}
-
-.section-title2 {
-    font-size: 55px;
-    font-family: "Playfair Display";
-    color: #333;
-    text-align: start;
-    font-weight: 400;
-    padding-bottom: 20px;
-    margin-left: -70px;
-    line-height: 73.32px;
-}
-.text-contentph2{
-    padding-right: 40px;
-}
-.section-description {
-    font-size: 18px;
-    font-family: "Poppins";
-    color: #000000;
-    line-height: 27px;
-    text-align: start;
-    margin-left: -70px;
-}
-.image-content{
-    height: 600px;
-}
-
-.main-image2 {
-    width: 558.9px;
-    height: 558.9px;
-    object-fit: cover;
-    border-radius: 20px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    margin-left: 20px; /* Space between text and image */
-    position: relative;
-}
-
-.small-image2 {
-    width: 260.39px;
-    height: 240.39px;
-    object-fit: cover;
-    border-radius: 20px; 
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    position: absolute;
-    transform: translate(-200%, 155%); /* Center the small image over the main image */
-}
-.phcenter{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 40px;
-    height: 600px;
+}
+
+.prg-text-section {
+    width: 60%;
+    text-align: start;
+    padding-right: 100px;
+}
+
+.prg-brand-name-small2 {
+    color: #28156D; 
+    font-size: 55px;
+    font-weight: 400px;
+    font-family: "Brush Script MT";
+}
+
+.prg-section-title2 {
+    font-size: 55px;
+    font-family: "Playfair Display";
+    font-weight: 400;
+    padding-bottom: 20px;
+    line-height: 73.32px;
+    color: #333;
+}
+
+.prg-section-description {
+    font-family: "Poppins";
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.prg-image-content {
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+}
+
+.prg-main-image2 {
+    width: 558.9px; /* Adjusted width */
+    height: 568.9px;
+    position: relative;
+    overflow: hidden;
+}
+
+.prg-small-image2 {
+    width: 260.39px; /* Adjusted smaller image width */
+    height: 240.39;
+    padding-top: 450px;
+    margin-left: 50px;
+    position: absolute;
 }
