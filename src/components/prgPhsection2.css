@@ -2,7 +2,8 @@
     background-image: url('../images/phsectwo.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    max-width: 1600px; /* Changed to make it responsive */
+    max-width: 1600px;
+    /* Changed to make it responsive */
     min-width: 100%;
     height: 1099px;
     display: flex;
@@ -22,21 +23,21 @@
 }
 
 .prg-brand-name-small2 {
-    color: #28156D; 
-    font-size: 55px;
-    font-weight: 400;
-    text-align: start;
+    color: #28156D;
     font-family: "Brush Script MT";
+    font-size: 55px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .prg-section-title2 {
-    font-size: 55px;
+    color: #000;
     font-family: "Playfair Display";
+    font-size: 55px;
+    font-style: normal;
     font-weight: 400;
-    padding-bottom: 20px;
-    text-align: start;
-    line-height: 73.32px;
-    color: #000000;
+    line-height: normal;
 }
 
 .prg-section-description {
@@ -54,7 +55,8 @@
 }
 
 .prg-main-image2 {
-    width: 517.9px; /* Adjusted width */
+    width: 517.9px;
+    /* Adjusted width */
     height: 568.9px;
     object-fit: contain;
     position: relative;
@@ -62,75 +64,99 @@
 }
 
 .prg-small-image2 {
-    width: 260.39px; /* Adjusted smaller image width */
+    width: 260.39px;
+    /* Adjusted smaller image width */
     height: 240.39;
     padding-top: 450px;
     margin-left: 50px;
     position: absolute;
 }
+
 @media screen and (max-width: 480px) {
-    .prg-pharmaciessecondsec{
-    background-image: url('../images/phsectwo.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-width: 1600px; /* Changed to make it responsive */
-    min-width: 100%;
-    height: 1099px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    .prg-pharmaciessecondsec {
+        background-image: url('../images/phar2mbl.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-width: 1600px;
+        /* Changed to make it responsive */
+        min-width: 100%;
+        height: 1404.442px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    
+    .prg-distribution-section {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    
+    .prg-text-section {
+        width: 60%;
+        text-align: start;
+        padding-right: 100px;
+    }
+    
+    .prg-brand-name-small2 {
+        margin-top: 10%;
+        color: #28156D;
+font-family: "Brush Script MT";
+font-size: 34px;
+font-style: italic;
+font-weight: 400;
+line-height: normal;
+text-align: start;
+    }
+    
+    .prg-section-title2 {
+        width: 360px;
+        color: #000;
+        font-family: "Playfair Display";
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: start;
+    }
+    
+    .prg-section-description {
+        width: 400px;
+height: 415px;
+flex-shrink: 0;
+color: #000;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 214.286% */
+position: absolute;
+padding-top: 570px;
 }
-.prg-image-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-}
-.prg-text-section {
-    width: 100%;
-    text-align: center;
-    padding-right: 100px;
-}
-.prg-distribution-section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
-}
-.prag-image-item13 {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 8px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    position: relative;
-}
-.prg-main-image2 {
-    width: 382.9px;
-    height: 568.9px;
-    object-fit: contain;
-    position: relative;
-    overflow: hidden;
-}
-.prag-image-item13 {
-    width: 491.16px;
-    height: 356.15px;
-    object-fit: cover;
-    border-radius: 8px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    position: relative;
-    left: 40%;
-    display: none;
-}
-.prag-image-item23 {
-    /* width: 491.16px; */
-    height: 315.4px;
-    object-fit: cover;
-    border-radius: 8px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    position: absolute;
-    left: 185px;
-    bottom: 800px;
-    display: none;
-}
+    
+    .prg-image-content {
+        /* padding-left: 40px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 40%;
+    }
+    
+    .prg-main-image2 {
+        width: 399.317px;
+        height: 406.462px;
+        flex-shrink: 0;
+        object-fit: contain;
+        position: relative;
+    }
+    
+    .prg-small-image2 {
+        width: 260.39px;
+        /* Adjusted smaller image width */
+        height: 240.39;
+        padding-top: 450px;
+        margin-left: 20px;
+        position: absolute;
+    }
 }

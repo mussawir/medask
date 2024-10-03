@@ -58,7 +58,6 @@
 /* Text Section */
 .text-section5 {
     width: 40%;
-    padding-left: 50px;
     text-align: start;
 }
 
@@ -84,4 +83,112 @@
     font-weight: 400;
     color: #000000;
     line-height: 1.7;
+}
+
+
+/* Mobile Devices (up to 480px) */
+@media (max-width: 480px) {
+/* Container styling */
+.phsection5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    margin: 0 auto;
+    /* background-image: url('../images/formbg.png'); */
+    background-size: cover;
+    height: 1100px;
+    max-width: 1600px;
+    width: 100%;
+    z-index: 99;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+/* Image Section */
+.image-section5 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.image-item-wrap {
+    position: relative;
+}
+
+.image-item-main {
+    width: 310.628px;
+    height: 333.071px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    top: 100px;
+    left: 20px;
+    z-index: 99;
+}
+
+.image-item-sub1 {
+    width: 153.186px;
+    height: 141.419px;
+    position: absolute;
+    bottom: 0px;
+    top: 0px;
+    left: -105px;
+    z-index: 100;
+}
+
+.image-item-sub2 {
+    width: 153.186px;
+    height: 141.419px;
+    position: absolute;
+    z-index: 1;
+    bottom: 100px;
+    left: -190px;
+    /* right: 250px; */
+    /* bottom: -100px; */
+}
+
+/* Text Section */
+.text-section5 {
+    width: 100%;
+    text-align: start;
+}
+
+.brand-name5 {
+    font-family: 'Brush Script MT';
+    font-size: 55px;
+    text-align: start;
+    font-weight: 400;
+    color: #3a0070;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 10px;
+}
+
+.section-title5 {
+    color: #000;
+    text-align: center;
+    font-family: "Playfair Display";
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: start;
+}
+
+.section-description5 {
+    width: 380px;
+height: 231.974px;
+flex-shrink: 0;
+color: #000;
+text-align: center;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 214.286% */
+}
+
 }
