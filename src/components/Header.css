@@ -153,31 +153,23 @@ top: 19%;
             align-self: flex-end;
         }
         .partnerlinksmallscreen {
-            border: 0.73px solid #828282;
-            /* Border color */
-            border-radius: 6px;
-            /* Border radius */
-            width: 207.74px;
-            height: 36.7px;
-            margin-left: 80px;
-            top: 53px;
-            padding: 6px;
-            /* Padding */
-            text-decoration: none;
-            /* Remove underline */
-            font-family: poppins;
-            color: #29166F;
-            /* Text color */
-            /* Required for positioning the arrow */
-            display: flex;
-            /* Ensure proper width */
-            transition: background-color 0.3s, color 0.3s;
-            /* For hover effect */
-            font-weight: 700;
-            font-size: 13.94px;
             align-items: center;
-        
+            border: .73px solid #828282;
+            border-radius: 6px;
+            color: #29166f;
+            display: flex;
+            font-family: poppins;
+            font-size: 13.94px;
+            font-weight: 700;
+            height: 36.7px;
+            margin-left: 126px;
+            padding: 6px;
+            text-decoration: none;
+            top: 53px;
+            transition: background-color .3s, color .3s;
+            width: 207.74px;
         }
+
         .icon-backgroundsmallscreen {
             display: inline-flex;
             /* Allows proper alignment */
