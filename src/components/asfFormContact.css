@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
     margin: 0%;
     padding: 0%;
@@ -23,7 +24,7 @@
 }
 
 .formdiv {
-    width: 1083.061px;
+    width: 1030px;
     height: 604.742px;
     flex-shrink: 0;
     background-color: #FFF;
@@ -174,9 +175,12 @@
     line-height: normal;
     width: 236px;
     height: 23px;
-    white-space: nowrap;   /* Prevents text from wrapping to the next line */
-    overflow: hidden;      /* Hides the overflowed text */
-    text-overflow: ellipsis; /* Adds '...' to indicate the overflow */
+    white-space: nowrap;
+    /* Prevents text from wrapping to the next line */
+    overflow: hidden;
+    /* Hides the overflowed text */
+    text-overflow: ellipsis;
+    /* Adds '...' to indicate the overflow */
 }
 
 .imgmapp {
@@ -209,48 +213,56 @@
 
 .formright {
     display: flex;
-    padding-left: 3%;
-    padding-top: 3%;
 }
 
 .svgani {
-    width: 9.6px; /* Reduced by 20% */
-    height: 12.8px; /* Reduced by 20% */
+    width: 9.6px;
+    /* Reduced by 20% */
+    height: 12.8px;
+    /* Reduced by 20% */
     transition: transform 0.2s ease-in-out;
-    animation: jiggle 0.5s ease-in-out infinite; /* Animation runs continuously */
+    animation: jiggle 0.5s ease-in-out infinite;
+    /* Animation runs continuously */
 }
 
 .svgani:hover {
-    animation: jiggle 0.5s ease-in-out infinite; /* Same animation on hover, but you can omit this if you want it to run continuously */
+    animation: jiggle 0.5s ease-in-out infinite;
+    /* Same animation on hover, but you can omit this if you want it to run continuously */
 }
 
 @keyframes jiggle {
     0% {
         transform: rotate(0deg);
     }
+
     25% {
         transform: rotate(10deg);
     }
+
     50% {
         transform: rotate(0deg);
     }
+
     75% {
         transform: rotate(-10deg);
     }
+
     100% {
         transform: rotate(0deg);
     }
 }
-.Contdiv1{
+
+.Contdiv1 {
     width: 320.484px;
-height: 172.607px;
-border-radius: 20px;
-flex-shrink: 0;
-position: relative;
-background-color: #FFF;
-margin-top: 65px;
+    height: 172.607px;
+    border-radius: 20px;
+    flex-shrink: 0;
+    position: relative;
+    background-color: #FFF;
+    margin-top: 65px;
 }
-.conth1{
+
+.conth1 {
     padding-top: 20%;
     color: #29166F;
     text-align: center;
@@ -261,60 +273,67 @@ margin-top: 65px;
     line-height: normal;
     text-align: center;
 }
-.conth2{
+
+.conth2 {
     color: #121935;
-text-align: center;
-font-family: Poppins;
-font-size: 17px;
-font-style: normal;
-font-weight: 700;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
 
-line-height: normal;
+    line-height: normal;
 }
-.conth3{
+
+.conth3 {
     color: #28156D;
-text-align: center;
-font-family: "Brush Script MT";
-font-size: 55px;
-font-style: italic;
-font-weight: 400;
-line-height: normal;
-margin-top: 24px;
-margin-bottom: 24px;
+    text-align: center;
+    font-family: "Brush Script MT";
+    font-size: 55px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 24px;
+    margin-bottom: 24px;
 
 }
-.conth4{
+
+.conth4 {
     color: #000;
-text-align: center;
-font-family: "Playfair Display";
-font-size: 55px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-margin-top: 24px;
-margin-bottom: 24px;
+    text-align: center;
+    font-family: "Playfair Display";
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 24px;
+    margin-bottom: 24px;
 
 }
-.arrow11{
+
+.arrow11 {
     width: 34.545px;
-flex-shrink: 0;
+    flex-shrink: 0;
 }
-.contimg{
+
+.contimg {
     width: 55.26px;
-height: 55.26px;
-flex-shrink: 0;
-border-radius: 15px;
-position: absolute;
-top: -20px;
-left: 41%;
+    height: 55.26px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    position: absolute;
+    top: -20px;
+    left: 41%;
 }
-.Contactcenter{
+
+.Contactcenter {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 31px;
     margin-bottom: 55px;
 }
+
 /* Small Laptops (769px to 1024px) */
 @media (min-width: 850px) and (max-width: 1024px) {
     * {
@@ -322,62 +341,75 @@ left: 41%;
         padding: 0%;
         box-sizing: border-box;
     }
-    
-    .formbgofcontct{
-        background-image: url('../images/formbg.png');
-        width: 100%; /* Reduced to 80% */
-        height: 919.7px; /* Reduced to 80% of 1149.625px */
+
+    .formbgofcontct {
+        background-image: url('../images/Formcontactbg.png');
+        width: 100%;
+        /* Reduced to 80% */
+        height: 1250px;
+        /* Reduced to 80% of 1149.625px */
         background-repeat: no-repeat;
         background-size: cover;
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 80px; /* Reduced by 20% */
+        margin-bottom: -150px;
         flex-direction: column;
     }
-    
+
     .formdiv {
-        width: 866.45px; /* Reduced to 80% of 1083.061px */
-        height: 483.79px; /* Reduced to 80% of 604.742px */
+        width: 866.45px;
+        /* Reduced to 80% of 1083.061px */
+        height: 483.79px;
+        /* Reduced to 80% of 604.742px */
         flex-shrink: 0;
         background-color: #FFF;
         filter: drop-shadow(0px 3.19px 15.952px rgba(0, 0, 0, 0.10));
-        border-radius: 24px; /* Reduced by 20% */
+        border-radius: 24px;
+        /* Reduced by 20% */
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 16px; /* Reduced by 20% */
-        padding: 8px; /* Reduced by 20% */
+        gap: 16px;
+        /* Reduced by 20% */
+        padding: 8px;
+        /* Reduced by 20% */
     }
-    
+
     .formleft {
-        width: 491.14px; /* Reduced to 80% of 613.92px */
+        width: 491.14px;
+        /* Reduced to 80% of 613.92px */
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
     }
-    
+
     .formbglogo {
-        width: 491.14px; /* Reduced to 80% of 613.92px */
-        height: 240.44px; /* Reduced to 80% of 300.549px */
+        width: 491.14px;
+        /* Reduced to 80% of 613.92px */
+        height: 240.44px;
+        /* Reduced to 80% of 300.549px */
         background-image: url('../images/formlogo.png');
         background-repeat: no-repeat;
         background-size: cover;
         position: absolute;
         z-index: -1;
         opacity: 0.05;
-        margin-bottom: 52px; /* Reduced by 20% */
+        margin-bottom: 52px;
+        /* Reduced by 20% */
     }
-    
+
     .formright {
-        width: 353px; /* Reduced to 80% of 441.229px */
-        height: 447.42px; /* Reduced to 80% of 559.278px */
+        width: 353px;
+        /* Reduced to 80% of 441.229px */
+        height: 447.42px;
+        /* Reduced to 80% of 559.278px */
         background-image: url('../images/formrightlogo.png');
         background-repeat: no-repeat;
         background-size: cover;
     }
-    
+
     .inplabel {
         width: auto;
         height: auto;
@@ -389,25 +421,33 @@ left: 41%;
         font-weight: 600;
         line-height: normal;
         text-align: start;
-        margin-left: 8px; /* Reduced by 20% */
-        margin-bottom: 8px; /* Reduced by 20% */
-        margin-top: 8px; /* Reduced by 20% */
+        margin-left: 8px;
+        /* Reduced by 20% */
+        margin-bottom: 8px;
+        /* Reduced by 20% */
+        margin-top: 8px;
+        /* Reduced by 20% */
     }
-    
+
     .inpform {
-        width: 357.42px; /* Reduced to 80% of 446.771px */
-        height: 43.52px; /* Reduced to 80% of 54.396px */
+        width: 357.42px;
+        /* Reduced to 80% of 446.771px */
+        height: 43.52px;
+        /* Reduced to 80% of 54.396px */
         flex-shrink: 0;
         fill: rgba(255, 255, 255, 0.80);
         stroke-width: 1px;
         stroke: rgba(0, 0, 0, 0.10);
-        padding: 8px; /* Reduced by 20% */
+        padding: 8px;
+        /* Reduced by 20% */
         border: 1px solid gainsboro;
-        border-radius: 24px; /* Reduced by 20% */
+        border-radius: 24px;
+        /* Reduced by 20% */
         color: #202020;
-        font-size: 11.2px; /* Reduced by 20% */
+        font-size: 11.2px;
+        /* Reduced by 20% */
     }
-    
+
     .inpform:focus {
         width: 357.42px;
         height: 43.52px;
@@ -419,93 +459,114 @@ left: 41%;
         border: 1px solid gainsboro;
         border-radius: 24px;
         color: #202020;
-        font-size: 12.8px; /* Reduced by 20% */
+        font-size: 12.8px;
+        /* Reduced by 20% */
         outline: none;
     }
-    
+
     .formlab {
         display: flex;
         justify-content: center;
         align-items: start;
         flex-direction: column;
     }
-    
+
     .formbtn {
-        width: 357.42px; /* Reduced to 80% of 446.771px */
-        height: 43.52px; /* Reduced to 80% of 54.396px */
+        width: 357.42px;
+        /* Reduced to 80% of 446.771px */
+        height: 43.52px;
+        /* Reduced to 80% of 54.396px */
         flex-shrink: 0;
         background-color: #29166F;
-        margin-top: 8px; /* Reduced by 20% */
-        margin-bottom: 8px; /* Reduced by 20% */
+        margin-top: 8px;
+        /* Reduced by 20% */
+        margin-bottom: 8px;
+        /* Reduced by 20% */
         border: 1px solid gainsboro;
-        border-radius: 24px; /* Reduced by 20% */
+        border-radius: 24px;
+        /* Reduced by 20% */
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 8px; /* Reduced by 20% */
-        padding-left: 16px; /* Reduced by 20% */
-        padding-right: 16px; /* Reduced by 20% */
+        padding: 8px;
+        /* Reduced by 20% */
+        padding-left: 16px;
+        /* Reduced by 20% */
+        padding-right: 16px;
+        /* Reduced by 20% */
     }
-    
+
     .formp {
         color: #FFF;
         text-align: center;
         font-family: "Open Sans";
-        font-size: 14.4px; /* Reduced by 20% */
+        font-size: 14.4px;
+        /* Reduced by 20% */
         font-style: normal;
         font-weight: 700;
-        line-height: 64px; /* Reduced by 20% */
+        line-height: 64px;
+        /* Reduced by 20% */
     }
-    
+
     .arrdiv {
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    
+
     .imageopop {
-        width: 268.8px; /* Reduced to 80% of 336px */
-        height: 118.4px; /* Reduced to 80% of 148px */
+        width: 268.8px;
+        /* Reduced to 80% of 336px */
+        height: 118.4px;
+        /* Reduced to 80% of 148px */
         flex-shrink: 0;
         background-color: #FFF;
         filter: drop-shadow(0px 3px 5.292px rgba(0, 0, 0, 0.35));
-        border-radius: 8px; /* Reduced by 20% */
+        border-radius: 8px;
+        /* Reduced by 20% */
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    
+
     .imgmaph1 {
         color: #29166F;
         font-family: Poppins;
-        font-size: 12px; /* Reduced by 20% */
+        font-size: 12px;
+        /* Reduced by 20% */
         font-style: normal;
         font-weight: 700;
         line-height: normal;
-        width: 188.8px; /* Reduced by 20% */
-        height: 18.4px; /* Reduced by 20% */
+        width: 188.8px;
+        /* Reduced by 20% */
+        height: 18.4px;
+        /* Reduced by 20% */
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
     }
-    
+
     .imgmapp {
         color: #0E0728;
         font-family: Poppins;
-        font-size: 12.8px; /* Reduced by 20% */
+        font-size: 12.8px;
+        /* Reduced by 20% */
         font-style: normal;
         font-weight: 500;
         line-height: normal;
-        width: 188.8px; /* Reduced by 20% */
+        width: 188.8px;
+        /* Reduced by 20% */
     }
-    
+
     .mapsvg {
         background-image: url('../images/mapsvg.svg');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        width: 44.62px; /* Reduced by 20% */
-        height: 44.62px; /* Reduced by 20% */
+        width: 44.62px;
+        /* Reduced by 20% */
+        height: 44.62px;
+        /* Reduced by 20% */
         stroke-width: 7px;
         stroke: #FFF;
         position: absolute;
@@ -513,55 +574,144 @@ left: 41%;
         display: flex;
         justify-content: center;
         align-items: center;
-        right: 248px; /* Reduced by 20% */
+        right: 248px;
+        /* Reduced by 20% */
         top: 25%;
     }
-    
+
     .formright {
         display: flex;
-        padding-left: 2.4%; /* Reduced by 20% */
-        padding-top: 2.4%; /* Reduced by 20% */
+        padding-left: 2.4%;
+        /* Reduced by 20% */
+        padding-top: 2.4%;
+        /* Reduced by 20% */
     }
-    
+
     .svgani {
-        width: 9.6px; /* Reduced by 20% */
-        height: 12.8px; /* Reduced by 20% */
+        width: 9.6px;
+        /* Reduced by 20% */
+        height: 12.8px;
+        /* Reduced by 20% */
         transition: transform 0.2s ease-in-out;
-        animation: jiggle 0.5s ease-in-out infinite; /* Animation runs continuously */
+        animation: jiggle 0.5s ease-in-out infinite;
+        /* Animation runs continuously */
     }
-    
+
     .svgani:hover {
-        animation: jiggle 0.5s ease-in-out infinite; /* Same animation on hover, but you can omit this if you want it to run continuously */
+        animation: jiggle 0.5s ease-in-out infinite;
+        /* Same animation on hover, but you can omit this if you want it to run continuously */
     }
-    
+
     @keyframes jiggle {
         0% {
             transform: rotate(0deg);
         }
+
         25% {
             transform: rotate(10deg);
         }
+
         50% {
             transform: rotate(0deg);
         }
+
         75% {
             transform: rotate(-10deg);
         }
+
         100% {
             transform: rotate(0deg);
         }
     }
-    
-    .arrow11{
+
+    .arrow11 {
         width: 34.545px;
-    flex-shrink: 0;
+        flex-shrink: 0;
     }
-    .Contactcenter{
+
+    .Contdiv1 {
+        width: 256.3872px;
+        height: 138.0856px;
+
+        border-radius: 20px;
+        flex-shrink: 0;
+        position: relative;
+        background-color: #FFF;
+        margin-top: 65px;
+    }
+
+    .Contactcenter {
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: column;
         gap: 30px;
+        margin-bottom: 55px;
+    }
+
+    .conth1 {
+        padding-top: 20%;
+        color: #29166F;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-align: center;
+    }
+
+    .conth2 {
+        color: #121935;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+
+        line-height: normal;
+    }
+
+    .conth3 {
+        color: #28156D;
+        text-align: center;
+        font-family: "Brush Script MT";
+        font-size: 55px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 24px;
+        margin-bottom: 24px;
+
+    }
+
+    .conth4 {
+        color: #000;
+        text-align: center;
+        font-family: "Playfair Display";
+        font-size: 55px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 24px;
+        margin-bottom: 24px;
+
+    }
+
+    .contimg {
+        width: 55.26px;
+        height: 55.26px;
+        flex-shrink: 0;
+        border-radius: 15px;
+        position: absolute;
+        top: -18px;
+        left: 38%;
+    }
+
+    .Contactcenter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 31px;
         margin-bottom: 55px;
     }
 }
@@ -573,314 +723,68 @@ left: 41%;
         padding: 0%;
         box-sizing: border-box;
     }
-    
-    .formbgofcontct {
-        background-image: url('../images/formbg.png');
-        width: 100%; /* Reduced to 80% */
-        height: 100%; /* Reduced to 80% of 1149.625px */
-        background-repeat: no-repeat;
-        background-size: cover;
-        display: flex;
 
-
-        justify-content: center;
-        align-items: center;
-        padding: 80px; /* Reduced by 20% */
-        flex-direction: column;
-    }
-    
-    .formdiv {
-        width: 90%; /* Reduced to 80% of 1083.061px */
-        height: 100%; /* Reduced to 80% of 604.742px */
-        flex-shrink: 0;
-        background-color: #FFF;
-        filter: drop-shadow(0px 3.19px 15.952px rgba(0, 0, 0, 0.10));
-        border-radius: 24px; /* Reduced by 20% */
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column-reverse;
-        gap: 16px; /* Reduced by 20% */
-        padding: 8px; /* Reduced by 20% */
-    }
-    
-    .formleft {
-        width: 100%; /* Reduced to 80% of 613.92px */
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-    
-    .formbglogo {
-        width: 401.14px; /* Reduced to 80% of 613.92px */
-        height: 200.44px; /* Reduced to 80% of 300.549px */
-        background-image: url('../images/formlogo.png');
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: absolute;
-        z-index: -1;
-        opacity: 0.05;
-        margin-bottom: 52px; /* Reduced by 20% */
-    }
-    
-    .formright {
-        width: 100%; /* Reduced to 80% of 441.229px */
-        height: 370.42px; /* Reduced to 80% of 559.278px */
-        background-image: url('../images/formrightlogo.png');
-        background-repeat: no-repeat;
-        background-size: cover;
-        border-radius: 20px;
-    }
-    
-    .inplabel {
-        width: auto;
-        height: auto;
-        flex-shrink: 0;
-        color: #121935;
-        font-family: Poppins;
-        font-size: 13px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
-        text-align: start;
-        margin-left: 8px; /* Reduced by 20% */
-        margin-bottom: 8px; /* Reduced by 20% */
-        margin-top: 8px; /* Reduced by 20% */
-    }
-    
-    .inpform {
-        width: 307.42px; /* Reduced to 80% of 446.771px */
-        height: 43.52px; /* Reduced to 80% of 54.396px */
-        flex-shrink: 0;
-        fill: rgba(255, 255, 255, 0.80);
-        stroke-width: 1px;
-        stroke: rgba(0, 0, 0, 0.10);
-        padding: 8px; /* Reduced by 20% */
-        border: 1px solid gainsboro;
-        border-radius: 24px; /* Reduced by 20% */
-        color: #202020;
-        font-size: 11.2px; /* Reduced by 20% */
-    }
-    
-    .inpform:focus {
-        width: 307.42px;
-        height: 43.52px;
-        flex-shrink: 0;
-        fill: rgba(255, 255, 255, 0.80);
-        stroke-width: 1px;
-        stroke: rgba(0, 0, 0, 0.10);
-        padding: 8px;
-        border: 1px solid gainsboro;
-        border-radius: 24px;
-        color: #202020;
-        font-size: 12.8px; /* Reduced by 20% */
-        outline: none;
-    }
-    
-    .formlab {
-        display: flex;
-        justify-content: center;
-        align-items: start;
-        flex-direction: column;
-    }
-    
-    .formbtn {
-        width: 307.42px; /* Reduced to 80% of 446.771px */
-        height: 43.52px; /* Reduced to 80% of 54.396px */
-        flex-shrink: 0;
-        background-color: #29166F;
-        margin-top: 8px; /* Reduced by 20% */
-        margin-bottom: 8px; /* Reduced by 20% */
-        border: 1px solid gainsboro;
-        border-radius: 24px; /* Reduced by 20% */
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 8px; /* Reduced by 20% */
-        padding-left: 16px; /* Reduced by 20% */
-        padding-right: 16px; /* Reduced by 20% */
-    }
-    
-    .formp {
-        color: #FFF;
-        text-align: center;
-        font-family: "Open Sans";
-        font-size: 12.4px; /* Reduced by 20% */
-        font-style: normal;
-        font-weight: 700;
-        line-height: 64px; /* Reduced by 20% */
-    }
-    
-    .arrdiv {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .imageopop {
-        width: 268.8px; /* Reduced to 80% of 336px */
-        height: 118.4px; /* Reduced to 80% of 148px */
-        flex-shrink: 0;
-        background-color: #FFF;
-        filter: drop-shadow(0px 3px 5.292px rgba(0, 0, 0, 0.35));
-        border-radius: 8px; /* Reduced by 20% */
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-left: 20px;
-    }
-    
-    .imgmaph1 {
-        color: #29166F;
-        font-family: Poppins;
-        font-size: 12px; /* Reduced by 20% */
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        width: 188.8px; /* Reduced by 20% */
-        height: 18.4px; /* Reduced by 20% */
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
-    
-    .imgmapp {
-        color: #0E0728;
-        font-family: Poppins;
-        font-size: 12.8px; /* Reduced by 20% */
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-        width: 188.8px; /* Reduced by 20% */
-    }
-    
-    .mapsvg {
-        background-image: url('../images/mapsvg.svg');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 44.62px; /* Reduced by 20% */
-        height: 44.62px; /* Reduced by 20% */
-        stroke-width: 7px;
-        stroke: #FFF;
-        position: absolute;
-        z-index: 1;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        right: 240px; /* Reduced by 20% */
-        top: 25%;
-    }
-    
-    .formright {
-        display: flex;
-        padding-left: 2.4%; /* Reduced by 20% */
-        padding-top: 2.4%; /* Reduced by 20% */
-    }
-    
-    .svgani {
-        width: 9.6px; /* Reduced by 20% */
-        height: 12.8px; /* Reduced by 20% */
-        transition: transform 0.2s ease-in-out;
-        animation: jiggle 0.5s ease-in-out infinite; /* Animation runs continuously */
-    }
-    
-    .svgani:hover {
-        animation: jiggle 0.5s ease-in-out infinite; /* Same animation on hover, but you can omit this if you want it to run continuously */
-    }
-    
-    @keyframes jiggle {
-        0% {
-            transform: rotate(0deg);
-        }
-        25% {
-            transform: rotate(10deg);
-        }
-        50% {
-            transform: rotate(0deg);
-        }
-        75% {
-            transform: rotate(-10deg);
-        }
-        100% {
-            transform: rotate(0deg);
-        }
-    }
-    
-    .arrow11{
-        width: 34.545px;
-    flex-shrink: 0;
-    }
-    .Contactcenter{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        gap: 30px;
-        margin-bottom: 55px;
-    }
-}
-/* Mobile Devices (up to 480px) */
-@media (max-width: 520px) {
-    * {
-        margin: 0%;
-        padding: 0%;
-        box-sizing: border-box;
-    }
-    
     .formbgofcontct {
         background-image: url('../images/contactmblbg.png');
-        width: 100%; /* Reduced to 80% */
+        width: 100%;
+        /* Reduced to 80% */
         height: 2100px;
         flex-shrink: 0;
         background-repeat: no-repeat;
         background-size: cover;
         display: flex;
         justify-content: flex-start;
-        align-items:center;
-        padding: 40px; /* Reduced by 20% */
+        align-items: center;
+        padding: 10px;
+        /* Reduced by 20% */
         flex-direction: column;
     }
-    
+
     .formdiv {
-        width: 400.35px;
+        width: 80%;
         height: 763.058px;
         flex-shrink: 0;
         flex-shrink: 0;
         background-color: #FFF;
         filter: drop-shadow(0px 3.19px 15.952px rgba(0, 0, 0, 0.10));
-        border-radius: 24px; /* Reduced by 20% */
+        border-radius: 24px;
+        /* Reduced by 20% */
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        gap: 16px; /* Reduced by 20% */
-        padding: 8px; /* Reduced by 20% */
+        gap: 16px;
+        /* Reduced by 20% */
+        padding: 8px;
+        /* Reduced by 20% */
     }
-    
+
     .formleft {
-        width: 100%; /* Reduced to 80% of 613.92px */
+        width: 100%;
+        /* Reduced to 80% of 613.92px */
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
     }
-    
+
     .formbglogo {
-        width: 201.14px; /* Reduced to 80% of 613.92px */
-        height: 100.44px; /* Reduced to 80% of 300.549px */
+        width: 201.14px;
+        /* Reduced to 80% of 613.92px */
+        height: 100.44px;
+        /* Reduced to 80% of 300.549px */
         background-image: url('../images/formlogo.png');
         background-repeat: no-repeat;
         background-size: cover;
         position: absolute;
         z-index: -1;
         opacity: 0.05;
-        margin-bottom: 52px; /* Reduced by 20% */
+        margin-bottom: 52px;
+        /* Reduced by 20% */
     }
-    
+
     .formright {
-        width: 360.976px;
+        width: 95%;
         height: 243.87px;
         flex-shrink: 0;
         border-radius: 20px;
@@ -888,7 +792,7 @@ left: 41%;
         background-repeat: no-repeat;
         background-size: cover;
     }
-    
+
     .inplabel {
         color: #121935;
         font-family: Poppins;
@@ -897,22 +801,27 @@ left: 41%;
         font-weight: 600;
         line-height: normal;
         text-align: start;
-        margin-left: 8px; /* Reduced by 20% */
-        margin-bottom: 8px; /* Reduced by 20% */
-        margin-top: 8px; /* Reduced by 20% */
+        margin-left: 8px;
+        /* Reduced by 20% */
+        margin-bottom: 8px;
+        /* Reduced by 20% */
+        margin-top: 8px;
+        /* Reduced by 20% */
     }
-    
+
     .inpform {
-        width: 336.771px;
+        width: 400px;
         height: 54.396px;
         flex-shrink: 0;
         flex-shrink: 0;
         fill: rgba(255, 255, 255, 0.80);
         stroke-width: 1px;
         stroke: rgba(0, 0, 0, 0.10);
-        padding: 8px; /* Reduced by 20% */
+        padding: 8px;
+        /* Reduced by 20% */
         border: 1px solid gainsboro;
-        border-radius: 24px; /* Reduced by 20% */
+        border-radius: 24px;
+        /* Reduced by 20% */
         color: #202020;
         color: #202020;
         font-family: Poppins;
@@ -922,9 +831,9 @@ left: 41%;
         line-height: normal;
         letter-spacing: -0.7px;
     }
-    
+
     .inpform:focus {
-        width: 336.771px;
+        width: 400px;
         height: 54.396px;
         flex-shrink: 0;
         flex-shrink: 0;
@@ -935,55 +844,64 @@ left: 41%;
         border: 1px solid gainsboro;
         border-radius: 24px;
         color: #202020;
-font-family: Poppins;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-letter-spacing: -0.7px;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.7px;
     }
-    
+
     .formlab {
+        width: 100%;
         display: flex;
         justify-content: center;
         align-items: start;
         flex-direction: column;
     }
-    
+
     .formbtn {
-        width: 336.771px;
+        width: 400px;
         height: 54.396px;
         flex-shrink: 0;
         flex-shrink: 0;
         background-color: #29166F;
-        margin-top: 8px; /* Reduced by 20% */
-        margin-bottom: 8px; /* Reduced by 20% */
+        margin-top: 8px;
+        /* Reduced by 20% */
+        margin-bottom: 8px;
+        /* Reduced by 20% */
         border: 1px solid gainsboro;
-        border-radius: 24px; /* Reduced by 20% */
+        border-radius: 24px;
+        /* Reduced by 20% */
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 8px; /* Reduced by 20% */
-        padding-left: 16px; /* Reduced by 20% */
-        padding-right: 16px; /* Reduced by 20% */
+        padding: 8px;
+        /* Reduced by 20% */
+        padding-left: 16px;
+        /* Reduced by 20% */
+        padding-right: 16px;
+        /* Reduced by 20% */
     }
-    
+
     .formp {
         color: #FFF;
         text-align: center;
         font-family: "Open Sans";
-        font-size: 8.4px; /* Reduced by 20% */
+        font-size: 8.4px;
+        /* Reduced by 20% */
         font-style: normal;
         font-weight: 700;
-        line-height: 64px; /* Reduced by 20% */
+        line-height: 64px;
+        /* Reduced by 20% */
     }
-    
+
     .arrdiv {
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    
+
     .imageopop {
         width: 241.221px;
         height: 106.252px;
@@ -991,14 +909,15 @@ letter-spacing: -0.7px;
         flex-shrink: 0;
         background-color: #FFF;
         filter: drop-shadow(0px 3px 5.292px rgba(0, 0, 0, 0.35));
-        border-radius: 8px; /* Reduced by 20% */
+        border-radius: 8px;
+        /* Reduced by 20% */
         display: flex;
         justify-content: center;
         align-items: center;
         margin-left: 20px;
         margin-top: 50px;
     }
-    
+
     .imgmaph1 {
         color: #29166F;
         font-family: Poppins;
@@ -1006,23 +925,27 @@ letter-spacing: -0.7px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
-        width: 174px; /* Reduced by 20% */
-        height: 18.4px; /* Reduced by 20% */
+        width: 174px;
+        /* Reduced by 20% */
+        height: 18.4px;
+        /* Reduced by 20% */
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
     }
-    
+
     .imgmapp {
         color: #0E0728;
         font-family: Poppins;
-        font-size: 8.8px; /* Reduced by 20% */
+        font-size: 8.8px;
+        /* Reduced by 20% */
         font-style: normal;
         font-weight: 500;
         line-height: normal;
-        width: 174.8px; /* Reduced by 20% */
+        width: 174.8px;
+        /* Reduced by 20% */
     }
-    
+
     .mapsvg {
         background-image: url('../images/mapsvg.svg');
         background-position: center;
@@ -1037,59 +960,72 @@ letter-spacing: -0.7px;
         display: flex;
         justify-content: center;
         align-items: center;
-        right: 215px; /* Reduced by 20% */
+        right: 215px;
+        /* Reduced by 20% */
         top: 25%;
     }
-    
+
     .formright {
         display: flex;
-        padding-left: 2.4%; /* Reduced by 20% */
-        padding-top: 2.4%; /* Reduced by 20% */
+        padding-left: 2.4%;
+        /* Reduced by 20% */
+        padding-top: 2.4%;
+        /* Reduced by 20% */
     }
-    
+
     .svgani {
-        width: 9.6px; /* Reduced by 20% */
-        height: 12.8px; /* Reduced by 20% */
+        width: 9.6px;
+        /* Reduced by 20% */
+        height: 12.8px;
+        /* Reduced by 20% */
         transition: transform 0.2s ease-in-out;
-        animation: jiggle 0.5s ease-in-out infinite; /* Animation runs continuously */
+        animation: jiggle 0.5s ease-in-out infinite;
+        /* Animation runs continuously */
     }
-    
+
     .svgani:hover {
-        animation: jiggle 0.5s ease-in-out infinite; /* Same animation on hover, but you can omit this if you want it to run continuously */
+        animation: jiggle 0.5s ease-in-out infinite;
+        /* Same animation on hover, but you can omit this if you want it to run continuously */
     }
-    
+
     @keyframes jiggle {
         0% {
             transform: rotate(0deg);
         }
+
         25% {
             transform: rotate(10deg);
         }
+
         50% {
             transform: rotate(0deg);
         }
+
         75% {
             transform: rotate(-10deg);
         }
+
         100% {
             transform: rotate(0deg);
         }
     }
-    
-    .arrow11{
+
+    .arrow11 {
         width: 14.545px;
-    flex-shrink: 0;
+        flex-shrink: 0;
     }
-    .contimg{
+
+    .contimg {
         width: 55.26px;
-    height: 55.26px;
-    flex-shrink: 0;
-    border-radius: 15px;
-    position: absolute;
-    top: -20px;
-    left: 41%;
+        height: 55.26px;
+        flex-shrink: 0;
+        border-radius: 15px;
+        position: absolute;
+        top: -20px;
+        left: 41%;
     }
-    .Contactcenter{
+
+    .Contactcenter {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1097,22 +1033,362 @@ letter-spacing: -0.7px;
         gap: 30px;
         margin-bottom: 55px;
     }
-    .conth3{
+
+    .conth3 {
         color: #28156D;
-text-align: center;
-font-family: "Brush Script MT";
-font-size: 34px;
-font-style: italic;
-font-weight: 400;
-line-height: normal;
+        text-align: center;
+        font-family: "Brush Script MT";
+        font-size: 34px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: normal;
     }
-    .conth4{
+
+    .conth4 {
         color: #000;
-text-align: center;
-font-family: "Playfair Display";
-font-size: 35px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+        text-align: center;
+        font-family: "Playfair Display";
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+
+/* Mobile Devices (up to 480px) */
+@media (max-width: 520px) {
+    * {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+
+    .formbgofcontct {
+        background-image: url('../images/contactmblbg.png');
+        width: 100%;
+        /* Reduced to 80% */
+        height: 2100px;
+        flex-shrink: 0;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 40px;
+        /* Reduced by 20% */
+        flex-direction: column;
+    }
+
+    .formdiv {
+        width: 400.35px;
+        height: 763.058px;
+        flex-shrink: 0;
+        flex-shrink: 0;
+        background-color: #FFF;
+        filter: drop-shadow(0px 3.19px 15.952px rgba(0, 0, 0, 0.10));
+        border-radius: 24px;
+        /* Reduced by 20% */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 16px;
+        /* Reduced by 20% */
+        padding: 8px;
+        /* Reduced by 20% */
+    }
+
+    .formleft {
+        width: 100%;
+        /* Reduced to 80% of 613.92px */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .formbglogo {
+        width: 201.14px;
+        /* Reduced to 80% of 613.92px */
+        height: 100.44px;
+        /* Reduced to 80% of 300.549px */
+        background-image: url('../images/formlogo.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        z-index: -1;
+        opacity: 0.05;
+        margin-bottom: 52px;
+        /* Reduced by 20% */
+    }
+
+    .formright {
+        width: 360.976px;
+        height: 243.87px;
+        flex-shrink: 0;
+        border-radius: 20px;
+        background-image: url('../images/formrightlogo.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .inplabel {
+        color: #121935;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-align: start;
+        margin-left: 8px;
+        /* Reduced by 20% */
+        margin-bottom: 8px;
+        /* Reduced by 20% */
+        margin-top: 8px;
+        /* Reduced by 20% */
+    }
+
+    .inpform {
+        width: 336.771px;
+        height: 54.396px;
+        flex-shrink: 0;
+        flex-shrink: 0;
+        fill: rgba(255, 255, 255, 0.80);
+        stroke-width: 1px;
+        stroke: rgba(0, 0, 0, 0.10);
+        padding: 8px;
+        /* Reduced by 20% */
+        border: 1px solid gainsboro;
+        border-radius: 24px;
+        /* Reduced by 20% */
+        color: #202020;
+        color: #202020;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.7px;
+    }
+
+    .inpform:focus {
+        width: 336.771px;
+        height: 54.396px;
+        flex-shrink: 0;
+        flex-shrink: 0;
+        fill: rgba(255, 255, 255, 0.80);
+        stroke-width: 1px;
+        stroke: rgba(0, 0, 0, 0.10);
+        padding: 8px;
+        border: 1px solid gainsboro;
+        border-radius: 24px;
+        color: #202020;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.7px;
+    }
+
+    .formlab {
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+    }
+
+    .formbtn {
+        width: 336.771px;
+        height: 54.396px;
+        flex-shrink: 0;
+        flex-shrink: 0;
+        background-color: #29166F;
+        margin-top: 8px;
+        /* Reduced by 20% */
+        margin-bottom: 8px;
+        /* Reduced by 20% */
+        border: 1px solid gainsboro;
+        border-radius: 24px;
+        /* Reduced by 20% */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 8px;
+        /* Reduced by 20% */
+        padding-left: 16px;
+        /* Reduced by 20% */
+        padding-right: 16px;
+        /* Reduced by 20% */
+    }
+
+    .formp {
+        color: #FFF;
+        text-align: center;
+        font-family: "Open Sans";
+        font-size: 8.4px;
+        /* Reduced by 20% */
+        font-style: normal;
+        font-weight: 700;
+        line-height: 64px;
+        /* Reduced by 20% */
+    }
+
+    .arrdiv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imageopop {
+        width: 241.221px;
+        height: 106.252px;
+        flex-shrink: 0;
+        flex-shrink: 0;
+        background-color: #FFF;
+        filter: drop-shadow(0px 3px 5.292px rgba(0, 0, 0, 0.35));
+        border-radius: 8px;
+        /* Reduced by 20% */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 20px;
+        margin-top: 50px;
+    }
+
+    .imgmaph1 {
+        color: #29166F;
+        font-family: Poppins;
+        font-size: 10.769px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        width: 174px;
+        /* Reduced by 20% */
+        height: 18.4px;
+        /* Reduced by 20% */
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .imgmapp {
+        color: #0E0728;
+        font-family: Poppins;
+        font-size: 8.8px;
+        /* Reduced by 20% */
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        width: 174.8px;
+        /* Reduced by 20% */
+    }
+
+    .mapsvg {
+        background-image: url('../images/mapsvg.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 40.045px;
+        height: 40.045px;
+        stroke-width: 7px;
+        stroke: #FFF;
+        position: absolute;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        right: 215px;
+        /* Reduced by 20% */
+        top: 25%;
+    }
+
+    .formright {
+        display: flex;
+        padding-left: 2.4%;
+        /* Reduced by 20% */
+        padding-top: 2.4%;
+        /* Reduced by 20% */
+    }
+
+    .svgani {
+        width: 9.6px;
+        /* Reduced by 20% */
+        height: 12.8px;
+        /* Reduced by 20% */
+        transition: transform 0.2s ease-in-out;
+        animation: jiggle 0.5s ease-in-out infinite;
+        /* Animation runs continuously */
+    }
+
+    .svgani:hover {
+        animation: jiggle 0.5s ease-in-out infinite;
+        /* Same animation on hover, but you can omit this if you want it to run continuously */
+    }
+
+    @keyframes jiggle {
+        0% {
+            transform: rotate(0deg);
+        }
+
+        25% {
+            transform: rotate(10deg);
+        }
+
+        50% {
+            transform: rotate(0deg);
+        }
+
+        75% {
+            transform: rotate(-10deg);
+        }
+
+        100% {
+            transform: rotate(0deg);
+        }
+    }
+
+    .arrow11 {
+        width: 14.545px;
+        flex-shrink: 0;
+    }
+
+    .contimg {
+        width: 55.26px;
+        height: 55.26px;
+        flex-shrink: 0;
+        border-radius: 15px;
+        position: absolute;
+        top: -20px;
+        left: 41%;
+    }
+
+    .Contactcenter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+        margin-bottom: 55px;
+    }
+
+    .conth3 {
+        color: #28156D;
+        text-align: center;
+        font-family: "Brush Script MT";
+        font-size: 34px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .conth4 {
+        color: #000;
+        text-align: center;
+        font-family: "Playfair Display";
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
     }
 }
