@@ -16,7 +16,7 @@ function Phar4(){
                         <p className='phar4h2'>Fill out our form,request a quote, and select your preferred doctor.</p>
                     </div>
                     <div>
-                        <img src={phar4div5} alt="" />
+                        <img src={phar4div5} alt="" className='phar4img' />
                     </div>
                     <div>
                         <img className='gird4mainimg' src={phar4div2} alt="" />
@@ -24,7 +24,7 @@ function Phar4(){
                         <p className='phar4h2'>Fill out our form,request a quote, and select your preferred doctor.</p>
                     </div>
                     <div>
-                        <img src={phar4div5} alt="" />
+                        <img src={phar4div5} alt="" className='phar4img' />
                     </div>
                     <div>
                         <img className='gird4mainimg' src={phar4div3} alt="" />
@@ -32,7 +32,7 @@ function Phar4(){
                         <p className='phar4h2'>Fill out our form,request a quote, and select your preferred doctor.</p>
                     </div>
                     <div>
-                        <img src={phar4div5} alt="" />
+                        <img src={phar4div5} alt="" className='phar4img' />
                     </div>
                     <div>
                         <img className='gird4mainimg' src={phar4div4} alt="" />
