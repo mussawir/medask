@@ -1,4 +1,4 @@
-import '../components/ibrabout2.css'
+import '../App.css'
 function Icon() {
     return (
         <div>

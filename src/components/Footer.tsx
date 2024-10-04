@@ -1,5 +1,5 @@
 import React from 'react';
-import './Footer.css'; // Add custom styles for the footer
+import '../App.css'; // Add custom styles for the footer
 import LOGO1 from '../images/LOGO1.png';
 import Rectangle from '../images/Rectangle.png';
 import Frame1 from '../images/Frame1.svg';

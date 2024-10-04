@@ -1,7 +1,5 @@
 import React from 'react';
-// import Svg1 from './Group20'
-// import Icon from './Group 19.png'
-import './Custombtn.css'
+import '../App.css'
 const Custombtn = () => {
   return (
     

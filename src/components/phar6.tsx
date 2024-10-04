@@ -1,4 +1,4 @@
-import './ibrphar6.css'
+import '../App.css'
 import phar6img from '../images/phar6img1.png'
 import phar6img1 from '../images/phar6img2.png'
 import phar6img2 from '../images/phar6img3.png'

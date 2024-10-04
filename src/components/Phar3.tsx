@@ -1,4 +1,4 @@
-import './ibrphar3.css'
+import '../App.css'
 import Phargird1 from '../images/phar3gird1.png'
 import Phargird2 from '../images/phar3gird2.png'
 import Phargird3 from '../images/phar3gird3.png'

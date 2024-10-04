@@ -5,6 +5,8 @@ import svg from '../images/drugstore 2.svg'; // Your SVG source
 import Icon from '../images/iconarrowdiv1.svg';
 import Svg2 from '../images/secondgroup.png';
 import '../App.css';
+import './ibrdiv1.css'
+
 
 function a11yProps(index: number) {
     return {

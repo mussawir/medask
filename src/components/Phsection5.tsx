@@ -1,5 +1,5 @@
 import React from 'react';
-import './prgPhsection5.css'; 
+import '../App.css'; 
 import phsec5mainImage from '../images/phsection5.png'; 
 import phsection5Image2 from '../images/phsection51.png';
 import phsection5Image3 from '../images/phsection53.png';

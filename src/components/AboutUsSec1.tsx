@@ -1,4 +1,4 @@
-import './ibraboutusSec1.css'
+import '../App.css'
 import greenhr from '../images/greenhr.png';
 function AboutUsSec1() {
 

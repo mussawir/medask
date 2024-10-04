@@ -3,21 +3,15 @@ import { Link, useLocation } from 'react-router-dom';
 import './Navbar.css';
 import logo from '../images/logo.png'; // Ensure the logo path is correct
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebookF, faTwitter, faLinkedinIn, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faPhone, faEnvelope, faArrowDown, faHome, faBusinessTime } from '@fortawesome/free-solid-svg-icons';
-import Iconreadmore from '../images/Group23.png';
-import greenhr from '../images/greenhr.png';
-import { Container } from '@mui/material';
 import Drawer from './Drawer';
 import phonetopImg from '../images/phonetopImg.png';
 import EmailTopImg from '../images/EmailTopImg.png';
 import greyverticalHrNav from '../images/greyverticalHrNav.png';
-import doctornursespecialequipment from '../images/doctornursespecialequipment.png';
 import './Header.css';
 import Group1 from '../images/Gruop21'; // Custom SVG component
-import './ibraboutusSec1.css'
-import icon2 from '../images/TwCbOK.png'
-import AboutUsPage from '../Pages/AboutUsPage';
+import '../App.css'
+
 const Header: React.FC = () => {
     // Function to scroll to the bottom of the page
     const scrollToBottom = () => {

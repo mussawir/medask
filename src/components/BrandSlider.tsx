@@ -1,7 +1,7 @@
 import React from 'react';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import './asfBrandSlider.css'; // Import the external CSS
+import '../App.css'; // Import the external CSS
 import Slider from 'react-slick';
 
 interface Brand {

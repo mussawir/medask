@@ -5,7 +5,7 @@ import image2Sec3 from '../images/image2Sec3.png'
 import image3Sec3 from '../images/image3Sec3.png'
 import { Container, Typography } from '@mui/material';
 import Custombtn from './Custombtn';
-import './Custombtn.css'
+import '../App.css'
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 import tickrounded from '../images/tickrounded.png';
 function Section4() {

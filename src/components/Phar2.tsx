@@ -1,4 +1,4 @@
-import './ibrphar2.css'
+import '../App.css'
 import greenhr from '../images/greenhr.png';
 function Phar1() {
 

@@ -1,4 +1,4 @@
-import './ibrabout2.css';
+import '../App.css';
 import React from 'react';
 import Icon from '../images/map-solid'
 function About2() {

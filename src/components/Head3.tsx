@@ -1,5 +1,5 @@
 import React from 'react'
-import './Head3.css'
+import '../App.css'
 function Head3(){
 
 return (
