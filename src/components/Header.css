@@ -92,7 +92,7 @@ top: 19%;
             font-weight: 700;
             line-height: 11.81px;
             position: absolute;
-            left: 182.41px;
+            left: 172.41px;
         }
         .nav-link-topsmallscreen2{
             color: #170C40;
@@ -104,7 +104,7 @@ top: 19%;
             font-weight: 700;
             line-height: 11.81px;
             position: absolute;
-            left: 306.56px;
+            left: 300.56px;
         }
         .emailnavsmallscreen{
             color: #170C40;
@@ -113,6 +113,7 @@ top: 19%;
             font-size: 8.44px;
             font-style: normal;
             font-weight: 500;
+            margin-top: 6px;
             line-height: 19.65px;
             position: absolute;
         }
@@ -151,6 +152,7 @@ top: 19%;
         .menu-iconsmallscreen {
             display: block;
             align-self: flex-end;
+            margin-top: 30px;
         }
         .partnerlinksmallscreen {
             align-items: center;
@@ -162,7 +164,7 @@ top: 19%;
             font-size: 13.94px;
             font-weight: 700;
             height: 36.7px;
-            margin-left: 126px;
+            margin-left: 106px;
             padding: 6px;
             text-decoration: none;
             top: 53px;
