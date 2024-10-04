@@ -7,8 +7,6 @@ import { faFacebookF, faTwitter, faLinkedinIn, faInstagram } from '@fortawesome/
 import { faPhone, faEnvelope, faArrowDown, faHome, faBusinessTime } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import doctornursespecialequipment from '../images/doctornursespecialequipment.png';
-import '../components/Section1.css';
-import icon2 from '../images/TwCbOK.png'
 
 
 function Section1() { 

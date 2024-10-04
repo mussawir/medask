@@ -1,5 +1,5 @@
 import React from 'react';
-import './NewsSection.css';
+import '../App.css';
 import cardOneImage from '../images/cardOne.png';
 import cardTwoImage from '../images/cardtwo.png';
 import cardThreeImage from '../images/cardthree.png';

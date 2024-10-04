@@ -1,5 +1,5 @@
 import React from 'react'
-import './Section4.css'
+import '../App.css'
 import image1Sec3 from '../images/image1Sec3.png'
 import image2Sec3 from '../images/image2Sec3.png'
 import image3Sec3 from '../images/image3Sec3.png'

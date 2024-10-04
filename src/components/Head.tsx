@@ -1,4 +1,4 @@
-import './ibrhead.css'
+import '../App.css'
 function Head(){
 
 return (

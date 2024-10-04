@@ -1,4 +1,4 @@
-import './VideoText.css';
+import '../App.css';
 
 function VideoText() {
     console.log("VideoText component rendered"); // Debugging to check if it's rendered
