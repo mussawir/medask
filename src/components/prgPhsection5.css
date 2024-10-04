@@ -85,6 +85,311 @@
     line-height: 1.7;
 }
 
+/* Laptops/Desktops (1025px to 1440px) */
+@media (min-width: 1025px) and (max-width: 1440px) {
+   /* Container styling */
+.phsection5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    margin: 0 auto;
+    /* background-image: url('../images/formbg.png'); */
+    background-size: cover;
+    height: 937px;
+    max-width: 1600px;
+    width: 100%;
+    
+    z-index: 99;
+    background-repeat: no-repeat;
+}
+
+/* Image Section */
+.image-section5 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    position: relative;
+}
+
+.image-item-wrap {
+    position: relative;
+}
+
+.image-item-main {
+    width: 444.005px;
+    height: auto;
+    flex-shrink: 0;
+    border-radius: 12px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    left: 229.69px;
+    z-index: 99;
+}
+
+.image-item-sub1 {
+    width: 199.385px;
+    height: auto;
+    position: absolute;
+    top: 130px;
+    left: -164px;
+    z-index: 100;
+}
+
+.image-item-sub2 {
+    width: 191.39px !important; 
+    height: 240.39 !important;
+    position: absolute !important;
+    right: 184px !important;
+    bottom: -70px !important;
+}
+
+/* Text Section */
+.text-section5 {
+    width: 40%;
+    text-align: start;
+}
+
+.brand-name5 {
+    font-family: 'Brush Script MT';
+    font-size: 55px;
+    text-align: start;
+    font-weight: 400;
+    color: #3a0070;
+    margin-bottom: 10px;
+}
+
+.section-title5 {
+    font-family: 'Playfair Display';
+    font-size: 55px;
+    font-weight: 500;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.section-description5 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+    line-height: 1.7;
+}
+}
+/* Small Laptops (769px to 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .phsection5 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        padding: 40px;
+        margin: 0 auto;
+        /* background-image: url('../images/formbg.png'); */
+        background-size: cover;
+        height: 1100px;
+        max-width: 1600px;
+        width: 100%;
+        z-index: 99;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    
+    /* Image Section */
+    .image-section5 {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .image-item-wrap {
+        position: relative;
+    }
+    
+    .image-item-main {
+        width: 501.628px;
+        height: 459.071px;
+
+        border-radius: 12px;
+        object-fit: cover;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        top: 100px;
+        left: 20px;
+        z-index: 99;
+    }
+    
+    .image-item-sub1 {
+        width: 204.186px;
+        height: auto;
+        position: absolute;
+        bottom: 0px;
+        top: 0px;
+        left: -105px;
+        z-index: 100;
+    }
+    
+    .image-item-sub2 {
+        width: 167.186px;
+        height: auto;
+        position: absolute;
+        z-index: 1;
+        bottom: 100px;
+        left: -308px;
+
+        /* right: 250px; */
+        /* bottom: -100px;*/
+        object-fit: cover;
+    }
+    
+    /* Text Section */
+    .text-section5 {
+        width: 100%;
+        text-align: start;
+    }
+    
+    .brand-name5 {
+        font-family: 'Brush Script MT';
+        font-size: 55px;
+        text-align: center;
+        font-weight: 400;
+        color: #3a0070;
+        margin-bottom: 10px;
+        position: absolute;
+        top: 46px;
+    }
+    
+    .section-title5 {
+        color: #000;
+        text-align: center;
+        font-family: "Playfair Display";
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: center;
+    }
+    
+    .section-description5 {
+        width: 90%;
+        height: 231.974px;
+        flex-shrink: 0;
+        color: #000;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 21px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+    }
+}
+
+/* Tablets (481px to 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+    .phsection5 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        padding: 40px;
+        margin: 0 auto;
+        /* background-image: url('../images/formbg.png'); */
+        background-size: cover;
+        height: 1100px;
+        max-width: 1600px;
+        width: 100%;
+        z-index: 99;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    
+    /* Image Section */
+    .image-section5 {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .image-item-wrap {
+        position: relative;
+    }
+    
+    .image-item-main {
+        width: 470.628px;
+        height: 421.071px;
+        border-radius: 12px;
+        object-fit: cover;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        top: 100px;
+        left: 20px;
+        z-index: 99;
+    }
+    
+    .image-item-sub1 {
+        width: 204.186px;
+        height: auto;
+        position: absolute;
+        bottom: 0px;
+        top: 0px;
+        left: -105px;
+        z-index: 100;
+    }
+    
+    .image-item-sub2 {
+        width: 167.186px;
+        height: 174.419px;
+        position: absolute;
+        z-index: 1;
+        bottom: 100px;
+        left: -275px;
+        /* right: 250px; */
+        /* bottom: -100px;*/
+        object-fit: cover;
+    }
+    
+    /* Text Section */
+    .text-section5 {
+        width: 100%;
+        text-align: start;
+    }
+    
+    .brand-name5 {
+        font-family: 'Brush Script MT';
+        font-size: 55px;
+        text-align: start;
+        font-weight: 400;
+        color: #3a0070;
+        margin-bottom: 10px;
+        position: absolute;
+        top: 46px;
+    }
+    
+    .section-title5 {
+        color: #000;
+        text-align: center;
+        font-family: "Playfair Display";
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: start;
+    }
+    
+    .section-description5 {
+        width: 456px;
+        height: 231.974px;
+        flex-shrink: 0;
+        color: #000;
+        text-align: start;
+        font-family: Poppins;
+        font-size: 21px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+    }
+    
+}
 
 /* Mobile Devices (up to 480px) */
 @media (max-width: 480px) {

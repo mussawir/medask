@@ -76,35 +76,321 @@
     line-height: 1.7;
 }
 
-@media screen and (max-width: 1308px) {
-        .prag-Phsection3 {
-            background-image: url('../images/phsection3.png');
-            background-repeat: no-repeat;
-            background-size: cover;
-            width: 100%; /* Changed to make it responsive */
-            height: 1404.55px;
-            flex-direction: column;
-            max-width: 1600px;
-            position: relative;
-            display: flex;
-            gap: 258px;
-            padding: 0px;
-            background-color: #fff;
-            margin-top: 40px;
-        }
-        .prag-image-item23 {
-            width: 491.16px;
-            height: 315.4px;
-            object-fit: cover;
-            border-radius: 8px;
-            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-            position: absolute;
-            left: 185px;
-            bottom: 800px;
-        }
+/* Laptops/Desktops (1025px to 1440px) */
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .prag-Phsection3 {
+        background-image: url('../images/phsection3.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%; /* Changed to make it responsive */
+        height: 1200.55px;
+        max-width: 1600px;
+        position: relative;
+        display: flex;
+        gap: 258px;
+        padding: 40px;
+        background-color: #fff;
+        margin-top: 40px;
+    }
+    
+    /* Image Section */
+    .prag-image-section3 {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .prag-image-item13 {
+        width: 567.46px; /* Increased by an additional 20% */
+        height: 411.48px; /* Increased by an additional 20% */
+        flex-shrink: 0;
+        object-fit: cover;
+        border-radius: 8px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        position: relative;
+        left: 322px;
+        bottom: -268px;
+    }
+    
+    .prag-image-item23 {
+        width: 472.88px; /* Increased by an additional 20% */
+        height: 303.67px; /* Increased by an additional 20% */
+        flex-shrink: 0;
+        object-fit: cover;
+        border-radius: 8px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        position: absolute;
+        left: 100px !important;
+        bottom: 600px !important;
+    }
+    
+    /* Text Section */
+    .prag-text-section3 {
+        width: 390px;
+        height: 299.53px;
+        margin-top: 200px;
+    }
+    
+    .prag-brand-name3 {
+        width: 100%;
+        color: #28156D;
+        text-align: start !important;
+        font-family: "Brush Script MT";
+        font-size: 34px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: -729px;
+
+        margin-left: 5% !important;
+    }
+    
+    .prag-section-title3 {
+        width: 100%;
+        color: #000;
+        text-align: start !important;
+        font-family: "Playfair Display";
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        position: absolute;
+        top: 170px;
+        margin-left: 1.5%;
+    }
+    
+    .prag-section-description3 {
+        width: 1000px;
+    height: 299.529px;
+    margin-left: 5%;
+    flex-shrink: 0;
+    color: #000;
+    text-align: start;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 214.286% */
+    margin-top: 650px;
+    }
     
 }
 
+
+@media screen and (max-width: 1440px) {
+    .prag-Phsection3 {
+        background-image: url('../images/phsection3.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%; /* Changed to make it responsive */
+        height: 1404.55px;
+        flex-direction: column;
+        max-width: 1600px;
+        position: relative;
+        display: flex;
+        gap: 258px;
+        padding: 0px;
+        background-color: #fff;
+        margin-top: 40px;
+    }
+    .prag-image-item23 {
+        width: 491.16px;
+        height: 315.4px;
+        object-fit: cover;
+        border-radius: 8px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        position: absolute;
+        left: 185px;
+        bottom: 800px;
+    } 
+    
+}
+
+/* Small Laptops (769px to 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .prag-Phsection3 {
+        background-image: url('../images/phsection3.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%; /* Changed to make it responsive */
+        height: 1200.55px;
+        max-width: 1600px;
+        position: relative;
+        display: flex;
+        gap: 258px;
+        padding: 40px;
+        background-color: #fff;
+        margin-top: 40px;
+    }
+    
+    /* Image Section */
+    .prag-image-section3 {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .prag-image-item13 {
+        width: 472.88px; /* Increased by another 20% */
+        height: 342.9px; /* Increased by another 20% */
+        flex-shrink: 0;
+        object-fit: cover;
+        border-radius: 8px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        position: relative;
+        left: 250px;
+        bottom: -300px;
+    }
+    
+    .prag-image-item23 {
+        width: 394.07px; /* Increased by 20% */
+        height: 253.06px; /* Increased by 20% */
+        flex-shrink: 0;
+        object-fit: cover;
+        border-radius: 8px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        position: absolute;
+        left: 50px;
+        bottom: 400px;
+    }
+    
+    /* Text Section */
+    .prag-text-section3 {
+        width: 390px;
+        height: 299.53px;
+        margin-top: 200px;
+    }
+    
+    .prag-brand-name3 {
+        width: 80%;
+        color: #28156D;
+        text-align: start !important;
+        font-family: "Brush Script MT";
+        font-size: 34px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: -700px;
+    }
+    
+    .prag-section-title3 {
+        width: 100%;
+        color: #000;
+        text-align: start !important;
+        font-family: "Playfair Display";
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        position: absolute;
+        top: 190px;
+    }
+    
+    .prag-section-description3 {
+        width: 750px;
+    height: 299.529px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: start;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 214.286% */
+    margin-top: 650px;
+    }
+}
+/* Tablets (481px to 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+    .prag-Phsection3 {
+        background-image: url('../images/phsection3.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%; /* Changed to make it responsive */
+        height: 1200.55px;
+        max-width: 1600px;
+        position: relative;
+        display: flex;
+        gap: 258px;
+        padding: 40px;
+        background-color: #fff;
+        margin-top: 40px;
+    }
+    
+    /* Image Section */
+    .prag-image-section3 {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .prag-image-item13 {
+        width: 394.07px;
+        height: 285.75px;
+        flex-shrink: 0;
+        object-fit: cover;
+        border-radius: 8px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        position: relative;
+        left: 66px;
+        bottom: -300px;
+    }
+    
+    .prag-image-item23 {
+        width: 328.395px;
+        height: 210.88px;
+        flex-shrink: 0;
+        object-fit: cover;
+        border-radius: 8px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        position: absolute;
+        left: 50px;
+        bottom: 500px;
+    }
+    
+    /* Text Section */
+    .prag-text-section3 {
+        width: 390px;
+        height: 299.53px;
+        margin-top: 200px;
+    }
+    
+    .prag-brand-name3 {
+        width: 80%;
+        color: #28156D;
+        text-align: start !important;
+        font-family: "Brush Script MT";
+        font-size: 34px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: -650px;
+    }
+    
+    .prag-section-title3 {
+        width: 80%;
+        color: #000;
+        text-align: start !important;
+        font-family: "Playfair Display";
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        position: absolute;
+        top: 190px;
+    }
+    
+    .prag-section-description3 {
+        width: 450px;
+    height: 299.529px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: start;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 214.286% */
+    margin-top: 550px;
+    }
+}
 
 /* Mobile Devices (up to 480px) */
 @media (max-width: 480px) {
