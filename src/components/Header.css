@@ -9,12 +9,14 @@
 
 
 }
-.navbar-top{
+
+.navbar-top {
     position: absolute;
     z-index: 99;
 }
-.headerofsmallscreennavlinks{
-display: none;
+
+.headerofsmallscreennavlinks {
+    display: none;
 }
 
 @media screen and (max-width: 1208px) {
@@ -26,170 +28,314 @@ display: none;
         background-position: center;
         min-height: 1090.625px;
         background-repeat: no-repeat;
-    
+
     }
 }
 
-.navbar{
+.navbar {
     background-size: cover;
     position: relative;
 
     width: 100%;
 }
-.icon2{
-    position: absolute; 
-right: 0%;
-top: 19%;
+
+.icon2 {
+    position: absolute;
+    right: 0%;
+    top: 19%;
 }
-.menu-iconsmallscreen{
+
+.menu-iconsmallscreen {
     display: none;
 }
 
 @media screen and (max-width: 1508px) {
-    .icon2{
-        position: absolute; 
-    right: 0%;
-    top: 12%;
-    width: 100px;
+    .icon2 {
+        position: absolute;
+        right: 0%;
+        top: 12%;
+        width: 100px;
     }
 }
+
 @media screen and (max-width: 1599px) {
-    .icon2{
-        position: absolute; 
-    right: 0%;
-    top: 12%;
-    width: 120px;
+    .icon2 {
+        position: absolute;
+        right: 0%;
+        top: 12%;
+        width: 120px;
     }
 }
+
 @media screen and (max-width: 1339px) {
-    .icon2{
-        position: absolute; 
-    right: 0%;
-    top: 12%;
-    width: 100px;
+    .icon2 {
+        position: absolute;
+        right: 0%;
+        top: 12%;
+        width: 100px;
     }
 }
+
 @media screen and (max-width: 1208px) {
-    .icon2{
-        position: absolute; 
-    right: 0%;
-    display: none;
-    top: 19%;
+    .icon2 {
+        position: absolute;
+        right: 0%;
+        display: none;
+        top: 19%;
     }
 }
+
 @media screen and (max-width: 1051px) {
-    .headerofsmallscreennavlinks{
+    .headerofsmallscreennavlinks {
         display: block;
         align-self: flex-start;
-        }
-        .nav-link-topsmallscreen{
-            color: #170C40;
-            text-decoration: none;
-            font-family: 'Poppins', sans-serif;
-            font-size: 8.44px;
-            top: 17.68px;
-            font-style: normal;
-            font-weight: 700;
-            line-height: 11.81px;
-            position: absolute;
-            left: 172.41px;
-        }
-        .nav-link-topsmallscreen2{
-            color: #170C40;
-            text-decoration: none;
-            font-family: 'Poppins', sans-serif;
-            font-size: 8.44px;
-            top: 18.02px;
-            font-style: normal;
-            font-weight: 700;
-            line-height: 11.81px;
-            position: absolute;
-            left: 300.56px;
-        }
-        .emailnavsmallscreen{
-            color: #170C40;
-            text-decoration: none;
-            font-family: 'Poppins', sans-serif;
-            font-size: 8.44px;
-            font-style: normal;
-            font-weight: 500;
-            margin-top: 6px;
-            line-height: 19.65px;
-            position: absolute;
-        }
-        .nav-link-topsmallscreen3{
-            color: #170C40;
-            text-decoration: none;
-            font-family: 'Poppins', sans-serif;
-            font-size: 8.44px;
-            top: 53px;
-            font-style: normal;
-            font-weight: 700;
-            line-height: 11.81px;
-            position: absolute;
-            left: 182.41px;
-        }
-        .icon-backgroundsmallscreen {
-            display: inline-flex;
-            /* Allows proper alignment */
-            align-items: center;
-            /* Centers the icon vertically */
-            background: linear-gradient(90deg, #00A539, #29166F);
-            /* Gradient background */
-            color: white;
-            /* Change icon color to white for better contrast */
-            border-radius: 30px;
-            /* Rounded corners */
-            padding: 4px;
-            /* Padding around the icon */
-            margin-right: 5px;
-            /* Space between icon and text */
-        }
-        .phonetopImgsmallscreen{
-            width: 8.81px;
-            height: 8.81px;
-        }
-        .menu-iconsmallscreen {
-            display: block;
-            align-self: flex-end;
-            margin-top: 30px;
-        }
-        .partnerlinksmallscreen {
-            align-items: center;
-            border: .73px solid #828282;
-            border-radius: 6px;
-            color: #29166f;
-            display: flex;
-            font-family: poppins;
-            font-size: 13.94px;
-            font-weight: 700;
-            height: 36.7px;
-            margin-left: 106px;
-            padding: 6px;
-            text-decoration: none;
-            top: 53px;
-            transition: background-color .3s, color .3s;
-            width: 207.74px;
-        }
+    }
 
-        .icon-backgroundsmallscreen {
-            display: inline-flex;
-            /* Allows proper alignment */
-            align-items: center;
-            /* Centers the icon vertically */
-            background: linear-gradient(90deg, #00A539, #29166F);
-            /* Gradient background */
-            color: white;
-            /* Change icon color to white for better contrast */
-            border-radius: 30px;
-            /* Rounded corners */
-            padding: 8px;
-            /* Padding around the icon */
-            margin-right: 5px;
-            /* Space between icon and text */
-        }
-        .partnerlinktextsmallscreen{
-            font-size: 10.22px;
-            
-        }
+    .nav-link-topsmallscreen {
+        color: #170C40;
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif;
+        font-size: 8.44px;
+        top: 17.68px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 11.81px;
+        position: absolute;
+        left: 172.41px;
+    }
+
+    .nav-link-topsmallscreen2 {
+        color: #170C40;
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif;
+        font-size: 8.44px;
+        top: 18.02px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 11.81px;
+        position: absolute;
+        left: 300.56px;
+    }
+
+    .emailnavsmallscreen {
+        color: #170C40;
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif;
+        font-size: 8.44px;
+        font-style: normal;
+        font-weight: 500;
+        margin-top: 6px;
+        line-height: 19.65px;
+        position: absolute;
+    }
+
+    .nav-link-topsmallscreen3 {
+        color: #170C40;
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif;
+        font-size: 8.44px;
+        top: 53px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 11.81px;
+        position: absolute;
+        left: 182.41px;
+    }
+
+    .icon-backgroundsmallscreen {
+        display: inline-flex;
+        /* Allows proper alignment */
+        align-items: center;
+        /* Centers the icon vertically */
+        background: linear-gradient(90deg, #00A539, #29166F);
+        /* Gradient background */
+        color: white;
+        /* Change icon color to white for better contrast */
+        border-radius: 30px;
+        /* Rounded corners */
+        padding: 4px;
+        /* Padding around the icon */
+        margin-right: 5px;
+        /* Space between icon and text */
+    }
+
+    .phonetopImgsmallscreen {
+        width: 8.81px;
+        height: 8.81px;
+    }
+
+    .menu-iconsmallscreen {
+        display: block;
+        align-self: flex-end;
+        margin-top: 30px;
+    }
+
+    .partnerlinksmallscreen {
+        align-items: center;
+        border: .73px solid #828282;
+        border-radius: 6px;
+        color: #29166f;
+        display: flex;
+        font-family: poppins;
+        font-size: 13.94px;
+        font-weight: 700;
+        height: 36.7px;
+        margin-left: 106px;
+        padding: 6px;
+        text-decoration: none;
+        top: 53px;
+        transition: background-color .3s, color .3s;
+        width: 207.74px;
+    }
+
+    .icon-backgroundsmallscreen {
+        display: inline-flex;
+        /* Allows proper alignment */
+        align-items: center;
+        /* Centers the icon vertically */
+        background: linear-gradient(90deg, #00A539, #29166F);
+        /* Gradient background */
+        color: white;
+        /* Change icon color to white for better contrast */
+        border-radius: 30px;
+        /* Rounded corners */
+        padding: 8px;
+        /* Padding around the icon */
+        margin-right: 5px;
+        /* Space between icon and text */
+    }
+
+    .partnerlinktextsmallscreen {
+        font-size: 10.22px;
+
+    }
+}
+
+/* Mobile Devices (up to 480px) */
+
+/* Tablets (481px to 768px) */
+@media (max-width: 768px) {
+    .headerofsmallscreennavlinks {
+        display: block;
+        align-self: flex-start;
+    }
+
+    .nav-link-topsmallscreen {
+        color: #170C40;
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif;
+        font-size: 8.44px;
+        top: 17.68px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 11.81px;
+        position: absolute;
+        left: 172.41px;
+    }
+
+    .nav-link-topsmallscreen2 {
+        color: #170C40;
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif;
+        font-size: 8.44px;
+        top: 18.02px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 11.81px;
+        position: absolute;
+        left: 300.56px;
+    }
+
+    .emailnavsmallscreen {
+        color: #170C40;
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif;
+        font-size: 8.44px;
+        font-style: normal;
+        font-weight: 500;
+        margin-top: 6px;
+        line-height: 19.65px;
+        position: absolute;
+    }
+
+    .nav-link-topsmallscreen3 {
+        color: #170C40;
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif;
+        font-size: 8.44px;
+        top: 53px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 11.81px;
+        position: absolute;
+        left: 182.41px;
+    }
+
+    .icon-backgroundsmallscreen {
+        display: inline-flex;
+        /* Allows proper alignment */
+        align-items: center;
+        /* Centers the icon vertically */
+        background: linear-gradient(90deg, #00A539, #29166F);
+        /* Gradient background */
+        color: white;
+        /* Change icon color to white for better contrast */
+        border-radius: 30px;
+        /* Rounded corners */
+        padding: 4px;
+        /* Padding around the icon */
+        margin-right: 5px;
+        /* Space between icon and text */
+    }
+
+    .phonetopImgsmallscreen {
+        width: 8.81px;
+        height: 8.81px;
+    }
+
+    .menu-iconsmallscreen {
+        display: block;
+        align-self: flex-end;
+        margin-top: 30px;
+    }
+
+    .partnerlinksmallscreen {
+        align-items: center;
+        border: .73px solid #828282;
+        border-radius: 6px;
+        color: #29166f;
+        display: flex;
+        font-family: poppins;
+        font-size: 13.94px;
+        font-weight: 700;
+        height: 36.7px;
+        margin-left: 40px;
+        padding: 6px;
+        text-decoration: none;
+        top: 53px;
+        transition: background-color .3s, color .3s;
+        width: 207.74px;
+    }
+
+    .icon-backgroundsmallscreen {
+        display: inline-flex;
+        /* Allows proper alignment */
+        align-items: center;
+        /* Centers the icon vertically */
+        background: linear-gradient(90deg, #00A539, #29166F);
+        /* Gradient background */
+        color: white;
+        /* Change icon color to white for better contrast */
+        border-radius: 30px;
+        /* Rounded corners */
+        padding: 8px;
+        /* Padding around the icon */
+        margin-right: 5px;
+        /* Space between icon and text */
+    }
+
+    .partnerlinktextsmallscreen {
+        font-size: 10.22px;
+
+    }
 }
