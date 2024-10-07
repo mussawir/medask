@@ -61,7 +61,7 @@ const Bnews: React.FC = () => {
             Breaking News:</span>
                 </button>
                 <div className={`text-boxsmallscreen ${slide ? 'slide-left' : ''}`}>
-                    <p style={{width: '335.38px'}}>{texts[currentIndex]}</p> {/* Display the current text */}
+                    <p style={{width: '290px'}}>{texts[currentIndex]}</p> {/* Display the current text */}
                     <div className='btn-g'>
                     <div className='btn-box-1' onClick={handleLeftClick}>
                         <img className='imgnonoesmallscreen' src={arrowleft} alt="Previous" />
