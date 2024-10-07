@@ -8739,6 +8739,7 @@ line-height: normal;
   flex-shrink: 0;
   background-image: url('./images/about1bg.png');
   max-width: 1600px;
+  object-fit: cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -8891,7 +8892,9 @@ line-height: normal;
       display: flex;
       justify-content: center;
       align-items: center;
+      margin-top: -200px;
       overflow: hidden;
+      object-fit: contain;
       position: relative;
   }
 
@@ -9020,8 +9023,8 @@ line-height: normal;
       position: absolute;
       z-index: 1;
       opacity: 0.05;
-      top: 14%;
-      left: 0%;
+      top: 66%;
+      left: 74%;
   }
 
 }
@@ -9946,7 +9949,7 @@ line-height: normal;
 
   .phar2body {
       width: 100%;
-      height: 900px; /* Increased height for larger screens */
+      height: 750px; /* Increased height for larger screens */
       background: #FFF;
       position: relative;
       margin-top: 100px; /* Increased margin for spacing */
@@ -11069,7 +11072,7 @@ line-height: normal;
 }
 .about2bg {
   width: 100%;
-  height: 980px;
+  height: 780px;
   background: #FFF;
 }
 
@@ -11205,7 +11208,7 @@ fill: #00AA14;
   
   .about2bg {
       width: 100%;
-      height: 980px;
+      height: 750px;
       background: #FFF;
   }
   
@@ -16455,7 +16458,7 @@ flex-shrink: 0;
       background-image: url('./images/phsectwo.jpg');
       background-repeat: no-repeat;
       background-size: cover;
-      max-width: 1600px;
+      max-width: 1000px;
       /* Changed to make it responsive */
       min-width: 100%;
       height: 1099px;
@@ -16974,7 +16977,7 @@ width: 479.18px; /* Increased by 20% */
       background-repeat: no-repeat;
       background-size: cover;
       width: 100%; /* Changed to make it responsive */
-      height: 1200.55px;
+      height: 1100px;
       max-width: 1600px;
       position: relative;
       display: flex;
@@ -17011,7 +17014,7 @@ width: 479.18px; /* Increased by 20% */
       box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
       position: absolute;
       left: 100px !important;
-      bottom: 600px !important;
+      bottom: 300px !important;
   }
   
   /* Text Section */
@@ -17073,7 +17076,7 @@ width: 479.18px; /* Increased by 20% */
       background-repeat: no-repeat;
       background-size: cover;
       width: 100%; /* Changed to make it responsive */
-      height: 1404.55px;
+      height: 1100px;
       flex-direction: column;
       max-width: 1600px;
       position: relative;
@@ -18297,7 +18300,7 @@ margin-top: 550px;
 
 /* Text Section */
 .text-section5 {
-  width: 40%;
+  width: 90%;
   text-align: start;
 }
 
@@ -18319,6 +18322,7 @@ margin-top: 550px;
 }
 
 .section-description5 {
+  width: 90%;
   font-size: 18px;
   font-weight: 400;
   color: #000000;
