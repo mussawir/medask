@@ -7927,6 +7927,346 @@ margin-bottom: 40px;
       line-height: normal;
   }
 }
+
+/* Mobile Devices (up to 480px) */
+@media (max-width: 430px) {
+  * {
+      margin: 0%;
+      padding: 0%;
+      box-sizing: border-box;
+  }
+
+  .formbgofcontct {
+      background-image: url('./images/contactmblbg.png');
+      width: 100%;
+      /* Reduced to 80% */
+      height: 2100px;
+      flex-shrink: 0;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 40px;
+      /* Reduced by 20% */
+      flex-direction: column;
+  }
+
+  .formdiv {
+    width: 310.976px;
+      height: 763.058px;
+      flex-shrink: 0;
+      flex-shrink: 0;
+      background-color: #FFF;
+      filter: drop-shadow(0px 3.19px 15.952px rgba(0, 0, 0, 0.10));
+      border-radius: 24px;
+      /* Reduced by 20% */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 16px;
+      /* Reduced by 20% */
+      padding: 8px;
+      /* Reduced by 20% */
+  }
+
+  .formleft {
+      width: 100%;
+      /* Reduced to 80% of 613.92px */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+  }
+
+  .formbglogo {
+      width: 201.14px;
+      /* Reduced to 80% of 613.92px */
+      height: 100.44px;
+      /* Reduced to 80% of 300.549px */
+      background-image: url('./images/formlogo.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: absolute;
+      z-index: -1;
+      opacity: 0.05;
+      margin-bottom: 52px;
+      /* Reduced by 20% */
+  }
+
+  .formright {
+      width: 300px;
+      height: 243.87px;
+      flex-shrink: 0;
+      border-radius: 20px;
+      background-image: url('./images/formrightlogo.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+  .inplabel {
+      color: #121935;
+      font-family: Poppins;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      text-align: start;
+      margin-left: 8px;
+      /* Reduced by 20% */
+      margin-bottom: 8px;
+      /* Reduced by 20% */
+      margin-top: 8px;
+      /* Reduced by 20% */
+  }
+
+  .inpform {
+    width: 300px;
+      height: 54.396px;
+      flex-shrink: 0;
+      flex-shrink: 0;
+      fill: rgba(255, 255, 255, 0.80);
+      stroke-width: 1px;
+      stroke: rgba(0, 0, 0, 0.10);
+      padding: 8px;
+      /* Reduced by 20% */
+      border: 1px solid gainsboro;
+      border-radius: 24px;
+      /* Reduced by 20% */
+      color: #202020;
+      font-family: Poppins;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: -0.7px;
+  }
+
+  .inpform:focus {
+    width: 300px;
+      height: 54.396px;
+      flex-shrink: 0;
+      flex-shrink: 0;
+      fill: rgba(255, 255, 255, 0.80);
+      stroke-width: 1px;
+      stroke: rgba(0, 0, 0, 0.10);
+      padding: 8px;
+      border: 1px solid gainsboro;
+      border-radius: 24px;
+      color: #202020;
+      font-family: Poppins;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: -0.7px;
+  }
+
+  .formlab {
+      display: flex;
+      justify-content: center;
+      align-items: start;
+      flex-direction: column;
+  }
+
+  .formbtn {
+    width: 300px;
+      height: 54.396px;
+      flex-shrink: 0;
+      flex-shrink: 0;
+      background-color: #29166F;
+      margin-top: 8px;
+      /* Reduced by 20% */
+      margin-bottom: 8px;
+      /* Reduced by 20% */
+      border: 1px solid gainsboro;
+      border-radius: 24px;
+      /* Reduced by 20% */
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 8px;
+      /* Reduced by 20% */
+      padding-left: 16px;
+      /* Reduced by 20% */
+      padding-right: 16px;
+      /* Reduced by 20% */
+  }
+
+  .formp {
+      color: #FFF;
+      text-align: center;
+      font-family: "Open Sans";
+      font-size: 12px;
+      /* Reduced by 20% */
+      font-style: normal;
+      font-weight: 700;
+      line-height: 64px;
+      /* Reduced by 20% */
+  }
+
+  .arrdiv {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .imageopop {
+      width: 241.221px;
+      height: 106.252px;
+      flex-shrink: 0;
+      flex-shrink: 0;
+      background-color: #FFF;
+      filter: drop-shadow(0px 3px 5.292px rgba(0, 0, 0, 0.35));
+      border-radius: 8px;
+      /* Reduced by 20% */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 20px;
+      margin-top: 50px;
+  }
+
+  .imgmaph1 {
+      color: #29166F;
+      font-family: Poppins;
+      font-size: 10.769px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      width: 174px;
+      /* Reduced by 20% */
+      height: 18.4px;
+      /* Reduced by 20% */
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+  }
+
+  .imgmapp {
+      color: #0E0728;
+      font-family: Poppins;
+      font-size: 8.8px;
+      /* Reduced by 20% */
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      width: 174.8px;
+      /* Reduced by 20% */
+  }
+
+  .mapsvg {
+      background-image: url('./images/mapsvg.svg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 40.045px;
+      height: 40.045px;
+      stroke-width: 7px;
+      stroke: #FFF;
+      position: absolute;
+      z-index: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      right: 215px;
+      /* Reduced by 20% */
+      top: 25%;
+  }
+
+  .formright {
+      display: flex;
+      padding-left: 2.4%;
+      /* Reduced by 20% */
+      padding-top: 2.4%;
+      /* Reduced by 20% */
+  }
+
+  .svgani {
+      width: 9.6px;
+      /* Reduced by 20% */
+      height: 12.8px;
+      /* Reduced by 20% */
+      transition: transform 0.2s ease-in-out;
+      animation: jiggle 0.5s ease-in-out infinite;
+      /* Animation runs continuously */
+  }
+
+  .svgani:hover {
+      animation: jiggle 0.5s ease-in-out infinite;
+      /* Same animation on hover, but you can omit this if you want it to run continuously */
+  }
+
+  @keyframes jiggle {
+      0% {
+          transform: rotate(0deg);
+      }
+
+      25% {
+          transform: rotate(10deg);
+      }
+
+      50% {
+          transform: rotate(0deg);
+      }
+
+      75% {
+          transform: rotate(-10deg);
+      }
+
+      100% {
+          transform: rotate(0deg);
+      }
+  }
+
+  .arrow11 {
+      width: 14.545px;
+      flex-shrink: 0;
+  }
+  .Contdiv1{
+    width: 300px;
+  }
+
+  .contimg {
+      width: 55.26px;
+      height: 55.26px;
+      flex-shrink: 0;
+      border-radius: 15px;
+      position: absolute;
+      top: -20px;
+      left: 41%;
+  }
+
+  .Contactcenter {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 30px;
+      margin-bottom: 55px;
+  }
+
+  .conth3 {
+      color: #28156D;
+      text-align: center;
+      font-family: "Brush Script MT";
+      font-size: 24px;
+      font-style: italic;
+      font-weight: 400;
+      line-height: normal;
+  }
+
+  .conth4 {
+      color: #000;
+      text-align: center;
+      font-family: "Playfair Display";
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+  }
+}
 .App-footer {
   background-image: url("./images/backgroundimagefooter.png");
   color: white;
@@ -8381,7 +8721,7 @@ line-height: normal;
       margin-top: -12px;
   }
   .aboutussec1p1{
-      width: 370.598px;
+      width: 90%;
       height: 45.692px;
       color: #000;
       text-align: center;
