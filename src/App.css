@@ -18150,20 +18150,19 @@ margin-top: 550px;
   }
 
 }
-/* Container styling */
 .phsection5 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-direction: column;
   padding: 40px;
+  gap: 200px;
   margin: 0 auto;
   /* background-image: url('./images/formbg.png'); */
   background-size: cover;
-  height: 1037px;
+  height: 650px;
   max-width: 1600px;
   width: 100%;
-  
+
   z-index: 99;
   background-repeat: no-repeat;
 }
@@ -18212,6 +18211,7 @@ margin-top: 550px;
 .text-section5 {
   width: 50%;
   margin-top: 100px;
+  margin-left: 10px;
   text-align: start;
 }
 
@@ -18221,7 +18221,9 @@ margin-top: 550px;
   text-align: start;
   font-weight: 400;
   color: #3a0070;
+  margin-left: 10px;
   margin-bottom: 10px;
+  width: 100%;
 }
 
 .section-title5 {
@@ -18230,104 +18232,74 @@ margin-top: 550px;
   font-weight: 500;
   color: #000000;
   margin-bottom: 20px;
+  margin-left: 10px;
+  width: 100%;
 }
 
 .section-description5 {
   font-size: 18px;
   font-weight: 400;
   color: #000000;
+  margin-left: 10px;
   line-height: 1.7;
+  width: 100%;
 }
 
 /* Laptops/Desktops (1025px to 1440px) */
 @media (min-width: 1025px) and (max-width: 1440px) {
- /* Container styling */
-.phsection5 {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 40px;
-  margin: 0 auto;
-  /* background-image: url('./images/formbg.png'); */
-  background-size: cover;
-  height: 937px;
-  max-width: 1600px;
-  width: 100%;
+  .phsection5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    gap: 50px;
+    margin: 0 auto;
+    /* background-image: url('./images/formbg.png'); */
+    background-size: cover;
+    height: 550px;
+    max-width: 1600px;
+    width: 100%;
   
-  z-index: 99;
-  background-repeat: no-repeat;
-}
+    z-index: 99;
+    background-repeat: no-repeat;
+  }
+  .image-item-main {
+    max-width: 400px;
+    object-fit: cover;
+    height: auto;
+    left: 100px;
+  }
 
-/* Image Section */
-.image-section5 {
-  display: flex;
-  gap: 20px;
-  align-items: center;
-  position: relative;
-}
+  .image-item-sub1 {
+    max-width: 170px;
+    height: 150px;
+    border: 10px;
+    left: -180px;
+  }
 
-.image-item-wrap {
-  position: relative;
-}
+  .image-item-sub2 {
+    max-width: 200px;
+    object-fit: cover;
+    right: 180px;
+  }
 
-.image-item-main {
-  width: 444.005px;
-  height: auto;
-  flex-shrink: 0;
-  border-radius: 12px;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-  position: relative;
-  left: 229.69px;
-  z-index: 99;
-}
+  .text-section5 {
+    margin-top: 30px;
+    width: 40%;
+    padding-left: 0;
+  }
 
-.image-item-sub1 {
-  width: 199.385px;
-  height: auto;
-  position: absolute;
-  top: 130px;
-  left: -164px;
-  z-index: 100;
-}
+  .brand-name5 {
+    font-size: 40px;
+  }
 
-.image-item-sub2 {
-  width: 191.39px !important; 
-  height: 240.39 !important;
-  position: absolute !important;
-  right: 184px !important;
-  bottom: -70px !important;
-}
+  .section-title5 {
+    font-size: 35px;
+  }
 
-/* Text Section */
-.text-section5 {
-  width: 90%;
-  text-align: start;
-}
-
-.brand-name5 {
-  font-family: 'Brush Script MT';
-  font-size: 55px;
-  text-align: start;
-  font-weight: 400;
-  color: #3a0070;
-  margin-bottom: 10px;
-}
-
-.section-title5 {
-  font-family: 'Playfair Display';
-  font-size: 55px;
-  font-weight: 500;
-  color: #000000;
-  margin-bottom: 20px;
-}
-
-.section-description5 {
-  width: 90%;
-  font-size: 18px;
-  font-weight: 400;
-  color: #000000;
-  line-height: 1.7;
-}
+  .section-description5 {
+    font-size: 14px;
+  }
 }
 /* Small Laptops (769px to 1024px) */
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -18336,7 +18308,6 @@ margin-top: 550px;
       justify-content: space-between;
       align-items: center;
       flex-direction: column;
-      padding: 40px;
       margin: 0 auto;
       /* background-image: url('./images/formbg.png'); */
       background-size: cover;
@@ -18445,7 +18416,6 @@ margin-top: 550px;
       justify-content: space-between;
       align-items: center;
       flex-direction: column;
-      padding: 40px;
       margin: 0 auto;
       /* background-image: url('./images/formbg.png'); */
       background-size: cover;
