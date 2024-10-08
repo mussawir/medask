@@ -18,7 +18,7 @@ function About2() {
                         <div className='arrw'></div>
                     </div>
                     <div className="aboutdiv2">
-                        <Icon2/>
+                    <Icon />
                         <h1 className='about2h3'>Lorem Ipsum Dolor</h1>
                         <p className='aboutp1'>It is a long established fact that a reader will be distracted by the readable content.</p>
                         <div className='arrw'></div>

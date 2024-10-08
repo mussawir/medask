@@ -1126,7 +1126,7 @@ flex-shrink: 0;
     display: block;
     background: white;
     border-radius: 10px;
-    margin-left: 15px;
+    margin-left: -15px;
     margin-top: 0px;
 }
 
@@ -1455,7 +1455,7 @@ flex-shrink: 0;
 }
 
 .nav-link-top {
-    margin-right: 20px;
+    margin-right: 0px;
     /* Adjust spacing as needed */
 }
 
@@ -1468,10 +1468,9 @@ flex-shrink: 0;
 }
 .css-20bmp1-MuiSvgIcon-root{
     position: absolute;
-    margin-right: 20px;
+    margin-right: 30px;
     margin-bottom: 60px;
 }
-
 }
 @media screen and (min-width: 1600px){
     .navbar-container {

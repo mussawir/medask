@@ -62,7 +62,7 @@ function About4() {
 
                     </div>
                 </div>
-                <div className="about3btn">
+                <div className="about4btn">
                         <img src={about3btn1} alt="" />
                         <img src={about3btn2} alt="" />
                     </div>

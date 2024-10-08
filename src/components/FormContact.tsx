@@ -37,7 +37,7 @@ function FormContact() {
                 <form action="">
                     <div className="formleft">
 
-                        <div className="formbglogo"></div>
+                        <div className="formbglogo1"></div>
                         <div className='formlab'>
                             <label className='inplabel' htmlFor="">Enter Your Name</label>
                             <input className='inpform' type="text" placeholder='John Doe' />

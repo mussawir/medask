@@ -5,6 +5,7 @@
     position: relative;
     background-size: center;
     min-height: 1089.625px;
+    overflow: hidden;
     background-repeat: no-repeat;
 
 
@@ -231,6 +232,7 @@
         line-height: 11.81px;
         position: absolute;
         left: 172.41px;
+        top: 5px;
     }
 
     .nav-link-topsmallscreen2 {
@@ -240,10 +242,11 @@
         font-size: 8.44px;
         top: 18.02px;
         font-style: normal;
-        font-weight: 700;
+        font-weight: 500;
         line-height: 11.81px;
         position: absolute;
-        left: 300.56px;
+        left: 172.41px;
+        top: 30px;
     }
 
     .emailnavsmallscreen {
@@ -289,8 +292,8 @@
     }
 
     .phonetopImgsmallscreen {
-        width: 8.81px;
-        height: 8.81px;
+        width: 5.81px;
+        height: 5.81px;
     }
 
     .menu-iconsmallscreen {
@@ -306,15 +309,15 @@
         color: #29166f;
         display: flex;
         font-family: poppins;
-        font-size: 13.94px;
+        font-size: 10px;
         font-weight: 700;
-        height: 36.7px;
+        height: 30px;
         margin-left: 40px;
         padding: 6px;
         text-decoration: none;
         top: 53px;
         transition: background-color .3s, color .3s;
-        width: 207.74px;
+        width: 120px;
     }
 
     .icon-backgroundsmallscreen {
@@ -335,7 +338,25 @@
     }
 
     .partnerlinktextsmallscreen {
-        font-size: 10.22px;
+        font-size: 8px;
 
+    }
+    .partnerlinksmallscreen {
+        align-items: center;
+        border: .73px solid #828282;
+        border-radius: 6px;
+        color: #29166f;
+        display: flex;
+        font-family: poppins;
+        font-size: 10px;
+        font-weight: 700;
+        height: 30px;
+        margin-left: 87px;
+        margin-top: 5px;
+        padding: 6px;
+        text-decoration: none;
+        top: 53px;
+        transition: background-color .3s, color .3s;
+        width: 120px;
     }
 }
