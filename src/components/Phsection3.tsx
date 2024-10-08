@@ -14,7 +14,7 @@ const Phsection3: React.FC = () => {
 
       {/* Text Section */}
       <div className="prag-text-section3">
-        <h1 className="prag-brand-name3 ibrtitle1">Medask</h1>
+        <h1 className="prag-brand-name3 ibrtitle1">MedAsk</h1>
         <h2 className="prag-section-title3 subtitle">Retail Pharmacies</h2>
         <p className="prag-section-description3">
           There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration

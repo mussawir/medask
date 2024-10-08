@@ -10,7 +10,7 @@ const Phsection2: React.FC = () => {
         <div className='prg-pharmaciessecondsec'>
             <Container className="prg-distribution-section"> 
                 <div className="prg-text-section">   
-                    <h2 className="prg-brand-name-small2">Medask</h2>
+                    <h2 className="prg-brand-name-small2">MedAsk</h2>
                     <h2 className="prg-section-title2">Pharmacy Distribution</h2>
                     <p className="prg-section-description">
                         There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words.

@@ -47,7 +47,7 @@ function Section1() {
                 </div>
                <div className="text-content">
                 
-                        <h1 className="welcome-headline Ali-medaskHeading">Welcome to Medask</h1>
+                        <h1 className="welcome-headline Ali-medaskHeading">Welcome to MedAsk</h1>
                         <h1 className="medask-headline1 Ali-subtitile">Best Equipment with</h1>
                         <h1 className="medask-headline Ali-subtitile">Better Services</h1>
                         <hr className="hr-line" />

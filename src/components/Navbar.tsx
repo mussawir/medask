@@ -132,7 +132,7 @@ const Navbar: React.FC = () => {
                 </div>
                 <div className="herocontent">
                     <div className="text-content">
-                        <h1 className="welcome-headline">Welcome to Medask</h1>
+                        <h1 className="welcome-headline">Welcome to MedAsk</h1>
                         <h1 className="medask-headline1">Medicine & Care,</h1>
                         <h1 className="medask-headline">Ask Anytime.</h1>
                         <hr className="hr-line" />

@@ -41,7 +41,7 @@ function Form() {
                             <img className="svgani" src={mapsvgin} alt="" />
                         </div>
                         <div className="imagedivmap">
-                            <h1 className='imgmaph1'>Medask Pvt Ltd Head office Ra...</h1>
+                            <h1 className='imgmaph1'>MedAsk Pvt Ltd Head office Ra...</h1>
                             <p className='imgmapp'>7 Main Peshawar Rd, Saddar,
                                 Rawalpindi, Punjab 46000</p>
                         </div>

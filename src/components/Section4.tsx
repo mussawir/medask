@@ -22,7 +22,7 @@ function Section4() {
        </div>
         <div className='Section4Textright'>
             <h2 className='WhoWeAre ibrtitle1'>Who We Are</h2>
-            <h1 className='EDMedaskMessage subtitle'>ED Medask Message</h1>
+            <h1 className='EDMedaskMessage subtitle'>ED MedAsk Message</h1>
             <Custombtn/>
             <p className='EDMedaskMessagePara'>MedAsk is a commercial entity that plans to work on the idea of public-private partnership in order to expand and assist the medical services. It aims to initiate a number of projects in phases that will generate capacity and profits which can be utilized to boost the resources of the Medical Corps and also the general public.</p>
             <p className='EDMedaskMessagePara'>Our mission is to undertake commercial ventures related to healthcare and allied fields in order to generate resources for Healthcare while striving to emerge as a leading national healthcare provider. Our core values are:</p>
@@ -33,7 +33,7 @@ function Section4() {
 
         <div className='Section4Textright'>
             <h2 className='WhoWeAre'>Who We Are</h2>
-            <h1 className='EDMedaskMessage'>ED Medask Message</h1>
+            <h1 className='EDMedaskMessage'>ED MedAsk Message</h1>
             <Custombtn/>
         </div>
         <div className='Section4Images'>

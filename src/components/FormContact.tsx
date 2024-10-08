@@ -8,7 +8,7 @@ function FormContact() {
     return (
         <div className="formbgofcontct">
 
-                <h1 className='conth3 ibrtitle1'>Medask</h1>
+                <h1 className='conth3 ibrtitle1'>MedAsk</h1>
                 <h1 className='conth4 subtitle'>Contact Details</h1>
 
             <div className="Contactcenter">
@@ -67,7 +67,7 @@ function FormContact() {
                             <img className="svgani" src={mapsvgin} alt="" />
                         </div>
                         <div className="imagedivmap">
-                            <h1 className='imgmaph1'>Medask Pvt Ltd Head office Ra...</h1>
+                            <h1 className='imgmaph1'>MedAsk Pvt Ltd Head office Ra...</h1>
                             <p className='imgmapp'>7 Main Peshawar Rd, Saddar,
                                 Rawalpindi, Punjab 46000</p>
                         </div>

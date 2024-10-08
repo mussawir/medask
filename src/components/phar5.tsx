@@ -13,7 +13,7 @@ function Phar5(){
     return(
         <>
         <div className="phar5bg">
-            <h1 className="phar5h1 ibrtitle1">Medask</h1>
+            <h1 className="phar5h1 ibrtitle1">MedAsk</h1>
             <h1 className="phar5h2 subtitle">Hospitals</h1>
                 <img  className="phar1btn" src={btn2} alt="" />
                 <img className="phar2btn"  src={btn1} alt="" />

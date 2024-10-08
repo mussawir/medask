@@ -11,7 +11,7 @@ function About3() {
         <>
             <div className="about3bg">
                 <div className="about3head">
-                    <h1 className="about3h1 ibrtitle1">Medask Role</h1>
+                    <h1 className="about3h1 ibrtitle1">MedAsk Role</h1>
                     <h1 className="about3h2 subtitle">MedAsk's Role</h1>
 
                     <p className="about3p1">

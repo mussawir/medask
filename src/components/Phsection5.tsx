@@ -27,7 +27,7 @@ const Phsection5: React.FC = () => {
 
       <div className="text-section5">
       <div>
-              <h1 className="brand-name5 ibrtitle1">Medask</h1>
+              <h1 className="brand-name5 ibrtitle1">MedAsk</h1>
               <h2 className="section-title5">Commercial-Flagship Pharmacies</h2>
               </div>
         <p className="section-description5">
