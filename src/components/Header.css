@@ -187,6 +187,8 @@
         top: 53px;
         transition: background-color .3s, color .3s;
         width: 207.74px;
+        position: absolute;
+        right: 20px;
     }
 
     .icon-backgroundsmallscreen {

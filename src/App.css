@@ -436,7 +436,7 @@ nav ul li a:hover {
     background-image: url("../src/images/secondSecbgHome1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 1200px;
+    height: 1450px;
     display: flow-root;
     margin-top: -10%;
   }
@@ -3590,6 +3590,13 @@ nav ul li a:hover {
     padding: 50px 0;
     margin: 20px 0;
   }
+  .Section4Bg {
+    background-image: url('./images/sec3bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1550px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -3598,7 +3605,7 @@ nav ul li a:hover {
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 1850px;
+    height: 1250px;
   }
 
   .Section4Content {
@@ -5021,7 +5028,7 @@ nav ul li a:hover {
   }
 
   .divleft {
-    margin-top: 200px !important;
+    margin-top: 0px !important;
   }
 
   .divright {
@@ -5067,12 +5074,13 @@ nav ul li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column-reverse;
     gap: 10.24px;
   }
 
   .backgrounddiv2 {
     width: 100%;
-    height: 557.888px;
+    height: 800px;
     flex-shrink: 0;
     background-image: url('./images/sec3bg.png');
     display: flex;
@@ -13958,7 +13966,7 @@ nav ul li a:hover {
   .about4bg {
     margin-top: 50px;
     min-width: 100%;
-    height: 1100px;
+    height: 600px;
     background: #FFF;
   }
 
@@ -19580,6 +19588,693 @@ nav ul li a:hover {
   
 
 }
+.png-logoseacc {
+  width: 10.4px;
+  height: 60.8px;
+  border-radius: '4px 0px 0px 4px';
+  display: 'flex';
+  align-self: 'start';
+  justify-content: 'start';
+}
+
+.ic {
+  width: 30px;
+}
+
+.MuiBox-root.css-0 {
+  margin-top: 80px;
+}
+
+.div1bgcolor {
+  background-color: #fff;
+}
+.right {
+  width: 772.888px;
+  height: 479.03px;
+  line-height: normal;
+  /* 130px - 20% */
+}
+
+.btn-text-active {
+  color: #000;
+  font-family: "Playfair Display";
+  font-size: 18px;
+  margin-left: 15px;
+
+}
+
+.btn-text-inactive {
+  color: #000;
+  font-family: "Playfair Display";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+margin-left: 15px;
+  margin-left: 15px;
+}
+
+
+/* Laptops/Desktops (1025px to 1440px) */
+@media (min-width: 1209px) and (max-width: 5500px) {
+
+  .ic {
+      width: 25px;
+  }
+  .png-logoseacc {
+      width: 15.4px;
+      height: 75.24px;
+      height: 48.64px;
+  }
+
+
+  .btn-text-active {
+      color: #000;
+      font-family: "Playfair Display";
+      font-size: 18px;
+      text-align: start;
+      position: absolute;
+      margin-left: 20px;
+  
+  }
+
+  .btn-text-inactive {
+      color: #000;
+      font-family: "Playfair Display";
+      font-size: 18px;
+  }
+
+}
+@media screen and (max-width: 1208px) {
+  .MuiBox-root {
+      display: flex;
+      flex-direction: column;
+      top: 20px;
+  }
+
+  .ic {
+      width: 25px;
+  }
+  .png-logoseacc {
+      width: 15.4px;
+      height: 75.24px;
+      height: 48.64px;
+  }
+
+
+  .btn-text-active {
+      color: #000;
+      font-family: "Playfair Display";
+      font-size: 18px;
+      text-align: start;
+      position: absolute;
+      margin-left: 20px;
+  
+  }
+
+  .btn-text-inactive {
+      color: #000;
+      font-family: "Playfair Display";
+      font-size: 18px;
+  }
+}
+/* Small Laptops (769px to 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+  .ic {
+      width: 20px;
+  }
+  .png-logoseacc {
+      width: 7.28px;
+      /* 10.4px - 30% */
+  }
+  .btn:hover {
+      background-color: #f0f0f0;
+  }
+
+  .svg2img {
+      margin-top: 3px;
+      width: 20px;
+  }
+
+  .btn-text-active {
+      color: #000;
+      font-family: "Poppins";
+      font-size: 18px;
+      line-height: normal;
+      position: absolute;
+      margin-left: 10px;
+  
+  }
+
+  .btn-text-inactive {
+      color: #000;
+  font-family: "Poppins";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 10px;
+      
+  }
+  }
+
+  /* Small Laptops (769px to 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .Bgofallwebvector{
+    height: 1700px !important;
+  }
+  .section5bgimg {
+    /* background-image: url(../src/images/section5bg.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 620px;
+}
+.divlogos {
+  width: 197.677px;
+  height: 98.899px;
+  flex-shrink: 0;
+  background-color: transparent;
+  opacity: 0.3;
+  margin-left: -156.84px;
+  margin-top: -100px;
+}
+.h1ofhead2{
+  margin-top: 9%;
+}
+.left {
+  display: inline;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btnofselectofsec2 {
+  width: 390px !important;
+  height: 75.24px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  border-left: 0px;
+  border-radius: 5px 0px 0px 5px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.btn-simple {
+  width: 390px !important;
+  height: 75.24px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: none;
+  border-left: 0px;
+  background-color: transparent !important;
+  cursor: pointer;
+}
+
+.btn-simple {
+  color: #000;
+  font-family: "Playfair Display";
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.btn-text-active {
+  color: #000;
+  font-family: 'Poppins';
+  font-size: 12px !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  margin-left: 10px;
+
+}
+
+.btn-text-inactive {
+  color: #000;
+  font-family: 'Poppins';
+  font-size: 12px !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 10px;
+}
+
+.btn-icon {
+  margin-right: -10px;
+}
+
+.btn-textofdiv1file {
+  color: #000;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-right: 130px;
+}
+
+.btn-arrow {
+  margin-right: 40px;
+}
+
+.btn:hover {
+  background-color: #f0f0f0;
+}
+
+.section8bg {
+  background-image: url('./images/sec3bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.firstdivofSection8 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.firstSubdivofSection8 {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* Aligns items to the left */
+  justify-content: left;
+}
+
+.oneTextFieldsection8 {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.h5ofsection8 {
+  text-align: start;
+}
+
+.h1ofsection8medask {
+  color: #28156D;
+}
+
+.divh1ofsection8 {
+  margin: 30px 0;
+}
+
+.right {
+  width: 480px !important;
+  height: 680px !important;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column-reverse;
+  fill: #FFF;
+  stroke: #D4D1CD;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.dd {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+}
+
+.logo {
+  margin-bottom: 10px;
+  margin-left: 20px;
+  width: 62.806px;
+  height: 62.806px;
+  flex-shrink: 0;
+  fill: #FFF;
+
+}
+
+.h3ofdiv {
+  color: #000;
+  font-family: "Playfair Display";
+  font-size: 24px !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 20px;
+  margin-bottom: 50px;
+}
+
+.p3 {
+  width: 450px !important;
+  height: 130px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 34px;
+  margin-left: 20px;
+}
+
+.btn3 {
+  color: #00A539;
+  font-family: Satoshi;
+  font-size: 14.984px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: 2.997px;
+  text-transform: uppercase;
+  margin-top: 40px;
+  margin-left: 20px;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.doc {
+  width: 480px !important;
+  height: 340px !important;
+  border: none;
+  border-radius: 10px;
+  background: url('./images/doctor.png') lightgray 40% / cover no-repeat;
+}
+
+.MuiBox-root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.css-1qm1lh {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.css-19kzrtu {
+  padding: 0px;
+}
+
+.MuiBox-root.css-19kzrtu {
+  padding: 0%;
+}
+
+#tab-0.btn {
+  padding: 0%;
+}
+
+#tab-1.btn {
+  padding: 0%;
+}
+
+#tab-2.btn {
+  padding: 0%;
+}
+
+#tab-3.btn {
+  padding: 0%;
+}
+}
+/* Tablets (481px to 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+  .Bgofallwebvector{
+    height: 1700px !important;
+  }
+  .section5bgimg {
+    /* background-image: url(../src/images/section5bg.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 620px;
+}
+.divlogos {
+  width: 197.677px;
+  height: 98.899px;
+  flex-shrink: 0;
+  background-color: transparent;
+  opacity: 0.3;
+  margin-left: -156.84px;
+  margin-top: -100px;
+}
+.h1ofhead2{
+  margin-top: 30%;
+}
+.left {
+  display: inline;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btnofselectofsec2 {
+  width: 390px !important;
+  height: 75.24px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  border-left: 0px;
+  border-radius: 5px 0px 0px 5px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.btn-simple {
+  width: 390px !important;
+  height: 75.24px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: none;
+  border-left: 0px;
+  background-color: transparent !important;
+  cursor: pointer;
+}
+
+.btn-simple {
+  color: #000;
+  font-family: "Playfair Display";
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.btn-text-active {
+  color: #000;
+  font-family: 'Poppins';
+  font-size: 12px !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  margin-left: 10px;
+
+}
+
+.btn-text-inactive {
+  color: #000;
+  font-family: 'Poppins';
+  font-size: 12px !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 10px;
+}
+
+.btn-icon {
+  margin-right: -10px;
+}
+
+.btn-textofdiv1file {
+  color: #000;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-right: 130px;
+}
+
+.btn-arrow {
+  margin-right: 40px;
+}
+
+.btn:hover {
+  background-color: #f0f0f0;
+}
+
+.section8bg {
+  background-image: url('./images/sec3bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.firstdivofSection8 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.firstSubdivofSection8 {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* Aligns items to the left */
+  justify-content: left;
+}
+
+.oneTextFieldsection8 {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.h5ofsection8 {
+  text-align: start;
+}
+
+.h1ofsection8medask {
+  color: #28156D;
+}
+
+.divh1ofsection8 {
+  margin: 30px 0;
+}
+
+.right {
+  width: 480px !important;
+  height: 550px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  fill: #FFF;
+  stroke: #D4D1CD;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.dd {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+}
+
+.logo {
+  margin-bottom: 10px;
+  margin-left: 20px;
+  width: 62.806px;
+  height: 62.806px;
+  flex-shrink: 0;
+  fill: #FFF;
+
+}
+
+.h3ofdiv {
+  color: #000;
+  font-family: "Playfair Display";
+  font-size: 24px !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 20px;
+  margin-bottom: 50px;
+}
+
+.p3 {
+  width: 450px !important;
+  height: 130px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 34px;
+  margin-left: 20px;
+}
+
+.btn3 {
+  color: #00A539;
+  font-family: Satoshi;
+  font-size: 14.984px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: 2.997px;
+  text-transform: uppercase;
+  margin-top: 40px;
+  margin-left: 20px;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.doc {
+  width: 480px !important;
+  height: 340px !important;
+  border: none;
+  border-radius: 10px;
+  background: url('./images/doctor.png') lightgray 40% / cover no-repeat;
+}
+
+.MuiBox-root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.css-1qm1lh {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.css-19kzrtu {
+  padding: 0px;
+}
+
+.MuiBox-root.css-19kzrtu {
+  padding: 0%;
+}
+
+#tab-0.btn {
+  padding: 0%;
+}
+
+#tab-1.btn {
+  padding: 0%;
+}
+
+#tab-2.btn {
+  padding: 0%;
+}
+
+#tab-3.btn {
+  padding: 0%;
+}
+}
 
 /* Mobile Devices (up to 480px) */
 @media (max-width: 429px) {
@@ -19596,7 +20291,7 @@ nav ul li a:hover {
   width: 197.677px;
   height: 98.899px;
   flex-shrink: 0;
-  background-color: transparent;
+  background-color: transparent ;
   opacity: 0.3;
   margin-left: -156.84px;
   margin-top: -100px;

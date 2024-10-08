@@ -39,6 +39,7 @@
     min-height: 1089.625px;
     background-repeat: no-repeat;
     position: relative;
+    object-fit: fill;
 
 }
 
@@ -635,8 +636,10 @@ flex-shrink: 0;
         color: black;
         position: relative;
         background-position: center;
-        min-height: 126vh;
+        min-height: 1089.625px;
         background-repeat: no-repeat;
+        position: relative;
+        object-fit: fill;
     
     }
 
