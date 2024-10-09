@@ -9,10 +9,11 @@ import arrowright from '../images/arrowright.png';
 const Bnews: React.FC = () => {
     // Define the texts for the buttons
     const texts = [
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ducimus.",
-        "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
-        "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore."
+        "Breaking News: MedAsk is launching its new Home Health Services this month!",
+        "MedAsk expands its pharmacy network to provide better access to medications for patients.",
+        "Upcoming: MedAsk will be participating in the Health Asia Expo this October 2024.",
+        "MedAsk's commitment to patient care continues with the introduction of advanced diagnostic services.",
+        "Our core values remain strong: Compassion, Integrity, Hard Work, Care & Trust."
     ];
 
     // State to manage the current text index

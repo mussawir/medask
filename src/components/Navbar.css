@@ -394,7 +394,7 @@ flex-shrink: 0;
     /* color: #28156D;
     font-family: "Brush Script MT";
     font-size: 55px;
-    font-style: italic;
+     font-style: normal;
     font-weight: 400;
     line-height: normal; */
     text-align: left;
@@ -946,14 +946,14 @@ flex-shrink: 0;
         display: flex;
         flex-direction: column;
         width: 100%;
-        margin-left: 60px;
+        margin-left: 90px;
     }
 
     .welcome-headline {
         color: #28156D;
         font-family: "Brush Script MT";
         font-size: 45px;
-        font-style: italic;
+         font-style: normal;
         font-weight: 400;
         line-height: normal;
 
@@ -1379,7 +1379,7 @@ flex-shrink: 0;
     color: #28156D;
     font-family: "Brush Script MT";
     font-size: 39.71px;
-    font-style: italic;
+     font-style: normal;
     font-weight: 400;
     line-height: normal;
 
@@ -1491,5 +1491,16 @@ flex-shrink: 0;
         display: flex;
         position: absolute;
         top: 0%;
+    }
+}
+@media (min-width: 301px) and (max-width: 500px) {
+    .text-content {
+        height: 400px;
+        justify-content: flex-start;
+        display: flex;
+        flex-direction: column;
+        margin-top: 200px; 
+        width: 100%;
+        margin-left: 20px;
     }
 }

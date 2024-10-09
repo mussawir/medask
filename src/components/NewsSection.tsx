@@ -3,6 +3,7 @@ import '../App.css';
 import cardOneImage from '../images/cardOne.png';
 import cardTwoImage from '../images/cardtwo.png';
 import cardThreeImage from '../images/cardthree.png';
+
 interface Article {
   date: string;
   title: string;
@@ -16,33 +17,32 @@ const NewsSection: React.FC = () => {
   const articles: Article[] = [
     {
       date: 'FEB 01, 2024',
-      title: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
+      title: 'LP in AFI, AFBMTC',
       description:
-        'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non...',
+        'MedAsk is committed to revolutionizing healthcare access through innovative technology solutions, connecting patients with healthcare providers efficiently.',
       link: '#',
-      image: cardOneImage, // Use imported image
+      image: cardOneImage,
       dateColor: '#28156D',
     },
     {
       date: 'DEC 01, 2023',
-      title: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem...',
+      title: 'Tourism Expo September 2024',
       description:
-        'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non...',
+       'MedAsk is committed to revolutionizing healthcare access through innovative technology solutions, connecting patients with healthcare providers efficiently.',
       link: '#',
-      image: cardTwoImage, // Use imported image
+      image: cardTwoImage,
       dateColor: '#00AA14',
     },
     {
       date: 'NOV 01, 2023',
-      title: 'At vero eos et accusamus et iusto odio dignissimos...',
+      title: 'Health Asia Expo October 2024',
       description:
-        'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non...',
+        'MedAsk is committed to revolutionizing healthcare access through innovative technology solutions, connecting patients with healthcare providers efficiently.',
       link: '#',
-      image: cardThreeImage, // Use imported image
+      image: cardThreeImage,
       dateColor: '#28156D',
     },
   ];
-  
 
   return (
     <section className="news-section">

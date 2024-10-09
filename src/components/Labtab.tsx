@@ -11,21 +11,21 @@ function Tab2() {
     // Content for each radio button
     const radioContent: Record<RadioOption, { title: string; text: string }> = {
         radio1: {
-            title: 'Radio One',
-            text: 'MedAsk is a commercial entity that plans to work on the idea of public-private partnership in order to expand and assist the medical services. It aims to initiate a number of projects in phases that will generate capacity and profits which can be utilized to boost the resources of the Medical Corps and also the general public.'
+            title: 'MedAsk Medical Tourism',
+            text: 'We offer seamless medical tourism services, connecting international patients to world-class healthcare solutions. From consultations and treatments to travel and accommodations, we ensure a smooth, stress-free experience. Our network guarantees personalized care at globally accredited facilities, prioritizing patient safety and comfort.'
         },
         radio2: {
-            title: 'Radio Two',
-            text: 'MedAsk is a commercial entity that plans to work on the idea of public-private partnership in order to expand and assist the medical services. It aims to initiate a number of projects in phases that will generate capacity and profits which can be utilized to boost the resources of the Medical Corps and also the general public.'
+            title: 'MedAsk Medical Tourism',
+            text: 'We offer seamless medical tourism services, connecting international patients to world-class healthcare solutions. From consultations and treatments to travel and accommodations, we ensure a smooth, stress-free experience. Our network guarantees personalized care at globally accredited facilities, prioritizing patient safety and comfort.'
         },
         radio3: {
-            title: 'Radio Three',
-            text: 'MedAsk is a commercial entity that plans to work on the idea of public-private partnership in order to expand and assist the medical services. It aims to initiate a number of projects in phases that will generate capacity and profits which can be utilized to boost the resources of the Medical Corps and also the general public.'
+            title: 'MedAsk Medical Tourism',
+            text: 'We offer seamless medical tourism services, connecting international patients to world-class healthcare solutions. From consultations and treatments to travel and accommodations, we ensure a smooth, stress-free experience. Our network guarantees personalized care at globally accredited facilities, prioritizing patient safety and comfort.'
         },
         radio4: {
-            title: 'Radio Four',
-            text: 'MedAsk is a commercial entity that plans to work on the idea of public-private partnership in order to expand and assist the medical services. It aims to initiate a number of projects in phases that will generate capacity and profits which can be utilized to boost the resources of the Medical Corps and also the general public.'
-        }
+            title: 'MedAsk Medical Tourism',
+            text: 'We offer seamless medical tourism services, connecting international patients to world-class healthcare solutions. From consultations and treatments to travel and accommodations, we ensure a smooth, stress-free experience. Our network guarantees personalized care at globally accredited facilities, prioritizing patient safety and comfort.'
+        },
     };
 
     const handleRadioChange = (value: RadioOption) => {

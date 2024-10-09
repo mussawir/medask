@@ -1,12 +1,10 @@
-import '../App.css'
+import '../App.css';
 import greenhr from '../images/greenhr.png';
-function Phar1() {
 
+function Phar1() {
     return (
         <>
-
             <div className="phar2body">
-
                 <div className="Phar2div1"></div>
                 <div className="Phar2div2"></div>
                 <div className="Phar2div3"></div>
@@ -14,11 +12,15 @@ function Phar1() {
                 <div className="Phar2div4">
                     <h1 className='phar2h1'>MedAsk</h1>
                     <h1 className='phar2h2'>Introduction</h1>
-                    <p className='phar2p1'>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum.</p>
+                    <p className='phar2p1'>
+                        Welcome to MedAsk, your trusted healthcare partner dedicated to delivering high-quality medical services. We enhance patient care through our diverse offerings, including pharmacy services, medical tourism, and soon-to-launch home health and diagnostic services.
+
+                        At MedAsk, we are committed to providing seamless access to healthcare solutions. ,We believe in making healthcare accessible and affordable for everyone.
+                    </p>
                 </div>
             </div>
         </>
     );
 }
 
-export default Phar1
+export default Phar1;

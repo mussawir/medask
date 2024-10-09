@@ -35,19 +35,19 @@ const Footer = () => {
           </li>
           <li className="footer-links">
             <img src={Rectangle} className='RectangleFooter' alt="Rectangle" />
-            <a href="/privacy">About Us</a>
+            <a href="/aboutus">About Us</a>
           </li>
           <li className='footer-links'>
           <img src={Rectangle} className='RectangleFooter' alt="Rectangle" />
-          <a href="/privacy">Corporate Panel</a>
+          <a href="/">Corporate Panel</a>
           </li>
           <li className='footer-links'>
           <img src={Rectangle} className='RectangleFooter' alt="Rectangle" />
-          <a href="/privacy">Lab Software (Staff Only)</a>
+          <a href="/">Lab Software (Staff Only)</a>
           </li>
           <li className='footer-links'>
           <img src={Rectangle} className='RectangleFooter' alt="Rectangle" />
-          <a href="/privacy">Mobile App Portal (Staff Only)</a>
+          <a href="/">Mobile App Portal (Staff Only)</a>
           </li>
         </ul>
         <img src={Vector} alt="Vector" className="hide-on-sm" />
@@ -58,19 +58,19 @@ const Footer = () => {
           </li>
           <li className="footer-links">
           <img src={Rectangle} className='RectangleFooter' alt="Rectangle" />
-          <a href="/privacy">Location</a>
+          <a href="/contact">Location</a>
           </li>
           <li className='footer-links'>
           <img src={Rectangle} className='RectangleFooter' alt="Rectangle" />
-          <a href="/privacy">Our Vision</a>
+          <a href="/aboutus">Our Vision</a>
           </li>
           <li className='footer-links'>
           <img src={Rectangle} className='RectangleFooter' alt="Rectangle" />
-          <a href="/privacy">Careers</a>
+          <a href="/">Careers</a>
           </li>
           <li className='footer-links'>
           <img src={Rectangle} className='RectangleFooter' alt="Rectangle" />
-          <a href="/privacy">Contact Us</a>
+          <a href="/contact">Contact Us</a>
           </li>
         </ul>
 
@@ -87,7 +87,7 @@ const Footer = () => {
               </div>
               <div style={{ marginLeft: '4px' }}>
                 <h5 style={{ margin: '0' }}>Call Us :</h5>
-                <a href="/privacy">UAN 111-633-275</a>
+                <a href="/contact">UAN 111-633-275</a>
               </div>
             </div>
           </li>
@@ -98,7 +98,7 @@ const Footer = () => {
                             </div>
               <div style={{ marginLeft: '4px' }}>
                 <h5 style={{ margin: '0' }}>Email Us :</h5>
-                <a href="/privacy">info@medask.com.pk</a>
+                <a href="/contact">info@medask.com.pk</a>
               </div>
             </div>
           </li>
@@ -109,7 +109,7 @@ const Footer = () => {
               </div>
               <div style={{ marginLeft: '4px' }}>
                 <h5 style={{ margin: '0' }}>Location:</h5>
-                <a href="/privacy">1st Floor, AWT Plaza, Mall Road</a>
+                <a href="/contact">1st Floor, AWT Plaza, Mall Road</a>
               </div>
             </div>
           </li>
