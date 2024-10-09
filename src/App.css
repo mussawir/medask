@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 .about4btn{
   display: none;
 }
@@ -279,11 +279,14 @@
     color: white;
   }
 }
+.h1ofhead2 {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
 
 .ibrtitle1 {
   color: #28156D !important;
   text-align: center;
-  font-family: "Brush Script MT";
   font-size: 55px !important;
   font-weight: 400 !important;
   line-height: normal;
@@ -292,7 +295,6 @@
 .subtitle {
   color: #000;
   text-align: center;
-  font-family: "Playfair Display" !important;
   font-size: 55px !important;
   font-style: normal;
   font-weight: 400 !important;
@@ -415,7 +417,7 @@ nav ul li a:hover {
   background-image: url("../src/images/secondSecbgHome1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 1359px;
+  height: 1381px;
   display: flow-root;
   margin-top: -10%;
 }
@@ -499,7 +501,7 @@ nav ul li a:hover {
   /* background-image: url('../src/images/section5bg.png'); */
   background-repeat: no-repeat;
   background-size: cover;
-  height: 900px;
+  height: 1049.625px;
 }
 
 .box12 {
@@ -2715,7 +2717,7 @@ nav ul li a:hover {
 }
 .brand-slider-container {
   text-align: center;
-  padding: 20px 0;
+  padding: 40px 0;
 }
 
 /* Text container */
@@ -3729,7 +3731,8 @@ nav ul li a:hover {
   font-style: italic;
   font-weight: 400;
   line-height: normal;
-  margin-bottom: 10px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .h2ofvidhead2 {
@@ -3740,7 +3743,7 @@ nav ul li a:hover {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin-bottom: 10px;
+  margin-bottom: 50px;
 }
 
 /* Laptops/Desktops (1025px to 1440px) */
@@ -4273,7 +4276,7 @@ nav ul li a:hover {
 }
 
 .vidtext {
-  margin-top: 20px;
+  margin-top: 50px;
   width: 849.61px;
   height: 143.796px;
   flex-shrink: 0;
@@ -5598,7 +5601,7 @@ nav ul li a:hover {
   background-image: url('./images/formbg.png');
   width: 100%;
   max-width: 1600px;
-  height: 1284.238px;
+  height: 1149.625px;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -9114,6 +9117,7 @@ nav ul li a:hover {
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
+  margin-top: 30px;
   line-height: normal;
 }
 
@@ -9360,7 +9364,7 @@ nav ul li a:hover {
   font-weight: 400;
   line-height: normal;
   text-align: start;
-  margin-top: 50px;
+  margin-top: 20px;
 
 }
 
@@ -9374,7 +9378,7 @@ nav ul li a:hover {
   font-weight: 400;
   line-height: 35px;
   text-align: start;
-  margin-top: 30px;
+  margin-top: 20px;
   position: relative;
 
 }
@@ -9389,7 +9393,7 @@ nav ul li a:hover {
   font-weight: 400;
   line-height: 35px;
   text-align: start;
-  padding-top: 30px;
+  padding-top: 15px;
   position: relative;
 }
 
@@ -10463,7 +10467,7 @@ nav ul li a:hover {
 
 .phar2body {
   width: 100%;
-  height: 1200px;
+  height: 1050px;
   background: #FFF;
   position: relative;
   margin-top: 100px;
@@ -10545,6 +10549,8 @@ nav ul li a:hover {
   text-align: start;
   font-weight: 400;
   line-height: normal;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 
 .phar2p1 {
@@ -11221,7 +11227,7 @@ nav ul li a:hover {
   font-style: italic;
   font-weight: 400;
   line-height: normal;
-  margin-top: 50px;
+  margin-top: 100px;
 }
 
 .phar3h2 {
@@ -11232,7 +11238,7 @@ nav ul li a:hover {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin-top: 20px;
+  margin-top: 60px;
 }
 
 .phar3cen {
@@ -13479,7 +13485,7 @@ nav ul li a:hover {
 .about4bg {
   margin-top: 50px;
   min-width: 100%;
-  height: 600px;
+  height: 730px;
   background: #FFF;
 }
 
@@ -14972,7 +14978,7 @@ nav ul li a:hover {
 .phar4bg {
   width: 100%;
   max-width: 1600px;
-  height: 600.625px;
+  height: 750px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15348,7 +15354,7 @@ nav ul li a:hover {
 }
 
 .phar5h2 {
-  margin-top: 10px;
+  margin-top: 50px;
   color: #000;
   text-align: center;
   font-family: "Playfair Display";
@@ -15440,7 +15446,7 @@ nav ul li a:hover {
   position: absolute;
   left: 20px;
   z-index: 6;
-  bottom: 59%;
+  bottom: 40%;
 
 
 }
@@ -15449,7 +15455,7 @@ nav ul li a:hover {
   position: absolute;
   right: 20px;
   z-index: 6;
-  bottom: 59%;
+  bottom: 40%;
 
 
 }
@@ -17227,6 +17233,8 @@ nav ul li a:hover {
   font-size: 55px;
   font-style: normal;
   font-weight: 400;
+  margin-top: 30px;
+  margin-bottom: 30px;
   line-height: normal;
 }
 
@@ -17713,7 +17721,7 @@ nav ul li a:hover {
   background-size: cover;
   width: 100%;
   /* Changed to make it responsive */
-  height: 904.55px;
+  height: 870px;
   max-width: 1600px;
   position: relative;
   display: flex;
@@ -17754,7 +17762,7 @@ nav ul li a:hover {
 .prag-text-section3 {
   width: 597.7px;
   height: 299.53px;
-  margin-top: 200px;
+  margin-top: 80px;
 }
 
 .prag-brand-name3 {
@@ -17773,7 +17781,8 @@ nav ul li a:hover {
   font-family: "Playfair Display";
   font-size: 55px;
   color: #000000;
-  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 30px;
   font-weight: 400;
   text-align: start;
 }
@@ -18366,7 +18375,8 @@ nav ul li a:hover {
   font-weight: 400;
   line-height: 73.32px;
   text-align: start;
-  margin-bottom: 60px;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 
 .section-description {
@@ -19000,12 +19010,12 @@ nav ul li a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 40px;
+  padding: 0px 20px;
   gap: 200px;
   margin: 0 auto;
   /* background-image: url('./images/formbg.png'); */
   background-size: cover;
-  height: 650px;
+  height: 820px;
   max-width: 1600px;
   width: 100%;
 
@@ -19077,18 +19087,21 @@ nav ul li a:hover {
   font-size: 55px;
   font-weight: 500;
   color: #000000;
-  margin-bottom: 20px;
+
   margin-left: 10px;
-  width: 100%;
+  width: 70%;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 
 .section-description5 {
+  width: 70%;
   font-size: 18px;
   font-weight: 400;
   color: #000000;
   margin-left: 10px;
   line-height: 1.7;
-  width: 100%;
+  width: 600px;
 }
 
 /* Laptops/Desktops (1025px to 1440px) */
