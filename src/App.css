@@ -3623,7 +3623,11 @@ nav ul li a:hover {
     padding: 50px 0;
     margin: 20px 0;
   }
-
+  .Section4Images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .Section4Imagestop {
     display: flex;
     gap: 10px;
@@ -3679,14 +3683,15 @@ nav ul li a:hover {
     line-height: 2;
     font-family: 'poppins';
     font-weight: 400;
-    font-size: 18px;
+    font-size: 10px;
     margin-top: 50px;
   }
 
   .Section4Textright {
-    margin: 0px;
-    justify-content: start;
+    margin: 0px; 
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
   }
 
