@@ -19,10 +19,45 @@
 .headerofsmallscreennavlinks {
     display: none;
 }
-
-@media screen and (max-width: 1208px) {
+@media screen and (max-width: 786px) {
     .navbar-container {
         background-image: url('../images/Section1Mob.jpg');
+        background-size: cover;
+        color: black;
+        position: relative;
+        background-position: center;
+        min-height: 1090.625px;
+        background-repeat: no-repeat;
+
+    }
+}
+/* @media (min-width: 680px) and (max-width: 786px) {
+    .navbar-container {
+        background-image: url('../images/firstSecTopBg.jpg');
+        background-size: cover;
+        color: black;
+        position: relative;
+        background-position: center;
+        min-height: 1090.625px;
+        background-repeat: no-repeat;
+
+    }
+  } */
+@media (min-width: 786px) and (max-width: 1040px) {
+    .navbar-container {
+        background-image: url('../images/firstSecTopBg.jpg');
+        background-size:auto ;
+        color: black;
+        position: relative;
+        background-position: center;
+        min-height: 1090.625px;
+        background-repeat: no-repeat;
+
+    }
+  }
+@media (min-width: 1040px) and (max-width: 1208px) {
+    .navbar-container {
+        background-image: url('../images/firstSecTopBg.jpg');
         background-size: cover;
         color: black;
         position: relative;

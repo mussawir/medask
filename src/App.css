@@ -3308,7 +3308,7 @@ nav ul li a:hover {
     text-align: center;
     padding: 6.27px;
     /* 80% of 7.84px */
-    margin-top: 40%;
+    margin-top: 0%;
   }
 
   /* Text container */
@@ -3705,7 +3705,7 @@ nav ul li a:hover {
     font-family: 'poppins';
     font-weight: 400;
     font-size: 10px;
-    margin-top: 50px;
+    margin-top: 10px;
   }
 
   .Section4Textright {
@@ -20442,7 +20442,7 @@ margin-left: 15px;
 }
 
 /* Mobile Devices (up to 480px) */
-@media (max-width: 429px) {
+@media (max-width: 480px) {
   .Bgofallwebvector{
     height: 1700px !important;
   }
