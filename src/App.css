@@ -9225,7 +9225,7 @@ nav ul li a:hover {
   }
   
   .aboutussec1p1 {
-    width: 70%;
+    width: 80%;
     height: 69.033px;
     flex-shrink: 0;
     color: #000;
@@ -9235,6 +9235,20 @@ nav ul li a:hover {
     font-style: normal;
     font-weight: 400;
     margin-top: 10px;
+    line-height: normal;
+  }
+}
+
+@media (min-width:550px) and (max-width: 1100px) {
+  .aboutussec1p1 {
+    width: 90%;
+    height: 45.692px;
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 15.885px;
+    font-style: normal;
+    font-weight: 400;
     line-height: normal;
   }
 }
@@ -9330,7 +9344,7 @@ nav ul li a:hover {
   }
 
   .aboutussec1p1 {
-    width: 370.598px;
+    width: 90%;
     height: 45.692px;
     color: #000;
     text-align: center;
@@ -9758,9 +9772,9 @@ nav ul li a:hover {
 
   .about1bg {
     width: 100%;
-    min-height: 1171px;
+    min-height: 100%;
     flex-shrink: 0;
-    background-image: url('./images/about1bg.png');
+    background-image: url('./images/about1tbl.png');
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9895,7 +9909,7 @@ nav ul li a:hover {
     position: absolute;
     z-index: 1;
     opacity: 0.05;
-    top: 70%;
+    top: 60%;
     left: 73%;
   }
 }
@@ -9910,9 +9924,9 @@ nav ul li a:hover {
 
   .about1bg {
     width: 100%;
-    min-height: 1171px;
+    min-height: 700px;
     flex-shrink: 0;
-    background-image: url('./images/about1bg.png');
+    background-image: url('./images/about1tbl.png');
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9928,19 +9942,20 @@ nav ul li a:hover {
     font-style: normal;
     font-weight: 300;
     line-height: normal;
-    text-align: start;
+    text-align: start !important;
     margin-top: 10px;
 
   }
 
   .h2about1 {
+    width: 380px;
     color: #28156D;
     font-family: "Playfair Display";
     font-size: 30px;
     font-style: normal;
     font-weight: 300;
     line-height: normal;
-    text-align: start;
+    text-align: start !important;
     margin-top: 10px;
 
   }
@@ -9955,7 +9970,7 @@ nav ul li a:hover {
     font-weight: 400;
     line-height: 15px;
     text-align: start;
-    margin-top: 30px;
+    margin-top: 10px;
     position: relative;
 
   }
@@ -9970,7 +9985,7 @@ nav ul li a:hover {
     font-weight: 400;
     line-height: 15px;
     text-align: start;
-    padding-top: 30px;
+    padding-top: 10px;
     position: relative;
   }
 
@@ -10057,7 +10072,7 @@ nav ul li a:hover {
     position: absolute;
     z-index: 1;
     opacity: 0.05;
-    top: 70%;
+    top: 60%;
     left: 73%;
   }
 }
@@ -10796,7 +10811,7 @@ nav ul li a:hover {
 }
 
 
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1240px) {
   * {
     padding: 0%;
     margin: 0%;
@@ -10805,7 +10820,7 @@ nav ul li a:hover {
 
   .phar2body {
     width: 100%;
-    height: 800px;
+    height: 900px;
     /* Reduced height for laptops */
     background: #FFF;
     position: relative;
@@ -10814,9 +10829,9 @@ nav ul li a:hover {
   }
 
   .Phar2div1 {
-    width: 400px;
-    /* Adjusted width */
+    width: 40%;
     height: 350px;
+
     /* Adjusted height */
     flex-shrink: 0;
     background-image: url('./images/phar1.jfif');
@@ -10834,9 +10849,9 @@ nav ul li a:hover {
   }
 
   .Phar2div2 {
-    width: 456px;
-    height: 168px;
-
+    width: 90%;
+    height: 200px;
+    border: 10px solid #fff;
     flex-shrink: 0;
     background-position-x: 50%;
     background-position-y: 80%;
@@ -10844,18 +10859,18 @@ nav ul li a:hover {
     background-size: cover;
     background-repeat: no-repeat;
     display: block;
-    border-radius: 15px;
+    border-radius: 20px;
     position: absolute;
-    top: 290px;
+    top: 400px;
     /* Adjusted top position */
-    left: 190px;
+    left: 30px;
     /* Adjusted left position */
     z-index: 2;
   }
 
   .Phar2div3 {
-    width: 144px;
-    height: 138px;
+    width: 40%;
+    height: 240px;
 
     flex-shrink: 0;
     background-position-x: 50%;
@@ -10865,14 +10880,13 @@ nav ul li a:hover {
     background-repeat: no-repeat;
     display: block;
     position: absolute;
-    top: 180px;
+    top: 18%;
     /* Adjusted top position */
-    left: 550px;
+    left: 45%;
     /* Adjusted left position */
     z-index: 3;
-    border: 8px solid #fff;
     /* Reduced border size */
-    border-radius: 15px;
+    border-radius: 20px;
   }
 
   .phar2h1 {
@@ -10932,7 +10946,7 @@ nav ul li a:hover {
     font-weight: 400;
     line-height: normal;
     position: absolute;
-    top: 450px;
+    top: 650px;
     /* Adjusted top position */
   }
 }
@@ -10948,29 +10962,37 @@ nav ul li a:hover {
   .phar2body {
     width: 100%;
     height: 1000px;
+    /* Reduced height for laptops */
     background: #FFF;
     position: relative;
-    margin-top: 100px;
+    margin-top: 80px;
+    /* Adjusted margin */
   }
 
   .Phar2div1 {
-    width: 317.084px;
-    height: 352.387px;
+    width: 40%;
+    height: 350px;
+
+    /* Adjusted height */
     flex-shrink: 0;
     background-image: url('./images/phar1.jfif');
     background-size: cover;
     background-repeat: no-repeat;
     display: block;
-    border-radius: 20px;
+    border-radius: 15px;
+    /* Slightly smaller border-radius */
     position: absolute;
     background-position: center;
-    left: 50px;
+    left: 40px;
+    /* Adjusted for a better fit */
     z-index: 1;
+    margin-top: 50px;
   }
 
   .Phar2div2 {
-    width: 400.962px;
-    height: 145.603px;
+    width: 90%;
+    height: 168px;
+    border: 10px solid #fff;
     flex-shrink: 0;
     background-position-x: 50%;
     background-position-y: 80%;
@@ -10980,14 +11002,17 @@ nav ul li a:hover {
     display: block;
     border-radius: 20px;
     position: absolute;
-    top: 300px;
-    left: 100px;
+    top: 400px;
+    /* Adjusted top position */
+    left: 30px;
+    /* Adjusted left position */
     z-index: 2;
   }
 
   .Phar2div3 {
-    width: 136.343px;
-    height: 128.364px;
+    width: 40%;
+    height: 250px;
+
     flex-shrink: 0;
     background-position-x: 50%;
     background-position-y: 80%;
@@ -10996,65 +11021,75 @@ nav ul li a:hover {
     background-repeat: no-repeat;
     display: block;
     position: absolute;
-    top: 200px;
-    left: 400px;
+    top: 20%;
+    /* Adjusted top position */
+    left: 45%;
+    /* Adjusted left position */
     z-index: 3;
-    border: 10px solid #fff;
+    /* Reduced border size */
     border-radius: 20px;
   }
 
   .phar2h1 {
     color: #28156D;
     font-family: 'Brush Script Mt';
-    font-size: 35px;
+    font-size: 32px;
+    /* Slightly smaller font size */
     text-align: start;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     position: absolute;
-    top: -150px;
+    top: -120px;
+    /* Adjusted top position */
   }
 
   .Phar2div4 {
-    width: 380px;
+    width: 350px;
+    /* Adjusted width */
     display: block;
     text-align: start;
-    border-radius: 20px;
+    border-radius: 15px;
     position: absolute;
-    top: 50px;
-    left: 50px;
+    top: 40px;
+    /* Adjusted top position */
+    left: 40px;
+    /* Adjusted left position */
     z-index: 4;
   }
 
   .phar2h2 {
     color: #000;
     font-family: "Playfair Display";
-    font-size: 35px;
+    font-size: 32px;
+    /* Slightly smaller font size */
     font-style: normal;
     text-align: start;
     font-weight: 400;
     line-height: normal;
     position: absolute;
-    top: -110px;
+    top: -90px;
+    /* Adjusted top position */
   }
 
   .phar2p1 {
     width: 450px;
-    height: 203.124px;
-    flex-shrink: 0;
+    /* Adjusted width */
+    height: 190px;
+    /* Adjusted height */
     flex-shrink: 0;
     color: #000;
     text-align: start;
     font-family: Poppins;
-    font-size: 14px;
+    font-size: 18px;
+    /* Slightly smaller font size */
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     position: absolute;
-    top: 490px;
+    top: 550px;
+    /* Adjusted top position */
   }
-
-
 }
 
 /* Mobile Devices (up to 480px) */
@@ -12095,7 +12130,7 @@ nav ul li a:hover {
 }
 
 /* Small Laptops (769px to 1024px) */
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 550px) and (max-width: 1025px) {
   * {
     padding: 0%;
     margin: 0%;
@@ -12104,7 +12139,7 @@ nav ul li a:hover {
 
   .about2bg {
     width: 100%;
-    height: 980px;
+    height: 600px;
     background: #FFF;
   }
 
@@ -12138,7 +12173,7 @@ nav ul li a:hover {
 
   .aboutdiv2 {
     width: 302px;
-    height: 152px;
+    height: 200px;
     border: 1px solid rgb(166, 164, 164);
     border-radius: 10px;
     padding: 20px;
@@ -12148,7 +12183,7 @@ nav ul li a:hover {
 
   .aboutdiv2:hover {
     width: 302px;
-    height: 152px;
+    height: 200px;
     flex-shrink: 0;
     background-color: #28156D;
     stroke-width: 1px;
@@ -12182,8 +12217,8 @@ nav ul li a:hover {
   .arrw {
     position: absolute;
     z-index: 99;
-    width: 15px;
-    height: 15px;
+    width: 10px;
+    height: 10px;
     background-image: url('./images/arrow1.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -12257,7 +12292,7 @@ nav ul li a:hover {
 
   .aboutdiv2 {
     width: 302px;
-    height: 152px;
+    height: 200px;
     border: 1px solid rgb(166, 164, 164);
     border-radius: 10px;
     padding: 20px;
@@ -12267,7 +12302,7 @@ nav ul li a:hover {
 
   .aboutdiv2:hover {
     width: 302px;
-    height: 152px;
+    height: 200px;
     flex-shrink: 0;
     background-color: #28156D;
     stroke-width: 1px;
@@ -14112,7 +14147,7 @@ nav ul li a:hover {
   }
 
   .about4main {
-    width: 100%;
+    width: 50%;
     height: auto;
     display: block;
     background-color: #FFF;
@@ -17431,6 +17466,8 @@ nav ul li a:hover {
     object-fit: contain;
     position: relative;
     overflow: hidden;
+    padding: 0% !important;
+    margin-right: 20px;
   }
 
   .prg-small-image2 {
@@ -17445,15 +17482,15 @@ nav ul li a:hover {
 }
 
 /* Small Laptops (769px to 1024px) */
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 550px) and (max-width: 1024px) {
   .prg-pharmaciessecondsec {
-    background-image: url('./images/phar2mbl.png');
+    background-image: url('./images/about1tbl.png');
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 1600px;
     /* Changed to make it responsive */
     min-width: 100%;
-    height: 1404.442px;
+    height: 1600px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17495,7 +17532,7 @@ nav ul li a:hover {
   }
 
   .prg-section-description {
-    width: 750px;
+    width:  90%;
     height: 415px;
     flex-shrink: 0;
     color: #000;
@@ -17511,19 +17548,17 @@ nav ul li a:hover {
 
   .prg-image-content {
     /* padding-left: 40px; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 40%;
+    width: 100%;
   }
 
   .prg-main-image2 {
-    width: 575.02px;
+    width: 100%;
     height: 585.3px;
-    margin-top: 5%;
+    border-radius: 30px;
     flex-shrink: 0;
     object-fit: contain;
     position: relative;
+    object-fit: cover;
   }
 
   .prg-small-image2 {
@@ -17537,7 +17572,7 @@ nav ul li a:hover {
 }
 
 /* Tablets (481px to 768px) */
-@media (min-width: 481px) and (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 550px) {
   .prg-pharmaciessecondsec {
     background-image: url('./images/phar2mbl.png');
     background-repeat: no-repeat;
@@ -18029,7 +18064,7 @@ nav ul li a:hover {
 }
 
 /* Small Laptops (769px to 1024px) */
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 550px) and (max-width: 1024px) {
   .prag-Phsection3 {
     background-image: url('./images/phsection3.png');
     background-repeat: no-repeat;
@@ -18053,7 +18088,7 @@ nav ul li a:hover {
   }
 
   .prag-image-item13 {
-    width: 472.88px;
+    width: 70%;
     /* Increased by another 20% */
     height: 342.9px;
     /* Increased by another 20% */
@@ -18062,27 +18097,29 @@ nav ul li a:hover {
     border-radius: 8px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     position: relative;
-    left: 250px;
+    left: 25%;
+    border-radius: 30px;
     bottom: -300px;
   }
 
   .prag-image-item23 {
-    width: 394.07px;
+    width: 70%;
     /* Increased by 20% */
-    height: 253.06px;
+    height: 300px;
     /* Increased by 20% */
     flex-shrink: 0;
     object-fit: cover;
     border-radius: 8px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     position: absolute;
-    left: 50px;
+    left: 5%;
     bottom: 400px;
+    border-radius: 30px;
   }
 
   /* Text Section */
   .prag-text-section3 {
-    width: 390px;
+    width: 100%;
     height: 299.53px;
     margin-top: 200px;
   }
@@ -18090,7 +18127,7 @@ nav ul li a:hover {
   .prag-brand-name3 {
     width: 80%;
     color: #28156D;
-    text-align: center !important;
+    text-align: start !important;
     font-family: 'Brush Script Mt';
     font-size: 34px;
     font-style: normal;
@@ -18113,7 +18150,7 @@ nav ul li a:hover {
   }
 
   .prag-section-description3 {
-    width: 750px;
+    width: 90%;
     height: 299.529px;
     flex-shrink: 0;
     color: #000;
@@ -18129,7 +18166,7 @@ nav ul li a:hover {
 }
 
 /* Tablets (481px to 768px) */
-@media (min-width: 481px) and (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 550px) {
   .prag-Phsection3 {
     background-image: url('./images/phsection3.png');
     background-repeat: no-repeat;
@@ -19348,6 +19385,7 @@ nav ul li a:hover {
   }
 
   .section-title5 {
+    width: 100%;
     color: #000;
     text-align: center;
     font-family: "Playfair Display";
@@ -19355,15 +19393,15 @@ nav ul li a:hover {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    text-align: center;
+    text-align: center !important;
   }
 
   .section-description5 {
-    width: 90%;
+    width: 100%;
     height: 231.974px;
     flex-shrink: 0;
     color: #000;
-    text-align: center;
+    text-align: center !important;
     font-family: 'Poppins';
     font-size: 21px;
     font-style: normal;
@@ -19411,7 +19449,7 @@ nav ul li a:hover {
     border-radius: 12px;
     object-fit: cover;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    top: 300px;
+    top: 320px;
     left: 20px;
     z-index: 99;
   }
@@ -19445,6 +19483,7 @@ nav ul li a:hover {
   }
 
   .brand-name5 {
+    width: 99%;
     font-family: 'Brush Script MT';
     font-size: 55px;
     text-align: start;
@@ -19452,10 +19491,11 @@ nav ul li a:hover {
     color: #3a0070;
     margin-bottom: 10px;
     position: absolute;
-    top: 46px;
+    top: 26px;
   }
 
   .section-title5 {
+    width: 99%;
     color: #000;
     text-align: center;
     font-family: "Playfair Display";
