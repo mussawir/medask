@@ -290,7 +290,7 @@ body {
 }
 .h1ofhead2 {
   margin-top: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .ibrtitle1 {
@@ -512,6 +512,14 @@ nav ul li a:hover {
   background-repeat: no-repeat;
   background-size: cover;
   height: 1049.625px;
+}
+@media (min-width: 1200px) and (max-width: 1440px) {
+  .section5bgimg {
+    /* background-image: url('../src/images/section5bg.png'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+  }
 }
 
 .box12 {
@@ -9131,7 +9139,105 @@ nav ul li a:hover {
   margin-top: 10px;
   line-height: normal;
 }
+@media (min-width: 1200px) and (max-width: 1400px) {
 
+  .head {
+    width: 100%;
+    height: 700px;
+    position: relative;
+    max-width: 1600px;
+    flex-shrink: 0;
+  }
+  
+  .head1bg1 {
+    width: 100%;
+    height: 735.548px;
+    background-image: url('./images/head1.png');
+    background-repeat: no-repeat;
+    object-fit: fill;
+    position: absolute;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+  }
+  
+  .head1bg2 {
+    width: 100%;
+    height: 735.548px;
+    background-image: url('./images/head3.png');
+    background-repeat: no-repeat;
+    object-fit: fill;
+    position: absolute;
+    z-index: 2;
+  
+  }
+  
+  .head1bg3 {
+    width: 100%;
+    height: 735.548px;
+    background-image: url('./images/head2.png');
+    background-repeat: no-repeat;
+    object-fit: fill;
+    position: absolute;
+    z-index: 1;
+  
+  }
+  
+  .aboutussec1h1 {
+    color: #28156D;
+    text-align: center;
+    font-family: 'Brush Script Mt';
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 0px;
+  }
+  
+  .aboutussec1h2 {
+    color: #000;
+    text-align: center;
+    font-family: "Playfair Display";
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 10px;
+  }
+  
+  .hr-parent {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 20%;
+  }
+  
+  .hr-line1 {
+    width: 92.5%;
+    margin-bottom: -13px;
+  }
+  
+  .greenhr1 {
+    width: 45.5%;
+    margin-top: -12px;
+  }
+  
+  .aboutussec1p1 {
+    width: 70%;
+    height: 69.033px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 10px;
+    line-height: normal;
+  }
+}
 /* Tablets (481px to 768px) */
 @media (min-width: 481px) and (max-width: 768px) {
   * {
@@ -9375,7 +9481,7 @@ nav ul li a:hover {
   font-weight: 400;
   line-height: normal;
   text-align: start;
-  margin-top: 20px;
+  margin-top: 10px;
 
 }
 
@@ -9516,8 +9622,8 @@ nav ul li a:hover {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    text-align: start;
-    margin-top: 30px;
+    text-align: start !important;
+    margin-top: 10px;
   }
 
   .h2about1 {
@@ -9527,8 +9633,8 @@ nav ul li a:hover {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    text-align: start;
-    margin-top: 30px;
+    text-align: start !important;
+    margin-top: 10px;
 
   }
 
@@ -10577,7 +10683,7 @@ nav ul li a:hover {
   line-height: normal;
 }
 
-@media (min-width: 1025px) and (max-width: 1440px) {
+@media (min-width: 1240px) and (max-width: 1440px) {
   * {
     padding: 0%;
     margin: 0%;
@@ -10586,41 +10692,30 @@ nav ul li a:hover {
 
   .phar2body {
     width: 100%;
-    height: 750px;
-    /* Increased height for larger screens */
+    height: 1050px;
     background: #FFF;
     position: relative;
     margin-top: 100px;
-    /* Increased margin for spacing */
   }
-
+  
   .Phar2div1 {
-    width: 500px;
-    /* Increased width */
-    height: 400px;
-    /* Increased height */
-    flex-shrink: 0;
+    width: 431.12px;
+    height: 479.12px;
+    
     background-image: url('./images/phar1.jfif');
     background-size: cover;
     background-repeat: no-repeat;
     display: block;
     border-radius: 20px;
-    /* Larger border-radius for larger screens */
     position: absolute;
-    background-position: center;
-    left: 20%;
-    /* Adjusted for larger screens */
+    left: 150px;
     z-index: 1;
-    margin-top: 60px;
-    /* Adjusted top margin */
   }
-
+  
   .Phar2div2 {
-    width: 560px;
-    /* Increased width */
-    height: 200px;
-    /* Increased height */
-    flex-shrink: 0;
+    width: 700.80px;
+    height: 255.12px;
+    
     background-position-x: 50%;
     background-position-y: 80%;
     background-image: url('./images/phar2.jfif');
@@ -10629,18 +10724,14 @@ nav ul li a:hover {
     display: block;
     border-radius: 20px;
     position: absolute;
-    top: 350px;
-    /* Adjusted top position */
-    left: 30%;
-    /* Adjusted for larger screens */
+    top: 450px;
+    left: 350px;
     z-index: 2;
   }
-
+  
   .Phar2div3 {
-    width: 180px;
-    /* Increased width */
-    height: 160px;
-    /* Increased height */
+    width: 214.74px;
+    height: 202.17px;    
     flex-shrink: 0;
     background-position-x: 50%;
     background-position-y: 80%;
@@ -10649,16 +10740,13 @@ nav ul li a:hover {
     background-repeat: no-repeat;
     display: block;
     position: absolute;
-    top: 235px;
-    /* Adjusted top position */
-    left: 60%;
-    /* Adjusted for larger screens */
+    top: 420px;
+    left: 1000px;
     z-index: 3;
     border: 10px solid #fff;
-    /* Increased border size */
     border-radius: 20px;
   }
-
+  
   .phar2h1 {
     color: #28156D;
     font-family: 'Brush Script Mt';
@@ -10667,25 +10755,19 @@ nav ul li a:hover {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    position: absolute;
-    top: -140px;
-    /* Adjusted top position */
   }
-
+  
   .Phar2div4 {
-    width: 400px;
-    /* Increased width */
+    width: 380px;
     display: block;
     text-align: start;
     border-radius: 20px;
     position: absolute;
     top: 50px;
-    /* Adjusted top position */
-    left: 50px;
-    /* Adjusted left position */
+    left: 650px;
     z-index: 4;
   }
-
+  
   .phar2h2 {
     color: #000;
     font-family: "Playfair Display";
@@ -10694,29 +10776,23 @@ nav ul li a:hover {
     text-align: start;
     font-weight: 400;
     line-height: normal;
-    position: absolute;
-    top: -100px;
-    /* Adjusted top position */
+    margin-top: -1px;
+    margin-bottom: 12px;
   }
-
+  
   .phar2p1 {
-    width: 1000px;
-    /* Increased width */
-    height: 220px;
-    /* Increased height */
+    width: 550px;
+    height: 210px;
     flex-shrink: 0;
     color: #000;
     text-align: start;
     font-family: Poppins;
-    font-size: 20px;
-    /* Increased font size */
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    position: absolute;
-    top: 550px;
-    /* Adjusted top position */
   }
+  
 }
 
 
@@ -11225,7 +11301,7 @@ nav ul li a:hover {
   width: 100%;
   height: 1269.625px;
   display: block;
-  background-image: url('./images/phar3bgmbl.png');
+  background-image: url('./images/Phar3bg.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -11249,7 +11325,7 @@ nav ul li a:hover {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin-top: 60px;
+  margin-top: 50px;
 }
 
 .phar3cen {
@@ -12564,7 +12640,7 @@ nav ul li a:hover {
 }
 
 .about3h2 {
-  margin-top: 30px;
+  margin-top: 20px;
   color: #000;
   text-align: center;
   font-family: "Playfair Display , arial , sans-serif";
@@ -12713,7 +12789,7 @@ nav ul li a:hover {
   }
 
   .about3h2 {
-    margin-top: 30px;
+    margin-top: 10px;
     color: #000;
     text-align: center;
     font-family: "Playfair Display , arial , sans-serif";
@@ -15365,7 +15441,7 @@ nav ul li a:hover {
 }
 
 .phar5h2 {
-  margin-top: 50px;
+  margin-top: 20px;
   color: #000;
   text-align: center;
   font-family: "Playfair Display";
@@ -17253,8 +17329,8 @@ nav ul li a:hover {
   font-size: 55px;
   font-style: normal;
   font-weight: 400;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   line-height: normal;
 }
 
@@ -17802,7 +17878,7 @@ nav ul li a:hover {
   font-size: 55px;
   color: #000000;
   margin-top: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   font-weight: 400;
   text-align: start;
 }
@@ -17816,7 +17892,7 @@ nav ul li a:hover {
 }
 
 /* Laptops/Desktops (1025px to 1440px) */
-@media (min-width: 1025px) and (max-width: 1240px) {
+@media (min-width: 1025px) and (max-width: 1200px) {
   .prag-Phsection3 {
     background-image: url('./images/phsection3.png');
     background-repeat: no-repeat;
@@ -17921,7 +17997,7 @@ nav ul li a:hover {
 }
 
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1200px) {
   .prag-Phsection3 {
     background-image: url('./images/phsection3.png');
     background-repeat: no-repeat;
@@ -18396,7 +18472,7 @@ nav ul li a:hover {
   line-height: 73.32px;
   text-align: start;
   margin-top: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .section-description {
@@ -18500,7 +18576,8 @@ nav ul li a:hover {
     font-weight: 400;
     line-height: 73.32px;
     text-align: start !important;
-    margin-bottom: 60px;
+    margin-bottom: 10px;
+    margin-top: 10px;
     margin-left: 5%;
   }
 
@@ -19111,7 +19188,7 @@ nav ul li a:hover {
   margin-left: 10px;
   width: 70%;
   margin-top: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .section-description5 {
@@ -19175,10 +19252,14 @@ nav ul li a:hover {
   }
 
   .section-title5 {
+    margin-top: 10px;
+    width: 80%;
+    margin-bottom: 10px;
     font-size: 35px;
   }
 
   .section-description5 {
+    width: 90%;
     font-size: 14px;
   }
 }
