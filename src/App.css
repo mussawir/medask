@@ -11275,11 +11275,11 @@ nav ul li a:hover {
   }
 
   .phar2body {
-    width: 100%;
-    height: 550px;
+    width: 80%;
+    height: 600px;
     background: #FFF;
     position: relative;
-    margin-top: 100px;
+    margin-top: 50px;
   }
 
   .Phar2div1 {
@@ -11298,7 +11298,7 @@ nav ul li a:hover {
   }
 
   .Phar2div2 {
-    width: 280px;
+    width: 95%;
     height: 108.603px;
     flex-shrink: 0;
     background-position-x: 50%;
@@ -11326,7 +11326,7 @@ nav ul li a:hover {
     display: block;
     position: absolute;
     top: 130px;
-    left: 230px;
+    left: 200px;
     z-index: 3;
     border: 4px solid #fff;
     border-radius: 20px;
