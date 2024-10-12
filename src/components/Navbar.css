@@ -288,6 +288,8 @@ flex-shrink: 0;
 
 #available-info {
     color: white;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
     font-weight: bold;
 }
 
@@ -480,6 +482,197 @@ flex-shrink: 0;
     font-weight: 500;
     line-height: normal;
 }
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 0;
+        margin-bottom: 0;
+    }
+    .logo-top {
+        margin-bottom: 10px;
+        margin-left: 25px;
+        width: 32.806px;
+        height: 100px;
+        flex-shrink: 0;
+        fill: #FFF;
+    }
+    .logo-img {
+        width: 115px;
+        height: 110px;
+        flex-shrink: 0;
+        display: block;
+        background: white;
+        border-radius: 10px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .nav-linkssecond {
+        display: none;
+    }
+    
+  }
+  
+  /* Small devices (landscape phones, 576px and up) */
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .navbar-container {
+        background-image: url('../images/firstSecTopBg.jpg');
+        background-size: cover;
+        color: black;
+        position: relative;
+        background-size: center;
+        min-height: 1089.625px;
+        overflow: hidden;
+        background-repeat: no-repeat;
+    }
+    .navbar-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 0;
+        margin-bottom: 0;
+    }
+    .logo-top {
+        margin-bottom: 10px;
+        margin-left: 25px;
+        width: 32.806px;
+        height: 100px;
+        flex-shrink: 0;
+        fill: #FFF;
+    }
+    .logo-img {
+        width: 115px;
+        height: 110px;
+        flex-shrink: 0;
+        display: block;
+        background: white;
+        border-radius: 10px;
+        margin-left: 36px;
+        margin-top: 0px;
+    }
+    .nav-linkssecond {
+        display: none;
+    }
+    
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) and (max-width: 991.98px) { 
+    .navbar-container {
+        background-image: url('../images/firstSecTopBg.jpg');
+        background-size: cover;
+        color: black;
+        position: relative;
+        background-size: center;
+        min-height: 1089.625px;
+        overflow: hidden;
+        background-repeat: no-repeat;
+    }
+    .navbar-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 0;
+        margin-bottom: 0;
+    }
+    .logo-top {
+        margin-bottom: 10px;
+        margin-left: 25px;
+        width: 32.806px;
+        height: 100px;
+        flex-shrink: 0;
+        fill: #FFF;
+    }
+    .logo-img {
+        width: 115px;
+        height: 110px;
+        flex-shrink: 0;
+        display: block;
+        background: white;
+        border-radius: 10px;
+        margin-left: 36px;
+        margin-top: 0px;
+    }
+    .nav-linkssecond {
+        display: none;
+    }
+    .partner-link{
+        display: none;
+    }
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) and (max-width: 1199.98px) { 
+    .navbar-container {
+        background-image: url('../images/Group25.png');
+        background-size: cover;
+        color: black;
+        position: relative;
+        background-position: center;
+        min-height: 1089.625px;
+        background-repeat: no-repeat;
+        position: relative;
+        object-fit: fill;
+    
+    }
+    .logo-top {
+        margin-bottom: 10px;
+        margin-left: 0px;
+        width: 42.806px;
+        height: 160px;
+        flex-shrink: 0;
+        fill: #FFF;
+    }
+    .logo-img {
+        width: 115px;
+        height: 110px;
+        flex-shrink: 0;
+        display: block;
+        background: white;
+        border-radius: 10px;
+        margin-left: 60px;
+        margin-top: 0px;
+    }
+    .nav-linkssecond {
+        display: flex !important;
+    }
+  }
+  
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) and (max-width: 1399.98px) { 
+    .navbar-container {
+        background-image: url('../images/Group25.png');
+        background-size: cover;
+        color: black;
+        position: relative;
+        background-position: center;
+        min-height: 1089.625px;
+        background-repeat: no-repeat;
+        position: relative;
+        object-fit: fill;
+    
+    }
+  }
+  
+  /* Extra extra large devices (larger desktops, 1400px and up) */
+  @media (min-width: 1400px) { 
+    /* styles for xxl devices */
+  }
+  
+
+
+
 @media screen and (max-width: 1599px) {
     .nav-linkssecond {
         display: flex;
@@ -1046,7 +1239,7 @@ flex-shrink: 0;
 /* Tablets (481px to 768px) */
 @media (min-width: 301px) and (max-width: 1050px) {
 
-    .navbar-container {
+    /* .navbar-container {
         background-image: url('../images/about1bg.png');
         background-size: cover;
         color: black;
@@ -1055,15 +1248,7 @@ flex-shrink: 0;
         min-height: 106vh;
         background-repeat: no-repeat;
     
-    }
-
-.navbar {
-    display: flex;
-    flex-direction: column;
-    /* Stack nav sections vertically */
-    align-items: center;
-    /* Center content horizontally */
-}
+    } */
 
 .medask-headline1 {
     color: #000;
@@ -1101,28 +1286,26 @@ flex-shrink: 0;
     margin: 0 90px;
 }
 
-.navbar-top {
+/* .navbar-top {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     padding: 0;
-    /* Remove padding */
     margin-bottom: 0;
-    /* Ensure no margin */
-}
+} */
 
 
-.logo-top {
+/* .logo-top {
     margin-bottom: 10px;
     margin-left: 25px;
     width: 32.806px;
     height: 100px;
     flex-shrink: 0;
     fill: #FFF;
-}
+} */
 
-.logo-img {
+/* .logo-img {
     width: 115px;
     height: 110px;
     flex-shrink: 0;
@@ -1131,7 +1314,7 @@ flex-shrink: 0;
     border-radius: 10px;
     margin-left: -15px;
     margin-top: 0px;
-}
+} */
 
 .top-info {
     position: absolute;
@@ -1224,7 +1407,7 @@ flex-shrink: 0;
     transition: background-color 0.3s, color 0.3s;
     /* For hover effect */
     font-weight: bold;
-    font-size: 13.94px;
+    font-size: 8.94px;
     border-radius: 20px;
 
 }
@@ -1447,7 +1630,6 @@ flex-shrink: 0;
 
 .nav-linkssecond {
     display: none;
-    /* Hide the regular navigation menu */
 }
 
 .top-info {

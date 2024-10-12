@@ -10,7 +10,9 @@
 
 
 }
-
+.menu-iconsmallscreen {
+    display: none;
+}
 .navbar-top {
     position: absolute;
     z-index: 99;
@@ -19,7 +21,7 @@
 .headerofsmallscreennavlinks {
     display: none;
 }
-@media screen and (max-width: 786px) {
+@media (min-width: 200px) and (max-width: 399.98px) {
     .navbar-container {
         background-image: url('../images/Section1Mob.jpg');
         background-size: cover;
@@ -28,8 +30,701 @@
         background-position: center;
         min-height: 1090.625px;
         background-repeat: no-repeat;
-
     }
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo-top {
+        margin-bottom: 10px;
+        margin-left: 15px;
+        width: 32.806px;
+        height: 100px;
+        flex-shrink: 0;
+        fill: #FFF;
+    }
+    .logo-img {
+        width: 105px;
+        height: 100px;
+        flex-shrink: 0;
+        display: block;
+        background: white;
+        border-radius: 10px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .icon2 {
+        position: absolute;
+        right: 0%;
+        display: none;
+        top: 19%;
+    }
+    .headerofsmallscreennavlinks {
+        display: block;
+        align-self: flex-start;
+    }
+    .nav-link-topsmallscreen {
+        color: #170C40;
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif;
+        font-size: 8.44px;
+        top: 17.68px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 11.81px;
+        position: absolute;
+        left: 123.41px;
+        top: 14px;
+    }
+
+    .nav-link-topsmallscreen2 {
+        color: #170C40;
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif;
+        font-size: 6.44px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 11.81px;
+        position: absolute;
+        top: 12px;
+        left: 226.41px;
+    }
+    .nav-link-topsmallscreen3 {
+        color: #170C40;
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif;
+        font-size: 6.44px;
+        top: 53px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 11.81px;
+        position: absolute;
+        left: 182.41px;
+    }
+    .emailnavsmallscreen {
+        color: #170C40;
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif;
+        font-size: 8.44px;
+        font-style: normal;
+        font-weight: 500;
+        margin-top: -2px;
+        line-height: 19.65px;
+        position: absolute;
+    }
+    .icon-backgroundsmallscreen {
+        display: inline-flex;
+        align-items: center;
+        background: linear-gradient(90deg, #00A539, #29166F);
+        color: white;
+        border-radius: 30px;
+        padding: 3px;
+        margin-right: 4px;
+    }
+    
+    .phonetopImgsmallscreen {
+        width: 5.81px;
+        height: 5.81px;
+    }
+    .partnerlinksmallscreen {
+        align-items: center;
+        border: .73px solid #828282;
+        border-radius: 6px;
+        color: #29166f;
+        display: flex;
+        font-family: poppins;
+        font-size: 10px;
+        font-weight: 700;
+        height: 30px;
+        right: 0px;
+        margin-top: 5px;
+        padding: 6px;
+        text-decoration: none;
+        top: 53px;
+        transition: background-color .3s, color .3s;
+        width: 158.62px;
+    }
+    .menu-iconsmallscreen {
+        display: block !important;
+        align-self: flex-end;
+        margin-top: 30px;
+        margin-right: 15px;
+        margin-bottom: -3px;
+    }
+  }
+  
+/* Extra small devices (portrait phones, less than 576px) */
+@media (min-width: 400px) and (max-width: 575.98px) { 
+    .navbar-container {
+        background-image: url('../images/Section1Mob.jpg');
+        background-size: cover;
+        color: black;
+        position: relative;
+        background-position: center;
+        min-height: 1090.625px;
+        background-repeat: no-repeat;
+    }
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .icon2 {
+        position: absolute;
+        right: 0%;
+        display: none;
+        top: 19%;
+    }
+    .headerofsmallscreennavlinks {
+        display: block;
+        align-self: flex-start;
+    }
+    .nav-link-topsmallscreen {
+        color: #170C40;
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif;
+        font-size: 8.44px;
+        top: 17.68px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 11.81px;
+        position: absolute;
+        left: 153.41px;
+        top: 14px;
+    }
+
+    .nav-link-topsmallscreen2 {
+        color: #170C40;
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif;
+        font-size: 8.44px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 11.81px;
+        position: absolute;
+        top: 12px;
+        left: 276.41px;
+    }
+    .nav-link-topsmallscreen3 {
+        color: #170C40;
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif;
+        font-size: 8.44px;
+        top: 53px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 11.81px;
+        position: absolute;
+        left: 182.41px;
+    }
+    .emailnavsmallscreen {
+        color: #170C40;
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif;
+        font-size: 8.44px;
+        font-style: normal;
+        font-weight: 500;
+        margin-top: 0px;
+        line-height: 19.65px;
+        position: absolute;
+    }
+    .icon-backgroundsmallscreen {
+        display: inline-flex;
+        align-items: center;
+        background: linear-gradient(90deg, #00A539, #29166F);
+        color: white;
+        border-radius: 30px;
+        padding: 5px;
+        margin-right: 4px;
+    }
+    
+    .phonetopImgsmallscreen {
+        width: 5.81px;
+        height: 5.81px;
+    }
+    .partnerlinksmallscreen {
+        align-items: center;
+        border: .73px solid #828282;
+        border-radius: 6px;
+        color: #29166f;
+        display: flex;
+        font-family: poppins;
+        font-size: 12px;
+        font-weight: 700;
+        height: 30px;
+        /* margin-left: -12px; */
+        right: 0px;
+        margin-top: 5px;
+        padding: 6px;
+        text-decoration: none;
+        top: 53px;
+        transition: background-color .3s, color .3s;
+        width: 180.62px;
+        justify-content: center;
+    }
+    .menu-iconsmallscreen {
+        display: block;
+        align-self: flex-end;
+        margin-top: 30px;
+        margin-right: 15px;
+        margin-bottom: -3px;
+    }
+
+  }
+  
+  /* Small devices (landscape phones, 576px and up) */
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .navbar-container {
+        background-image: url('../images/firstSecTopBg.jpg');
+        background-size: cover;
+        color: black;
+        position: relative;
+        background-size: center;
+        min-height: 1089.625px;
+        overflow: hidden;
+        background-repeat: no-repeat;
+    }
+    .icon2 {
+        position: absolute;
+        right: 0%;
+        display: none;
+         top: 19%;
+    }
+    .headerofsmallscreennavlinks {
+        display: block;
+        align-self: flex-start;
+    }
+    .nav-link-topsmallscreen {
+        color: #170C40;
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif;
+        font-size: 11.44px;
+        top: 17.68px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 11.81px;
+        position: absolute;
+        left: 200.41px;
+        top: 14px;
+    }
+
+    .nav-link-topsmallscreen2 {
+        color: #170C40;
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif;
+        font-size: 11.44px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 11.81px;
+        position: absolute;
+        top: 12px;
+        left: 356.41px;
+    }
+    .nav-link-topsmallscreen3 {
+        color: #170C40;
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif;
+        font-size: 8.44px;
+        top: 53px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 11.81px;
+        position: absolute;
+        left: 182.41px;
+    }
+    .emailnavsmallscreen {
+        color: #170C40;
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif;
+        font-size: 11.44px;
+        font-style: normal;
+        font-weight: 500;
+        margin-top: 0px;
+        line-height: 19.65px;
+        position: absolute;
+    }
+    .icon-backgroundsmallscreen {
+        display: inline-flex;
+        align-items: center;
+        background: linear-gradient(90deg, #00A539, #29166F);
+        color: white;
+        border-radius: 30px;
+        padding: 5px;
+        margin-right: 4px;
+    }
+    
+    .phonetopImgsmallscreen {
+        width: 5.81px;
+        height: 5.81px;
+    }
+    .partnerlinksmallscreen {
+        align-items: center;
+        border: .73px solid #828282;
+        border-radius: 6px;
+        color: #29166f;
+        display: flex;
+        font-family: poppins;
+        font-size: 10px;
+        font-weight: 700;
+        height: 30px;
+        margin-left: -12px;
+        right: 72px;
+        margin-top: 5px;
+        padding: 6px;
+        text-decoration: none;
+        top: 53px;
+        transition: background-color .3s, color .3s;
+        width: 177.62px;
+    }
+    .menu-iconsmallscreen {
+        display: block;
+        align-self: flex-end;
+        margin-top: 30px;
+        margin-right: 15px;
+        margin-bottom: -3px;
+    }
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) and (max-width: 991.98px) { 
+    .navbar-container {
+        background-image: url('../images/firstSecTopBg.jpg');
+        background-size: cover;
+        color: black;
+        position: relative;
+        background-size: center;
+        min-height: 1089.625px;
+        overflow: hidden;
+        background-repeat: no-repeat;
+    }
+    .icon2 {
+        position: absolute;
+        right: 0%;
+        display: none;
+        top: 19%;
+    }
+    .headerofsmallscreennavlinks {
+        display: block;
+        align-self: flex-start;
+    }
+    .nav-link-topsmallscreen {
+        color: #170C40;
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif;
+        font-size: 11.44px;
+        top: 17.68px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 11.81px;
+        position: absolute;
+        left: 200.41px;
+        display: none;
+        top: 14px;
+    }
+    .top-info {
+        position: absolute;
+        /* Or fixed */
+        top: 0;
+        right: 0;
+        display: flex;
+        justify-content: flex-end;
+        gap: 5px;
+        padding: 5px;
+    }
+
+    .nav-link-topsmallscreen2 {
+        color: #170C40;
+        text-decoration: none;
+        display: none;
+        font-family: 'Poppins', sans-serif;
+        font-size: 11.44px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 11.81px;
+        position: absolute;
+        top: 12px;
+        left: 356.41px;
+    }
+    .nav-link-topsmallscreen3 {
+        color: #170C40;
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif;
+        font-size: 8.44px;
+        top: 53px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 11.81px;
+        position: absolute;
+        left: 182.41px;
+    }
+    .emailnavsmallscreen {
+        color: #170C40;
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif;
+        font-size: 11.44px;
+        font-style: normal;
+        font-weight: 500;
+        margin-top: 0px;
+        line-height: 19.65px;
+        position: absolute;
+    }
+    .icon-backgroundsmallscreen {
+        display: inline-flex;
+        align-items: center;
+        background: linear-gradient(90deg, #00A539, #29166F);
+        color: white;
+        border-radius: 30px;
+        padding: 4px;
+        margin-right: 5px;
+    }
+    .phonetopImgsmallscreen {
+        width: 8.81px;
+        height: 8.81px;
+    }
+    .partnerlinksmallscreen {
+        align-items: center;
+        border: .73px solid #828282;
+        border-radius: 6px;
+        color: #29166f;
+        display: flex;
+        font-family: 'poppins';
+        font-size: 13.94px;
+        display: none;
+        font-weight: 700;
+        height: 36.7px;
+        margin-left: 106px;
+        padding: 6px;
+        text-decoration: none;
+        top: 53px;
+        transition: background-color .3s, color .3s;
+        width: 307.74px;
+        position: absolute;
+        right: 40px;
+    }
+    .menu-iconsmallscreen {
+        display: none;
+        align-self: flex-end;
+        margin-top: 30px;
+    }
+    .nav-linkssecond {
+        display: flex !important;
+        margin-top: 20px;
+    }
+    .nav-link-top1 {
+        color: #170C40;
+        text-decoration: none;
+        font-family: 'Poppins';
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-right: 14px;
+    }
+    #available-info {
+        color: white;
+        font-weight: 400;
+        display: none;
+        font-size: 8px;
+    }
+    .available-info {
+        width: 200px;
+        height: 33px;
+        flex-shrink: 0;
+        background-color: #29166F;
+        color: white;
+        padding: 12px 7px;
+        border-radius: 20px 0px 0px 20px;
+        display: inline-block;
+        border-left: 4px solid rgb(16, 219, 16);
+        /* margin-top: -5px; */
+        font-size: 14px;
+    }
+    .nav-link {
+        margin: 0 15px;
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif;
+        color: #828282;
+        font-weight: 400;
+        font-size: 14px;
+    }
+    .partner-link {
+        border: 2px solid #828282;
+        border-radius: 14px;
+        padding: 3px 22px;
+        text-decoration: none;
+        font-family: poppins;
+        color: #29166F;
+        position: relative;
+        display: none;
+        transition: background-color 0.3s, color 0.3s;
+        font-weight: bold;
+        font-size: 8.94px;
+        border-radius: 20px;
+    }
+
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) and (max-width: 1199.98px) { 
+    
+    .icon2 {
+        position: absolute;
+        right: 0%;
+        display: none;
+        top: 19%;
+    }
+    .top-info {
+        position: absolute;
+        /* Or fixed */
+        top: 0;
+        right: 0;
+        display: flex;
+        justify-content: flex-end;
+        gap: 5px;
+        padding: 5px;
+    }
+    .icon-backgroundsmallscreen {
+        display: inline-flex;
+        align-items: center;
+        background: linear-gradient(90deg, #00A539, #29166F);
+        color: white;
+        border-radius: 30px;
+        padding: 4px;
+        margin-right: 5px;
+    }
+    .navbar-container {
+        background-image: url('../images/firstSecTopBg.jpg');
+        background-size: cover;
+        color: black;
+        position: relative;
+        background-size: center;
+        min-height: 1089.625px;
+        overflow: hidden;
+        background-repeat: no-repeat;
+    }
+    .icon2 {
+        position: absolute;
+        right: 0%;
+        display: none;
+        top: 19%;
+    }
+    .headerofsmallscreennavlinks {
+        display: block;
+        align-self: flex-start;
+    }
+    .nav-link-topsmallscreen {
+        color: #170C40;
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif;
+        font-size: 11.44px;
+        top: 17.68px;
+        font-style: normal;
+        font-weight: 700;
+        display: none;
+        line-height: 11.81px;
+        position: absolute;
+        left: 200.41px;
+        top: 14px;
+    }
+
+    .nav-link-topsmallscreen2 {
+        color: #170C40;
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif;
+        font-size: 11.44px;
+        font-style: normal;
+        font-weight: 500;
+        display: none;
+        line-height: 11.81px;
+        position: absolute;
+        top: 12px;
+        left: 356.41px;
+    }
+    .nav-link-topsmallscreen3 {
+        color: #170C40;
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif;
+        font-size: 8.44px;
+        top: 53px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 11.81px;
+        position: absolute;
+        left: 182.41px;
+    }
+    .emailnavsmallscreen {
+        color: #170C40;
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif;
+        font-size: 11.44px;
+        font-style: normal;
+        font-weight: 500;
+        margin-top: 0px;
+        line-height: 19.65px;
+        position: absolute;
+    }
+    .icon-backgroundsmallscreen {
+        display: inline-flex;
+        align-items: center;
+        background: linear-gradient(90deg, #00A539, #29166F);
+        color: white;
+        border-radius: 30px;
+        padding: 4px;
+        margin-right: 5px;
+    }
+    .phonetopImgsmallscreen {
+        width: 8.81px;
+        height: 8.81px;
+    }
+    .partnerlinksmallscreen {
+        align-items: center;
+        border: .73px solid #828282;
+        border-radius: 6px;
+        color: #29166f;
+        display: none;
+        font-family: poppins;
+        font-size: 13.94px;
+        font-weight: 700;
+        height: 36.7px;
+        margin-left: 106px;
+        padding: 6px;
+        text-decoration: none;
+        top: 53px;
+        transition: background-color .3s, color .3s;
+        width: 307.74px;
+        position: absolute;
+        right: 40px;
+    }
+    .menu-iconsmallscreen {
+        display: none;
+        align-self: flex-end;
+        margin-top: 30px;
+    }
+  }
+  
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) and (max-width: 1399.98px) { 
+    /* styles for xl devices */
+  }
+  
+  /* Extra extra large devices (larger desktops, 1400px and up) */
+  @media (min-width: 1400px) { 
+    /* styles for xxl devices */
+  }
+  
+
+@media screen and (max-width: 786px) {
+    /* .navbar-container {
+        background-image: url('../images/Section1Mob.jpg');
+        background-size: cover;
+        color: black;
+        position: relative;
+        background-position: center;
+        min-height: 1090.625px;
+        background-repeat: no-repeat;
+
+    } */
 }
 /* @media (min-width: 680px) and (max-width: 786px) {
     .navbar-container {
@@ -43,7 +738,7 @@
 
     }
   } */
-@media (min-width: 786px) and (max-width: 1040px) {
+/* @media (min-width: 786px) and (max-width: 1040px) {
     .navbar-container {
         background-image: url('../images/firstSecTopBg.jpg');
         background-size:auto ;
@@ -54,8 +749,8 @@
         background-repeat: no-repeat;
 
     }
-  }
-@media (min-width: 1040px) and (max-width: 1208px) {
+  } */
+/* @media (min-width: 1040px) and (max-width: 1208px) {
     .navbar-container {
         background-image: url('../images/firstSecTopBg.jpg');
         background-size: cover;
@@ -66,7 +761,7 @@
         background-repeat: no-repeat;
 
     }
-}
+} */
 
 .navbar {
     background-size: cover;
@@ -81,9 +776,7 @@
     top: 19%;
 }
 
-.menu-iconsmallscreen {
-    display: none;
-}
+
 
 @media screen and (max-width: 1508px) {
     .icon2 {
@@ -112,22 +805,22 @@
     }
 }
 
-@media screen and (max-width: 1208px) {
+/* @media screen and (max-width: 1208px) {
     .icon2 {
         position: absolute;
         right: 0%;
         display: none;
         top: 19%;
     }
-}
+} */
 
 @media screen and (max-width: 1051px) {
-    .headerofsmallscreennavlinks {
+    /* .headerofsmallscreennavlinks {
         display: block;
         align-self: flex-start;
-    }
+    } */
 
-    .nav-link-topsmallscreen {
+    /* .nav-link-topsmallscreen {
         color: #170C40;
         text-decoration: none;
         font-family: 'Poppins', sans-serif;
@@ -151,9 +844,9 @@
         line-height: 11.81px;
         position: absolute;
         left: 300.56px;
-    }
+    } */
 
-    .emailnavsmallscreen {
+    /* .emailnavsmallscreen {
         color: #170C40;
         text-decoration: none;
         font-family: 'Poppins', sans-serif;
@@ -163,8 +856,8 @@
         margin-top: 6px;
         line-height: 19.65px;
         position: absolute;
-    }
-
+    } */
+/* 
     .nav-link-topsmallscreen3 {
         color: #170C40;
         text-decoration: none;
@@ -176,37 +869,30 @@
         line-height: 11.81px;
         position: absolute;
         left: 182.41px;
-    }
+    } */
 
-    .icon-backgroundsmallscreen {
+    /* .icon-backgroundsmallscreen {
         display: inline-flex;
-        /* Allows proper alignment */
         align-items: center;
-        /* Centers the icon vertically */
         background: linear-gradient(90deg, #00A539, #29166F);
-        /* Gradient background */
         color: white;
-        /* Change icon color to white for better contrast */
         border-radius: 30px;
-        /* Rounded corners */
         padding: 4px;
-        /* Padding around the icon */
         margin-right: 5px;
-        /* Space between icon and text */
-    }
+    } */
 
-    .phonetopImgsmallscreen {
+    /* .phonetopImgsmallscreen {
         width: 8.81px;
         height: 8.81px;
-    }
+    } */
 
-    .menu-iconsmallscreen {
+    /* .menu-iconsmallscreen {
         display: block;
         align-self: flex-end;
         margin-top: 30px;
-    }
+    } */
 
-    .partnerlinksmallscreen {
+    /* .partnerlinksmallscreen {
         align-items: center;
         border: .73px solid #828282;
         border-radius: 6px;
@@ -224,24 +910,9 @@
         width: 207.74px;
         position: absolute;
         right: 20px;
-    }
+    } */
 
-    .icon-backgroundsmallscreen {
-        display: inline-flex;
-        /* Allows proper alignment */
-        align-items: center;
-        /* Centers the icon vertically */
-        background: linear-gradient(90deg, #00A539, #29166F);
-        /* Gradient background */
-        color: white;
-        /* Change icon color to white for better contrast */
-        border-radius: 30px;
-        /* Rounded corners */
-        padding: 8px;
-        /* Padding around the icon */
-        margin-right: 5px;
-        /* Space between icon and text */
-    }
+
 
     .partnerlinktextsmallscreen {
         font-size: 10.22px;
@@ -253,12 +924,12 @@
 
 /* Tablets (481px to 768px) */
 @media (max-width: 768px) {
-    .headerofsmallscreennavlinks {
+    /* .headerofsmallscreennavlinks {
         display: block;
         align-self: flex-start;
-    }
+    } */
 
-    .nav-link-topsmallscreen {
+    /* .nav-link-topsmallscreen {
         color: #170C40;
         text-decoration: none;
         font-family: 'Poppins', sans-serif;
@@ -283,8 +954,8 @@
         position: absolute;
         top: 12px;
         left: 266.41px;
-    }
-
+    } */
+/* 
     .emailnavsmallscreen {
         color: #170C40;
         text-decoration: none;
@@ -295,9 +966,9 @@
         margin-top: 0px;
         line-height: 19.65px;
         position: absolute;
-    }
+    } */
 
-    .nav-link-topsmallscreen3 {
+    /* .nav-link-topsmallscreen3 {
         color: #170C40;
         text-decoration: none;
         font-family: 'Poppins', sans-serif;
@@ -308,9 +979,9 @@
         line-height: 11.81px;
         position: absolute;
         left: 182.41px;
-    }
+    } */
 
-    .icon-backgroundsmallscreen {
+    /* .icon-backgroundsmallscreen {
         display: inline-flex;
         align-items: center;
         background: linear-gradient(90deg, #00A539, #29166F);
@@ -318,21 +989,21 @@
         border-radius: 30px;
         padding: 5px;
         margin-right: 4px;
-    }
+    } */
 
-    .phonetopImgsmallscreen {
+    /* .phonetopImgsmallscreen {
         width: 5.81px;
         height: 5.81px;
-    }
+    } */
 
-    .menu-iconsmallscreen {
+    /* .menu-iconsmallscreen {
         display: block;
         align-self: flex-end;
         margin-top: 30px;
         margin-right: 15px;
         margin-bottom: -3px;
-    }
-    .icon-backgroundsmallscreen {
+    } */
+    /* .icon-backgroundsmallscreen {
         display: inline-flex;
         align-items: center;
         background: linear-gradient(90deg, #00A539, #29166F);
@@ -340,13 +1011,13 @@
         border-radius: 30px;
         padding: 5px;
         margin-right: 4px;
-    }
+    } */
 
     .partnerlinktextsmallscreen {
         font-size: 8px;
 
     }
-    .partnerlinksmallscreen {
+    /* .partnerlinksmallscreen {
         align-items: center;
         border: .73px solid #828282;
         border-radius: 6px;
@@ -364,5 +1035,31 @@
         top: 53px;
         transition: background-color .3s, color .3s;
         width: 177.62px;
+    } */
+}
+@media (min-width: 510px) and (max-width: 767px) {
+    .headerofsmallscreennavlinks {
+        display: block;
+        align-self: flex-start;
+    }
+    .partnerlinksmallscreen {
+        align-items: center;
+        border: .73px solid #828282;
+        border-radius: 6px;
+        color: #29166f;
+        display: flex;
+        font-family: poppins;
+        font-size: 13.94px;
+        font-weight: 700;
+        height: 36.7px;
+        margin-left: 106px;
+        justify-content: center;
+        padding: 6px;
+        text-decoration: none;
+        top: 53px;
+        transition: background-color .3s, color .3s;
+        width: 177.74px;
+        position: absolute;
+        right: 40px;
     }
 }

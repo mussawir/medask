@@ -46,8 +46,8 @@ const NewsSection: React.FC = () => {
 
   return (
     <section className="news-section">
-      <h2 className="news-heading ibrtitle1">News And Articles</h2>
-      <h3 className="news-subheading subtitle">Latest News/Articles</h3>
+      <h2 className="news-heading">News And Articles</h2>
+      <h3 className="news-subheading">Latest News/Articles</h3>
       <div className="news-cards-container">
         {articles.map((article, index) => (
           <div key={index} className="news-item">

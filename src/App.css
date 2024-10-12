@@ -272,10 +272,6 @@ body {
 
 @media (min-width: 1600px) {
 
-  /* body {
-      max-width: 1600px;
-      margin: 0 auto; /* Centers the content */
-  /* } */
   .App-header {
     background-color: #282c34;
     min-height: 100vh;
@@ -290,14 +286,32 @@ body {
 }
 .h1ofhead2 {
   margin-top: 20px;
+  color: #28156D !important;
+  text-align: center;
+  font-family: 'Brush Script Mt';
+  font-size: 34px !important;
+  font-weight: 400 !important;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+.h2ofhead2 {
+  margin-top: 20px;
+  color: #000000 !important;
+  text-align: center;
+  font-family: 'playfair display';
+  font-size: 45px !important;
+  font-weight: 400 !important;
+  line-height: normal;
   margin-bottom: 20px;
 }
 
 .ibrtitle1 {
-  color: #28156D !important;
+  color: #000;
   text-align: center;
   font-size: 55px !important;
+  font-style: normal;
   font-weight: 400 !important;
+  font-family: 'Playfair Display';
   line-height: normal;
 }
 
@@ -2872,6 +2886,7 @@ nav ul li a:hover {
     font-size: 45px;
     /* 30% of 24px */
     font-weight: 500;
+    text-align: center;
     margin-bottom: 1px;
     color: #28156D;
     font-family: 'Brush Script Mt', cursive;
@@ -2882,6 +2897,7 @@ nav ul li a:hover {
     font-size: 40px;
     /* 30% of 30px */
     font-weight: 500;
+    text-align: center;
     margin-bottom: 20px;
     font-family: "Playfair Display", serif;
   }
@@ -3616,19 +3632,55 @@ nav ul li a:hover {
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 1550px;
+    height: 1650px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .Section4Bg {
-    background-image: url('./images/Section2bgMob.jpg');
+    background-image: url('./images/sec3bg.png');
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 1250px;
+    height: 1100px;
   }
-
+  .firstbtnofbottomSec4 {
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    padding: 16px 18px;
+    width: 200px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-family: 'poppins';
+    background-color: #29166F;
+    cursor: pointer;
+    content: fit-content;
+  }
+  .SecondbtnofbottomSec4 {
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    font-weight: bold;
+    font-family: 'poppins';
+    border-radius: 8px;
+    background-color: #00AA14;
+    padding: 16px 18px;
+    cursor: pointer;
+    margin: 0 px;
+    width: 200px;
+  }
+  .btn-textofsec4bottom {
+    color: #fff;
+    font-family: 'Poppins';
+    font-size: 17px;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+    line-height: normal;
+}
   .Section4Content {
     display: none;
     flex-direction: column;
@@ -3641,7 +3693,7 @@ nav ul li a:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 50px 0;
+    padding: 80px 0;
     margin: 20px 0;
   }
   .Section4Images{
@@ -4300,7 +4352,7 @@ nav ul li a:hover {
   height: 143.796px;
   flex-shrink: 0;
   color: #000;
-  font-family: Poppins;
+  font-family: 'Poppins';
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -4337,7 +4389,7 @@ nav ul li a:hover {
     height: 143.796px;
     flex-shrink: 0;
     color: #000;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -4376,11 +4428,11 @@ nav ul li a:hover {
     height: 143.796px;
     flex-shrink: 0;
     color: #000;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 20px;
+    line-height: 40px;
   }
 
   .vidtitle {
@@ -4415,11 +4467,11 @@ nav ul li a:hover {
     height: 143.796px;
     flex-shrink: 0;
     color: #000;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 20px;
+    line-height: 30px;
   }
 
   .vidtitle {
@@ -4453,11 +4505,11 @@ nav ul li a:hover {
     height: 143.796px;
     flex-shrink: 0;
     color: #000;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 12px;
+    line-height: 30px;
   }
 
   .vidtitle {
@@ -4932,6 +4984,7 @@ nav ul li a:hover {
     justify-content: center;
     align-items: center;
     gap: 12.8px;
+    padding: 45px;
   }
 
   .backgrounddiv2 {
@@ -5101,7 +5154,7 @@ nav ul li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column-reverse;
+    /* flex-direction: column-reverse; */
     gap: 10.24px;
   }
 
@@ -5362,6 +5415,7 @@ nav ul li a:hover {
   color: #28156D;
   margin-bottom: 10px;
   font-family: 'Brush Script Mt', cursive;
+  text-align: center;
 }
 
 /* Subheading */
@@ -5370,6 +5424,7 @@ nav ul li a:hover {
   font-weight: 400;
   margin-bottom: 40px;
   font-family: "Playfair Display", serif;
+  text-align: center;
 }
 
 
@@ -9335,7 +9390,7 @@ nav ul li a:hover {
 
   .hr-line1 {
     width: 90%;
-    margin-bottom: -17px;
+    margin-bottom: -13px;
   }
 
   .greenhr1 {
@@ -9440,7 +9495,7 @@ nav ul li a:hover {
 
   .hr-line1 {
     width: 90%;
-    margin-bottom: -17px;
+    margin-bottom: -13px;
   }
 
   .greenhr1 {
@@ -11290,7 +11345,7 @@ nav ul li a:hover {
   }
 
   .Phar2div4 {
-    width: 100%;
+    width: 88%;
     display: block;
     text-align: start;
     border-radius: 20px;
@@ -11472,7 +11527,7 @@ nav ul li a:hover {
 
   .ibrtitle1 {
     color: #28156D !important;
-    text-align: center;
+    text-align: left;
     font-family: 'Brush Script Mt';
     font-size: 34px !important;
     font-weight: 400 !important;
@@ -11481,7 +11536,7 @@ nav ul li a:hover {
 
   .subtitle {
     color: #000;
-    text-align: center;
+    text-align: left;
     font-family: "Playfair Display" !important;
     font-size: 34px !important;
     font-style: normal;
@@ -17581,7 +17636,7 @@ nav ul li a:hover {
     max-width: 1600px;
     /* Changed to make it responsive */
     min-width: 100%;
-    height: 1404.442px;
+    height: 1604.442px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17608,7 +17663,7 @@ nav ul li a:hover {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    text-align: start;
+    text-align: center;
   }
 
   .prg-section-title2 {
@@ -17700,7 +17755,7 @@ nav ul li a:hover {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    text-align: start;
+    text-align: center;
   }
 
   .prg-section-title2 {
@@ -17711,7 +17766,7 @@ nav ul li a:hover {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    text-align: start;
+    text-align: center;
   }
 
   .prg-section-description {
@@ -17790,7 +17845,7 @@ nav ul li a:hover {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    text-align: start;
+    text-align: center;
   }
 
   .prg-section-title2 {
@@ -17801,7 +17856,7 @@ nav ul li a:hover {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    text-align: start;
+    text-align: center;
   }
 
   .prg-section-description {
@@ -18127,9 +18182,9 @@ nav ul li a:hover {
   }
 
   .prag-brand-name3 {
-    width: 80%;
+    width: 100%;
     color: #28156D;
-    text-align: start !important;
+    text-align: center !important;
     font-family: 'Brush Script Mt';
     font-size: 34px;
     font-style: normal;
@@ -18139,9 +18194,9 @@ nav ul li a:hover {
   }
 
   .prag-section-title3 {
-    width: 100%;
+    width: 90%;
     color: #000;
-    text-align: start !important;
+    text-align: center !important;
     font-family: "Playfair Display";
     font-size: 35px;
     font-style: normal;
@@ -18237,7 +18292,7 @@ nav ul li a:hover {
   .prag-section-title3 {
     width: 80%;
     color: #000;
-    text-align: start !important;
+    text-align: center !important;
     font-family: "Playfair Display";
     font-size: 35px;
     font-style: normal;
@@ -18421,7 +18476,6 @@ nav ul li a:hover {
   .prag-brand-name3 {
     width: 100%;
     color: #28156D;
-    text-align: center;
     font-family: 'Brush Script Mt';
     font-size: 34px;
     font-style: normal;
@@ -18680,13 +18734,13 @@ nav ul li a:hover {
 /* Small Laptops (769px to 1024px) */
 @media (min-width: 769px) and (max-width: 1024px) {
   .pharmaciessecondsec4 {
-    background-image: url('./images/phar4mbl.png');
+    background-image: url('./images//phar5bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     /* Changed to make it responsive */
     max-width: 1600px;
-    height: 1437.62px;
+    height: 1037.62px;
     position: relative;
   }
 
@@ -18734,7 +18788,7 @@ nav ul li a:hover {
 
   .section-description {
     width: 95% !important;
-    height: 415px;
+    height: 215px;
     color: #000;
     font-family: Poppins;
     font-size: 14px;
@@ -18794,13 +18848,13 @@ nav ul li a:hover {
 /* Tablets (481px to 768px) */
 @media (min-width: 481px) and (max-width: 768px) {
   .pharmaciessecondsec4 {
-    background-image: url('./images/phar4mbl.png');
+    background-image: url('./images/phar5bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     /* Changed to make it responsive */
     max-width: 1600px;
-    height: 1437.62px;
+    height: 1037.62px;
     position: relative;
   }
 
@@ -18840,7 +18894,7 @@ nav ul li a:hover {
     width: 90% !important;
     color: #000;
     font-family: "Playfair Display";
-    font-size: 35px;
+    font-size: 30px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -18874,7 +18928,7 @@ nav ul li a:hover {
     border-radius: 20px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     right: 100px;
-    top: 220px;
+    top: 260px;
     position: absolute;
   }
 
@@ -18894,7 +18948,7 @@ nav ul li a:hover {
   }
 
   .phcenter {
-    margin-top: 10%;
+    margin-top: 8%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19382,6 +19436,7 @@ nav ul li a:hover {
     font-size: 55px;
     text-align: center;
     font-weight: 400;
+    width: 90%;
     color: #3a0070;
     margin-bottom: 10px;
     position: absolute;
@@ -20194,7 +20249,7 @@ margin-left: 15px;
   margin-top: -100px;
 }
 .h1ofhead2{
-  margin-top: 30%;
+  margin-top: 11%;
 }
 .left {
   display: inline;

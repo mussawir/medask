@@ -27,13 +27,11 @@ const Header: React.FC = () => {
     return (
 
 <>
-<nav className="navbar ">
-{/* <img className="icon2" src={icon2} alt="doctornurse"  /> */}
+            <nav className="navbar ">
                 <div className="navbar-top">
                     <div className="logo-top">
                         <img src={logo} alt="Logo" className="logo-img" />
                     </div>
-
                     <div className='headerofsmallscreennavlinks'>
                     <Link to="/" className="nav-link-topsmallscreen">
                             <span className="icon-backgroundsmallscreen">
@@ -48,7 +46,6 @@ const Header: React.FC = () => {
                             <a className='emailnavsmallscreen' href="mailto:info@medask.com.pk" style={{ color: '170C40', textDecoration: 'none' }}>info@medask.com.pk</a>
                         </Link>
                     </div>
-                    
                     <div className='headerofsmallscreennavlinks'>
                     <Link to="/contact" className="nav-link partnerlinksmallscreen">
                     <span className="icon-backgroundsmallscreen">
@@ -76,8 +73,8 @@ const Header: React.FC = () => {
                             </span>
                             <a className='outlinenone' href="mailto:info@medask.com.pk" style={{ color: '170C40', textDecoration: 'none' }}>info@medask.com.pk</a>
                         </Link>
-                        <Link to="/" className="nav-link available-info" id='available-info'>
-                            We’re Available: Monday - Sunday (24/7)
+                        <Link to="/" className="nav-link-topsmallscreen available-info" id='available-info'>
+                        We’re Available: Monday - Sunday (24/7)
                         </Link>
                     </div>
                     {/* End of Top Info Section */}

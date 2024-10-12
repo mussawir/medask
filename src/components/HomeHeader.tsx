@@ -51,6 +51,9 @@ const HomeHeader: React.FC = () => {
                             </span>
                             <a className='emailnavsmallscreen' href="mailto:info@medask.com.pk" style={{ color: '170C40', textDecoration: 'none' }}>info@medask.com.pk</a>
                         </Link>
+                        {/* <Link to="/" className="nav-link-topsmallscreen3 available-info" id='available-info'>
+                        We’re Available: Monday - Sunday (24/7)
+                        </Link> */}
                     </div>
                     
                     <div className='headerofsmallscreennavlinks'>
