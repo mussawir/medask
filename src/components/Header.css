@@ -137,6 +137,7 @@
         font-size: 10px;
         font-weight: 700;
         height: 30px;
+        margin-left: 40px;
         right: 0px;
         margin-top: 5px;
         padding: 6px;
@@ -147,7 +148,7 @@
     }
     .menu-iconsmallscreen {
         display: block !important;
-        align-self: flex-end;
+        /* align-self: flex-end; */
         margin-top: 30px;
         margin-right: 15px;
         margin-bottom: -3px;
@@ -253,7 +254,7 @@
         font-size: 12px;
         font-weight: 700;
         height: 30px;
-        /* margin-left: -12px; */
+        margin-left: 24px;
         right: 0px;
         margin-top: 5px;
         padding: 6px;
@@ -265,7 +266,7 @@
     }
     .menu-iconsmallscreen {
         display: block;
-        align-self: flex-end;
+        /* align-self: flex-end; */
         margin-top: 30px;
         margin-right: 15px;
         margin-bottom: -3px;
@@ -379,7 +380,7 @@
     }
     .menu-iconsmallscreen {
         display: block;
-        align-self: flex-end;
+        /* align-self: flex-end; */
         margin-top: 30px;
         margin-right: 15px;
         margin-bottom: -3px;
@@ -504,7 +505,7 @@
     }
     .menu-iconsmallscreen {
         display: none;
-        align-self: flex-end;
+        /* align-self: flex-end; */
         margin-top: 30px;
     }
     .nav-linkssecond {
