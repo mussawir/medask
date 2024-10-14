@@ -42,6 +42,119 @@
     object-fit: fill;
 
 }
+/* Laptops/Desktops (1025px to 1440px) */
+@media (min-width: 1400px) and (max-width: 1500px) {
+
+    .navbar-container {
+        background-image: url('../images/Group25.png');
+        background-size: cover;
+        color: black;
+        position: relative;
+        background-position: center;
+        min-height: 900px !important;
+        background-repeat: no-repeat;
+        position: relative;
+        object-fit: fill;
+    
+    }
+}
+/* Laptops/Desktops (1025px to 1440px) */
+@media (min-width: 1300px) and (max-width: 1400px) {
+
+    .navbar-container {
+        background-image: url('../images/Group25.png');
+        background-size: cover;
+        color: black;
+        position: relative;
+        background-position: center;
+        min-height: 800px !important;
+        background-repeat: no-repeat;
+        position: relative;
+        object-fit: fill;
+    
+    }
+}
+
+/* Laptops/Desktops (1025px to 1440px) */
+@media (min-width: 1225px) and (max-width: 1300px) {
+
+    .navbar-container {
+        background-image: url('../images/Group25.png');
+        background-size: cover;
+        color: black;
+        position: relative;
+        background-position: center;
+        min-height: 800px !important;
+        background-repeat: no-repeat;
+        position: relative;
+        object-fit: fill;
+    
+    }
+}
+
+/* Small Laptops (769px to 1024px) */
+@media (min-width: 1025px) and (max-width: 1225px) {
+    .navbar-container {
+        background-image: url('../images/Group25.png');
+        background-size: cover;
+        color: black;
+        position: relative;
+        background-position: center;
+        min-height: 720px !important;
+        background-repeat: no-repeat;
+        position: relative;
+        object-fit: fill;
+    
+    }
+}
+
+
+/* Small Laptops (769px to 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .navbar-container {
+        background-image: url('../images/Group25.png');
+        background-size: cover;
+        color: black;
+        position: relative;
+        background-position: center;
+        min-height: 600px !important;
+        background-repeat: no-repeat;
+        position: relative;
+        object-fit: fill;
+    
+    }
+}
+/* Tablets (481px to 768px) */
+@media (min-width: 600px) and (max-width: 768px) {
+    .navbar-container {
+        background-image: url('../images/Group25.png');
+        background-size: cover;
+        color: black;
+        position: relative;
+        background-position: center;
+        min-height: 600px !important;
+        background-repeat: no-repeat;
+        position: relative;
+        object-fit: fill;
+    
+    }
+}
+/* Mobile Devices (up to 480px) */
+@media (max-width: 600px) {
+    .navbar-container {
+        background-image: url('../images/Group25.png');
+        background-size: cover;
+        color: black;
+        position: relative;
+        background-position: center;
+        min-height: 1100px !important;
+        background-repeat: no-repeat;
+        position: relative;
+        object-fit: fill;
+    
+    }
+}
+
 
 .navbar {
     display: flex;
