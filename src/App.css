@@ -257,8 +257,8 @@ body {
 }
 
 .formbglogo1{
-  width: 613.92px;
-  height: 300.549px;
+  width: 100%;
+  height: 40%;
   background-image: url('./images/formlogo.png');
   background-repeat: no-repeat;
   background-size: cover;
@@ -19550,7 +19550,7 @@ nav ul li a:hover {
   }
 
   .brand-name5 {
-    width: 99%;
+    width: 95%;
     font-family: 'Brush Script MT';
     font-size: 55px;
     text-align: start;
