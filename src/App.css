@@ -9115,7 +9115,7 @@ nav ul li a:hover {
   position: absolute;
   z-index: 3;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-direction: column;
 
@@ -9152,6 +9152,7 @@ nav ul li a:hover {
   font-weight: 400;
   line-height: normal;
   margin-bottom: 10px;
+  margin-top: 15%;
 }
 
 .aboutussec1h2 {
@@ -9213,7 +9214,7 @@ nav ul li a:hover {
     position: absolute;
     z-index: 3;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
   
@@ -9250,6 +9251,7 @@ nav ul li a:hover {
     font-weight: 400;
     line-height: normal;
     margin-bottom: 0px;
+    margin-top: 20%;
   }
   
   .aboutussec1h2 {
@@ -9296,14 +9298,16 @@ nav ul li a:hover {
 
 @media (min-width:550px) and (max-width: 1100px) {
   .aboutussec1p1 {
-    width: 90%;
-    height: 45.692px;
+    width: 80%;
+    height: 69.033px;
+    flex-shrink: 0;
     color: #000;
     text-align: center;
     font-family: Poppins;
-    font-size: 15.885px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 400;
+    margin-top: 10px;
     line-height: normal;
   }
 }
@@ -9332,7 +9336,7 @@ nav ul li a:hover {
     position: absolute;
     z-index: 3;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
 
@@ -9369,6 +9373,7 @@ nav ul li a:hover {
     font-weight: 400;
     line-height: normal;
     margin-bottom: 10px;
+    margin-top: 25%;
   }
 
   .aboutussec1h2 {
@@ -9380,6 +9385,7 @@ nav ul li a:hover {
     font-weight: 400;
     line-height: normal;
     margin-top: 10px;
+
   }
 
   .hr-parent {
@@ -9397,16 +9403,17 @@ nav ul li a:hover {
     width: 34.5%;
     margin-top: -12px;
   }
-
   .aboutussec1p1 {
-    width: 90%;
-    height: 45.692px;
+    width: 80%;
+    height: 69.033px;
+    flex-shrink: 0;
     color: #000;
     text-align: center;
     font-family: Poppins;
-    font-size: 15.885px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 400;
+    margin-top: 10px;
     line-height: normal;
   }
 
@@ -9437,7 +9444,7 @@ nav ul li a:hover {
     position: absolute;
     z-index: 3;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
 
@@ -9474,6 +9481,7 @@ nav ul li a:hover {
     font-weight: 400;
     line-height: normal;
     margin-bottom: 10px;
+    margin-top: 30%;
   }
 
   .aboutussec1h2 {
@@ -18057,7 +18065,7 @@ nav ul li a:hover {
   }
 
   .prag-section-title3 {
-    width: 100%;
+    width: 96%;
     color: #000;
     text-align: start !important;
     font-family: "Playfair Display";
