@@ -28,12 +28,13 @@ const HomePage = () => {
         <Div1 />
       </div>
       <Section3 />
-      <Section4 />
+      {/* <Section4 /> */}
+      <Labtab />
       <div className='section5bgimg'>
       <Videohead />
       <VideoCarousel />
       </div>
-      <Labtab />
+      {/* <Labtab /> */}
       <NewsSection />
       <Form />
       {/* <Footer /> */}

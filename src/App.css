@@ -289,7 +289,7 @@ body {
   color: #28156D !important;
   text-align: center;
   font-family: 'Brush Script Mt';
-  font-size: 34px !important;
+  font-size: 45px !important;
   font-weight: 400 !important;
   line-height: normal;
   margin-bottom: 20px;
@@ -1133,7 +1133,7 @@ nav ul li a:hover {
   color: #28156D;
   text-align: center;
   font-family: 'Brush Script MT' !important;
-  font-size: 55px;
+  font-size: 45px;
   margin-top: 10px;
   margin-bottom: 150px;
   /* font-style: normal; */
@@ -1158,7 +1158,7 @@ nav ul li a:hover {
     color: #28156D;
     text-align: center;
     font-family: 'Brush Script Mt';
-    font-size: 49.5px;
+    font-size: 45.5px;
     /* Reduced by 10% */
     font-style: normal;
     margin-top: 150px;
@@ -1337,7 +1337,7 @@ nav ul li a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 160px;
+  width: 180px;
   /* 200px - 20% */
 }
 
@@ -1587,7 +1587,7 @@ nav ul li a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 160px;
+    width: 190px;
     /* 200px - 20% */
   }
 
@@ -2762,7 +2762,7 @@ nav ul li a:hover {
 
 /* Styles for the heading "Area Of Brands" */
 .main-heading {
-  font-size: 55px;
+  font-size: 45px;
   font-weight: 500;
   margin-bottom: 1px;
   color: #28156D;
@@ -3798,7 +3798,7 @@ nav ul li a:hover {
   color: #28156D;
   text-align: center;
   font-family: 'Brush Script Mt';
-  font-size: 55px;
+  font-size: 45px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;

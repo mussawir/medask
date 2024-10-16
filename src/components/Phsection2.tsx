@@ -11,9 +11,10 @@ const Phsection2: React.FC = () => {
             <Container className="prg-distribution-section"> 
                 <div className="prg-text-section">   
                     <h2 className="prg-brand-name-small2">MedAsk</h2>
-                    <h2 className="prg-section-title2">Pharmacy Distribution</h2>
+                    <h2 className="prg-section-title2">Pharmacy Distribution Services</h2>
                     <p className="prg-section-description">
-                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words.
+                    We offer reliable pharmacy distribution services to ensure timely delivery of medications to healthcare facilities. Our network prioritizes efficiency, accuracy, and quality, ensuring compliance with regulatory requirements while maintaining supply chain integrity.
+                    Dedicated to supporting the healthcare system, we provide seamless access to essential medications, allowing healthcare providers to focus on patient care.
                     </p>
                 </div>
                 <div className="prg-image-content">

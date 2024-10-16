@@ -61,12 +61,14 @@ export default function LabTabs() {
                             <img className='logo-icon-1' src={svg} alt="" />
                             <h1 className='h3ofdiv'>{content}</h1>
                             <p className='p3'>
-                                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                            We offer reliable pharmacy distribution services to ensure timely delivery of medications to healthcare facilities.
                             </p>
-                            <div className='dd'>
+                            <a href="/aboutus">
+                            <div className='dd'>  
                                 <div className='btn3'>Read More</div>
                                 <img className='svg2img' src={Svg2} alt="" />
                             </div>
+                            </a>
                         </div>
                         <div>
                             <img className='doc' alt="" />

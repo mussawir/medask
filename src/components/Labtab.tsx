@@ -11,19 +11,19 @@ function Tab2() {
     // Content for each radio button
     const radioContent: Record<RadioOption, { title: string; text: string }> = {
         radio1: {
-            title: 'MedAsk Medical Tourism',
+            title: 'Destination Pakistan',
             text: 'We offer seamless medical tourism services, connecting international patients to world-class healthcare solutions. From consultations and treatments to travel and accommodations, we ensure a smooth, stress-free experience. Our network guarantees personalized care at globally accredited facilities, prioritizing patient safety and comfort.'
         },
         radio2: {
-            title: 'MedAsk Medical Tourism',
+            title: 'Our Hospitals',
             text: 'We offer seamless medical tourism services, connecting international patients to world-class healthcare solutions. From consultations and treatments to travel and accommodations, we ensure a smooth, stress-free experience. Our network guarantees personalized care at globally accredited facilities, prioritizing patient safety and comfort.'
         },
         radio3: {
-            title: 'MedAsk Medical Tourism',
+            title: 'Our Consultants',
             text: 'We offer seamless medical tourism services, connecting international patients to world-class healthcare solutions. From consultations and treatments to travel and accommodations, we ensure a smooth, stress-free experience. Our network guarantees personalized care at globally accredited facilities, prioritizing patient safety and comfort.'
         },
         radio4: {
-            title: 'MedAsk Medical Tourism',
+            title: 'Our Specialties',
             text: 'We offer seamless medical tourism services, connecting international patients to world-class healthcare solutions. From consultations and treatments to travel and accommodations, we ensure a smooth, stress-free experience. Our network guarantees personalized care at globally accredited facilities, prioritizing patient safety and comfort.'
         },
     };
@@ -51,7 +51,7 @@ function Tab2() {
                             className={selectedRadio === 'radio1' ? 'labelofdiv2-active' : 'labelofdiv2'}
                             htmlFor="radio1"
                         >
-                            radio 1
+                            Destination Pakistan
                         </label>
                     </div>
 
@@ -69,7 +69,7 @@ function Tab2() {
                             className={selectedRadio === 'radio2' ? 'labelofdiv2-active' : 'labelofdiv2'}
                             htmlFor="radio2"
                         >
-                            radio 2
+                            Our Hospitals
                         </label>
                     </div>
 
@@ -86,7 +86,7 @@ function Tab2() {
                             className={selectedRadio === 'radio3' ? 'labelofdiv2-active' : 'labelofdiv2'}
                             htmlFor="radio3"
                         >
-                            radio 3
+                            Our Consultants
                         </label>
                     </div>
 
@@ -103,7 +103,7 @@ function Tab2() {
                             className={selectedRadio === 'radio4' ? 'labelofdiv2-active' : 'labelofdiv2'}
                             htmlFor="radio4"
                         >
-                            radio 4
+                            Our Specialties
                         </label>
                     </div>
                 </div>

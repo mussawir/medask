@@ -14,8 +14,8 @@ const Phsection4: React.FC = () => {
                     <h2 className="brand-name-small ibrtitle1">MedAsk</h2>
                     <h2 className="section-title subtitle">LP Pharmacies</h2>
                     <p className="section-description">
-                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words.
-                    </p>
+                    Medask LP Pharmacies support military hospitals like CMH and PEMH by providing essential medications through efficient local procurement. We ensure high-quality pharmaceutical products meet the specific needs of military healthcare facilities.
+                    Working closely with military medical teams, we fulfill local purchase needs with a comprehensive range of medications and supplies, ensuring critical medications are available for patient care.                    </p>
                 </div>
                 <div className="image-content">
                     <img src={phsection4} alt="Pharmacy distribution" className="main-image" />

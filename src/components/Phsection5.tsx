@@ -31,7 +31,8 @@ const Phsection5: React.FC = () => {
               <h2 className="section-title5">Commercial-Flagship Pharmacies</h2>
               </div>
         <p className="section-description5">
-          There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary.
+        We are launching our Commercial Flagship Pharmacies, designed to set new standards in healthcare retail. These locations will feature an extensive selection of services, including digital prescription management and health screenings.
+Located in key areas, our flagship pharmacies will serve as healthcare hubs, combining convenience with exceptional service. We remain committed to accessible, high-quality healthcare for all.
         </p>
       </div>
     </div>

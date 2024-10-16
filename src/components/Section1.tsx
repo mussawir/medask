@@ -48,12 +48,12 @@ function Section1() {
                <div className="text-content">
                 
                         <h1 className="welcome-headline Ali-medaskHeading">Welcome to MedAsk</h1>
-                        <h1 className="medask-headline1 Ali-subtitile">Best Equipment with</h1>
-                        <h1 className="medask-headline Ali-subtitile">Better Services</h1>
+                        <h1 className="medask-headline1 Ali-subtitile">Medicine & Care</h1>
+                        <h1 className="medask-headline Ali-subtitile">Ask Anytime</h1>
                         <hr className="hr-line" />
                         <img src={greenhr} className="greenhr" />
-                        <p className="welcome-para1">It is a long established fact that a reader will</p>
-                        <p className="welcome-para">be distracted by the readable content of a page.</p>
+                        <p className="welcome-para1">Welcome to MedAsk, your trusted healthcare partner dedicated to delivering high-quality medical services.</p>
+                        {/* <p className="welcome-para">be distracted by the readable content of a page.</p> */}
                         <a href="#" className='read-moreBtn'>Read More <img src={Iconreadmore} alt="read more" /></a>
                     </div>
                     {/* <img className="icon2" src={icon2} alt="doctornurse"  /> */}

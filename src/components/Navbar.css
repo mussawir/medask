@@ -409,13 +409,14 @@ flex-shrink: 0;
 /* For the entire sidebar container */
 .scroll-container {
     position: absolute;
-    top: 500px;
+    top: 450px;
     left: 0;
     transform: translateY(-50%);
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-left: 60px;
+    ;
 }
 .scroll-container2 {
     position: absolute;
@@ -1169,7 +1170,7 @@ flex-shrink: 0;
     .scroll-container {
 
         position: absolute;
-        top: 30%;
+        top: 125%;
         left: 0;
         transform: translateY(-50%);
         display: flex;

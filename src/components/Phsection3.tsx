@@ -17,11 +17,8 @@ const Phsection3: React.FC = () => {
         <h1 className="prag-brand-name3 ibrtitle1">MedAsk</h1>
         <h2 className="prag-section-title3 subtitle">Retail Pharmacies</h2>
         <p className="prag-section-description3">
-          There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
-          in some form, by injected humour, or randomised words which don't look even slightly believable.
-          If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden
-          in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary,
-          making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words.
+        Our retail pharmacies are dedicated to accessible, high-quality healthcare products and services. We offer prescription medications, over-the-counter drugs, and expert advice from qualified pharmacists.
+We prioritize our customers, ensuring personalized care whether you’re filling prescriptions or seeking health consultations. With services like prescription refills and wellness programs, we strive to make healthcare convenient and affordable.
         </p>
       </div>
     </div>
