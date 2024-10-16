@@ -62,8 +62,8 @@ function Phar3() {
         <>
             <div className="phar3bg">
 
-                <h1 className="phar3h1 ibrtitle1">MedAsk</h1>
-                <h1 className="phar3h2 subtitle">Medask Specialties</h1>
+                <h1 className="phar3h1">MedAsk</h1>
+                <h1 className="phar3h2">Medask Specialties</h1>
                 <div className="phar3cen">
 
                     <div className="phar3gird">

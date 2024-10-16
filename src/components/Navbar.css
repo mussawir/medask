@@ -1576,6 +1576,7 @@ flex-shrink: 0;
 #available-info {
     color: white;
     font-weight: 400;
+    margin-right: 0px;
     font-size: 8px;
     /* width: 178px; */
 }

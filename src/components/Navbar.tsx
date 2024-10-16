@@ -52,7 +52,7 @@ const Navbar: React.FC = () => {
                         </Link>
                         <Link to="/" className="nav-link-top">
                             <span className="icon-background">
-                                <img src={EmailTopImg} alt="EmailTopImg" />
+                                
                             </span>
                             <a className='outlinenone' href="mailto:info@medask.com.pk" style={{ color: '170C40', textDecoration: 'none' }}>info@medask.com.pk</a>
                         </Link>
