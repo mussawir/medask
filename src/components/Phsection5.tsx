@@ -31,8 +31,7 @@ const Phsection5: React.FC = () => {
               <h2 className="section-title5">Commercial-Flagship Pharmacies</h2>
               </div>
         <p className="section-description5">
-        We are launching our Commercial Flagship Pharmacies, designed to set new standards in healthcare retail. These locations will feature an extensive selection of services, including digital prescription management and health screenings.
-Located in key areas, our flagship pharmacies will serve as healthcare hubs, combining convenience with exceptional service. We remain committed to accessible, high-quality healthcare for all.
+       <b>MedAsk</b> is launching their own <b>Commercial Flagship Pharmacies</b>, designed to set new standards in healthcare retail. These locations will feature an extensive selection of services, including digital prescription management and health screenings.Located in key areas, our flagship pharmacies will serve as healthcare hubs, combining convenience with exceptional service. We remain committed to accessible, high-quality healthcare for all.
         </p>
       </div>
     </div>

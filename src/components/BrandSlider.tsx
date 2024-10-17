@@ -49,9 +49,7 @@ const BrandSlider: React.FC<BrandSliderProps> = ({ brands }) => {
             <div className="text-container">
                 <h2 className="main-heading">Our Trusted Brands</h2>
                 <h2 className="secondary-heading">Trusted By Industry Leaders</h2>
-                {/* <p className="paragraph-text">
-    At MedAsk, we are committed to providing exceptional healthcare solutions tailored to meet your needs. Our integrated services ensure that you receive the highest quality care, from pharmacy services to medical tourism. We believe in a patient-centered approach that prioritizes your well-being and comfort.
-</p> */}
+                <p className="paragraph-text"> <b>MedAsk</b>has leveraged its leadership and expertise across various brands, demonstrating excellence not only in its own services but also in complementary fields</p>
             </div>
             <div className="brand-slider">
                 <Slider {...settings}>

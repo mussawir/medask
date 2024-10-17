@@ -13,7 +13,7 @@ function Pharpage1() {
                         <img src={greenhr} className="greenhr1" alt="Green Horizontal Rule" />
                     </div>
                     <p className='aboutussec1p1'>
-                        We prioritize patient safety and personalized care, ensuring timely and reliable access to medications. Whether you need a prescription filled or health consultations, MedAsk pharmacies are here to support your healthcare journey.
+                    Your Trusted Partner in Health and Wellness, Offering the World’s Best <b>Pharmaceutical</b> Care.
                     </p>
                 </div>
                 <div className="head1bg2"></div>

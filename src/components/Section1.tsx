@@ -52,7 +52,7 @@ function Section1() {
                         <h1 className="medask-headline Ali-subtitile">Ask Anytime</h1>
                         <hr className="hr-line" />
                         <img src={greenhr} className="greenhr" />
-                        <p className="welcome-para1">Welcome to MedAsk, your trusted healthcare partner dedicated to delivering high-quality medical services.</p>
+                        <p className="welcome-para1">Empowering Healthcare with Advanced Technology and Dedicated Support.</p>
                         {/* <p className="welcome-para">be distracted by the readable content of a page.</p> */}
                         <a href="#" className='read-moreBtn'>Read More <img src={Iconreadmore} alt="read more" /></a>
                     </div>

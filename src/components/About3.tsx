@@ -15,8 +15,8 @@ function About3() {
                     <h1 className="about3h2 subtitle">MedAsk's Role in Healthcare</h1>
 
                     <p className="about3p2">
-                    Healthcare market in Pakistan provides an opportunity for MedAsk as a potential competitive player in medical tourism industry. MedAsk has access to the state-of-the-art medical facilities through established relationships with hospitals and healthcare professionals including a network of skilled doctors and specialists capable of delivering high-quality medical services to foreigners and overseas patients
-                    MedAsk through its platform expands service offerings by utilizing partnerships and collaborations with connected industries through associated companies and business units. Collaborations with hospitals, institutes, travel agencies, and tourism organizations enhance MedAsk's competitiveness in the medical tourism market, creating synergies and maximizing opportunities.
+                    Healthcare market in Pakistan provides an opportunity for <b>MedAsk</b> as a potential competitive player in medical tourism industry. <b>MedAsk</b> has access to the state-of-the-art medical facilities through established relationships with hospitals and healthcare professionals including a network of skilled doctors and specialists capable of delivering high-quality medical services to foreigners and overseas patients
+                   <p className="about3p2"><b>MedAsk</b> through its platform expands service offerings by utilizing partnerships and collaborations with connected industries through associated companies and business units. Collaborations with hospitals, institutes, travel agencies, and tourism organizations enhance <b>MedAsk's</b> competitiveness in the medical tourism market, creating synergies and maximizing opportunities.</p> 
                     </p>
                 </div>
                 <div className="girdcen">

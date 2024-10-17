@@ -13,7 +13,7 @@ function Contact1() {
                         <img src={greenhr} className="greenhr1" alt="Green Horizontal Rule" />
                     </div>
                     <p className='aboutussec1p1'>
-                        We are here to assist you with all your healthcare needs. If you have any questions, feedback, or inquiries, feel free to reach out to us. Our dedicated team at MedAsk is ready to help!
+                    Reach Out to Us for Personalized <b>Support</b> and <b>Assistance</b> Anytime.
                     </p>
                 </div>
                 <div className="head1bg2"></div>
