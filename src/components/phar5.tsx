@@ -20,12 +20,12 @@ function Phar5(){
             <div className="phar5cen">
 
             <div className="phar5div3">
-                    <h1 className='phar5h3'>Cardiology</h1>
+                    <h1 className='phar5h3'>Dentistry</h1>
                     <img className='phar5card3' src={phar5card1} alt="" />
                     <p className='phar3p1'>It is a long <span className='p1stroke11'>established</span> that a <span className='p1stroke11'>reader</span> will be distracted by the <span className='p1stroke11'>readable.</span></p>
                 </div>
             <div className="phar5div3">
-                    <h1 className='phar5h3'>Cardiology</h1>
+                    <h1 className='phar5h3'>Dentistry</h1>
                     <img className='phar5card3' src={phar5card2} alt="" />
                     <p className='phar3p1'>It is a long <span className='p1stroke11'>established</span> that a <span className='p1stroke11'>reader</span> will be distracted by the <span className='p1stroke11'>readable.</span></p>
                 </div>
@@ -35,17 +35,17 @@ function Phar5(){
                     <p className='phar3p1'>It is a long <span className='p1stroke11'>established</span> that a <span className='p1stroke11'>reader</span> will be distracted by the <span className='p1stroke11'>readable.</span></p>
                 </div>
                 <div className="phar5div3">
-                    <h1 className='phar5h3'>Cardiology</h1>
+                    <h1 className='phar5h3'>Ophthalmology</h1>
                     <img className='phar5card3' src={phar5card4} alt="" />
                     <p className='phar3p1'>It is a long <span className='p1stroke11'>established</span> that a <span className='p1stroke11'>reader</span> will be distracted by the <span className='p1stroke11'>readable.</span></p>
                 </div>
                 <div className="phar5div3">
-                    <h1 className='phar5h3'>Cardiology</h1>
+                    <h1 className='phar5h3'>Urology</h1>
                     <img className='phar5card3' src={phar5card5} alt="" />
                     <p className='phar3p1'>It is a long <span className='p1stroke11'>established</span> that a <span className='p1stroke11'>reader</span> will be distracted by the <span className='p1stroke11'>readable.</span></p>
                 </div>
                 <div className="phar5div3">
-                    <h1 className='phar5h3'>Cardiology</h1>
+                    <h1 className='phar5h3'>Mental</h1>
                     <img className='phar5card3' src={phar5card6} alt="" />
                     <p className='phar3p1'>It is a long <span className='p1stroke11'>established</span> that a <span className='p1stroke11'>reader</span> will be distracted by the <span className='p1stroke11'>readable.</span></p>
                 </div>
