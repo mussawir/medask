@@ -12,6 +12,13 @@ body {
 .about4btn{
   display: none;
 }
+.about4btn2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+}
 .left {
   display: inline;
   display: flex;
@@ -2779,9 +2786,9 @@ nav ul li a:hover {
 
 /* Paragraph styling */
 .paragraph-text {
-  font-size: 15px;
+  font-size: 12px;
   color: #666;
-  max-width: 580px;
+  max-width: 603px;
   margin: 0 auto;
   font-family: "Poppins", sans-serif;
 }
@@ -4355,7 +4362,7 @@ nav ul li a:hover {
   font-family: 'Poppins';
   font-size: 20px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 40px;
 }
 
@@ -5602,10 +5609,10 @@ nav ul li a:hover {
 /* Title of the article */
 .news-title {
   font-size: 19px;
-  font-weight: 700;
+  font-weight: 500;
   margin-bottom: 50px;
   color: #181818;
-  font-family: 'Playfair Display';
+  font-family: 'Poppins';
   position: relative;
   margin-top: 10px;
 }
@@ -5629,7 +5636,7 @@ nav ul li a:hover {
 
 /* Description text */
 .news-description {
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: 20px;
   font-weight: 400;
   font-family: "Poppins", sans-serif;
@@ -12748,8 +12755,8 @@ nav ul li a:hover {
 
 .about3bg {
   width: 100%;
-  height: 1289px;
-  background-image: url('./images/about3bg.png');
+  height: 1089px;
+  /* background-image: url('./images/about3bg.png'); */
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -12888,6 +12895,10 @@ nav ul li a:hover {
   width: 30px;
   height: 30px;
 }
+.AddressSection{
+  display: flex;
+}
+
 
 
 /* Large Screens (1441px and up) */
@@ -12897,8 +12908,8 @@ nav ul li a:hover {
   /* Styles for laptops and desktops */
   .about3bg {
     width: 100%;
-    height: 1273.625px;
-    background-image: url('./images//about3bg.png');
+    height: 1073.625px;
+    /* background-image: url('./images//about3bg.png'); */
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -13045,7 +13056,7 @@ nav ul li a:hover {
   .about3bg {
     width: 100%;
     height: 100%;
-    background-image: url('./images//about3bg.png');
+    /* background-image: url('./images//about3bg.png'); */
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -13211,9 +13222,8 @@ nav ul li a:hover {
 @media (min-width: 481px) and (max-width: 850px) {
   .about3bg {
     width: 100%;
-    height: 1500px;
-
-    background-image: url('./images/about3bg.png');
+    height: 1200px;
+    /* background-image: url('./images/about3bg.png'); */
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -13373,7 +13383,6 @@ nav ul li a:hover {
   .about3bg {
     width: 100%;
     height: 1472.159px;
-
     background-image: url('./images/about1mblbg.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -13696,10 +13705,11 @@ nav ul li a:hover {
 }
 
 .about4bg {
-  margin-top: 50px;
+    background-image: url('./images/about3bg.png');
   min-width: 100%;
-  height: 730px;
-  background: #FFF;
+  height: 1000px;
+  align-content: center;
+  background-repeat: round;
 }
 
 .leftbntright {
@@ -13944,11 +13954,12 @@ nav ul li a:hover {
  
 
 .about4bg {
-  margin-top: 50px;
   min-width: 100%;
-  height: 600px;
-  background: #FFF;
+  height: 900px;
   margin-bottom: 50px;
+  background-repeat: round;
+  background-image: url('./images/about3bg.png');
+
 }
 
 .leftbntright {
@@ -14191,9 +14202,9 @@ nav ul li a:hover {
   .about4bg {
     margin-top: 50px;
     min-width: 100%;
-    height: 600px;
-    background: #FFF;
-  }
+    height: 900px;
+    background-repeat: round;
+    background-image: url('./images/about3bg.png');  }
 
   .leftbntright {
     width: 51.828px;
@@ -14414,6 +14425,13 @@ nav ul li a:hover {
   }
 
   .about4btn {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+  }
+  .about4btn2 {
     display: flex !important;
     align-items: center;
     justify-content: center;
@@ -14679,7 +14697,13 @@ nav ul li a:hover {
     gap: 40px;
     margin-top: 20px !important;
   }
-
+  .about4btn2 {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px !important;
+  }
 }
 
 
@@ -15180,6 +15204,13 @@ nav ul li a:hover {
   }
 
   .about4btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+  }
+  .about4btn2 {
     display: flex;
     align-items: center;
     justify-content: center;
