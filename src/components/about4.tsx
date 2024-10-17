@@ -43,7 +43,7 @@ function About4() {
                         </div>
                         <div className='about4ml'>
                             <Icon2 />
-                            <p className='about4p2'>"Since working with LearnEmail we've continued to see stable inboxing, which is great. Thank you again for all of your help and guidance - we would recommend LearnEmail to any company experiencing email deliverability issues."</p>
+                            <p className='about4p2'>I can't thank MedAsk enough for their incredible support. From the moment I reached out, their team was attentive and knowledgeable. The advanced diagnostic services provided clear and timely results, which made a huge difference in my treatment plan. I truly feel valued as a patient. Highly recommend them!</p>
                         </div>
                     </div>  
                      <div className="about4right">

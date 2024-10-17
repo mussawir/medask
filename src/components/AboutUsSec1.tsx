@@ -13,8 +13,7 @@ function AboutUsSec1() {
                         <img src={greenhr} className="greenhr1" alt="Green horizontal rule" />
                     </div>
                     <p className='aboutussec1p1'>
-                        MedAsk is a leading healthcare provider committed to delivering comprehensive and accessible medical solutions. Our focus is on enhancing patient care through integrated services, including pharmacy, medical tourism, and upcoming home health and diagnostic services.
-                    </p>
+                    Discover Our Commitment to Excellence in Healthcare and Patient-Centered Solutions                    </p>
                 </div>
                 <div className="head1bg2"></div>
                 <div className="head1bg3"></div>

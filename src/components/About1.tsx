@@ -18,13 +18,9 @@ function About1() {
                 <h1 className='h1about1 ibrtitle1'>Who We Are</h1>
                 <h2 className='h2about1 subtitle'>Welcome to MedAsk</h2>
                 <p className='pabout1'>
-                    Welcome to MedAsk, your trusted healthcare partner dedicated to delivering high-quality medical services. 
-                    We enhance patient care through our diverse offerings, including pharmacy services, medical tourism, and soon-to-launch home health and diagnostic services.
+                Welcome to MedAsk, your trusted healthcare partner dedicated to delivering high-quality medical services. We enhance patient care through our diverse offerings, including pharmacy services, medical tourism, and soon-to-launch home health and diagnostic services
                 </p>
-                <p className='p2about1'>
-                    At MedAsk, we are committed to advancing healthcare solutions and ensuring quality care is always within reach. 
-                    Our core values of compassion, integrity, hard work, care, and trust are at the heart of everything we do.
-                </p>
+                
             </div>
         </div>
 

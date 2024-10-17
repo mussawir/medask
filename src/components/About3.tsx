@@ -14,12 +14,9 @@ function About3() {
                     <h1 className="about3h1 ibrtitle1">MedAsk Role</h1>
                     <h1 className="about3h2 subtitle">MedAsk's Role in Healthcare</h1>
 
-                    <p className="about3p1">
-                        The healthcare market in Pakistan provides an opportunity for MedAsk to emerge as a competitive player in the medical tourism industry. With access to state-of-the-art medical facilities through established relationships with hospitals and healthcare professionals, including a network of skilled doctors and specialists, MedAsk is capable of delivering high-quality medical services to foreign and overseas patients.
-                    </p>
-
                     <p className="about3p2">
-                        MedAsk expands its service offerings by utilizing partnerships and collaborations with connected industries through associated companies and business units. Collaborations with hospitals, institutes, travel agencies, and tourism organizations enhance MedAsk's competitiveness in the medical tourism market, creating synergies and maximizing opportunities.
+                    Healthcare market in Pakistan provides an opportunity for MedAsk as a potential competitive player in medical tourism industry. MedAsk has access to the state-of-the-art medical facilities through established relationships with hospitals and healthcare professionals including a network of skilled doctors and specialists capable of delivering high-quality medical services to foreigners and overseas patients
+                    MedAsk through its platform expands service offerings by utilizing partnerships and collaborations with connected industries through associated companies and business units. Collaborations with hospitals, institutes, travel agencies, and tourism organizations enhance MedAsk's competitiveness in the medical tourism market, creating synergies and maximizing opportunities.
                     </p>
                 </div>
                 <div className="girdcen">
@@ -32,7 +29,7 @@ function About3() {
                             <div className="aboutbodytext">
                                 <h1 className='about2h3'>Vision Statement</h1>
                                 <p className='about3p3'>
-                                    Be a leading medical tourism operator, providing the highest quality care, compassion, and support, while delivering a culturally appropriate, affordable, seamless, and enjoyable experience.
+                                Be a leading medical tourism operator, providing highest quality care, compassion, and support, while delivering a culturally appropriate, affordable, seamless, and enjoyable experience.
                                 </p>
                             </div>
                         </div>
@@ -44,7 +41,7 @@ function About3() {
                             <div className="aboutbodytext">
                                 <h1 className='about2h3'>Mission Statement</h1>
                                 <p className='about3p3'>
-                                    Curate a seamless and unforgettable medical tourism experience, empowering individuals to access high-quality, culturally appropriate, and cost-effective healthcare with a touch of excellence.
+                                Curate a seamless and unforgettable medical tourism experience, empowering individuals to access high quality, culturally apt and cost-effective healthcare with a touch of excellence.
                                 </p>
                             </div>
                         </div>
@@ -56,7 +53,7 @@ function About3() {
                             <div className="aboutbodytext">
                                 <h1 className='about2h3'>Core Values</h1>
                                 <p className='about3p3'>
-                                    Excellence, Compassion, Integrity, Collaboration, Innovation, Safety, Respect.
+                                At MedAsk we put our patients ahead and value, Integrity, Compassion, Hard Work and most of all Care & Trust
                                 </p>
                             </div>
                         </div>
