@@ -13,9 +13,7 @@ function Phar1() {
                     <h1 className='phar2h1'>MedAsk</h1>
                     <h1 className='phar2h2'>Introduction</h1>
                     <p className='phar2p1'>
-                        Welcome to MedAsk, your trusted healthcare partner dedicated to delivering high-quality medical services. We enhance patient care through our diverse offerings, including pharmacy services, medical tourism, and soon-to-launch home health and diagnostic services.
-
-                        At MedAsk, we are committed to providing seamless access to healthcare solutions. ,We believe in making healthcare accessible and affordable for everyone.
+                    Welcome to <b>MedAsk</b>, your trusted healthcare partner dedicated to delivering high-quality medical services. We enhance patient care through our diverse offerings, including pharmacy services, medical tourism, and soon-to-launch home health and                 diagnostic services.
                     </p>
                 </div>
             </div>
