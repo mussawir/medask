@@ -115,7 +115,7 @@ const Footer = () => {
           </li>
         </ul>
       </div>
-      <p>© 2024 Your Company. All rights reserved.</p>
+      <p style={{fontFamily:'Poppins'}}>Copyright 2024 MedAsk Pvt Ltd. All Rights Reserved</p>
     </footer>
   );
 };

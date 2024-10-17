@@ -1186,7 +1186,7 @@ nav ul li a:hover {
     color: #28156D;
     text-align: center;
     font-family: 'Brush Script Mt';
-    font-size: 39.6px;
+    font-size: 45px;
     /* Reduced by 20% */
     font-style: normal;
     font-weight: 400;
@@ -1199,7 +1199,7 @@ nav ul li a:hover {
     color: #000;
     text-align: center;
     font-family: "Playfair Display", serif;
-    font-size: 39.6px;
+    font-size: 45px;
     /* Reduced by 20% */
     font-style: normal;
     font-weight: 400;
@@ -3642,7 +3642,7 @@ nav ul li a:hover {
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 1100px;
+    height: 1200px;
   }
   .firstbtnofbottomSec4 {
     align-items: center;
@@ -3673,7 +3673,7 @@ nav ul li a:hover {
   .btn-textofsec4bottom {
     color: #fff;
     font-family: 'Poppins';
-    font-size: 17px;
+    font-size: 14px;
     font-style: normal;
     display: flex;
     align-items: center;
@@ -3748,7 +3748,7 @@ nav ul li a:hover {
     margin-bottom: 15px;
     background-image: linear-gradient(to left, #29166F 29%, #00A539 100%);
     cursor: pointer;
-    width: 290px;
+    width: 310px;
   }
 
   .EDMedaskMessagePara {
@@ -9214,7 +9214,7 @@ nav ul li a:hover {
     position: absolute;
     z-index: 3;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
   
@@ -9251,7 +9251,7 @@ nav ul li a:hover {
     font-weight: 400;
     line-height: normal;
     margin-bottom: 0px;
-    margin-top: 20%;
+    margin-top: 0%;
   }
   
   .aboutussec1h2 {
@@ -9295,7 +9295,33 @@ nav ul li a:hover {
     line-height: normal;
   }
 }
-
+@media (min-width:769px) and (max-width: 1199px) {
+  .head1bg1 {
+    width: 100%;
+    height: 735.548px;
+    background-image: url('./images/head1.png');
+    background-repeat: no-repeat;
+    object-fit: fill;
+    position: absolute;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+  }
+  .aboutussec1h1 {
+    color: #28156D;
+    text-align: center;
+    font-family: 'Brush Script Mt';
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 10px;
+    margin-top: 0%;
+  }
+}
 @media (min-width:550px) and (max-width: 1100px) {
   .aboutussec1p1 {
     width: 100%;
@@ -9336,7 +9362,7 @@ nav ul li a:hover {
     position: absolute;
     z-index: 3;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
 
@@ -9373,7 +9399,7 @@ nav ul li a:hover {
     font-weight: 400;
     line-height: normal;
     margin-bottom: 10px;
-    margin-top: 25%;
+    margin-top: 0%;
   }
 
   .aboutussec1h2 {
@@ -9444,7 +9470,7 @@ nav ul li a:hover {
     position: absolute;
     z-index: 3;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
 
@@ -9567,10 +9593,10 @@ nav ul li a:hover {
   flex-shrink: 0;
   color: #000;
   font-family: Poppins;
-  font-size: 18px;
+  font-size: 32px;
   font-style: normal;
   font-weight: 400;
-  line-height: 35px;
+  line-height: 46px;
   text-align: start;
   margin-top: 20px;
   position: relative;
@@ -9719,11 +9745,11 @@ nav ul li a:hover {
     width: 569px;
     flex-shrink: 0;
     color: #000;
-    font-family: Poppins;
-    font-size: 12px;
+    font-family: 'Poppins';
+    font-size: 27px;
     font-style: normal;
     font-weight: 400;
-    line-height: 25px;
+    line-height: 46px;
     text-align: start;
     margin-top: 30px;
     position: relative;
@@ -9734,7 +9760,7 @@ nav ul li a:hover {
     height: 407px;
     flex-shrink: 0;
     color: #000;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -9871,14 +9897,14 @@ nav ul li a:hover {
 
 
   .pabout1 {
-    width: 369px;
+    width: 469px;
     flex-shrink: 0;
     color: #000;
-    font-family: Poppins;
-    font-size: 12px;
+    font-family: 'Poppins';
+    font-size: 22px;
     font-style: normal;
     font-weight: 400;
-    line-height: 15px;
+    line-height: 38px;
     text-align: start;
     margin-top: 30px;
     position: relative;
@@ -9889,7 +9915,7 @@ nav ul li a:hover {
     width: 369px;
     flex-shrink: 0;
     color: #000;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -9900,7 +9926,7 @@ nav ul li a:hover {
   }
 
   .about1right {
-    width: 350px;
+    width: 390px;
 
 
   }
@@ -10024,14 +10050,14 @@ nav ul li a:hover {
   }
 
   .pabout1 {
-    width: 280px;
+    width: 330px;
     flex-shrink: 0;
     color: #000;
-    font-family: Poppins;
-    font-size: 10px;
+    font-family: 'Poppins';
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 15px;
+    line-height: 30px;
     text-align: start;
     margin-top: 10px;
     position: relative;
@@ -10042,7 +10068,7 @@ nav ul li a:hover {
     width: 280px;
     flex-shrink: 0;
     color: #000;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 10px;
     font-style: normal;
     font-weight: 400;
@@ -10189,11 +10215,11 @@ nav ul li a:hover {
     width: 300px;
     flex-shrink: 0;
     color: #000;
-    font-family: Poppins;
-    font-size: 12px;
+    font-family: 'Poppins';
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 15px;
+    line-height: 28px;
     text-align: center;
     margin-top: 30px;
     position: relative;
@@ -10204,7 +10230,7 @@ nav ul li a:hover {
     width: 300px;
     flex-shrink: 0;
     color: #000;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -10357,7 +10383,7 @@ nav ul li a:hover {
   .pabout1 {
     width: 300px;
     color: #000;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -10370,7 +10396,7 @@ nav ul li a:hover {
 
   .p2about1 {
     color: #000;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -10534,11 +10560,11 @@ nav ul li a:hover {
   .pabout1 {
     width: 300px;
     color: #000;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: 35px;
     text-align: start;
     margin-top: 44px;
 
@@ -10548,7 +10574,7 @@ nav ul li a:hover {
 
   .p2about1 {
     color: #000;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -10577,7 +10603,7 @@ nav ul li a:hover {
     height: 350px;
     width: 300px;
     position: relative;
-    margin-top: 50px;
+    margin-top: 120px;
 
   }
 
@@ -10754,8 +10780,8 @@ nav ul li a:hover {
   flex-shrink: 0;
   color: #000;
   text-align: start;
-  font-family: Poppins;
-  font-size: 18px;
+  font-family: 'Poppins';
+  font-size: 22px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -10864,8 +10890,8 @@ nav ul li a:hover {
     flex-shrink: 0;
     color: #000;
     text-align: start;
-    font-family: Poppins;
-    font-size: 18px;
+    font-family: 'Poppins';
+    font-size: 22px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -11002,7 +11028,7 @@ nav ul li a:hover {
     flex-shrink: 0;
     color: #000;
     text-align: start;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 18px;
     /* Slightly smaller font size */
     font-style: normal;
@@ -11143,7 +11169,7 @@ nav ul li a:hover {
     flex-shrink: 0;
     color: #000;
     text-align: start;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 18px;
     /* Slightly smaller font size */
     font-style: normal;
@@ -11263,7 +11289,7 @@ nav ul li a:hover {
     flex-shrink: 0;
     color: #000;
     text-align: start;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -11382,7 +11408,7 @@ nav ul li a:hover {
     flex-shrink: 0;
     color: #000;
     text-align: start ;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -11479,7 +11505,7 @@ nav ul li a:hover {
     color: #28156D;
     text-align: center;
     font-family: 'Brush Script Mt';
-    font-size: 34px;
+    font-size: 45px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -11490,7 +11516,7 @@ nav ul li a:hover {
     color: #000;
     text-align: center;
     font-family: "Playfair Display";
-    font-size: 34px;
+    font-size: 45px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -11537,7 +11563,7 @@ nav ul li a:hover {
     color: #28156D !important;
     text-align: left;
     font-family: 'Brush Script Mt';
-    font-size: 34px !important;
+    font-size: 55px !important;
     font-weight: 400 !important;
     line-height: normal;
   }
@@ -11546,7 +11572,7 @@ nav ul li a:hover {
     color: #000;
     text-align: left;
     font-family: "Playfair Display" !important;
-    font-size: 34px !important;
+    font-size: 40px !important;
     font-style: normal;
     font-weight: 400 !important;
     line-height: normal;
@@ -11563,11 +11589,12 @@ nav ul li a:hover {
 
   .phar3bg {
     width: 100%;
-    height: 2730px;
+    height: 1969px;
     display: block;
     background-image: url('./images/phar3mbl.png');
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: bottom;
   }
 
   .phar3h1 {
@@ -11585,7 +11612,7 @@ nav ul li a:hover {
     color: #000;
     text-align: center;
     font-family: "Playfair Display";
-    font-size: 34px;
+    font-size: 40px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -11998,7 +12025,7 @@ nav ul li a:hover {
 
 .about2h3 {
   width: 364px;
-  font-family: Poppins;
+  font-family: 'Poppins';
   font-size: 22px;
   font-style: normal;
   font-weight: 700;
@@ -12008,7 +12035,7 @@ nav ul li a:hover {
 
 .aboutp1 {
   width: 480px;
-  font-family: Poppins;
+  font-family: 'Poppins';
   font-size: 16px;
   font-style: normal;
   font-weight: 300;
@@ -12051,7 +12078,7 @@ nav ul li a:hover {
 .aboutdiv2:hover .about2h3 {
   width: 364px;
   color: white;
-  font-family: Poppins;
+  font-family: 'Poppins';
   font-size: 22px;
   font-style: normal;
   font-weight: 700;
@@ -12139,7 +12166,7 @@ nav ul li a:hover {
 
   .about2h3 {
     width: 364px;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
@@ -12149,7 +12176,7 @@ nav ul li a:hover {
 
   .aboutp1 {
     width: 364px;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 12px;
     font-style: normal;
     font-weight: 300;
@@ -12258,7 +12285,7 @@ nav ul li a:hover {
 
   .about2h3 {
     width: 264px;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
@@ -12268,7 +12295,7 @@ nav ul li a:hover {
 
   .aboutp1 {
     width: 264px;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 8px;
     font-style: normal;
     font-weight: 300;
@@ -12377,7 +12404,7 @@ nav ul li a:hover {
 
   .about2h3 {
     width: 264px;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
@@ -12387,7 +12414,7 @@ nav ul li a:hover {
 
   .aboutp1 {
     width: 264px;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 8px;
     font-style: normal;
     font-weight: 300;
@@ -12495,7 +12522,7 @@ nav ul li a:hover {
 
   .aboutdiv2:hover .about2h3 {
     width: 264px;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
@@ -12505,7 +12532,7 @@ nav ul li a:hover {
 
   .about2h3 {
     width: 264px;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 17.442px;
     font-style: normal;
     font-weight: 700;
@@ -12515,7 +12542,7 @@ nav ul li a:hover {
 
   .aboutp1 {
     width: 264px;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 12.685px;
     font-style: normal;
     font-weight: 300;
@@ -12637,7 +12664,7 @@ nav ul li a:hover {
 
   .aboutdiv2:hover .about2h3 {
     width: 264px;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
@@ -12647,7 +12674,7 @@ nav ul li a:hover {
 
   .about2h3 {
     width: 264px;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 17.442px;
     font-style: normal;
     font-weight: 700;
@@ -12657,7 +12684,7 @@ nav ul li a:hover {
 
   .aboutp1 {
     width: 264px;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 12.685px;
     font-style: normal;
     font-weight: 300;
@@ -12849,7 +12876,7 @@ nav ul li a:hover {
   width: 303.206px;
   height: 135px;
   color: #000;
-  font-family: Poppins, arial, sans-serif;
+  font-family: 'Poppins', arial, sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 300;
@@ -12998,7 +13025,7 @@ nav ul li a:hover {
     width: 303.206px;
     height: 135px;
     color: #000;
-    font-family: Poppins, arial, sans-serif;
+    font-family: 'Poppins', arial, sans-serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 300;
@@ -13162,7 +13189,7 @@ nav ul li a:hover {
     width: 303.206px;
     height: 135px;
     color: #000;
-    font-family: Poppins, arial, sans-serif;
+    font-family: 'Poppins', arial, sans-serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 300;
@@ -13318,7 +13345,7 @@ nav ul li a:hover {
     width: 90%;
     height: 135px;
     color: #000;
-    font-family: Poppins, arial, sans-serif;
+    font-family: 'Poppins', arial, sans-serif;
     font-size: 8px;
     font-style: normal;
     font-weight: 300;
@@ -13481,7 +13508,7 @@ nav ul li a:hover {
     width: 90%;
     height: 135px;
     color: #000;
-    font-family: Poppins, arial, sans-serif;
+    font-family: 'Poppins', arial, sans-serif;
     font-size: 9px;
     font-style: normal;
     font-weight: 300;
@@ -13642,7 +13669,7 @@ nav ul li a:hover {
     width: 90%;
     height: 135px;
     color: #000;
-    font-family: Poppins, arial, sans-serif;
+    font-family: 'Poppins', arial, sans-serif;
     font-size: 9px;
     font-style: normal;
     font-weight: 300;
@@ -13921,6 +13948,7 @@ nav ul li a:hover {
   min-width: 100%;
   height: 600px;
   background: #FFF;
+  margin-bottom: 50px;
 }
 
 .leftbntright {
@@ -15196,7 +15224,7 @@ nav ul li a:hover {
   flex-shrink: 0;
   color: #000;
   text-align: center;
-  font-family: Poppins;
+  font-family: 'Poppins';
   font-size: 14px;
   font-style: normal;
   font-weight: 300;
@@ -15252,7 +15280,7 @@ nav ul li a:hover {
     flex-shrink: 0;
     color: #000;
     text-align: center;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 12px;
     font-style: normal;
     font-weight: 300;
@@ -15315,7 +15343,7 @@ nav ul li a:hover {
     flex-shrink: 0;
     color: #000;
     text-align: center;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 14px;
     font-style: normal;
     font-weight: 300;
@@ -15373,7 +15401,7 @@ nav ul li a:hover {
     flex-shrink: 0;
     color: #000;
     text-align: center;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 14px;
     font-style: normal;
     font-weight: 300;
@@ -15431,7 +15459,7 @@ nav ul li a:hover {
     flex-shrink: 0;
     color: #000;
     text-align: center;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 14px;
     font-style: normal;
     font-weight: 300;
@@ -15489,7 +15517,7 @@ nav ul li a:hover {
     flex-shrink: 0;
     color: #000;
     text-align: center;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 14px;
     font-style: normal;
     font-weight: 300;
@@ -15586,7 +15614,7 @@ nav ul li a:hover {
 
 .phar5h3 {
   color: #000;
-  font-family: Poppins;
+  font-family: 'Poppins';
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
@@ -15697,7 +15725,7 @@ nav ul li a:hover {
 
 .phar5div3:hover .phar5h3 {
   color: #ffffff;
-  font-family: Poppins;
+  font-family: 'Poppins';
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
@@ -15732,7 +15760,7 @@ nav ul li a:hover {
 .phar5h3 {
   color: #000;
   /* Default text color */
-  font-family: Poppins;
+  font-family: 'Poppins';
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
@@ -15858,7 +15886,7 @@ nav ul li a:hover {
 
   .phar5h3 {
     color: #000;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
@@ -15969,7 +15997,7 @@ nav ul li a:hover {
 
   .phar5div3:hover .phar5h3 {
     color: #ffffff;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
@@ -16004,7 +16032,7 @@ nav ul li a:hover {
   .phar5h3 {
     color: #000;
     /* Default text color */
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
@@ -16131,7 +16159,7 @@ nav ul li a:hover {
 
   .phar5h3 {
     color: #000;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
@@ -16242,7 +16270,7 @@ nav ul li a:hover {
 
   .phar5div3:hover .phar5h3 {
     color: #ffffff;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
@@ -16277,7 +16305,7 @@ nav ul li a:hover {
   .phar5h3 {
     color: #000;
     /* Default text color */
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
@@ -16404,7 +16432,7 @@ nav ul li a:hover {
 
   .phar5h3 {
     color: #000;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
@@ -16515,7 +16543,7 @@ nav ul li a:hover {
 
   .phar5div3:hover .phar5h3 {
     color: #ffffff;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
@@ -16550,7 +16578,7 @@ nav ul li a:hover {
   .phar5h3 {
     color: #000;
     /* Default text color */
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
@@ -16686,7 +16714,7 @@ nav ul li a:hover {
 
   .phar5h3 {
     color: #000;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
@@ -16797,7 +16825,7 @@ nav ul li a:hover {
 
   .phar5div3:hover .phar5h3 {
     color: #ffffff;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
@@ -16832,7 +16860,7 @@ nav ul li a:hover {
   .phar5h3 {
     color: #000;
     /* Default text color */
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
@@ -16890,7 +16918,7 @@ nav ul li a:hover {
 .phar6h1 {
   color: #000;
   text-align: center;
-  font-family: Poppins;
+  font-family: 'Poppins';
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
@@ -16900,7 +16928,7 @@ nav ul li a:hover {
 .phar6h2 {
   color: #000;
   text-align: center;
-  font-family: Poppins;
+  font-family: 'Poppins';
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -16930,7 +16958,7 @@ nav ul li a:hover {
   margin-top: 70px;
   color: #FDFEFF;
   text-align: center;
-  font-family: Poppins;
+  font-family: 'Poppins';
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
@@ -16940,7 +16968,7 @@ nav ul li a:hover {
 .phar6h4 {
   color: #FFF;
   text-align: center;
-  font-family: Poppins;
+  font-family: 'Poppins';
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -16952,7 +16980,7 @@ nav ul li a:hover {
   height: 100px;
   color: #FDFEFF;
   text-align: center;
-  font-family: Poppins;
+  font-family: 'Poppins';
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -16963,7 +16991,7 @@ nav ul li a:hover {
 .phar6p2 {
   color: #FDFEFF;
   text-align: center;
-  font-family: Poppins;
+  font-family: 'Poppins';
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
@@ -17005,7 +17033,7 @@ nav ul li a:hover {
   .phar6h1 {
     color: #000;
     text-align: center;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -17015,7 +17043,7 @@ nav ul li a:hover {
   .phar6h2 {
     color: #000;
     text-align: center;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -17045,7 +17073,7 @@ nav ul li a:hover {
     margin-top: 70px;
     color: #FDFEFF;
     text-align: center;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -17055,7 +17083,7 @@ nav ul li a:hover {
   .phar6h4 {
     color: #FFF;
     text-align: center;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -17067,7 +17095,7 @@ nav ul li a:hover {
     height: 100px;
     color: #FDFEFF;
     text-align: center;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -17078,7 +17106,7 @@ nav ul li a:hover {
   .phar6p2 {
     color: #FDFEFF;
     text-align: center;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
@@ -17127,7 +17155,7 @@ nav ul li a:hover {
   .phar6h1 {
     color: #000;
     text-align: center;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -17137,7 +17165,7 @@ nav ul li a:hover {
   .phar6h2 {
     color: #000;
     text-align: center;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -17167,7 +17195,7 @@ nav ul li a:hover {
     margin-top: 70px;
     color: #FDFEFF;
     text-align: center;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -17177,7 +17205,7 @@ nav ul li a:hover {
   .phar6h4 {
     color: #FFF;
     text-align: center;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -17189,7 +17217,7 @@ nav ul li a:hover {
     height: 100px;
     color: #FDFEFF;
     text-align: center;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -17200,7 +17228,7 @@ nav ul li a:hover {
   .phar6p2 {
     color: #FDFEFF;
     text-align: center;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
@@ -17249,7 +17277,7 @@ nav ul li a:hover {
   .phar6h1 {
     color: #000;
     text-align: center;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -17259,7 +17287,7 @@ nav ul li a:hover {
   .phar6h2 {
     color: #000;
     text-align: center;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -17289,7 +17317,7 @@ nav ul li a:hover {
     margin-top: 70px;
     color: #FDFEFF;
     text-align: center;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -17299,7 +17327,7 @@ nav ul li a:hover {
   .phar6h4 {
     color: #FFF;
     text-align: center;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -17311,7 +17339,7 @@ nav ul li a:hover {
     height: 100px;
     color: #FDFEFF;
     text-align: center;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -17322,7 +17350,7 @@ nav ul li a:hover {
   .phar6p2 {
     color: #FDFEFF;
     text-align: center;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
@@ -17434,7 +17462,7 @@ nav ul li a:hover {
 }
 
 .prg-section-description {
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-size: 22px;
   line-height: 36px;
   width: 597.7px;
@@ -17511,7 +17539,7 @@ nav ul li a:hover {
   }
 
   .prg-section-description {
-    font-family: "Poppins";
+    font-family: 'Poppins';
     font-size: 14px;
     line-height: 1.8;
   }
@@ -17601,7 +17629,7 @@ nav ul li a:hover {
     height: 415px;
     flex-shrink: 0;
     color: #000;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -17691,7 +17719,7 @@ nav ul li a:hover {
     height: 415px;
     flex-shrink: 0;
     color: #000;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -17783,7 +17811,7 @@ nav ul li a:hover {
     height: 415px;
     flex-shrink: 0;
     color: #000;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -17873,7 +17901,7 @@ nav ul li a:hover {
     height: 415px;
     flex-shrink: 0;
     color: #000;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -17985,7 +18013,7 @@ nav ul li a:hover {
 }
 
 .prag-section-description3 {
-  font-family: "Poppins";
+  font-family: 'Poppins';
   text-align: start;
   font-size: 18px;
   color: #000000;
@@ -18086,7 +18114,7 @@ nav ul li a:hover {
     flex-shrink: 0;
     color: #000;
     text-align: start;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -18221,7 +18249,7 @@ nav ul li a:hover {
     flex-shrink: 0;
     color: #000;
     text-align: start;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -18317,7 +18345,7 @@ nav ul li a:hover {
     flex-shrink: 0;
     color: #000;
     text-align: start;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -18415,7 +18443,7 @@ nav ul li a:hover {
     flex-shrink: 0;
     color: #000;
     text-align: center;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -18513,7 +18541,7 @@ nav ul li a:hover {
     flex-shrink: 0;
     color: #000;
     text-align: center;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -18799,7 +18827,7 @@ nav ul li a:hover {
     width: 95% !important;
     height: 215px;
     color: #000;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -19026,7 +19054,7 @@ nav ul li a:hover {
     width: 400px;
     height: 415px;
     color: #000;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -19146,7 +19174,7 @@ nav ul li a:hover {
     width: 90%;
     height: 415px;
     color: #000;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -20064,7 +20092,7 @@ margin-left: 15px;
 
 .btn-textofdiv1file {
   color: #000;
-  font-family: Poppins;
+  font-family: 'Poppins';
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
@@ -20332,7 +20360,7 @@ margin-left: 15px;
 
 .btn-textofdiv1file {
   color: #000;
-  font-family: Poppins;
+  font-family: 'Poppins';
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
@@ -20434,7 +20462,7 @@ margin-left: 15px;
   height: 130px;
   flex-shrink: 0;
   color: #000;
-  font-family: Poppins;
+  font-family: 'Poppins';
   font-size: 16px;
   font-style: normal;
   font-weight: 300;
@@ -20600,7 +20628,7 @@ margin-left: 15px;
 
 .btn-textofdiv1file {
   color: #000;
-  font-family: Poppins;
+  font-family: 'Poppins';
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
@@ -20702,7 +20730,7 @@ margin-left: 15px;
   height: 130px;
   flex-shrink: 0;
   color: #000;
-  font-family: Poppins;
+  font-family: 'Poppins';
   font-size: 16px;
   font-style: normal;
   font-weight: 300;
