@@ -59,7 +59,7 @@ const Bnews: React.FC = () => {
                 <div className='text-boxsmallscreendiv'>
                 <button className='firstbtnofbottomSec4smallscreen'>
             <span className='btn-textofsec4bottomsmallscreen'>
-            Breaking News:</span>
+            Latest News:</span>
                 </button>
                 <div className={`text-boxsmallscreen ${slide ? 'slide-left' : ''}`}>
                     <p style={{width: '350px'}}>{texts[currentIndex]}</p> {/* Display the current text */}
@@ -77,7 +77,7 @@ const Bnews: React.FC = () => {
         <div className='center'>
             <div className='box12'>
                 <div className='box13'>
-                  <h1 className='h12'>Breaking News:</h1>
+                  <h1 className='h12'>Latest News:</h1>
                 </div>
                 <div className={`text-box  ${slide ? 'slide-left' : ''}`}>
                     <p >{texts[currentIndex]}</p> {/* Display the current text */}
