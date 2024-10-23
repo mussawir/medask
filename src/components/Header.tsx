@@ -27,10 +27,12 @@ const Header: React.FC = () => {
     return (
 
 <>
-            <nav className="navbar ">
+            <nav className="navbar  ">
                 <div className="navbar-top">
                     <div className="logo-top">
+                    <a href="/">
                         <img src={logo} alt="Logo" className="logo-img" />
+                        </a>
                     </div>
                     <div className='headerofsmallscreennavlinks'>
                     <Link to="/" className="nav-link-topsmallscreen">

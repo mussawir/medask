@@ -30,7 +30,7 @@ const Navbar: React.FC = () => {
 
 
     return (
-        <div className="navbar-container">
+        <div className="navbar-container2">
                     <Container maxWidth="xl">
 
             <nav className="navbar">

@@ -189,8 +189,8 @@ body {
 }
 
 .p3 {
-  width: 335.377px;
-  height: 130px;
+  width: 90%;
+  height: 100%;
   flex-shrink: 0;
   color: #000;
   font-family: Poppins;
@@ -220,6 +220,7 @@ body {
   width: 310.326px;
   height: 428.87px;
   border: none;
+  margin-right: 20px;
   border-radius: 10px;
   background: url('./images/doctor.png') lightgray 40% / cover no-repeat;
 }
@@ -1418,6 +1419,7 @@ nav ul li a:hover {
   width: 248.2608px;
   /* 310.326px - 20% */
   height: 343.096px;
+  margin-right: 20px;
   /* 428.87px - 20% */
   border: none;
   border-radius: 10px;
@@ -1625,9 +1627,8 @@ nav ul li a:hover {
   }
 
   .p3 {
-    width: 268.3016px;
-    /* 335.377px - 20% */
-    height: 104px;
+    width: 80%;
+  height: 100%;
     /* 130px - 20% */
     flex-shrink: 0;
     color: #000;
@@ -1669,6 +1670,7 @@ nav ul li a:hover {
     /* 310.326px - 20% */
     height: 343.096px;
     /* 428.87px - 20% */
+    margin-right: 20px;
     border: none;
     border-radius: 10px;
     background: url('./images/doctor.png') lightgray 40% / cover no-repeat;
@@ -1889,9 +1891,8 @@ nav ul li a:hover {
   }
 
   .p3 {
-    width: 268.3016px;
-    /* 335.377px - 20% */
-    height: 104px;
+    width: 80%;
+  height: 100%;
     /* 130px - 20% */
     flex-shrink: 0;
     color: #000;
@@ -1934,6 +1935,7 @@ nav ul li a:hover {
     height: 343.096px;
     /* 428.87px - 20% */
     border: none;
+    margin-right: 20px;
     border-radius: 10px;
     background: url('./images/doctor.png') lightgray 40% / cover no-repeat;
   }
@@ -2146,9 +2148,8 @@ nav ul li a:hover {
   }
 
   .p3 {
-    width: 187.8111px;
-    /* 268.3016px - 30% */
-    height: 72.8px;
+    width: 80%;
+  height: 100%;
     /* 104px - 30% */
     flex-shrink: 0;
     color: #000;
@@ -2373,9 +2374,8 @@ nav ul li a:hover {
   }
 
   .p3 {
-    width: 134.1508px;
-    /* 268.3016px - 50% */
-    height: 52px;
+    width: 80%;
+    height: 100%;
     /* 104px - 50% */
     flex-shrink: 0;
     color: #000;
@@ -2623,8 +2623,8 @@ nav ul li a:hover {
   }
 
   .p3 {
-    width: 335.997px;
-    height: 88px;
+    width: 80%;
+    height: 100%;
     color: #000;
     font-family: Poppins;
     font-size: 13.807px;
@@ -20223,7 +20223,7 @@ margin-left: 15px;
 
 .p3 {
   width: 450px !important;
-  height: 130px;
+  height: 50%;
   flex-shrink: 0;
   color: #000;
   font-family: Poppins;
@@ -20251,8 +20251,9 @@ margin-left: 15px;
 
 .doc {
   width: 480px !important;
-  height: 340px !important;
+  height: 290px !important;
   border: none;
+  margin-right: 0px;
   border-radius: 10px;
   background: url('./images/doctor.png') lightgray 40% / cover no-repeat;
 }
@@ -20490,11 +20491,11 @@ margin-left: 15px;
 
 .p3 {
   width: 450px !important;
-  height: 130px;
+  height: 50%;
   flex-shrink: 0;
   color: #000;
   font-family: 'Poppins';
-  font-size: 16px;
+  font-size: 12px;
   font-style: normal;
   font-weight: 300;
   line-height: 34px;
@@ -20717,7 +20718,7 @@ margin-left: 15px;
 
 .right {
   width: 290px !important;
-  height: 479.03px;
+  height: 700px !important;
   flex-shrink: 0;
   display: flex;
   justify-content: space-around;
@@ -20758,11 +20759,11 @@ margin-left: 15px;
 
 .p3 {
   width: 270px !important;
-  height: 130px;
+  height: 50% !important;
   flex-shrink: 0;
   color: #000;
   font-family: 'Poppins';
-  font-size: 16px;
+  font-size: 10px;
   font-style: normal;
   font-weight: 300;
   line-height: 34px;

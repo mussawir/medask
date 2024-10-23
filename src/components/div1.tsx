@@ -5,8 +5,7 @@ import svg from '../images/drugstore 2.svg'; // Your SVG source
 import Icon from '../images/iconarrowdiv1.svg';
 import Svg2 from '../images/secondgroup.png';
 import '../App.css';
-import './ibrdiv1.css'
-
+import './ibrdiv1.css';
 
 function a11yProps(index: number) {
     return {
@@ -22,10 +21,18 @@ export default function LabTabs() {
         setValue(index);
     };
 
+    // Define your tabs and their corresponding content
+    const tabs = [
+        { title: 'Pharmacy Distribution', content: 'We offer reliable pharmacy distribution services to ensure timely delivery of medications to healthcare facilities. Our network prioritizes efficiency, accuracy, and quality, ensuring compliance with regulatory requirements while maintaining supply chain integrity.' },
+        { title: 'Retail Pharmacies', content: 'Our retail pharmacies are dedicated to accessible, high-quality healthcare products and services. We offer prescription medications, over-the-counter drugs, and expert advice from qualified pharmacists.' },
+        { title: 'LP Pharmacies', content: 'Medask LP Pharmacies support military hospitals like CMH and PEMH by providing essential medications through efficient local procurement. We ensure high-quality pharmaceutical products meet the specific needs of military healthcare facilities.' },
+        { title: 'Commercial - Flagship Pharmacies', content: 'We are launching our Commercial Flagship Pharmacies, designed to set new standards in healthcare retail. These locations will feature an extensive selection of services, including digital prescription management and health screenings.' },
+    ];
+
     return (
         <Box>
             <Box sx={{ mb: 2 }}>
-            {['Pharmacy Distribution', 'Retail Pharmacies', 'LP Pharmacies', 'Commercial - Flagship Pharmacies'].map((item, index) => (
+                {tabs.map((tab, index) => (
                     <button
                         key={index}
                         className={value === index.toString() ? 'btnofselectofsec2' : 'btn-simple'}
@@ -43,40 +50,38 @@ export default function LabTabs() {
                         <span
                             className={value === index.toString() ? 'btn-text-active' : 'btn-text-inactive'}
                         >
-                            {item}
+                            {tab.title}
                         </span>
-                            <span className='btn-arrow'>
-                                <img className='ic' src={Icon} alt={`Go to ${item}`} />
-                            </span>
+                        <span className='btn-arrow'>
+                            <img className='ic' src={Icon} alt={`Go to ${tab.title}`} />
+                        </span>
                     </button>
                 ))}
             </Box>
 
             {/* Render Tab Panels */}
-            {['Pharmacy Distribution', 'Retail Pharmacies', 'LP Pharmacies', 'Commercial - Flagship Pharmacies'].map((content, idx) => (
+            {tabs.map((tab, idx) => (
                 <TabPanel value={value} index={idx.toString()} key={idx} >
-                        <div className="div1bgcolor">
-                    <div className="right">
-                        <div className="div">
-                            <img className='logo-icon-1' src={svg} alt="" />
-                            <h1 className='h3ofdiv'>{content}</h1>
-                            <p className='p3'>
-                            We offer reliable pharmacy distribution services to ensure timely delivery of medications to healthcare facilities.
-                            </p>
-                            <a href="/aboutus">
-                            <div className='dd'>  
-                                <div className='btn3'>Read More</div>
-                                <img className='svg2img' src={Svg2} alt="" />
+                    <div className="div1bgcolor">
+                        <div className="right">
+                            <div className="div">
+                                <img className='logo-icon-1' src={svg} alt="" />
+                                <h1 className='h3ofdiv'>{tab.title}</h1>
+                                <p className='p3'>
+                                    {tab.content}
+                                </p>
+                                <a href="/aboutus">
+                                    <div className='dd'>
+                                        <div className='btn3'>Read More</div>
+                                        <img className='svg2img' src={Svg2} alt="" />
+                                    </div>
+                                </a>
                             </div>
-                            </a>
-                        </div>
-                        <div>
-                            <img className='doc' alt="" />
+                            <div>
+                                <img className='doc' alt="" />
+                            </div>
                         </div>
                     </div>
-                    </div>
-
-                   
                 </TabPanel>
             ))}
         </Box>

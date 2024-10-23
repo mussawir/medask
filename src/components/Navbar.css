@@ -42,11 +42,60 @@
     object-fit: fill;
 
 }
+.navbar-container2 {
+    background-image: url('../images/navbarimg2.png');
+    background-size: cover;
+    color: black;
+    position: relative;
+    background-position: center;
+    min-height: 1089.625px;
+    background-repeat: no-repeat;
+    position: relative;
+    object-fit: fill;
+
+}
+.navbar-container3 {
+    background-image: url('../images/navbarimg3.png');
+    background-size: cover;
+    color: black;
+    position: relative;
+    background-position: center;
+    min-height: 1089.625px;
+    background-repeat: no-repeat;
+    position: relative;
+    object-fit: fill;
+
+}
+
 /* Laptops/Desktops (1025px to 1440px) */
 @media (min-width: 1400px) and (max-width: 1500px) {
 
     .navbar-container {
         background-image: url('../images/Group25.png');
+        background-size: cover;
+        color: black;
+        position: relative;
+        background-position: center;
+        min-height: 900px !important;
+        background-repeat: no-repeat;
+        position: relative;
+        object-fit: fill;
+    
+    }
+    .navbar-container2 {
+        background-image: url('../images/navbarimg2.png');
+        background-size: cover;
+        color: black;
+        position: relative;
+        background-position: center;
+        min-height: 900px !important;
+        background-repeat: no-repeat;
+        position: relative;
+        object-fit: fill;
+    
+    }
+    .navbar-container3 {
+        background-image: url('../images/navbarimg3.png');
         background-size: cover;
         color: black;
         position: relative;
@@ -63,6 +112,30 @@
 
     .navbar-container {
         background-image: url('../images/Group25.png');
+        background-size: cover;
+        color: black;
+        position: relative;
+        background-position: center;
+        min-height: 800px !important;
+        background-repeat: no-repeat;
+        position: relative;
+        object-fit: fill;
+    
+    }
+    .navbar-container2 {
+        background-image: url('../images/navbarimg2.png');
+        background-size: cover;
+        color: black;
+        position: relative;
+        background-position: center;
+        min-height: 800px !important;
+        background-repeat: no-repeat;
+        position: relative;
+        object-fit: fill;
+    
+    }
+    .navbar-container3 {
+        background-image: url('../images/navbarimg3.png');
         background-size: cover;
         color: black;
         position: relative;
@@ -90,12 +163,60 @@
         object-fit: fill;
     
     }
+    .navbar-container2 {
+        background-image: url('../images/navbarimg2.png');
+        background-size: cover;
+        color: black;
+        position: relative;
+        background-position: center;
+        min-height: 800px !important;
+        background-repeat: no-repeat;
+        position: relative;
+        object-fit: fill;
+    
+    }
+    .navbar-container3 {
+        background-image: url('../images/navbarimg3.png');
+        background-size: cover;
+        color: black;
+        position: relative;
+        background-position: center;
+        min-height: 800px !important;
+        background-repeat: no-repeat;
+        position: relative;
+        object-fit: fill;
+    
+    }
 }
 
 /* Small Laptops (769px to 1024px) */
 @media (min-width: 1025px) and (max-width: 1225px) {
     .navbar-container {
         background-image: url('../images/Group25.png');
+        background-size: cover;
+        color: black;
+        position: relative;
+        background-position: center;
+        min-height: 720px !important;
+        background-repeat: no-repeat;
+        position: relative;
+        object-fit: fill;
+    
+    }
+    .navbar-container2 {
+        background-image: url('../images/navbarimg2.png');
+        background-size: cover;
+        color: black;
+        position: relative;
+        background-position: center;
+        min-height: 720px !important;
+        background-repeat: no-repeat;
+        position: relative;
+        object-fit: fill;
+    
+    }
+    .navbar-container3 {
+        background-image: url('../images/navbarimg3.png');
         background-size: cover;
         color: black;
         position: relative;
@@ -123,6 +244,30 @@
         object-fit: fill;
     
     }
+    .navbar-container2 {
+        background-image: url('../images/navbarimg2.png');
+        background-size: cover;
+        color: black;
+        position: relative;
+        background-position: center;
+        min-height: 600px !important;
+        background-repeat: no-repeat;
+        position: relative;
+        object-fit: fill;
+    
+    }
+    .navbar-container3 {
+        background-image: url('../images/navbarimg3.png');
+        background-size: cover;
+        color: black;
+        position: relative;
+        background-position: center;
+        min-height: 600px !important;
+        background-repeat: no-repeat;
+        position: relative;
+        object-fit: fill;
+    
+    }
 }
 /* Tablets (481px to 768px) */
 @media (min-width: 600px) and (max-width: 768px) {
@@ -138,11 +283,59 @@
         object-fit: fill;
     
     }
+    .navbar-container2 {
+        background-image: url('../images/navbarimg2.png');
+        background-size: cover;
+        color: black;
+        position: relative;
+        background-position: center;
+        min-height: 600px !important;
+        background-repeat: no-repeat;
+        position: relative;
+        object-fit: fill;
+    
+    }
+    .navbar-container3 {
+        background-image: url('../images/navbarimg3.png');
+        background-size: cover;
+        color: black;
+        position: relative;
+        background-position: center;
+        min-height: 600px !important;
+        background-repeat: no-repeat;
+        position: relative;
+        object-fit: fill;
+    
+    }
 }
 /* Mobile Devices (up to 480px) */
 @media (max-width: 600px) {
     .navbar-container {
         background-image: url('../images/Group25.png');
+        background-size: cover;
+        color: black;
+        position: relative;
+        background-position: center;
+        min-height: 1100px !important;
+        background-repeat: no-repeat;
+        position: relative;
+        object-fit: fill;
+    
+    }
+    .navbar-container2 {
+        background-image: url('../images/navbarmbl2.png');
+        background-size: cover;
+        color: black;
+        position: relative;
+        background-position: center;
+        min-height: 1100px !important;
+        background-repeat: no-repeat;
+        position: relative;
+        object-fit: fill;
+    
+    }
+    .navbar-container3 {
+        background-image: url('../images/navbarmbl3.jpg');
         background-size: cover;
         color: black;
         position: relative;
@@ -225,7 +418,6 @@ flex-shrink: 0;
     display: flex;
     justify-content: flex-end;
     gap: 10px;
-    padding: 5px;
     align-items: center;
 }
 
@@ -649,6 +841,26 @@ flex-shrink: 0;
         overflow: hidden;
         background-repeat: no-repeat;
     }
+    .navbar-container2 {
+        background-image: url('../images/navbarimg2.png');
+        background-size: cover;
+        color: black;
+        position: relative;
+        background-size: center;
+        min-height: 1089.625px;
+        overflow: hidden;
+        background-repeat: no-repeat;
+    }
+    .navbar-container3 {
+        background-image: url('../images/navbarimg3.png');
+        background-size: cover;
+        color: black;
+        position: relative;
+        background-size: center;
+        min-height: 1089.625px;
+        overflow: hidden;
+        background-repeat: no-repeat;
+    }
     .navbar-top {
         display: flex;
         justify-content: space-between;
@@ -685,6 +897,26 @@ flex-shrink: 0;
   @media (min-width: 768px) and (max-width: 991.98px) { 
     .navbar-container {
         background-image: url('../images/firstSecTopBg.jpg');
+        background-size: cover;
+        color: black;
+        position: relative;
+        background-size: center;
+        min-height: 1089.625px;
+        overflow: hidden;
+        background-repeat: no-repeat;
+    }
+    .navbar-container2 {
+        background-image: url('../images/navbarimg2.png');
+        background-size: cover;
+        color: black;
+        position: relative;
+        background-size: center;
+        min-height: 1089.625px;
+        overflow: hidden;
+        background-repeat: no-repeat;
+    }
+    .navbar-container3 {
+        background-image: url('../images/navbarimg3.png');
         background-size: cover;
         color: black;
         position: relative;
@@ -741,6 +973,30 @@ flex-shrink: 0;
         object-fit: fill;
     
     }
+    .navbar-container2 {
+        background-image: url('../images/navbarimg2.png');
+        background-size: cover;
+        color: black;
+        position: relative;
+        background-position: center;
+        min-height: 1089.625px;
+        background-repeat: no-repeat;
+        position: relative;
+        object-fit: fill;
+    
+    }
+    .navbar-container3 {
+        background-image: url('../images/navbarimg3.png');
+        background-size: cover;
+        color: black;
+        position: relative;
+        background-position: center;
+        min-height: 1089.625px;
+        background-repeat: no-repeat;
+        position: relative;
+        object-fit: fill;
+    
+    }
     .logo-top {
         margin-bottom: 10px;
         margin-left: 0px;
@@ -768,6 +1024,30 @@ flex-shrink: 0;
   @media (min-width: 1200px) and (max-width: 1399.98px) { 
     .navbar-container {
         background-image: url('../images/Group25.png');
+        background-size: cover;
+        color: black;
+        position: relative;
+        background-position: center;
+        min-height: 1089.625px;
+        background-repeat: no-repeat;
+        position: relative;
+        object-fit: fill;
+    
+    }
+    .navbar-container2 {
+        background-image: url('../images//navbarimg2.png');
+        background-size: cover;
+        color: black;
+        position: relative;
+        background-position: center;
+        min-height: 1089.625px;
+        background-repeat: no-repeat;
+        position: relative;
+        object-fit: fill;
+    
+    }
+    .navbar-container3 {
+        background-image: url('../images//navbarimg3.png');
         background-size: cover;
         color: black;
         position: relative;
@@ -950,6 +1230,30 @@ flex-shrink: 0;
         object-fit: fill;
     
     }
+    .navbar-container2 {
+        background-image: url('../images/navbarimg2.png');
+        background-size: cover;
+        color: black;
+        position: relative;
+        background-position: center;
+        min-height: 1089.625px;
+        background-repeat: no-repeat;
+        position: relative;
+        object-fit: fill;
+    
+    }
+    .navbar-container3 {
+        background-image: url('../images/navbarimg3.png');
+        background-size: cover;
+        color: black;
+        position: relative;
+        background-position: center;
+        min-height: 1089.625px;
+        background-repeat: no-repeat;
+        position: relative;
+        object-fit: fill;
+    
+    }
 
     .navbar {
         display: flex;
@@ -1023,7 +1327,6 @@ flex-shrink: 0;
         display: flex;
         justify-content: flex-end;
         gap: 5px;
-        padding: 5px;
     }
 
     .nav-linkssecond {
@@ -1456,7 +1759,6 @@ flex-shrink: 0;
     display: flex;
     justify-content: flex-end;
     gap: 5px;
-    padding: 5px;
 }
 
 .nav-linkssecond {
@@ -1795,6 +2097,28 @@ flex-shrink: 0;
 @media screen and (min-width: 1600px){
     .navbar-container {
         background-image: url('../images/Group25.png');
+        background-size: cover;
+        color: black;
+        position: relative;
+        background-position: right;
+        height: 1089.625px;
+        background-repeat: no-repeat;
+        position: relative;
+    
+    }
+    .navbar-container2 {
+        background-image: url('../images/navbarimg2.png');
+        background-size: cover;
+        color: black;
+        position: relative;
+        background-position: right;
+        height: 1089.625px;
+        background-repeat: no-repeat;
+        position: relative;
+    
+    }
+    .navbar-container3 {
+        background-image: url('../images/navbarimg3.png');
         background-size: cover;
         color: black;
         position: relative;

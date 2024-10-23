@@ -10,6 +10,30 @@
 
 
 }
+.navbar-container2 {
+    background-image: url('../images/navbarimg2.png');
+    background-size: cover;
+    color: black;
+    position: relative;
+    background-position: center;
+    min-height: 1089.625px;
+    background-repeat: no-repeat;
+    position: relative;
+    object-fit: fill;
+
+}
+.navbar-container3 {
+    background-image: url('../images/navbarimg2.png');
+    background-size: cover;
+    color: black;
+    position: relative;
+    background-position: center;
+    min-height: 1089.625px;
+    background-repeat: no-repeat;
+    position: relative;
+    object-fit: fill;
+
+}
 .menu-iconsmallscreen {
     display: none;
 }
@@ -31,6 +55,25 @@
         min-height: 1090.625px;
         background-repeat: no-repeat;
     }
+    .navbar-container2 {
+        background-image: url('../images/navbarmbl2.png');
+        background-size: cover;
+        color: black;
+        position: relative;
+        background-position: center;
+        min-height: 1090.625px;
+        background-repeat: no-repeat;
+    }
+    .navbar-container3 {
+        background-image: url('../images/navbarmbl3.jpg');
+        background-size: cover;
+        color: black;
+        position: relative;
+        background-position: center;
+        min-height: 1090.625px;
+        background-repeat: no-repeat;
+    }
+    
     .navbar {
         display: flex;
         flex-direction: column;
@@ -166,6 +209,24 @@
         min-height: 1090.625px;
         background-repeat: no-repeat;
     }
+    .navbar-container2 {
+        background-image: url('../images/navbarmbl2.png');
+        background-size: cover;
+        color: black;
+        position: relative;
+        background-position: center;
+        min-height: 1090.625px;
+        background-repeat: no-repeat;
+    }
+    .navbar-container3 {
+        background-image: url('../images/navbarmbl3.jpg');
+        background-size: cover;
+        color: black;
+        position: relative;
+        background-position: center;
+        min-height: 1090.625px;
+        background-repeat: no-repeat;
+    }
     .navbar {
         display: flex;
         flex-direction: column;
@@ -278,6 +339,26 @@
   @media (min-width: 600px) and (max-width: 767.98px) {
     .navbar-container {
         background-image: url('../images/firstSecTopBg.jpg');
+        background-size: cover;
+        color: black;
+        position: relative;
+        background-size: center;
+        min-height: 1089.625px;
+        overflow: hidden;
+        background-repeat: no-repeat;
+    }
+    .navbar-container2 {
+        background-image: url('../images/navbarimg2.png');
+        background-size: cover;
+        color: black;
+        position: relative;
+        background-size: center;
+        min-height: 1089.625px;
+        overflow: hidden;
+        background-repeat: no-repeat;
+    }
+    .navbar-container3 {
+        background-image: url('../images/navbarimg3.png');
         background-size: cover;
         color: black;
         position: relative;
@@ -399,6 +480,26 @@
         overflow: hidden;
         background-repeat: no-repeat;
     }
+    .navbar-container2 {
+        background-image: url('../images/navbarimg2.png');
+        background-size: cover;
+        color: black;
+        position: relative;
+        background-size: center;
+        min-height: 1089.625px;
+        overflow: hidden;
+        background-repeat: no-repeat;
+    }
+    .navbar-container3 {
+        background-image: url('../images/navbarimg3.png');
+        background-size: cover;
+        color: black;
+        position: relative;
+        background-size: center;
+        min-height: 1089.625px;
+        overflow: hidden;
+        background-repeat: no-repeat;
+    }
     .icon2 {
         position: absolute;
         right: 0%;
@@ -431,7 +532,6 @@
         display: flex;
         justify-content: flex-end;
         gap: 5px;
-        padding: 5px;
     }
 
     .nav-link-topsmallscreen2 {
@@ -583,7 +683,6 @@
         display: flex;
         justify-content: flex-end;
         gap: 5px;
-        padding: 5px;
     }
     .icon-backgroundsmallscreen {
         display: inline-flex;
@@ -596,6 +695,26 @@
     }
     .navbar-container {
         background-image: url('../images/firstSecTopBg.jpg');
+        background-size: cover;
+        color: black;
+        position: relative;
+        background-size: center;
+        min-height: 1089.625px;
+        overflow: hidden;
+        background-repeat: no-repeat;
+    }
+    .navbar-container2 {
+        background-image: url('../images/navbarimg2.png');
+        background-size: cover;
+        color: black;
+        position: relative;
+        background-size: center;
+        min-height: 1089.625px;
+        overflow: hidden;
+        background-repeat: no-repeat;
+    }
+    .navbar-container3 {
+        background-image: url('../images/navbarimg3.png');
         background-size: cover;
         color: black;
         position: relative;
