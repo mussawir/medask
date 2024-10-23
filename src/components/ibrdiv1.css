@@ -224,7 +224,7 @@ margin-left: 15px;
         align-self: flex-start;
         display: flex;
     }
-    a{
+    .none-text-a{
         text-decoration: none;
     }
     .h3ofdiv {

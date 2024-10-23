@@ -70,11 +70,11 @@ export default function LabTabs() {
                                 <p className='p3'>
                                     {tab.content}
                                 </p>
-                                <a href="/aboutus">
+                                <a className='none-text-a' href="/aboutus">
                                     <div className='dd'>
                                         <div className='btn3'> <p className='btn3'>Read More </p>  </div>
                                         <img className='svg2img' src={Svg2} alt="" />
-                                    </div>
+                                     </div>
                                 </a>
                             </div>
                             <div>
