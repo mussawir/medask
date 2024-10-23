@@ -72,7 +72,7 @@ export default function LabTabs() {
                                 </p>
                                 <a href="/aboutus">
                                     <div className='dd'>
-                                        <div className='btn3'>Read More</div>
+                                        <div className='btn3'> <p className='btn3'>Read More </p>  </div>
                                         <img className='svg2img' src={Svg2} alt="" />
                                     </div>
                                 </a>

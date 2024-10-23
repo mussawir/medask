@@ -202,6 +202,7 @@ body {
 }
 
 .btn3 {
+  width: 160px;
   color: #00A539;
   font-family: Satoshi;
   font-size: 14.984px;
@@ -1394,7 +1395,7 @@ nav ul li a:hover {
 }
 
 .btn3 {
-  width: auto;
+  width: 160px;
   color: #00A539;
   font-family: Satoshi;
   font-size: 11.9872px;
@@ -1644,7 +1645,7 @@ nav ul li a:hover {
   }
 
   .btn3 {
-    width: auto;
+    width: 160px;
     color: #00A539;
     font-family: Satoshi;
     font-size: 11.9872px;
@@ -1908,7 +1909,7 @@ nav ul li a:hover {
   }
 
   .btn3 {
-    width: auto;
+    width: 160px;
     color: #00A539;
     font-family: Satoshi;
     font-size: 11.9872px;
@@ -2166,7 +2167,7 @@ nav ul li a:hover {
   }
 
   .btn3 {
-    width: auto;
+    width: 160px;
     color: #00A539;
     font-family: Satoshi;
     font-size: 8.39px;
@@ -2392,7 +2393,7 @@ nav ul li a:hover {
   }
 
   .btn3 {
-    width: auto;
+    width: 160px;
     color: #00A539;
     font-family: Satoshi;
     font-size: 5.99px;
@@ -2637,7 +2638,7 @@ nav ul li a:hover {
   }
 
   .btn3 {
-    width: 150px;
+    width: 160px;
     color: #00A539;
     font-family: Satoshi;
     font-size: 12.93px;
