@@ -18,19 +18,33 @@ import icon2 from '../images/TwCbOK.png';
 import AboutUsPage from '../Pages/AboutUsPage';
 
 const HomeHeader: React.FC = () => {
-    const [currentClass, setCurrentClass] = useState('navbar-container2'); // Initial class state
+    const [currentClass, setCurrentClass] = useState('navbar-container'); // Initial class state
 
     useEffect(() => {
-        const classes = ['navbar-container', 'navbar-container2' , 'navbar-container3' ]; // List of classes
+        const classes = ['navbar-container', 'navbar-container2', 'navbar-container3']; // List of classes
         let index = 0;
 
-        const interval = setInterval(() => {
+        // Function to change classes at set intervals
+        const changeClass = () => {
             index = (index + 1) % classes.length; // Cycle through the classes
             setCurrentClass(classes[index]);
-        }, 7000); // 10 seconds interval
+        };
 
-        // Clean up the interval on component unmount
-        return () => clearInterval(interval);
+        // Start with the first class immediately
+        const firstTimeout = setTimeout(() => {
+            changeClass(); // Change to the second class after 7 seconds
+        }, 7000);
+
+        // Change classes every 7 seconds after the initial timeout
+        const interval = setInterval(() => {
+            changeClass();
+        }, 7000);
+
+        // Clean up the timeouts on component unmount
+        return () => {
+            clearTimeout(firstTimeout);
+            clearInterval(interval);
+        };
     }, []);
 
     const scrollToBottom = () => {
@@ -63,7 +77,7 @@ const HomeHeader: React.FC = () => {
                             <span className="icon-backgroundsmallscreen">
                                 <img src={EmailTopImg} alt="EmailTopImg" className='phonetopImgsmallscreen' />
                             </span>
-                            <a className='emailnavsmallscreen' href="mailto:info@medask.com.pk" style={{ color: '170C40', textDecoration: 'none' }}>info@medask.com.pk</a>
+                            <a className='emailnavsmallscreen' href="mailto:info@medask.com.pk" style={{ color: '#170C40', textDecoration: 'none' }}>info@medask.com.pk</a>
                         </Link>
                     </div>
                     <div className="menu-iconsmallscreen">
@@ -75,13 +89,13 @@ const HomeHeader: React.FC = () => {
                             <span className="icon-background">
                                 <img src={phonetopImg} alt="phonetopImg" />
                             </span>
-                            Call Us: <b>+92 319 6048487                            </b>
+                            Call Us: <b>+92 319 6048487</b>
                         </Link>
                         <Link to="/" className="nav-link-top">
                             <span className="icon-background">
                                 <img src={EmailTopImg} alt="EmailTopImg" />
                             </span>
-                            <a className='outlinenone' href="mailto:info@medask.com.pk" style={{ color: '170C40', textDecoration: 'none' }}>info@medask.com.pk</a>
+                            <a className='outlinenone' href="mailto:info@medask.com.pk" style={{ color: '#170C40', textDecoration: 'none' }}>info@medask.com.pk</a>
                         </Link>
                     </div>
 

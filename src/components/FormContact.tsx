@@ -15,7 +15,7 @@ function FormContact() {
                 <div className="Contdiv1">
                     <img className='contimg' src={imgcontact1} alt="" />
                     <h1 className="conth1">Call Us :</h1>
-                    <h3 className="conth2">UAN 111-633-275</h3>
+                    <h3 className="conth2">UAN +92 319 6048487</h3>
 
                 </div>
                 <div className="Contdiv1">

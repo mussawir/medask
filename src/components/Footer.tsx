@@ -87,7 +87,7 @@ const Footer = () => {
               </div>
               <div style={{ marginLeft: '4px' }}>
                 <h5 style={{ margin: '0' }}>Call Us :</h5>
-                <a href="/contact">UAN 111-633-275</a>
+                <a href="/contact">UAN +92 319 6048487</a>
               </div>
             </div>
           </li>
