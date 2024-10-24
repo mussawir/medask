@@ -57,7 +57,7 @@ const HomeHeader: React.FC = () => {
                             <span className="icon-backgroundsmallscreen">
                                 <img src={phonetopImg} alt="phonetopImg" className='phonetopImgsmallscreen' />
                             </span>
-                            Call Us: <b>1300 950073</b>
+                            Call Us: <b>+92 319 6048487</b>
                         </Link>
                         <Link to="/" className="nav-link-topsmallscreen2">
                             <span className="icon-backgroundsmallscreen">
@@ -75,7 +75,7 @@ const HomeHeader: React.FC = () => {
                             <span className="icon-background">
                                 <img src={phonetopImg} alt="phonetopImg" />
                             </span>
-                            Call Us: <b>1300 950073</b>
+                            Call Us: <b>+92 319 6048487                            </b>
                         </Link>
                         <Link to="/" className="nav-link-top">
                             <span className="icon-background">

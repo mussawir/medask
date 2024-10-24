@@ -52,7 +52,7 @@ const Navbar: React.FC = () => {
                                 <span className="icon-background">
                                     <img src={phonetopImg} alt="phonetopImg" />
                                 </span>
-                                Call Us: <b>1300 950073</b>
+                                Call Us: <b>+92 319 6048487                                </b>
                             </Link>
                             <Link to="/" className="nav-link-top">
                                 <span className="icon-background"></span>

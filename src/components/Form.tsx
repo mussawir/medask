@@ -11,7 +11,7 @@ function Form() {
                 <form action="">
                     <div className="formleft">
 
-                        {/* <div className="formbglogo"></div> */}
+                        <div className="formbglogo1"></div>
                         <div className='formlab'>
                             <label className='inplabel' htmlFor="">Enter Your Name</label>
                             <input className='inpform' type="text" placeholder='John Doe' />
@@ -37,9 +37,11 @@ function Form() {
                 </form>
                 <div className="formright">
                     <div className='imageopop'>
+                        <a target='blank' href="https://maps.app.goo.gl/14RvLBPMQbr5cPu36">
                         <div className='mapsvg'>
                             <img className="svgani" src={mapsvgin} alt="" />
                         </div>
+                        </a>
                         <div className="imagedivmap">
                             <h1 className='imgmaph1'>MedAsk Pvt Ltd Head office Ra...</h1>
                             <p className='imgmapp'>7 Main Peshawar Rd, Saddar,

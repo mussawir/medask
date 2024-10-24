@@ -61,7 +61,7 @@ function AboutUsPage() {
             <TextField id="outlined-basic" label="Address..." variant="outlined"  rows={2}   multiline fullWidth sx={{boxShadow: '0px 4px 12px rgba(0, 0, 0, 0.1)',}} />
            </Grid>
            <Grid>
-           <img src={mapaboutus} alt="mapaboutus" style={{marginTop: '12px',  width: '100%' , objectFit: "fill"}} />
+           <img className='maphh' src={mapaboutus} alt="mapaboutus" style={{marginTop: '12px',  width: '100%'  , objectFit: "fill"}} />
            </Grid>
           </Item>
          </Grid>
@@ -69,10 +69,6 @@ function AboutUsPage() {
           <Item>
             <div >
           <img src={contactaboutusimg} style={{maxWidth: '513.42px', maxHeight:'590.38px' , width: '100%' , height: '100%'  , objectFit: "fill"}} alt="" />
-          <div className="about4btn2">
-                        <img src={about3btn1} alt="" />
-                        <img src={about3btn2} alt="" />
-                    </div>
           </div>
           </Item>
         </Grid>
