@@ -66,16 +66,6 @@ const HomeHeader: React.FC = () => {
                             <a className='emailnavsmallscreen' href="mailto:info@medask.com.pk" style={{ color: '170C40', textDecoration: 'none' }}>info@medask.com.pk</a>
                         </Link>
                     </div>
-
-                    <div className='headerofsmallscreennavlinks'>
-                        <Link to="/contact" className="nav-link partnerlinksmallscreen">
-                            <span className="icon-backgroundsmallscreen">
-                                <FontAwesomeIcon icon={faBusinessTime} />
-                            </span>
-                            <p className="partnerlinktextsmallscreen">Become our business partner</p>
-                        </Link>
-                    </div>
-
                     <div className="menu-iconsmallscreen">
                         <Drawer />
                     </div>
@@ -92,9 +82,6 @@ const HomeHeader: React.FC = () => {
                                 <img src={EmailTopImg} alt="EmailTopImg" />
                             </span>
                             <a className='outlinenone' href="mailto:info@medask.com.pk" style={{ color: '170C40', textDecoration: 'none' }}>info@medask.com.pk</a>
-                        </Link>
-                        <Link to="/" className="nav-link available-info" id='available-info'>
-                            We’re Available: Monday - Sunday (24/7)
                         </Link>
                     </div>
 
@@ -129,14 +116,7 @@ const HomeHeader: React.FC = () => {
                                 Contact
                             </Link>
                         </li>
-                        <li>
-                            <Link to="/contact" className="nav-link partner-link">
-                                <span className="icon-background">
-                                    <FontAwesomeIcon icon={faBusinessTime} />
-                                </span>
-                                Become our business partner
-                            </Link>
-                        </li>
+
                     </ul>
                 </div>
             </nav>

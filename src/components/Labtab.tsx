@@ -16,15 +16,15 @@ function Tab2() {
         },
         radio2: {
             title: 'Our Hospitals',
-            text: 'We offer seamless medical tourism services, connecting international patients to world-class healthcare solutions. From consultations and treatments to travel and accommodations, we ensure a smooth, stress-free experience. Our network guarantees personalized care at globally accredited facilities, prioritizing patient safety and comfort.'
+            text: 'A Medical City, in 5 Km radius, we provide  Infinite possibilities: Your Comprehensive Healthcare Journey Awaits. Discover the power of integrated care with The MedAsk Tours Advantage.'
         },
         radio3: {
             title: 'Our Consultants',
-            text: 'We offer seamless medical tourism services, connecting international patients to world-class healthcare solutions. From consultations and treatments to travel and accommodations, we ensure a smooth, stress-free experience. Our network guarantees personalized care at globally accredited facilities, prioritizing patient safety and comfort.'
+            text: 'Meet our top class consultants, highly skilled, trained at the top class healthcare facilities. Provide dedicated treatments to our international patients.'
         },
         radio4: {
             title: 'Our Specialties',
-            text: 'We offer seamless medical tourism services, connecting international patients to world-class healthcare solutions. From consultations and treatments to travel and accommodations, we ensure a smooth, stress-free experience. Our network guarantees personalized care at globally accredited facilities, prioritizing patient safety and comfort.'
+            text: 'We offer almost all treatment speicalties at world class facilities at our hospitals. Speicalities such as cardiology, oncology, dentistry, aesthetic surgery and others are developed to provide every care possiblity to our esteemed patients from overseas.'
         },
     };
 
