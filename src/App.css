@@ -1417,7 +1417,7 @@ nav ul li a:hover {
 }
 
 .doc {
-  width: 248.2608px;
+  width: 300px;
   /* 310.326px - 20% */
   height: 343.096px;
   margin-right: 20px;
@@ -5736,6 +5736,7 @@ nav ul li a:hover {
 .formright {
   width: 441.229px;
   height: 559.278px;
+  border-radius: 5px;
   background-image: url('./images/formrightlogo.png');
   background-repeat: no-repeat;
   background-size: cover;
@@ -5888,6 +5889,7 @@ nav ul li a:hover {
   display: flex;
   padding-left: 3%;
   padding-top: 3%;
+  border-radius: 5px;
 }
 
 .svgani {
@@ -6084,6 +6086,7 @@ nav ul li a:hover {
     background-image: url('./images/formrightlogo.png');
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 5px;
   }
 
   .inplabel {
@@ -6259,6 +6262,7 @@ nav ul li a:hover {
     display: flex;
     padding-left: 2.4%;
     /* Reduced by 20% */
+    border-radius: 5px;
     padding-top: 2.4%;
     /* Reduced by 20% */
   }
@@ -6463,7 +6467,7 @@ nav ul li a:hover {
     width: 95%;
     height: 243.87px;
     flex-shrink: 0;
-    border-radius: 20px;
+    border-radius: 5px;
     background-image: url('./images/formrightlogo.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -6646,6 +6650,7 @@ nav ul li a:hover {
     padding-left: 2.4%;
     /* Reduced by 20% */
     padding-top: 2.4%;
+    border-radius: 5px;
     /* Reduced by 20% */
   }
 
@@ -6802,7 +6807,7 @@ nav ul li a:hover {
     width: 360.976px;
     height: 243.87px;
     flex-shrink: 0;
-    border-radius: 20px;
+    border-radius: 5px;
     background-image: url('./images/formrightlogo.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -6983,6 +6988,7 @@ nav ul li a:hover {
     display: flex;
     padding-left: 2.4%;
     /* Reduced by 20% */
+    border-radius: 5px;
     padding-top: 2.4%;
     /* Reduced by 20% */
   }
@@ -7250,6 +7256,7 @@ nav ul li a:hover {
 
 .formright {
   width: 441.229px;
+  border-radius: 5px;
   height: 559.278px;
   background-image: url('./images/formrightlogo.png');
   background-repeat: no-repeat;
@@ -7401,6 +7408,7 @@ nav ul li a:hover {
 
 .formright {
   display: flex;
+  border-radius: 5px;
 }
 
 .svgani {
@@ -7591,6 +7599,7 @@ nav ul li a:hover {
   .formright {
     width: 353px;
     /* Reduced to 80% of 441.229px */
+    border-radius: 5px;
     height: 447.42px;
     /* Reduced to 80% of 559.278px */
     background-image: url('./images/formrightlogo.png');
@@ -7771,6 +7780,7 @@ nav ul li a:hover {
     display: flex;
     padding-left: 2.4%;
     /* Reduced by 20% */
+    border-radius: 5px;
     padding-top: 2.4%;
     /* Reduced by 20% */
   }
@@ -7974,6 +7984,7 @@ nav ul li a:hover {
   .formright {
     width: 95%;
     height: 243.87px;
+    border-radius: 5px;
     flex-shrink: 0;
     border-radius: 20px;
     background-image: url('./images/formrightlogo.png');
@@ -8157,6 +8168,7 @@ nav ul li a:hover {
     display: flex;
     padding-left: 2.4%;
     /* Reduced by 20% */
+    border-radius: 5px;
     padding-top: 2.4%;
     /* Reduced by 20% */
   }
@@ -8314,7 +8326,7 @@ nav ul li a:hover {
     width: 360.976px;
     height: 243.87px;
     flex-shrink: 0;
-    border-radius: 20px;
+    border-radius: 5px;
     background-image: url('./images/formrightlogo.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -8493,6 +8505,7 @@ nav ul li a:hover {
 
   .formright {
     display: flex;
+    border-radius: 5px;
     padding-left: 2.4%;
     /* Reduced by 20% */
     padding-top: 2.4%;
@@ -8651,6 +8664,7 @@ nav ul li a:hover {
   .formright {
     width: 300px;
     height: 243.87px;
+    border-radius: 5px;
     flex-shrink: 0;
     border-radius: 20px;
     background-image: url('./images/formrightlogo.png');
@@ -8830,6 +8844,7 @@ nav ul li a:hover {
 
   .formright {
     display: flex;
+    border-radius: 5px;
     padding-left: 2.4%;
     /* Reduced by 20% */
     padding-top: 2.4%;
@@ -15722,6 +15737,7 @@ nav ul li a:hover {
 }
 
 .phar5div1:hover {
+  
   background-image: url('./images/phar5card1.png');
   background-repeat: no-repeat;
   background-size: cover;
@@ -16885,6 +16901,7 @@ nav ul li a:hover {
   }
 
   .phar5h3 {
+    height: 100px;
     color: #000;
     /* Default text color */
     font-family: 'Poppins';
@@ -16940,7 +16957,7 @@ nav ul li a:hover {
   justify-content: center;
   align-items: center;
   height: 100%;
-  gap: 90px;
+  gap: 20px;
 }
 
 .phar6h1 {
@@ -17055,7 +17072,7 @@ height: 90px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 90px;
+    gap: 50px;
     margin-top: 0px;
   }
 
@@ -17179,7 +17196,7 @@ height: 90px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 90px;
+    gap: 50px;
     margin-top: 0px;
   }
 
@@ -17289,8 +17306,7 @@ height: 90px;
 
   .phar6bg {
     width: 100%;
-    height: 900.625px;
-  
+    height: 1800px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -17302,8 +17318,8 @@ height: 90px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 90px;
-    margin-top: 350px;
+    gap: 50px;
+    margin-top: 0px;
   }
 
   .phar6h1 {
@@ -20859,9 +20875,9 @@ margin-left: 15px;
   transition: transform 0.3s ease; /* Smooth hover effect */
 }
 
-.phar5div3:hover {
-  transform: translateY(-10px) scale(1.05); /* Lift and enlarge on hover */
-}
+/* .phar5div3:hover {
+  
+} */
 
 /* Optional: Style for the card images */
 .phar5card3 {
@@ -20888,4 +20904,16 @@ margin-left: 15px;
   border-bottom: 1px solid #28156D; /* Creates a bottom border */
   display: inline-block; /* Ensures the border fits tightly around the text */
   padding-bottom: 2px; /* Optional: Adds space between text and border */
+  margin-top: 30px;
+}
+.about3p5{
+  width: 303.206px;
+  height: 135px;
+  color: #000;
+  text-align: start;
+  font-family: 'Poppins', arial, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px;
 }

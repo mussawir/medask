@@ -19,8 +19,8 @@ const NewsSection: React.FC = () => {
       date: 'FEB 01, 2024',
       title: 'LP in AFI, AFBMTC',
       description:
-        'MedAsk is committed to revolutionizing healthcare access through innovative technology solutions, connecting patients with healthcare providers efficiently.',
-      link: '#',
+        'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur Excepteur sint occaecat cupidatat non',
+      link: '/aboutus',
       image: cardOneImage,
       dateColor: '#28156D',
     },
@@ -28,8 +28,8 @@ const NewsSection: React.FC = () => {
       date: 'DEC 01, 2023',
       title: 'Tourism Expo September 2024',
       description:
-       'MedAsk is committed to revolutionizing healthcare access through innovative technology solutions, connecting patients with healthcare providers efficiently.',
-      link: '#',
+        'MedAsk participated in the Tourism Expo in Islamabad , Pakistan on September 26,2024   engaging with  leading public and private tourism companies.',
+        link: '/aboutus',
       image: cardTwoImage,
       dateColor: '#00AA14',
     },
@@ -37,8 +37,8 @@ const NewsSection: React.FC = () => {
       date: 'NOV 01, 2023',
       title: 'Health Asia Expo October 2024',
       description:
-        'MedAsk is committed to revolutionizing healthcare access through innovative technology solutions, connecting patients with healthcare providers efficiently.',
-      link: '#',
+        'It sounds like MedAsk had a significant presence at the 21st Health Asia Expo! Participating in various conferences such as medical tourism, gynecology, transfusion.                           ',
+        link: '/aboutus',
       image: cardThreeImage,
       dateColor: '#28156D',
     },

@@ -12,11 +12,11 @@ function About3() {
             <div className="about3bg">
                 <div className="about3head">
                     <h1 className="about3h1 ibrtitle1">MedAsk Role</h1>
-                    <h1 className="about3h2 subtitle">MedAsk's Role in Healthcare</h1>
+                    <h1 className="about3h2 subtitle">Delivering Key Development in Healthcare</h1>
 
                     <p className="about3p2">
-                    Healthcare market in Pakistan provides an opportunity for <b>MedAsk</b> as a potential competitive player in medical tourism industry. <b>MedAsk</b> has access to the state-of-the-art medical facilities through established relationships with hospitals and healthcare professionals including a network of skilled doctors and specialists capable of delivering high-quality medical services to foreigners and overseas patients
-                   <p className="about3p2"><b>MedAsk</b> through its platform expands service offerings by utilizing partnerships and collaborations with connected industries through associated companies and business units. Collaborations with hospitals, institutes, travel agencies, and tourism organizations enhance <b>MedAsk's</b> competitiveness in the medical tourism market, creating synergies and maximizing opportunities.</p> 
+                  <b>MedAsk</b> offers a wide array of pharmaceutical and wellness services to meet diverse needs. Our focus is on providing high-quality, affordable healthcare solutions through our retail pharmacies, local purchase services, and distribution.
+                   <p className="about3p2"> We also facilitate medical tourism by connecting international patients with top-tier healthcare, ensuring a seamless experience with leading professionals and advanced treatments.</p> 
                     </p>
                 </div>
                 <div className="girdcen">
@@ -29,7 +29,7 @@ function About3() {
                             <div className="aboutbodytext">
                                 <h1 className='about2h3'>Vision Statement</h1>
                                 <p className='about3p3'>
-                                Be a leading medical tourism operator, providing highest quality care, compassion, and support, while delivering a culturally appropriate, affordable, seamless, and enjoyable experience.
+                                To be one of the leading business houses by employing the best business practices. Committed to excellence and innovation in all our endeavors.
                                 </p>
                             </div>
                         </div>
@@ -41,7 +41,9 @@ function About3() {
                             <div className="aboutbodytext">
                                 <h1 className='about2h3'>Mission Statement</h1>
                                 <p className='about3p3'>
-                                Curate a seamless and unforgettable medical tourism experience, empowering individuals to access high quality, culturally apt and cost-effective healthcare with a touch of excellence.
+                                To provide innovative healthcare solutions that enhance patient care, promote collaboration, and ensure access to quality services."
+This captures the essence of your mission while keeping it brief. Let me know if you'd like further adjustments!
+
                                 </p>
                             </div>
                         </div>
@@ -53,7 +55,7 @@ function About3() {
                             <div className="aboutbodytext">
                                 <h1 className='about2h3'>Core Values</h1>
                                 <p className='about3p3'>
-                                At MedAsk we put our patients ahead and value, Integrity, Compassion, Hard Work and most of all Care & Trust
+                                At <b> MedAsk </b> we put our patients ahead and value, Integrity, Compassion, Hard Work and most of all Care & Trust
                                 </p>
                             </div>
                         </div>

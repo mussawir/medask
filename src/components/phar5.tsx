@@ -13,40 +13,35 @@ function Phar5() {
         <>
             <div className="phar5bg">
                 <h1 className="phar5h1 ibrtitle1">MedAsk</h1>
-                <h1 className="phar5h2 subtitle">Hospitals</h1>
+                <h1 className="phar5h2 subtitle">Specialties</h1>
 
                 <div className="phar5cen">
                     <div className="phar5scroll-container">
                         <div className="phar5scroll">
                             <div className="phar5div3">
-                                <h1 className='phar5h3'>Dentistry</h1>
+                                <h1 className='phar5h3'>Combined Hospital Rawalpindi</h1>
                                 <img className='phar5card3' src={phar5card1} alt="" />
-                                <p className='phar3p1'>It is a long <span className='p1stroke11'>established</span> that a <span className='p1stroke11'>reader</span> will be distracted by the <span className='p1stroke11'>readable.</span></p>
+                                {/* <p className='phar3p1'>It is a long <span className='p1stroke11'>established</span> that a <span className='p1stroke11'>reader</span> will be distracted by the <span className='p1stroke11'>readable.</span></p> */}
                             </div>
                             <div className="phar5div3">
-                                <h1 className='phar5h3'>Dentistry</h1>
+                                <h1 className='phar5h3'>Institute of Dentistry </h1>
                                 <img className='phar5card3' src={phar5card2} alt="" />
-                                <p className='phar3p1'>It is a long <span className='p1stroke11'>established</span> that a <span className='p1stroke11'>reader</span> will be distracted by the <span className='p1stroke11'>readable.</span></p>
+                                {/* <p className='phar3p1'>It is a long <span className='p1stroke11'>established</span> that a <span className='p1stroke11'>reader</span> will be distracted by the <span className='p1stroke11'>readable.</span></p> */}
                             </div>
                             <div className="phar5div3">
-                                <h1 className='phar5h3'>Cardiology</h1>
+                                <h1 className='phar5h3'>Institute of Cardiology </h1>
                                 <img className='phar5card3' src={phar5card3} alt="" />
-                                <p className='phar3p1'>It is a long <span className='p1stroke11'>established</span> that a <span className='p1stroke11'>reader</span> will be distracted by the <span className='p1stroke11'>readable.</span></p>
+                                {/* <p className='phar3p1'>It is a long <span className='p1stroke11'>established</span> that a <span className='p1stroke11'>reader</span> will be distracted by the <span className='p1stroke11'>readable.</span></p> */}
                             </div>
                             <div className="phar5div3">
-                                <h1 className='phar5h3'>Ophthalmology</h1>
+                                <h1 className='phar5h3'>Pak Emirates Hospital Rawalpindi</h1>
                                 <img className='phar5card3' src={phar5card4} alt="" />
-                                <p className='phar3p1'>It is a long <span className='p1stroke11'>established</span> that a <span className='p1stroke11'>reader</span> will be distracted by the <span className='p1stroke11'>readable.</span></p>
+                                {/* <p className='phar3p1'>It is a long <span className='p1stroke11'>established</span> that a <span className='p1stroke11'>reader</span> will be distracted by the <span className='p1stroke11'>readable.</span></p> */}
                             </div>
                             <div className="phar5div3">
-                                <h1 className='phar5h3'>Urology</h1>
+                                <h1 className='phar5h3'>Institute of Urology</h1>
                                 <img className='phar5card3' src={phar5card5} alt="" />
-                                <p className='phar3p1'>It is a long <span className='p1stroke11'>established</span> that a <span className='p1stroke11'>reader</span> will be distracted by the <span className='p1stroke11'>readable.</span></p>
-                            </div>
-                            <div className="phar5div3">
-                                <h1 className='phar5h3'>Mental</h1>
-                                <img className='phar5card3' src={phar5card6} alt="" />
-                                <p className='phar3p1'>It is a long <span className='p1stroke11'>established</span> that a <span className='p1stroke11'>reader</span> will be distracted by the <span className='p1stroke11'>readable.</span></p>
+                                {/* <p className='phar3p1'>It is a long <span className='p1stroke11'>established</span> that a <span className='p1stroke11'>reader</span> will be distracted by the <span className='p1stroke11'>readable.</span></p> */}
                             </div>
                         </div>
                     </div>

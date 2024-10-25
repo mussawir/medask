@@ -43,7 +43,7 @@ function About4() {
                         </div>
                         <div className='about4ml'>
                             <Icon2 />
-                            <p className='about4p2'>I can't thank MedAsk enough for their incredible support. From the moment I reached out, their team was attentive and knowledgeable. The advanced diagnostic services provided clear and timely results, which made a huge difference in my treatment plan. I truly feel valued as a patient. Highly recommend them!</p>
+                            <p className='about3p5'>I can't thank <b> MedAsk </b> enough for their incredible support. From the moment I reached out, their team was attentive and knowledgeable. The advanced diagnostic services provided clear and timely results, which made a huge difference in my treatment plan. I truly feel valued as a patient. Highly recommend them!</p>
                         </div>
                     </div>  
                      <div className="about4right">

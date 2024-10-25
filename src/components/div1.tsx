@@ -24,7 +24,7 @@ export default function LabTabs() {
     // Define your tabs and their corresponding content
     const tabs = [
         { title: 'Pharmacy Distribution', content: 'We offer reliable pharmacy distribution services to ensure timely delivery of medications to healthcare facilities. Our network prioritizes efficiency, accuracy, and quality, ensuring compliance with regulatory requirements while maintaining supply chain integrity.' },
-        { title: 'Retail Pharmacies', content: 'Our retail pharmacies are dedicated to accessible, high-quality healthcare products and services. We offer prescription medications, over-the-counter drugs, and expert advice from qualified pharmacists.' },
+        { title: 'Retail Pharmacies', content: 'MedAsks Pharmacy Distribution services ensure timely delivery of medications to healthcare facilities with a focus on efficiency, accuracy, and compliance. ' },
         { title: 'LP Pharmacies', content: 'Medask LP Pharmacies support military hospitals like CMH and PEMH by providing essential medications through efficient local procurement. We ensure high-quality pharmaceutical products meet the specific needs of military healthcare facilities.' },
         { title: 'Commercial - Flagship Pharmacies', content: 'We are launching our Commercial Flagship Pharmacies, designed to set new standards in healthcare retail. These locations will feature an extensive selection of services, including digital prescription management and health screenings.' },
     ];

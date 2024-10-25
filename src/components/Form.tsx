@@ -35,13 +35,14 @@ function Form() {
 
                     </div>
                 </form>
+                <a className='nonetexta' target='blank' href="https://maps.app.goo.gl/14RvLBPMQbr5cPu36">
                 <div className="formright">
                     <div className='imageopop'>
-                        <a target='blank' href="https://maps.app.goo.gl/14RvLBPMQbr5cPu36">
+         
                         <div className='mapsvg'>
                             <img className="svgani" src={mapsvgin} alt="" />
                         </div>
-                        </a>
+                 
                         <div className="imagedivmap">
                             <h1 className='imgmaph1'>MedAsk Pvt Ltd Head office Ra...</h1>
                             <p className='imgmapp'>7 Main Peshawar Rd, Saddar,
@@ -49,6 +50,7 @@ function Form() {
                         </div>
                     </div>
                 </div>
+                </a>
             </div>
         </div>
     );

@@ -13,7 +13,11 @@ function Pharpage1() {
                         <img src={greenhr} className="greenhr1" alt="Green Horizontal Rule" />
                     </div>
                     <p className='aboutussec1p1'>
-                    Your Trusted Partner in Health and Wellness, Offering the World’s Best <b>Pharmaceutical</b> Care.
+                    <b> Our Commitment </b>
+                    We deliver exceptional healthcare and pharmaceutical services, offering prescription medications,
+ OTC products, and expert advice.
+With multiple locations, we provide convenient access to refills,
+ wellness solutions, and personalized care to support your health journey.
                     </p>
                 </div>
                 <div className="head1bg2"></div>

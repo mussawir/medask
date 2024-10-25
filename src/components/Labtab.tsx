@@ -12,7 +12,7 @@ function Tab2() {
     const radioContent: Record<RadioOption, { title: string; text: string }> = {
         radio1: {
             title: 'Destination Pakistan',
-            text: 'We offer seamless medical tourism services, connecting international patients to world-class healthcare solutions. From consultations and treatments to travel and accommodations, we ensure a smooth, stress-free experience. Our network guarantees personalized care at globally accredited facilities, prioritizing patient safety and comfort.'
+            text: 'MedAsk Tours  offer seamless medical tourism services, connecting international patients to world-class healthcare solutions. From consultations and treatments to travel and accommodations, we ensure a smooth, stress-free experience. Our network guarantees personalized care at globally accredited facilities, prioritizing patient safety and comfort.'
         },
         radio2: {
             title: 'Our Hospitals',

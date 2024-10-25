@@ -13,8 +13,9 @@ const Phsection2: React.FC = () => {
                     <h2 className="prg-brand-name-small2">MedAsk</h2>
                     <h2 className="prg-section-title2">Pharmacy Distribution</h2>
                     <p className="prg-section-description">
-                    MedAsk and its Pharmacy Distribution services to ensure timely delivery of medications to healthcare facilities. Our network prioritizes efficiency, accuracy, and quality, ensuring compliance with regulatory requirements while maintaining supply chain integrity.
-                    Dedicated to supporting the healthcare system, we provide seamless access to essential medications, allowing healthcare providers to focus on patient care.
+                    <b> MedAsk </b> and its <b> Pharmacy </b>  Distribution services to ensure timely delivery of medications to healthcare facilities. Our network prioritizes efficiency, accuracy, and quality, ensuring compliance with regulatory requirements while maintaining supply chain integrity.
+Dedicated to supporting the healthcare system, we provide seamless access to essential medications, allowing healthcare providers to focus on patient care.
+
                     </p>
                 </div>
                 <div className="prg-image-content">
