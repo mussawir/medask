@@ -26,11 +26,11 @@ function Phar6() {
 
     // List of doctors
     const doctors = [
-        { id: 1, name: "Dr Nadir Khan ", image: Doctor1, image2: img1, description: "Cardiologist", details: "It is a long established fact that a reader will be distracted by the readable content of a page." },
-        { id: 2, name: "Dr Muhammad Tanveer Sajid", image: Doctor2, image2: img2, description: "Urologist", details: "It is a long established fact that a reader will be distracted by the readable content of a page." },
+        { id: 1, name: "Dr Nadir Khan ", image: Doctor1, image2: img1, description: "Cardiologist", details: "combined with his significant contributions to interventional cardiology and medical education, underscores his role as a leading figure in his field." },
+        { id: 2, name: "Dr Muhammad Tanveer Sajid", image: Doctor2, image2: img2, description: "Urologist", details: "Dr Tanveer's contributions to the field are marked by his innovative approach to pediatric urology and his leadership in advancing specialized urological care. His commitment to excellence ensures that patients receive top-tier care and access to cutting-edge treatments." },
         { id: 3, name: "Dr Naseer Ahmed Samore", image2: img3, image: Doctor3, description: "Cardiologiest", details: "Dr Naseer Ahmed Samore’s extensive qualifications and experience make him a distinguished figure in the field of interventional cardiology, known for his advanced clinical skills and dedication to medical education." },
-        { id: 4, name: "Dr Fahan Ahmed Majeed", image: Doctor4, image2: img4, description: "Thoracic", details: "It is a long established fact that a reader will be distracted by the readable content of a page." },
-        { id: 5, name: "Dr Arshad Naseem ", image: Doctor5, image2: img5, description: "Critical Care", details: "It is a long established fact that a reader will be distracted by the readable content of a page." }
+        { id: 4, name: "Dr Fahan Ahmed Majeed", image: Doctor4, image2: img4, description: "Thoracic", details: "Dr Farhan Ahmed Majeed is a seasoned thoracic surgeon with a robust background in both traditional and advanced surgical techniques. His expertise encompasses a wide range of thoracic and upper GI conditions, with a particular focus on minimally invasive approaches and complex procedures related to the chest and lungs." },
+        { id: 5, name: "Dr Arshad Naseem ", image: Doctor5, image2: img5, description: "Critical Care", details: "Dr Naseem combines clinical excellence with a dedication to advancing medical education and professional standards in his field." }
     ];
 
     // Handle click to show/hide doctor details
@@ -66,9 +66,13 @@ function Phar6() {
                         ))}
                     </div>
                 </div>
-                <a className='nonetexta' target='blank' href="https://medasktours.com/allDoctor">
-                    <h2 className='hf'>Our Doctors</h2>
-                </a>
+                <div className='readmorbtn'> 
+                    <div className='readmore'>
+                        <a target='blanked' className='noline' href="https://medasktours.com/allDoctor">
+                        <p>View more Doctors</p>
+                        </a>
+                    </div>
+                </div>
             </div>
         </>
     );

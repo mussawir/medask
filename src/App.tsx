@@ -10,6 +10,8 @@ import PharmaciesPage from './Pages/PharmaciesPage';
 import MedicalTourismPage from './Pages/MedicalTourismPage';
 import ContactUsPage from './Pages/ContactUsPage';
 import HomeHeader from './components/HomeHeader'; // Special header for HomePage
+import Dashboard from './bkcomponents/Dashboard';
+import LoginPage from './bkcomponents/adminlogin';
 
 // Layout component to manage header rendering
 const Layout: React.FC = () => {
@@ -30,6 +32,8 @@ const Layout: React.FC = () => {
         <Route path="/pharmacies" element={<PharmaciesPage />} /> {/* Pharmacies Page Route */}
         <Route path="/medical-tourism" element={<MedicalTourismPage />} /> {/* Medical Tourism Page Route */}
         <Route path="/contact" element={<ContactUsPage />} /> {/* Contact Us Page Route */}
+        <Route path="/dashboard" element={<Dashboard />} /> {/* Contact Us Page Route */}
+        <Route path="/login" element={<LoginPage />} /> {/* Contact Us Page Route */}
       </Routes>
 
       {/* Footer appears on all routes */}

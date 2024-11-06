@@ -1,10 +1,9 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import '../App.css';
-import cardOneImage from '../images/cardOne.png';
-import cardTwoImage from '../images/cardtwo.png';
-import cardThreeImage from '../images/cardthree.png';
+import axios from 'axios';
 
 interface Article {
+  id: number; // Add ID to match the database schema
   date: string;
   title: string;
   description: string;
@@ -14,34 +13,56 @@ interface Article {
 }
 
 const NewsSection: React.FC = () => {
-  const articles: Article[] = [
-    {
-      date: 'FEB 01, 2024',
-      title: 'LP in AFI, AFBMTC',
-      description:
-        'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur Excepteur sint occaecat cupidatat non',
-      link: '/aboutus',
-      image: cardOneImage,
-      dateColor: '#28156D',
-    },
-    {
-      date: 'DEC 01, 2023',
-      title: 'Tourism Expo September 2024',
-      description:
-        'MedAsk participated in the Tourism Expo in Islamabad , Pakistan on September 26,2024   engaging with  leading public and private tourism companies.',
-        link: '/aboutus',
-      image: cardTwoImage,
-      dateColor: '#00AA14',
-    },
-    {
-      date: 'NOV 01, 2023',
-      title: 'Health Asia Expo October 2024',
-      description:
-        'It sounds like MedAsk had a significant presence at the 21st Health Asia Expo! Participating in various conferences such as medical tourism, gynecology, transfusion.                           ',
-        link: '/aboutus',
-      image: cardThreeImage,
-      dateColor: '#28156D',
-    },
+  const [articles, setArticles] = useState<Article[]>([]);
+  const [loading, setLoading] = useState<boolean>(true);
+  const [error, setError] = useState<string | null>(null);
+  const [currentIndex, setCurrentIndex] = useState<number>(0);
+
+  useEffect(() => {
+    const fetchArticles = async () => {
+      try {
+        const response = await axios.get('http://localhost:8000/api/articles'); // Adjust to your server's URL
+        setArticles(response.data);
+      } catch (err) {
+        console.error('Error fetching articles:', err);
+        setError('Error fetching articles');
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchArticles();
+  }, []);
+
+  useEffect(() => {
+    let interval: NodeJS.Timeout | null = null;
+
+    if (articles.length > 3) {
+      interval = setInterval(() => {
+        setCurrentIndex((prevIndex) => (prevIndex + 1) % articles.length);
+      }, 10000); // Change articles every 10 seconds
+    }
+
+    return () => {
+      if (interval) {
+        clearInterval(interval);
+      }
+    };
+  }, [articles]);
+
+  if (loading) {
+    return <div>Loading...</div>; // Loading state
+  }
+
+  if (error) {
+    return <div>{error}</div>; // Error state
+  }
+
+  // Prepare articles to display (always show 3 articles, and bring in the next article from the right)
+  const displayedArticles = [
+    articles[currentIndex % articles.length],
+    articles[(currentIndex + 1) % articles.length],
+    articles[(currentIndex + 2) % articles.length],
   ];
 
   return (
@@ -49,22 +70,18 @@ const NewsSection: React.FC = () => {
       <h2 className="news-heading">News And Articles</h2>
       <h3 className="news-subheading">Latest News/Articles</h3>
       <div className="news-cards-container">
-        {articles.map((article, index) => (
-          <div key={index} className="news-item">
-            <div
-              className="news-date"
-              style={{ backgroundColor: article.dateColor }}
-            >
+        {displayedArticles.map((article) => (
+          <div key={article.id} className="news-item">
+            <div className="news-date" style={{ backgroundColor: article.dateColor }}>
               {article.date}
             </div>
             <div className="news-card">
-              <div
-                className="news-image"
-                style={{ backgroundImage: `url(${article.image})` }}
-              ></div>
+              <div className="news-image">
+                <img src={article.image} alt={article.title} style={{ width: '100%', height: '100%' }} />
+              </div>
               <div className="news-content">
                 <h4 className="news-title">{article.title}</h4>
-                <hr className='news-hr' />
+                <hr className="news-hr" />
                 <p className="news-description">{article.description}</p>
                 <a className="read-more-link" href={article.link}>
                   Read more

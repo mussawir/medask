@@ -13,7 +13,7 @@ function Phar5() {
         <>
             <div className="phar5bg">
                 <h1 className="phar5h1 ibrtitle1">MedAsk</h1>
-                <h1 className="phar5h2 subtitle">Specialties</h1>
+                <h1 className="phar5h2 subtitle">Hospitals</h1>
 
                 <div className="phar5cen">
                     <div className="phar5scroll-container">
@@ -44,6 +44,15 @@ function Phar5() {
                                 {/* <p className='phar3p1'>It is a long <span className='p1stroke11'>established</span> that a <span className='p1stroke11'>reader</span> will be distracted by the <span className='p1stroke11'>readable.</span></p> */}
                             </div>
                         </div>
+                    </div>
+
+
+                </div>
+                <div className='readmorbtn'> 
+                    <div className='readmore'>
+                        <a target='blanked' className='noline' href="https://medasktours.com/hospital?id=8">
+                        <p>Hospitals</p>
+                        </a>
                     </div>
                 </div>
             </div>
